@@ -44,7 +44,7 @@ function Hero() {
           <div className="grid grid-cols-2 gap-4">
             <div className="relative aspect-square rounded-md overflow-hidden">
               <Image
-                src="https://picsum.photos/400/400?random=1"
+                src="https://res.cloudinary.com/dxsj2kcwu/image/upload/v1757412661/realtor-making-deal-with-customer-office_1_1_f3wp59.jpg"
                 alt="Property document"
                 fill
                 className="object-cover"
