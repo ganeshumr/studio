@@ -119,7 +119,7 @@ export default function Home() {
               asChild
               size="lg"
               variant="secondary"
-              className="font-bold bg-background text-foreground hover:bg-background/90"
+              className="font-bold bg-background text-primary hover:bg-primary hover:text-primary-foreground"
             >
               <Link href="/contact">Get Your Free Consultation</Link>
             </Button>
