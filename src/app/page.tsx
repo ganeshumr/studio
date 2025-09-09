@@ -3,54 +3,85 @@ import Link from 'next/link';
 import {Button} from '@/components/ui/button';
 import {Card, CardContent, CardHeader, CardTitle} from '@/components/ui/card';
 import {categories, posts} from '@/lib/data';
-import {ArrowRight, CheckCircle} from 'lucide-react';
+import {ArrowRight, PhoneCall} from 'lucide-react';
 import {CategoryIcon} from '@/components/icons/category-icon';
 import {BlogPostCard} from '@/components/blog/blog-post-card';
+import {Badge} from '@/components/ui/badge';
 
-export default function Home() {
-  const featuredPosts = posts.slice(0, 3);
-
-  const services = [
-    'Property Audit Reports',
-    'Legal Verification',
-    'Digital Land Surveys',
-    'Loan Assistance',
-    'Bill & Name Updates',
-    'Safe Ownership',
-  ];
-
+function Hero() {
   return (
-    <div className="flex flex-col">
-      <section className="bg-background py-20 md:py-32">
-        <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-            <div className="space-y-6">
-              <h1 className="font-headline text-4xl md:text-5xl lg:text-6xl font-bold tracking-tighter text-primary">
+    <div className="w-full py-20 lg:py-40">
+      <div className="container mx-auto">
+        <div className="grid grid-cols-1 gap-8 items-center md:grid-cols-2">
+          <div className="flex gap-4 flex-col">
+            <div>
+              <Badge variant="outline">Secure your property rights</Badge>
+            </div>
+            <div className="flex gap-4 flex-col">
+              <h1 className="text-5xl md:text-6xl max-w-lg tracking-tighter text-left font-bold text-primary">
                 Secure Your Digital Property Rights in India.
               </h1>
-              <p className="text-lg md:text-xl text-muted-foreground">
+              <p className="text-lg leading-relaxed tracking-tight text-muted-foreground max-w-md text-left">
                 Jaaga.ai provides expert insights and comprehensive services for property audits,
                 legal verification, and digital ownership. Navigate the complexities of Indian real
                 estate with confidence.
               </p>
-              <div className="flex flex-col sm:flex-row gap-4">
-                <Button asChild size="lg" variant="outline">
-                  <Link href="/blog">Read Latest Insights</Link>
-                </Button>
-              </div>
             </div>
-            <div className="relative h-64 md:h-96 rounded-xl overflow-hidden shadow-2xl">
+            <div className="flex flex-row gap-4">
+              <Button size="lg" className="gap-4" variant="outline" asChild>
+                <Link href="/contact">
+                  Jump on a call <PhoneCall className="w-4 h-4" />
+                </Link>
+              </Button>
+              <Button size="lg" className="gap-4" asChild>
+                <Link href="/blog">
+                  Read Insights <ArrowRight className="w-4 h-4" />
+                </Link>
+              </Button>
+            </div>
+          </div>
+          <div className="grid grid-cols-2 gap-4">
+            <div className="relative aspect-square rounded-md overflow-hidden">
               <Image
-                src="https://picsum.photos/800/600"
-                alt="Digital property solutions in India"
+                src="https://picsum.photos/400/400?random=1"
+                alt="Property document"
                 fill
                 className="object-cover"
-                data-ai-hint="digital abstract"
+                data-ai-hint="document analysis"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-primary/30 to-transparent"></div>
+            </div>
+            <div className="relative row-span-2 rounded-md overflow-hidden">
+              <Image
+                src="https://picsum.photos/400/816?random=2"
+                alt="Modern architecture"
+                fill
+                className="object-cover"
+                data-ai-hint="modern architecture"
+              />
+            </div>
+            <div className="relative aspect-square rounded-md overflow-hidden">
+              <Image
+                src="https://picsum.photos/400/400?random=3"
+                alt="Digital land survey"
+                fill
+                className="object-cover"
+                data-ai-hint="land survey"
+              />
             </div>
           </div>
         </div>
+      </div>
+    </div>
+  );
+}
+
+export default function Home() {
+  const featuredPosts = posts.slice(0, 3);
+
+  return (
+    <div className="flex flex-col">
+      <section className="bg-background">
+        <Hero />
       </section>
 
       <section id="categories" className="py-16 md:py-24">
