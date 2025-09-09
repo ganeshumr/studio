@@ -62,11 +62,11 @@ function Hero() {
             </div>
             <div className="relative aspect-square rounded-md overflow-hidden">
               <Image
-                src="https://picsum.photos/400/400?random=3"
+                src="https://res.cloudinary.com/dxsj2kcwu/image/upload/v1757412732/closeup-shot-businessman-signing-some-official-papers_1_ngomux.jpg"
                 alt="Digital land survey"
                 fill
                 className="object-cover"
-                data-ai-hint="land survey"
+                data-ai-hint="signing papers"
               />
             </div>
           </div>
