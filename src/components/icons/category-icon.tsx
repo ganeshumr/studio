@@ -4,7 +4,7 @@ import {
   Gavel,
   Landmark,
   Map,
-  Fingerprint,
+  FileText,
   Zap,
   HelpCircle,
 } from 'lucide-react';
@@ -20,7 +20,7 @@ const iconMap: Record<string, React.ComponentType<{className?: string}>> = {
   'legal-verification': Gavel,
   'loan-services': Landmark,
   'land-survey': Map,
-  'digital-ownership': Fingerprint,
+  'property-documents': FileText,
   'electricity-bill-updates': Zap,
 };
 

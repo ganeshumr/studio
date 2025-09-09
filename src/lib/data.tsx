@@ -24,9 +24,9 @@ export const categories: Category[] = [
     description: 'Accurate digital land surveying to define and protect your boundaries.',
   },
   {
-    slug: 'digital-ownership',
-    name: 'Digital Ownership',
-    description: 'Modern solutions for managing and securing your property ownership digitally.',
+    slug: 'property-documents',
+    name: 'Property Documents',
+    description: 'Modern solutions for managing and securing your property documents digitally.',
   },
   {
     slug: 'electricity-bill-updates',
@@ -110,7 +110,7 @@ export const posts: Post[] = [
           and legal jargon. However, it is the most critical step to safeguard your investment.
           This process involves verifying a series of documents to confirm the property's
           authenticity and the seller's ownership rights.
-        </p>s
+        </p>
         <h2 className="font-headline text-2xl font-bold">Essential Documents for Verification</h2>
         <p>
           Before finalizing any deal, ensure you have checked the following documents with the help
@@ -397,7 +397,7 @@ export const posts: Post[] = [
     ),
     author: {name: 'Priya Sharma', avatar: 'https://picsum.photos/id/237/40/40'},
     date: '2024-06-12',
-    category: 'digital-ownership',
+    category: 'property-documents',
     tags: ['blockchain', 'proptech', 'investment security'],
     featuredImage: 'https://picsum.photos/800/450?random=6',
     metaTitle: 'Digital Property Ownership: The Future of Real Estate in India',
