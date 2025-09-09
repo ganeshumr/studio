@@ -34,9 +34,6 @@ export default function Home() {
                 estate with confidence.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <Button asChild size="lg" className="font-bold">
-                  <Link href="/services">Explore Our Services</Link>
-                </Button>
                 <Button asChild size="lg" variant="outline">
                   <Link href="/blog">Read Latest Insights</Link>
                 </Button>
