@@ -17,8 +17,8 @@ export default {
     },
     extend: {
       fontFamily: {
-        body: ['"Inter"', 'sans-serif'],
-        headline: ['"Space Grotesk"', 'sans-serif'],
+        body: ['"Noto Sans"', 'sans-serif'],
+        headline: ['"Noto Sans"', 'sans-serif'],
         code: ['monospace'],
       },
       colors: {
