@@ -19,6 +19,7 @@ import {useState} from 'react';
 const mainNavLinks = [
   {href: '/', label: 'Home'},
   {href: '/blog', label: 'Blog'},
+  {href: '/services', label: 'Services'},
 ];
 
 const otherLinks = [
