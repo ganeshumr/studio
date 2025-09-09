@@ -85,12 +85,6 @@ export const ProfessionalConnect = () => {
     <div className="bg-background overflow-hidden relative w-full">
       <div className="relative z-10 flex flex-col items-center justify-center p-4 sm:p-8 min-h-screen">
         <div className={`text-center mb-12 sm:mb-16 transition-all duration-1000 ${isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
-          <div className="inline-block mb-4 px-4 py-1.5 bg-gradient-to-r from-primary/10 to-accent/10 rounded-full border border-primary/20">
-            <span className="text-sm font-medium bg-gradient-to-r from-primary to-accent-foreground bg-clip-text text-transparent">
-              Connect & Collaborate
-            </span>
-          </div>
-                     
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-4 sm:mb-6 tracking-tight text-foreground">
             Get In Touch
           </h1>
