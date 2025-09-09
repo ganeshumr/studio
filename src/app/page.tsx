@@ -1,9 +1,10 @@
+
 import Image from 'next/image';
 import Link from 'next/link';
 import {Button} from '@/components/ui/button';
 import {Card, CardContent, CardHeader, CardTitle} from '@/components/ui/card';
 import {categories, posts} from '@/lib/data';
-import {ArrowRight, PhoneCall} from 'lucide-react';
+import {ArrowRight, FileCheck} from 'lucide-react';
 import {CategoryIcon} from '@/components/icons/category-icon';
 import {BlogPostCard} from '@/components/blog/blog-post-card';
 import {Badge} from '@/components/ui/badge';
@@ -29,8 +30,8 @@ function Hero() {
             </div>
             <div className="flex flex-row gap-4">
               <Button size="lg" className="gap-4" variant="outline" asChild>
-                <Link href="/contact">
-                  Jump on a call <PhoneCall className="w-4 h-4" />
+                <Link href="/category/property-audit">
+                  Property Audit Report <FileCheck className="w-4 h-4" />
                 </Link>
               </Button>
               <Button size="lg" className="gap-4" asChild>
