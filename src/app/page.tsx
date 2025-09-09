@@ -153,7 +153,7 @@ export default function Home() {
               variant="secondary"
               className="font-bold bg-background text-primary hover:bg-background/90"
             >
-              <Link href="/contact">Get Your Free Consultation</Link>
+              <Link href="/contact-us">Get Your Free Consultation</Link>
             </Button>
           </div>
         </div>

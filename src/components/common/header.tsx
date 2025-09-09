@@ -20,7 +20,7 @@ const mainNavLinks = [
   {href: '/blog', label: 'Blog'},
 ];
 
-const otherLinks = [{href: '/contact', label: 'Contact'}];
+const otherLinks = [{href: '/contact-us', label: 'Contact'}];
 
 export function Header() {
   const pathname = usePathname();

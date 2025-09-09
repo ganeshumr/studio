@@ -46,7 +46,7 @@ export default function AboutPage() {
               all your property verification and management needs.
             </p>
             <Button asChild size="lg">
-              <Link href="/contact">Get in Touch</Link>
+              <Link href="/contact-us">Get in Touch</Link>
             </Button>
           </div>
         </div>
