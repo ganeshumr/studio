@@ -1,8 +1,9 @@
+
 'use client';
 
 import Link from 'next/link';
 import {usePathname} from 'next/navigation';
-import {Menu, ChevronDown, Search} from 'lucide-react';
+import {Menu, Search} from 'lucide-react';
 import {Button} from '@/components/ui/button';
 import {
   Sheet,
@@ -10,12 +11,6 @@ import {
   SheetTrigger,
   SheetClose,
 } from '@/components/ui/sheet';
-import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuTrigger,
-} from '@/components/ui/dropdown-menu';
 import {Logo} from './logo';
 import {categories} from '@/lib/data';
 import {cn} from '@/lib/utils';
@@ -23,7 +18,6 @@ import {useState} from 'react';
 
 const mainNavLinks = [
   {href: '/', label: 'Home'},
-  {href: '/services', label: 'Services'},
   {href: '/blog', label: 'Blog'},
 ];
 
@@ -66,29 +60,6 @@ export function Header() {
           {link.label}
         </NavLink>
       ))}
-      <DropdownMenu>
-        <DropdownMenuTrigger asChild>
-          <Button
-            variant="ghost"
-            className={cn(
-              'flex items-center gap-1 transition-colors hover:text-primary',
-              pathname.startsWith('/category')
-                ? 'text-primary font-semibold'
-                : 'text-muted-foreground'
-            )}
-          >
-            Categories
-            <ChevronDown className="h-4 w-4" />
-          </Button>
-        </DropdownMenuTrigger>
-        <DropdownMenuContent align="start">
-          {categories.map(category => (
-            <DropdownMenuItem key={category.slug} asChild>
-              <Link href={`/category/${category.slug}`}>{category.name}</Link>
-            </DropdownMenuItem>
-          ))}
-        </DropdownMenuContent>
-      </DropdownMenu>
       {otherLinks.map(link => (
         <NavLink key={link.href} href={link.href}>
           {link.label}
@@ -124,17 +95,6 @@ export function Header() {
                     <MobileNavLink key={link.href} href={link.href}>
                       {link.label}
                     </MobileNavLink>
-                  ))}
-                  <h3 className="px-4 text-muted-foreground font-semibold">Categories</h3>
-                  {categories.map(category => (
-                    <SheetClose key={category.slug} asChild>
-                      <Link
-                        href={`/category/${category.slug}`}
-                        className="block px-8 py-2 text-lg hover:bg-muted rounded-md"
-                      >
-                        {category.name}
-                      </Link>
-                    </SheetClose>
                   ))}
                   <hr className="my-4" />
                   {otherLinks.map(link => (
