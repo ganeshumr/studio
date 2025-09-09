@@ -9,6 +9,11 @@ export const categories: Category[] = [
     description: 'In-depth analysis and reporting on property titles and documentation.',
   },
   {
+    slug: 'property-documents',
+    name: 'Property Documents',
+    description: 'Modern solutions for managing and securing your property documents digitally.',
+  },
+  {
     slug: 'legal-verification',
     name: 'Legal Verification',
     description: 'Comprehensive legal checks to ensure your property is free from disputes.',
@@ -22,11 +27,6 @@ export const categories: Category[] = [
     slug: 'land-survey',
     name: 'Land Survey',
     description: 'Accurate digital land surveying to define and protect your boundaries.',
-  },
-  {
-    slug: 'property-documents',
-    name: 'Property Documents',
-    description: 'Modern solutions for managing and securing your property documents digitally.',
   },
   {
     slug: 'electricity-bill-updates',
