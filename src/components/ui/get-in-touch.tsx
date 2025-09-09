@@ -1,22 +1,24 @@
 "use client"
 
 import React, { useState, useEffect } from 'react';
+import Image from 'next/image';
 
 export const ProfessionalConnect = () => {
-  const [, setHoveredIndex] = useState<number | null>(null);
-  const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
   const [isLoaded, setIsLoaded] = useState(false);
 
   useEffect(() => {
     setIsLoaded(true);
-    const handleMouseMove = (e: MouseEvent) => {
-      setMousePosition({ x: e.clientX, y: e.clientY });
-    };
-    window.addEventListener('mousemove', handleMouseMove);
-    return () => window.removeEventListener('mousemove', handleMouseMove);
   }, []);
 
   const socialPlatforms = [
+    {
+      name: 'WhatsApp',
+      icon: <Image src="https://res.cloudinary.com/dxsj2kcwu/image/upload/v1757415743/whatsapp_12635043_omsc1o.png" alt="WhatsApp" width={28} height={28} />,
+      gradient: 'from-green-500 to-teal-400',
+      shadowColor: 'rgba(16, 185, 129, 0.5)',
+      link: 'https://web.whatsapp.com/send?phone=918885166880&text=Hi%20JaaGa%20Team%2C%20Please%20let%20me%20know%20more%20about%20your%20services.',
+      description: 'Chat with us'
+    },
     {
       name: 'LinkedIn',
       icon: (
@@ -26,20 +28,20 @@ export const ProfessionalConnect = () => {
       ),
       gradient: 'from-blue-600 to-blue-400',
       shadowColor: 'rgba(59, 130, 246, 0.5)',
-      link: '#',
+      link: 'https://www.linkedin.com/company/jaagaai/about/',
       description: 'Professional Network'
     },
     {
-      name: 'GitHub',
+      name: 'Facebook',
       icon: (
         <svg viewBox="0 0 24 24" fill="currentColor" className="w-7 h-7">
-          <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+          <path d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.879V14.89h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.989C18.343 21.128 22 16.991 22 12z" />
         </svg>
       ),
-      gradient: 'from-gray-700 to-gray-500',
-      shadowColor: 'rgba(75, 85, 99, 0.5)',
-      link: '#',
-      description: 'Code Repository'
+      gradient: 'from-blue-700 to-indigo-500',
+      shadowColor: 'rgba(67, 56, 202, 0.5)',
+      link: 'https://www.facebook.com/people/JaaGa-AI/61552907515347/?mibextid=LQQJ4d',
+      description: 'Community Page'
     },
     {
       name: 'Twitter',
@@ -50,7 +52,7 @@ export const ProfessionalConnect = () => {
       ),
       gradient: 'from-slate-800 to-slate-600',
       shadowColor: 'rgba(51, 65, 85, 0.5)',
-      link: '#',
+      link: 'https://x.com/Jaaga_ai',
       description: 'Social Updates'
     },
     {
@@ -62,20 +64,8 @@ export const ProfessionalConnect = () => {
       ),
       gradient: 'from-purple-600 via-pink-600 to-orange-500',
       shadowColor: 'rgba(219, 39, 119, 0.5)',
-      link: '#',
+      link: 'https://www.instagram.com/jaaga.ai/',
       description: 'Visual Stories'
-    },
-    {
-      name: 'Discord',
-      icon: (
-        <svg viewBox="0 0 24 24" fill="currentColor" className="w-7 h-7">
-          <path d="M20.317 4.3698a19.7913 19.7913 0 00-4.8851-1.5152.0741.0741 0 00-.0785.0371c-.211.3753-.4447.8648-.6083 1.2495-1.8447-.2762-3.68-.2762-5.4868 0-.1636-.3933-.4058-.8742-.6177-1.2495a.077.077 0 00-.0785-.037 19.7363 19.7363 0 00-4.8852 1.515.0699.0699 0 00-.0321.0277C.5334 9.0458-.319 13.5799.0992 18.0578a.0824.0824 0 00.0312.0561c2.0528 1.5076 4.0413 2.4228 5.9929 3.0294a.0777.0777 0 00.0842-.0276c.4616-.6304.8731-1.2952 1.226-1.9942a.076.076 0 00-.0416-.1057c-.6528-.2476-1.2743-.5495-1.8722-.8923a.077.077 0 01-.0076-.1277c.1258-.0943.2517-.1923.3718-.2914a.0743.0743 0 01.0776-.0105c3.9278 1.7933 8.18 1.7933 12.0614 0a.0739.0739 0 01.0785.0095c.1202.099.246.1981.3728.2924a.077.077 0 01-.0066.1276 12.2986 12.2986 0 01-1.873.8914.0766.0766 0 00-.0407.1067c.3604.698.7719 1.3628 1.225 1.9932a.076.076 0 00.0842.0286c1.961-.6067 3.9495-1.5219 6.0023-3.0294a.077.077 0 00.0313-.0552c.5004-5.177-.8382-9.6739-3.5485-13.6604a.061.061 0 00-.0312-.0286zM8.02 15.3312c-1.1825 0-2.1569-1.0857-2.1569-2.419 0-1.3332.9555-2.4189 2.157-2.4189 1.2108 0 2.1757 1.0952 2.1568 2.419-.0189 1.3332-.9555 2.4189-2.1569 2.4189zm7.9748 0c-1.1825 0-2.1569-1.0857-2.1569-2.419 0-1.3332.9554-2.4189 2.1569-2.4189 1.2108 0 2.1757 1.0952 2.1568 2.419 0 1.3332-.9555 2.4189-2.1568 2.4189Z"/>
-        </svg>
-      ),
-      gradient: 'from-indigo-600 to-purple-600',
-      shadowColor: 'rgba(99, 102, 241, 0.5)',
-      link: '#',
-      description: 'Community Chat'
     },
     {
       name: 'YouTube',
@@ -86,66 +76,47 @@ export const ProfessionalConnect = () => {
       ),
       gradient: 'from-red-600 to-red-400',
       shadowColor: 'rgba(239, 68, 68, 0.5)',
-      link: '#',
+      link: 'https://www.youtube.com/@jaagaapp',
       description: 'Video Content'
     }
   ];
 
   return (
-    <div className="min-h-screen bg-white overflow-hidden relative w-full">
-      {/* Animated Background */}
-      <div className="absolute inset-0 opacity-50">
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-blue-900/10 via-transparent to-transparent"></div>
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-purple-900/10 via-transparent to-transparent"></div>
-                 
-        {/* Animated Grid */}
-        <div className="absolute inset-0 bg-[linear-gradient(to_right,#e5e7eb_1px,transparent_1px),linear-gradient(to_bottom,#e5e7eb_1px,transparent_1px)] bg-[size:4rem_4rem] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,#000_70%,transparent_100%)]"></div>
-                 
-        {/* Floating Orbs */}
-        <div className="absolute top-20 left-20 w-72 h-72 bg-blue-600/10 rounded-full blur-[128px] animate-pulse"></div>
-        <div className="absolute bottom-20 right-20 w-96 h-96 bg-purple-600/10 rounded-full blur-[128px] animate-pulse delay-700"></div>
-      </div>
-
-      {/* Main Content */}
-      <div className="relative z-10 flex flex-col items-center justify-center min-h-screen p-8">
-        {/* Header Section */}
-        <div className={`text-center mb-16 transition-all duration-1000 ${isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
-          <div className="inline-block mb-4 px-4 py-1.5 bg-gradient-to-r from-blue-500/10 to-purple-500/10 rounded-full border border-blue-500/20">
-            <span className="text-sm font-medium bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent">
+    <div className="bg-background overflow-hidden relative w-full">
+      <div className="relative z-10 flex flex-col items-center justify-center p-4 sm:p-8">
+        <div className={`text-center mb-12 sm:mb-16 transition-all duration-1000 ${isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
+          <div className="inline-block mb-4 px-4 py-1.5 bg-gradient-to-r from-primary/10 to-accent/10 rounded-full border border-primary/20">
+            <span className="text-sm font-medium bg-gradient-to-r from-primary to-accent-foreground bg-clip-text text-transparent">
               Connect & Collaborate
             </span>
           </div>
                      
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 tracking-tight text-slate-800">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-4 sm:mb-6 tracking-tight text-foreground">
             Get In Touch
           </h1>
                      
-          <p className="text-lg md:text-xl text-slate-500 max-w-2xl mx-auto leading-relaxed">
-            Join our vibrant community across multiple platforms and stay connected with the latest updates
+          <p className="text-base sm:text-lg md:text-xl text-muted-foreground max-w-xl sm:max-w-2xl mx-auto leading-relaxed">
+            Join our vibrant community across multiple platforms and stay connected with the latest updates.
           </p>
         </div>
 
-        {/* Social Cards Grid */}
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto w-full">
           {socialPlatforms.map((platform, index) => (
             <a
               key={platform.name}
               href={platform.link}
+              target='_blank'
+              rel='noopener noreferrer'
               className={`group relative transition-all duration-700 ${
                 isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
               }`}
               style={{ transitionDelay: `${index * 100}ms` }}
-              onMouseEnter={() => setHoveredIndex(index)}
-              onMouseLeave={() => setHoveredIndex(null)}
             >
-              {/* Card Container */}
-              <div className="relative bg-white/50 backdrop-blur-xl rounded-2xl p-8 border border-slate-200/50 overflow-hidden transition-all duration-500 hover:scale-105 hover:border-slate-300/50 shadow-sm hover:shadow-lg">
-                {/* Hover Gradient Effect */}
+              <div className="relative bg-card backdrop-blur-xl rounded-2xl p-6 sm:p-8 border border-border/50 overflow-hidden transition-all duration-500 hover:scale-105 hover:border-primary/50 shadow-sm hover:shadow-lg h-full">
                 <div 
                    className={`absolute inset-0 bg-gradient-to-br ${platform.gradient} opacity-0 group-hover:opacity-10 transition-opacity duration-500`}
                 ></div>
                                  
-                {/* Glow Effect */}
                 <div 
                    className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500"
                   style={{
@@ -154,23 +125,21 @@ export const ProfessionalConnect = () => {
                   }}
                 ></div>
 
-                {/* Content */}
-                <div className="relative z-10">
-                  {/* Icon Container */}
-                  <div className={`mb-4 inline-flex p-3 rounded-xl bg-gradient-to-br ${platform.gradient} text-white transform transition-transform duration-500 group-hover:rotate-6 group-hover:scale-110`}>
+                <div className="relative z-10 flex flex-col h-full">
+                  <div className={`mb-4 inline-flex p-3 rounded-xl bg-gradient-to-br ${platform.gradient} text-white transform transition-transform duration-500 group-hover:rotate-6 group-hover:scale-110 self-start`}>
                     {platform.icon}
                   </div>
                                      
-                  {/* Text */}
-                  <h3 className="text-slate-900 font-semibold text-lg mb-1 transition-colors duration-300">
-                    {platform.name}
-                  </h3>
-                  <p className="text-slate-500 text-sm transition-colors duration-300 group-hover:text-slate-600">
-                    {platform.description}
-                  </p>
+                  <div className="flex-grow">
+                    <h3 className="text-foreground font-semibold text-lg mb-1 transition-colors duration-300">
+                      {platform.name}
+                    </h3>
+                    <p className="text-muted-foreground text-sm transition-colors duration-300 group-hover:text-foreground/80">
+                      {platform.description}
+                    </p>
+                  </div>
                                      
-                  {/* Arrow Icon */}
-                  <div className="mt-4 flex items-center text-slate-400 group-hover:text-slate-800 transition-all duration-300">
+                  <div className="mt-4 flex items-center text-muted-foreground group-hover:text-primary transition-all duration-300">
                     <span className="text-sm font-medium group-hover:translate-x-0 transition-all duration-300">
                       Connect
                     </span>
@@ -184,37 +153,11 @@ export const ProfessionalConnect = () => {
                     </svg>
                   </div>
                 </div>
-
-                {/* Shimmer Effect */}
-                <div className="absolute inset-0 -translate-x-full group-hover:translate-x-full transition-transform duration-1000 bg-gradient-to-r from-transparent via-black/5 to-transparent"></div>
               </div>
             </a>
           ))}
         </div>
-
-        {/* Bottom CTA */}
-        <div className={`mt-16 text-center transition-all duration-1000 delay-700 ${isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
-          <button className="group relative inline-flex items-center gap-2 px-8 py-3 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full text-white font-medium overflow-hidden transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-purple-500/25">
-            <span className="relative z-10">Explore All Platforms</span>
-            <svg className="w-4 h-4 relative z-10 transition-transform duration-300 group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
-            </svg>
-                         
-            {/* Button Shimmer */}
-            <div className="absolute inset-0 -translate-x-full group-hover:translate-x-full transition-transform duration-700 bg-gradient-to-r from-transparent via-white/20 to-transparent"></div>
-          </button>
-        </div>
       </div>
-
-       {/* Mouse Follow Light */}
-      <div 
-         className="pointer-events-none fixed w-96 h-96 rounded-full opacity-20 blur-[100px] transition-all duration-200 ease-out"
-        style={{
-          background: 'radial-gradient(circle, rgba(147, 51, 234, 0.3), transparent)',
-          left: `${mousePosition.x - 192}px`,
-          top: `${mousePosition.y - 192}px`,
-        }}
-      />
     </div>
   );
 };
