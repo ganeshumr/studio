@@ -3,7 +3,7 @@
 
 import Link from 'next/link';
 import {usePathname} from 'next/navigation';
-import {Menu, Search} from 'lucide-react';
+import {Menu} from 'lucide-react';
 import {Button} from '@/components/ui/button';
 import {
   Sheet,
@@ -12,7 +12,6 @@ import {
   SheetClose,
 } from '@/components/ui/sheet';
 import {Logo} from './logo';
-import {categories} from '@/lib/data';
 import {cn} from '@/lib/utils';
 import {useState} from 'react';
 
@@ -73,10 +72,6 @@ export function Header() {
           {navItems}
         </nav>
         <div className="flex items-center gap-2">
-          <Button variant="ghost" size="icon" className="hidden md:inline-flex">
-            <Search className="h-5 w-5" />
-            <span className="sr-only">Search</span>
-          </Button>
           <Sheet open={isSheetOpen} onOpenChange={setSheetOpen}>
             <SheetTrigger asChild>
               <Button variant="ghost" size="icon" className="md:hidden">
