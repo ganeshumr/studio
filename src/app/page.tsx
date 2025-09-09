@@ -53,7 +53,7 @@ function Hero() {
             </div>
             <div className="relative row-span-2 rounded-md overflow-hidden">
               <Image
-                src="https://picsum.photos/400/816?random=2"
+                src="https://res.cloudinary.com/dxsj2kcwu/image/upload/v1757412451/amazing-aerial-shot-singapore-cityscape-with-lots-skyscrapers_1_mj05sc.jpg"
                 alt="Modern architecture"
                 fill
                 className="object-cover"
