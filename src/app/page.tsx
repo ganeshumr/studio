@@ -30,7 +30,7 @@ function Hero() {
             </div>
             <div className="flex flex-row gap-4">
               <Button size="lg" className="gap-4" variant="outline" asChild>
-                <Link href="/category/property-audit">
+                <Link href="https://www.jaaga.ai/documents">
                   Property Audit Report <FileCheck className="w-4 h-4" />
                 </Link>
               </Button>
