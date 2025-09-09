@@ -8,11 +8,11 @@ export default function AboutPage() {
       <div className="bg-background">
         <div className="container mx-auto px-4 py-16 md:py-24">
           <div className="text-center">
-            <p className="font-headline text-primary font-semibold">Our Mission</p>
-            <h1 className="font-headline text-4xl md:text-5xl font-bold tracking-tighter mt-2">
+            <p className="font-semibold text-primary">Our Mission</p>
+            <h1 className="font-headline mt-2 text-4xl font-bold tracking-tighter md:text-5xl">
               Building Trust in Indian Real Estate
             </h1>
-            <p className="mt-4 max-w-3xl mx-auto text-lg text-muted-foreground">
+            <p className="mx-auto mt-4 max-w-3xl text-lg text-muted-foreground">
               Jaaga.ai was founded to bring transparency, security, and simplicity to the Indian
               property market. We leverage technology to empower owners and buyers with the data and
               services they need to make confident decisions.
@@ -22,8 +22,8 @@ export default function AboutPage() {
       </div>
 
       <div className="container mx-auto px-4 py-16 md:py-24">
-        <div className="grid md:grid-cols-2 gap-12 items-center">
-          <div className="relative h-96 rounded-xl overflow-hidden shadow-lg">
+        <div className="grid items-center gap-12 md:grid-cols-2">
+          <div className="relative h-80 overflow-hidden rounded-xl shadow-lg md:h-96">
             <Image
               src="https://picsum.photos/800/600"
               alt="Our team at a planning session"
@@ -32,7 +32,7 @@ export default function AboutPage() {
               data-ai-hint="team meeting"
             />
           </div>
-          <div className="space-y-6">
+          <div className="space-y-6 text-center md:text-left">
             <h2 className="font-headline text-3xl font-bold">From Complex to Clear</h2>
             <p className="text-muted-foreground">
               The Indian real estate landscape is notoriously complex. Opaque processes, fragmented

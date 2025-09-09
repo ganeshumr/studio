@@ -79,9 +79,9 @@ export default function BlogPostPage({params}: Props) {
     }).join(' ');
 
   return (
-    <div className="container mx-auto px-4 py-12 md:py-16">
+    <div className="container mx-auto px-4 py-8 md:py-16">
       <div className="grid lg:grid-cols-3 gap-8 lg:gap-12">
-        <article className="lg:col-span-2 bg-background p-6 sm:p-8 rounded-xl shadow-md">
+        <article className="lg:col-span-2 bg-background p-4 sm:p-8 rounded-xl shadow-md">
           <header className="space-y-4 mb-8">
             <Breadcrumb items={breadcrumbItems} />
             {category && (
@@ -89,10 +89,10 @@ export default function BlogPostPage({params}: Props) {
                 <Badge variant="default">{category.name}</Badge>
               </Link>
             )}
-            <h1 className="font-headline text-3xl md:text-4xl lg:text-5xl font-bold tracking-tighter">
+            <h1 className="font-headline text-3xl md:text-4xl font-bold tracking-tighter">
               {post.title}
             </h1>
-            <div className="flex items-center space-x-4 text-sm text-muted-foreground">
+            <div className="flex flex-wrap items-center space-x-4 text-sm text-muted-foreground">
               <div className="flex items-center gap-2">
                 <Avatar className="h-8 w-8">
                   <AvatarImage src={post.author.avatar} alt={post.author.name} />
@@ -100,7 +100,7 @@ export default function BlogPostPage({params}: Props) {
                 </Avatar>
                 <span>{post.author.name}</span>
               </div>
-              <span>•</span>
+              <span className="hidden sm:inline">•</span>
               <time dateTime={post.date}>
                 {new Date(post.date).toLocaleDateString('en-US', {
                   year: 'numeric',

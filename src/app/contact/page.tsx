@@ -64,7 +64,7 @@ export default function ContactPage() {
               <p className="text-muted-foreground">
                 For general inquiries and support, email us at:
               </p>
-              <a href="mailto:support@jaaga.ai" className="text-primary font-medium">
+              <a href="mailto:support@jaaga.ai" className="text-primary font-medium break-all">
                 support@jaaga.ai
               </a>
             </div>
