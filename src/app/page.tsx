@@ -22,7 +22,7 @@ function Hero() {
               <h1 className="text-5xl md:text-6xl max-w-lg tracking-tighter text-left font-bold text-primary">
                 Secure Your Digital Property Rights in India.
               </h1>
-              <p className="text-lg leading-relaxed tracking-tight text-muted-foreground max-w-md text-left">
+              <p className="text-lg leading-relaxed tracking-tight text-muted-foreground max-w-md text-left pt-4">
                 Jaaga.ai provides expert insights and comprehensive services for property audits,
                 legal verification, and digital ownership. Navigate the complexities of Indian real
                 estate with confidence.
