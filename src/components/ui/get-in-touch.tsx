@@ -92,18 +92,18 @@ export const ProfessionalConnect = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950 overflow-hidden relative w-full">
+    <div className="min-h-screen bg-white overflow-hidden relative w-full">
       {/* Animated Background */}
-      <div className="absolute inset-0">
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-blue-900/20 via-transparent to-transparent"></div>
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-purple-900/20 via-transparent to-transparent"></div>
+      <div className="absolute inset-0 opacity-50">
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-blue-900/10 via-transparent to-transparent"></div>
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-purple-900/10 via-transparent to-transparent"></div>
                  
         {/* Animated Grid */}
-        <div className="absolute inset-0 bg-[linear-gradient(to_right,#1e293b_1px,transparent_1px),linear-gradient(to_bottom,#1e293b_1px,transparent_1px)] bg-[size:4rem_4rem] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,#000_70%,transparent_100%)]"></div>
+        <div className="absolute inset-0 bg-[linear-gradient(to_right,#e5e7eb_1px,transparent_1px),linear-gradient(to_bottom,#e5e7eb_1px,transparent_1px)] bg-[size:4rem_4rem] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,#000_70%,transparent_100%)]"></div>
                  
         {/* Floating Orbs */}
-        <div className="absolute top-20 left-20 w-72 h-72 bg-blue-600/30 rounded-full blur-[128px] animate-pulse"></div>
-        <div className="absolute bottom-20 right-20 w-96 h-96 bg-purple-600/20 rounded-full blur-[128px] animate-pulse delay-700"></div>
+        <div className="absolute top-20 left-20 w-72 h-72 bg-blue-600/10 rounded-full blur-[128px] animate-pulse"></div>
+        <div className="absolute bottom-20 right-20 w-96 h-96 bg-purple-600/10 rounded-full blur-[128px] animate-pulse delay-700"></div>
       </div>
 
       {/* Main Content */}
@@ -111,18 +111,16 @@ export const ProfessionalConnect = () => {
         {/* Header Section */}
         <div className={`text-center mb-16 transition-all duration-1000 ${isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
           <div className="inline-block mb-4 px-4 py-1.5 bg-gradient-to-r from-blue-500/10 to-purple-500/10 rounded-full border border-blue-500/20">
-            <span className="text-sm font-medium bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
+            <span className="text-sm font-medium bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent">
               Connect & Collaborate
             </span>
           </div>
                      
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 tracking-tight">
-            <span className="bg-gradient-to-br from-white via-white to-gray-400 bg-clip-text text-transparent">
-              Get In Touch
-            </span>
+          <h1 className="text-5xl md:text-7xl font-bold mb-6 tracking-tight text-slate-800">
+            Get In Touch
           </h1>
                      
-          <p className="text-lg md:text-xl text-gray-400 max-w-2xl mx-auto leading-relaxed">
+          <p className="text-lg md:text-xl text-slate-500 max-w-2xl mx-auto leading-relaxed">
             Join our vibrant community across multiple platforms and stay connected with the latest updates
           </p>
         </div>
@@ -141,7 +139,7 @@ export const ProfessionalConnect = () => {
               onMouseLeave={() => setHoveredIndex(null)}
             >
               {/* Card Container */}
-              <div className="relative bg-gradient-to-br from-slate-800/50 to-slate-900/50 backdrop-blur-xl rounded-2xl p-8 border border-slate-700/50 overflow-hidden transition-all duration-500 hover:scale-105 hover:border-slate-600/50">
+              <div className="relative bg-white/50 backdrop-blur-xl rounded-2xl p-8 border border-slate-200/50 overflow-hidden transition-all duration-500 hover:scale-105 hover:border-slate-300/50 shadow-sm hover:shadow-lg">
                 {/* Hover Gradient Effect */}
                 <div 
                    className={`absolute inset-0 bg-gradient-to-br ${platform.gradient} opacity-0 group-hover:opacity-10 transition-opacity duration-500`}
@@ -164,15 +162,15 @@ export const ProfessionalConnect = () => {
                   </div>
                                      
                   {/* Text */}
-                  <h3 className="text-white font-semibold text-lg mb-1 transition-colors duration-300">
+                  <h3 className="text-slate-900 font-semibold text-lg mb-1 transition-colors duration-300">
                     {platform.name}
                   </h3>
-                  <p className="text-gray-500 text-sm transition-colors duration-300 group-hover:text-gray-400">
+                  <p className="text-slate-500 text-sm transition-colors duration-300 group-hover:text-slate-600">
                     {platform.description}
                   </p>
                                      
                   {/* Arrow Icon */}
-                  <div className="mt-4 flex items-center text-gray-600 group-hover:text-white transition-all duration-300">
+                  <div className="mt-4 flex items-center text-slate-400 group-hover:text-slate-800 transition-all duration-300">
                     <span className="text-sm font-medium group-hover:translate-x-0 transition-all duration-300">
                       Connect
                     </span>
@@ -188,7 +186,7 @@ export const ProfessionalConnect = () => {
                 </div>
 
                 {/* Shimmer Effect */}
-                <div className="absolute inset-0 -translate-x-full group-hover:translate-x-full transition-transform duration-1000 bg-gradient-to-r from-transparent via-white/5 to-transparent"></div>
+                <div className="absolute inset-0 -translate-x-full group-hover:translate-x-full transition-transform duration-1000 bg-gradient-to-r from-transparent via-black/5 to-transparent"></div>
               </div>
             </a>
           ))}
