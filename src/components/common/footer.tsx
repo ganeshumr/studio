@@ -62,14 +62,14 @@ export function Footer() {
             </ul>
           </div>
           <div className="md:col-span-2 lg:col-span-1">
-            <h3 className="font-headline font-semibold mb-4">Stay Updated</h3>
+            <h3 className="font-headline font-semibold mb-4">Contact Us</h3>
             <p className="text-muted-foreground text-sm mb-2">
-              Subscribe to our newsletter for the latest insights.
+              Enter your phone number to get a call from us.
             </p>
             <form className="flex flex-col sm:flex-row gap-2">
-              <Input type="email" placeholder="Enter your email" className="flex-1" />
+              <Input type="tel" placeholder="Enter your phone number" className="flex-1" />
               <Button type="submit" variant="default" className="w-full sm:w-auto">
-                Subscribe
+                Get a Call
               </Button>
             </form>
           </div>
