@@ -1,3 +1,4 @@
+
 import Link from 'next/link';
 import {Button} from '@/components/ui/button';
 import {Input} from '@/components/ui/input';
@@ -34,6 +35,11 @@ export function Footer() {
           <div>
             <h3 className="font-headline font-semibold mb-4">Quick Links</h3>
             <ul className="space-y-2 text-sm">
+              <li>
+                <Link href="/" className="text-muted-foreground hover:text-primary">
+                  Home
+                </Link>
+              </li>
               <li>
                 <Link href="/blog" className="text-muted-foreground hover:text-primary">
                   Blog
