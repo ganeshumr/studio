@@ -15,7 +15,7 @@ import {
   DialogFooter,
 } from '@/components/ui/dialog';
 import {Textarea} from '@/components/ui/textarea';
-import {Input} from '@/componentsui/input';
+import {Input} from '@/components/ui/input';
 import {Form, FormControl, FormField, FormItem, FormLabel, FormMessage} from '@/components/ui/form';
 import {useToast} from '@/hooks/use-toast';
 import {generateSeoAction} from '@/app/actions/generate-seo-action';

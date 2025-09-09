@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import {Input} from '@/components/ui/input';
-import {Button} from '@/componentsui/button';
+import {Button} from '@/components/ui/button';
 import {Search} from 'lucide-react';
 import {categories, posts} from '@/lib/data';
 import Image from 'next/image';
