@@ -157,7 +157,9 @@ export default function Home() {
               variant="secondary"
               className="font-bold bg-background text-primary hover:bg-background/90"
             >
-              <Link href="/contact-us">Get Your Free Consultation</Link>
+              <Link href="https://www.jaaga.ai" target="_blank" rel="noopener noreferrer">
+                Visit Our Website
+              </Link>
             </Button>
           </div>
         </div>
