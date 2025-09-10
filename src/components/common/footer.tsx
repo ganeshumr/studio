@@ -1,10 +1,13 @@
 
+'use client';
+
 import Link from 'next/link';
 import {Button} from '@/components/ui/button';
 import {Input} from '@/components/ui/input';
 import {Logo} from './logo';
 import {categories} from '@/lib/data';
 import {Twitter, Linkedin, Facebook} from 'lucide-react';
+import React from 'react';
 
 const socialLinks = [
   {name: 'Twitter', icon: Twitter, href: '#'},
@@ -25,7 +28,11 @@ export function Footer() {
             </p>
             <div className="flex space-x-4">
               {socialLinks.map(social => (
-                <Link key={social.name} href={social.href} className="text-muted-foreground hover:text-primary">
+                <Link
+                  key={social.name}
+                  href={social.href}
+                  className="text-muted-foreground hover:text-primary"
+                >
                   <social.icon className="h-5 w-5" />
                   <span className="sr-only">{social.name}</span>
                 </Link>
@@ -73,7 +80,14 @@ export function Footer() {
               Enter your phone number to get a call from us.
             </p>
             <form className="flex flex-col sm:flex-row gap-2">
-              <Input type="tel" placeholder="Enter your phone number" className="flex-1" />
+              <Input
+                type="tel"
+                placeholder="Enter your phone number"
+                className="flex-1"
+                onInput={(e: React.ChangeEvent<HTMLInputElement>) => {
+                  e.target.value = e.target.value.replace(/[^0-9]/g, '');
+                }}
+              />
               <Button type="submit" variant="default" className="w-full sm:w-auto">
                 Get a Call
               </Button>
