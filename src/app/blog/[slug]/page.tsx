@@ -93,14 +93,28 @@ export default function BlogPostPage({params}: Props) {
         <article className="lg:col-span-2 bg-background p-4 sm:p-8 rounded-xl shadow-md">
           <header className="space-y-4 mb-8">
             <Breadcrumb items={breadcrumbItems} />
-            {category && (
-              <Link href={`/category/${category.slug}`}>
-                <Badge variant="default">{category.name}</Badge>
-              </Link>
-            )}
-            <h1 className="font-headline text-3xl md:text-4xl font-bold tracking-tighter">
-              {post.title}
-            </h1>
+            <div className="flex justify-between items-center">
+              <div>
+                {category && (
+                  <Link href={`/category/${category.slug}`}>
+                    <Badge variant="default">{category.name}</Badge>
+                  </Link>
+                )}
+                <h1 className="font-headline text-3xl md:text-4xl font-bold tracking-tighter mt-2">
+                  {post.title}
+                </h1>
+              </div>
+              <div className="text-sm text-muted-foreground text-right">
+                <time dateTime={post.date}>
+                  {new Date(post.date).toLocaleDateString('en-US', {
+                    year: 'numeric',
+                    month: 'long',
+                    day: 'numeric',
+                  })}
+                </time>
+                <p>by {post.author.name}</p>
+              </div>
+            </div>
           </header>
 
           <div className="prose prose-lg max-w-none text-foreground prose-h2:font-headline prose-h2:font-bold prose-h3:font-headline prose-h3:font-bold prose-a:text-primary hover:prose-a:underline">
@@ -130,24 +144,24 @@ export default function BlogPostPage({params}: Props) {
 
         <div className="lg:col-span-1">
           <div className="sticky top-24 space-y-8">
-            {post.slug === 'download-property-tax-receipt-telangana-jaaga-app' && (
+            {post.relatedService && (
               <Card className="overflow-hidden">
                 <CardContent className="p-6 text-center">
-                  <h3 className="font-headline text-2xl font-bold mb-2">Get Your Property Tax Receipt</h3>
+                  <h3 className="font-headline text-2xl font-bold mb-2">{post.relatedService.title}</h3>
                   <div className="relative aspect-video mb-4 rounded-md overflow-hidden">
                      <Image 
-                      src="https://res.cloudinary.com/dnuayl071/image/upload/v1757505811/M00f8cba13c64a55f2bd628a404dfa0851744179908183_ts5xyb.webp"
-                      alt="Telangana Property Tax Receipt"
+                      src={post.relatedService.image}
+                      alt={post.relatedService.title}
                       fill
                       className="object-contain"
-                      data-ai-hint="tax document"
+                      data-ai-hint="document"
                      />
                   </div>
                   <p className="text-muted-foreground mb-6">
-                    Official Telangana document verifying property tax payment history.
+                    {post.relatedService.description}
                   </p>
                   <Button asChild size="lg" className="w-full">
-                    <Link href="https://www.jaaga.ai/documents" target="_blank" rel="noopener noreferrer">Apply Now</Link>
+                    <Link href={post.relatedService.link} target="_blank" rel="noopener noreferrer">Apply Now</Link>
                   </Button>
                 </CardContent>
               </Card>

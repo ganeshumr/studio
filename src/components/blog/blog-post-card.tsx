@@ -30,11 +30,20 @@ export function BlogPostCard({post}: BlogPostCardProps) {
         </Link>
       )}
       <CardHeader>
-        {category && (
-          <Badge variant="outline" className="w-fit">
-            <Link href={`/category/${category.slug}`}>{category.name}</Link>
-          </Badge>
-        )}
+        <div className="flex justify-between items-center mb-2">
+          {category && (
+            <Badge variant="outline" className="w-fit">
+              <Link href={`/category/${category.slug}`}>{category.name}</Link>
+            </Badge>
+          )}
+          <time dateTime={post.date} className="text-xs text-muted-foreground">
+            {new Date(post.date).toLocaleDateString('en-US', {
+              year: 'numeric',
+              month: 'long',
+              day: 'numeric',
+            })}
+          </time>
+        </div>
         <h3 className="font-headline text-xl font-bold leading-snug">
           <Link href={`/blog/${post.slug}`} className="hover:text-primary transition-colors">
             {post.title}
@@ -44,7 +53,10 @@ export function BlogPostCard({post}: BlogPostCardProps) {
       <CardContent className="flex-grow">
         <p className="text-muted-foreground line-clamp-3">{post.excerpt}</p>
       </CardContent>
-      <CardFooter className="flex justify-end items-center">
+      <CardFooter className="flex justify-between items-center">
+        <div className="text-sm text-muted-foreground">
+          <p>{post.author.name}</p>
+        </div>
         <Link
           href={`/blog/${post.slug}`}
           className="text-primary hover:underline flex items-center gap-1 text-sm"

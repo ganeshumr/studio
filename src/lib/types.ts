@@ -12,7 +12,6 @@ export type Post = {
   content: React.ReactNode;
   author: {
     name: string;
-    avatar: string;
   };
   date: string;
   category: Category['slug'];
@@ -21,4 +20,10 @@ export type Post = {
   metaTitle: string;
   metaDescription: string;
   keywords: string;
+  relatedService?: {
+    title: string;
+    description: string;
+    image: string;
+    link: string;
+  };
 };
