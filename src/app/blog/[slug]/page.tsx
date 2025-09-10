@@ -9,18 +9,18 @@ import {PostSidebar} from '@/components/blog/post-sidebar';
 import {SeoOptimizer} from '@/components/blog/seo-optimizer';
 import {Breadcrumb} from '@/components/common/breadcrumb';
 import {Separator} from '@/components/ui/separator';
+import { Button } from '@/components/ui/button';
+import { Card, CardContent } from '@/components/ui/card';
 
 type Props = {
   params: {slug: string};
 };
 
-// Helper function to extract text from React nodes for the SEO optimizer
 function getNodeText(node: React.ReactNode): string {
   if (typeof node === 'string') return node;
   if (typeof node === 'number') return String(node);
   if (Array.isArray(node)) return node.map(getNodeText).join(' ');
   if (React.isValidElement(node) && node.props.children) {
-    // Check for nested elements and recursively get their text
     if (Array.isArray(node.props.children)) {
       return node.props.children.map(getNodeText).join(' ');
     }
@@ -84,7 +84,7 @@ export default function BlogPostPage({params}: Props) {
     {label: post.title, href: `/blog/${post.slug}`},
   ];
 
-  const contentString = getNodeText(post.content);
+  const contentString = post.content ? getNodeText(post.content) : '';
 
   return (
     <div className="container mx-auto px-4 py-8 md:py-16">
@@ -129,6 +129,28 @@ export default function BlogPostPage({params}: Props) {
 
         <div className="lg:col-span-1">
           <div className="sticky top-24 space-y-8">
+            {post.slug === 'download-property-tax-receipt-telangana-jaaga-app' && (
+              <Card className="overflow-hidden">
+                <CardContent className="p-6 text-center">
+                  <h3 className="font-headline text-2xl font-bold mb-2">Get Your Property Tax Receipt</h3>
+                  <div className="relative aspect-video mb-4 rounded-md overflow-hidden">
+                     <Image 
+                      src="https://res.cloudinary.com/dnuayl071/image/upload/v1757505811/M00f8cba13c64a55f2bd628a404dfa0851744179908183_ts5xyb.webp"
+                      alt="Telangana Property Tax Receipt"
+                      fill
+                      className="object-contain"
+                      data-ai-hint="tax document"
+                     />
+                  </div>
+                  <p className="text-muted-foreground mb-6">
+                    Official Telangana document verifying property tax payment history.
+                  </p>
+                  <Button asChild size="lg" className="w-full">
+                    <Link href="https://www.jaaga.ai/services/property-tax-receipt-telangana" target="_blank" rel="noopener noreferrer">Apply Now</Link>
+                  </Button>
+                </CardContent>
+              </Card>
+            )}
             <PostSidebar />
           </div>
         </div>
