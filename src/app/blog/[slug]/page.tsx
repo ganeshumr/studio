@@ -17,17 +17,17 @@ type Props = {
 
 // Helper function to extract text from React nodes for the SEO optimizer
 function getNodeText(node: React.ReactNode): string {
-    if (typeof node === 'string') return node;
-    if (typeof node === 'number') return String(node);
-    if (Array.isArray(node)) return node.map(getNodeText).join(' ');
-    if (React.isValidElement(node) && node.props.children) {
-      // Check for nested elements and recursively get their text
-      if (Array.isArray(node.props.children)) {
-        return node.props.children.map(getNodeText).join(' ');
-      }
-      return getNodeText(node.props.children);
+  if (typeof node === 'string') return node;
+  if (typeof node === 'number') return String(node);
+  if (Array.isArray(node)) return node.map(getNodeText).join(' ');
+  if (React.isValidElement(node) && node.props.children) {
+    // Check for nested elements and recursively get their text
+    if (Array.isArray(node.props.children)) {
+      return node.props.children.map(getNodeText).join(' ');
     }
-    return '';
+    return getNodeText(node.props.children);
+  }
+  return '';
 }
 
 export async function generateStaticParams() {
@@ -45,6 +45,17 @@ export async function generateMetadata({params}: Props): Promise<Metadata> {
     };
   }
 
+  const images = post.featuredImage
+    ? [
+        {
+          url: post.featuredImage,
+          width: 800,
+          height: 450,
+          alt: post.title,
+        },
+      ]
+    : [];
+
   return {
     title: post.metaTitle,
     description: post.metaDescription,
@@ -54,14 +65,7 @@ export async function generateMetadata({params}: Props): Promise<Metadata> {
       description: post.metaDescription,
       type: 'article',
       url: `https://www.jaaga.ai/blog/${post.slug}`,
-      images: [
-        {
-          url: post.featuredImage,
-          width: 800,
-          height: 450,
-          alt: post.title,
-        },
-      ],
+      images: images,
     },
   };
 }
@@ -83,7 +87,7 @@ export default function BlogPostPage({params}: Props) {
     {label: 'Blog', href: '/blog'},
     {label: post.title, href: `/blog/${post.slug}`},
   ];
-  
+
   const contentString = getNodeText(post.content);
 
   return (
@@ -119,15 +123,17 @@ export default function BlogPostPage({params}: Props) {
             </div>
           </header>
 
-          <div className="relative aspect-video rounded-lg overflow-hidden mb-8">
-            <Image
-              src={post.featuredImage}
-              alt={post.title}
-              fill
-              className="object-cover"
-              priority
-            />
-          </div>
+          {post.featuredImage && (
+            <div className="relative aspect-video rounded-lg overflow-hidden mb-8">
+              <Image
+                src={post.featuredImage}
+                alt={post.title}
+                fill
+                className="object-cover"
+                priority
+              />
+            </div>
+          )}
 
           <div className="prose prose-lg max-w-none text-foreground prose-h2:font-headline prose-h2:font-bold prose-h3:font-headline prose-h3:font-bold prose-a:text-primary hover:prose-a:underline">
             {post.content}
@@ -145,14 +151,13 @@ export default function BlogPostPage({params}: Props) {
               ))}
             </div>
           </div>
-          
+
           <Separator className="my-8" />
 
           <div>
             <h3 className="font-headline font-bold text-xl mb-4">AI Tools</h3>
             <SeoOptimizer content={contentString} keywords={post.keywords} />
           </div>
-
         </article>
 
         <div className="lg:col-span-1">
