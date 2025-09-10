@@ -1,6 +1,6 @@
 'use client';
 
-import {useState} from 'react';
+import {useState, useMemo} from 'react';
 import {BlogPostCard} from '@/components/blog/blog-post-card';
 import {posts} from '@/lib/data';
 import {Input} from '@/components/ui/input';
@@ -22,14 +22,18 @@ function getNodeText(node: React.ReactNode): string {
 export default function BlogListPage() {
   const [searchQuery, setSearchQuery] = useState('');
 
-  const filteredPosts = posts.filter(post => {
-    const searchTerm = searchQuery.toLowerCase();
-    const titleMatch = post.title.toLowerCase().includes(searchTerm);
-    const excerptMatch = post.excerpt.toLowerCase().includes(searchTerm);
-    const contentMatch = getNodeText(post.content).toLowerCase().includes(searchTerm);
-
-    return titleMatch || excerptMatch || contentMatch;
-  });
+  const filteredPosts = useMemo(() => {
+    if (!searchQuery) {
+      return posts;
+    }
+    return posts.filter(post => {
+      const searchTerm = searchQuery.toLowerCase();
+      const titleMatch = post.title.toLowerCase().includes(searchTerm);
+      const excerptMatch = post.excerpt.toLowerCase().includes(searchTerm);
+      const contentMatch = getNodeText(post.content).toLowerCase().includes(searchTerm);
+      return titleMatch || excerptMatch || contentMatch;
+    });
+  }, [searchQuery]);
 
   return (
     <div className="container mx-auto px-4 py-16 md:py-24">
