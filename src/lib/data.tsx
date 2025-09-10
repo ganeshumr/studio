@@ -578,7 +578,7 @@ export const posts: Post[] = [
     category: 'property-tax',
     tags: ['property tax', 'telangana', 'jaaga app', 'tax receipt'],
     featuredImage:
-      'https://res.cloudinary.com/dnuayl071/image/upload/v1757505811/M00f8cba13c64a55f2bd628a404dfa0851744179908183_ts5xyb.webp',
+      '',
     metaTitle: 'How to Download Property Tax Receipt in Telangana Using JaaGa App',
     metaDescription:
       'A complete guide on how to download your property tax receipt in Telangana quickly and easily using the JaaGa App. Avoid queues and get your receipt online.',
@@ -586,3 +586,5 @@ export const posts: Post[] = [
       'property tax telangana, download tax receipt, jaaga app, ghmc property tax, telangana property tax online',
   },
 ];
+
+    
