@@ -6,9 +6,20 @@ import {Button} from '@/components/ui/button';
 import {Input} from '@/components/ui/input';
 import {Logo} from './logo';
 import {categories} from '@/lib/data';
-import React from 'react';
+import React, {useState} from 'react';
 
 export function Footer() {
+  const [phoneNumber, setPhoneNumber] = useState('');
+
+  const handleGetACall = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (phoneNumber) {
+      const message = `Hi, I would like to get a call. My number is ${phoneNumber}.`;
+      const whatsappUrl = `https://wa.me/918885133990?text=${encodeURIComponent(message)}`;
+      window.open(whatsappUrl, '_blank');
+    }
+  };
+
   return (
     <footer className="bg-background border-t">
       <div className="container mx-auto px-4 py-12">
@@ -60,13 +71,15 @@ export function Footer() {
             <p className="text-muted-foreground text-sm mb-2">
               Enter your phone number to get a call from us.
             </p>
-            <form className="flex flex-col sm:flex-row gap-2">
+            <form onSubmit={handleGetACall} className="flex flex-col sm:flex-row gap-2">
               <Input
                 type="tel"
                 placeholder="Enter your phone number"
                 className="flex-1"
-                onInput={(e: React.ChangeEvent<HTMLInputElement>) => {
-                  e.target.value = e.target.value.replace(/[^0-9]/g, '');
+                value={phoneNumber}
+                onChange={(e: React.ChangeEvent<HTMLInputElement>) => {
+                  const value = e.target.value.replace(/[^0-9]/g, '');
+                  setPhoneNumber(value);
                 }}
               />
               <Button type="submit" variant="default" className="w-full sm:w-auto">
