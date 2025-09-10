@@ -457,7 +457,7 @@ export const posts: Post[] = [
           📲 Steps to Download Your Property Tax Receipt with the JaaGa App
         </h2>
         <Image
-          src="https://res.cloudinary.com/dxsj2kcwu/image/upload/v1757416391/Step-1_4_b3nblx.png"
+          src="https://res.cloudinary.com/dnuayl071/image/upload/v1757505811/M00f8cba13c64a55f2bd628a404dfa0851744179908183_ts5xyb.webp"
           alt="JaaGa App step-by-step guide"
           width={800}
           height={450}
@@ -578,7 +578,7 @@ export const posts: Post[] = [
     category: 'property-tax',
     tags: ['property tax', 'telangana', 'jaaga app', 'tax receipt'],
     featuredImage:
-      'https://res.cloudinary.com/dxsj2kcwu/image/upload/v1757416391/Step-1_4_b3nblx.png',
+      'https://res.cloudinary.com/dnuayl071/image/upload/v1757505811/M00f8cba13c64a55f2bd628a404dfa0851744179908183_ts5xyb.webp',
     metaTitle: 'How to Download Property Tax Receipt in Telangana Using JaaGa App',
     metaDescription:
       'A complete guide on how to download your property tax receipt in Telangana quickly and easily using the JaaGa App. Avoid queues and get your receipt online.',
