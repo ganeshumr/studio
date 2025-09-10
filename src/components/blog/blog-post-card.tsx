@@ -4,7 +4,6 @@ import {ArrowRight} from 'lucide-react';
 import type {Post} from '@/lib/types';
 import {Badge} from '@/components/ui/badge';
 import {Card, CardContent, CardFooter, CardHeader} from '@/components/ui/card';
-import {Avatar, AvatarFallback, AvatarImage} from '@/components/ui/avatar';
 import {categories} from '@/lib/data';
 
 type BlogPostCardProps = {
@@ -43,17 +42,7 @@ export function BlogPostCard({post}: BlogPostCardProps) {
       <CardContent className="flex-grow">
         <p className="text-muted-foreground line-clamp-3">{post.excerpt}</p>
       </CardContent>
-      <CardFooter className="flex justify-between items-center">
-        <div className="flex items-center gap-3">
-          <Avatar className="h-8 w-8">
-            <AvatarImage src={post.author.avatar} alt={post.author.name} />
-            <AvatarFallback>{post.author.name.charAt(0)}</AvatarFallback>
-          </Avatar>
-          <div>
-            <p className="text-sm font-medium">{post.author.name}</p>
-            <p className="text-xs text-muted-foreground">{new Date(post.date).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</p>
-          </div>
-        </div>
+      <CardFooter className="flex justify-end items-center">
         <Link
           href={`/blog/${post.slug}`}
           className="text-primary hover:underline flex items-center gap-1 text-sm"

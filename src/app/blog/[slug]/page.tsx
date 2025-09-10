@@ -3,7 +3,6 @@ import {notFound} from 'next/navigation';
 import Image from 'next/image';
 import type {Metadata} from 'next';
 import {posts, categories} from '@/lib/data';
-import {Avatar, AvatarFallback, AvatarImage} from '@/components/ui/avatar';
 import {Badge} from '@/components/ui/badge';
 import Link from 'next/link';
 import {PostSidebar} from '@/components/blog/post-sidebar';
@@ -78,9 +77,6 @@ export default function BlogPostPage({params}: Props) {
   }
 
   const category = categories.find(c => c.slug === post.category);
-  const relatedPosts = posts
-    .filter(p => p.category === post.category && p.id !== post.id)
-    .slice(0, 2);
 
   const breadcrumbItems = [
     {label: 'Home', href: '/'},
@@ -104,23 +100,6 @@ export default function BlogPostPage({params}: Props) {
             <h1 className="font-headline text-3xl md:text-4xl font-bold tracking-tighter">
               {post.title}
             </h1>
-            <div className="flex flex-wrap items-center space-x-4 text-sm text-muted-foreground">
-              <div className="flex items-center gap-2">
-                <Avatar className="h-8 w-8">
-                  <AvatarImage src={post.author.avatar} alt={post.author.name} />
-                  <AvatarFallback>{post.author.name.charAt(0)}</AvatarFallback>
-                </Avatar>
-                <span>{post.author.name}</span>
-              </div>
-              <span className="hidden sm:inline">•</span>
-              <time dateTime={post.date}>
-                {new Date(post.date).toLocaleDateString('en-US', {
-                  year: 'numeric',
-                  month: 'long',
-                  day: 'numeric',
-                })}
-              </time>
-            </div>
           </header>
 
           {post.featuredImage && (
