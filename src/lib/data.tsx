@@ -564,7 +564,7 @@ export const posts: Post[] = [
           property the smart way!
         </p>
         <Image
-          src="https://res.cloudinary.com/dxsj2kcwu/image/upload/v1757416410/Frame_1171276228_p9iabx.png"
+          src="https://res.cloudinary.com/dnuayl071/image/upload/v1757506208/M983e58325c68619effb6149a7691af6c1747810343169_zzjy0t.webp"
           alt="JaaGa App contact info"
           width={800}
           height={150}
