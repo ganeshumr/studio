@@ -6,14 +6,7 @@ import {Button} from '@/components/ui/button';
 import {Input} from '@/components/ui/input';
 import {Logo} from './logo';
 import {categories} from '@/lib/data';
-import {Twitter, Linkedin, Facebook} from 'lucide-react';
 import React from 'react';
-
-const socialLinks = [
-  {name: 'Twitter', icon: Twitter, href: '#'},
-  {name: 'LinkedIn', icon: Linkedin, href: '#'},
-  {name: 'Facebook', icon: Facebook, href: '#'},
-];
 
 export function Footer() {
   return (
@@ -26,18 +19,6 @@ export function Footer() {
               Your trusted partner in navigating India's property landscape with clarity and
               confidence.
             </p>
-            <div className="flex space-x-4">
-              {socialLinks.map(social => (
-                <Link
-                  key={social.name}
-                  href={social.href}
-                  className="text-muted-foreground hover:text-primary"
-                >
-                  <social.icon className="h-5 w-5" />
-                  <span className="sr-only">{social.name}</span>
-                </Link>
-              ))}
-            </div>
           </div>
           <div>
             <h3 className="font-headline font-semibold mb-4">Quick Links</h3>
