@@ -34,9 +34,7 @@ export function PostSidebar() {
                 className="flex justify-between items-center p-2 rounded-md hover:bg-accent/20 transition-colors text-muted-foreground hover:text-primary"
               >
                 <span>{category.name}</span>
-                <span>
-                  ({posts.filter(p => p.category === category.slug).length})
-                </span>
+                <span>({posts.filter(p => p.category === category.slug).length})</span>
               </Link>
             </li>
           ))}
@@ -66,13 +64,6 @@ export function PostSidebar() {
                   <h4 className="font-semibold leading-tight group-hover:text-primary transition-colors">
                     {post.title}
                   </h4>
-                  <p className="text-xs text-muted-foreground mt-1">
-                    {new Date(post.date).toLocaleDateString('en-US', {
-                      month: 'short',
-                      day: 'numeric',
-                      year: 'numeric',
-                    })}
-                  </p>
                 </div>
               </Link>
             </li>

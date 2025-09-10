@@ -44,17 +44,7 @@ export function BlogPostCard({post}: BlogPostCardProps) {
       <CardContent className="flex-grow">
         <p className="text-muted-foreground line-clamp-3">{post.excerpt}</p>
       </CardContent>
-      <CardFooter className="flex justify-between items-center">
-        <div className="flex items-center gap-2 text-sm text-muted-foreground">
-          <Image
-            src={post.author.avatar}
-            alt={post.author.name}
-            width={24}
-            height={24}
-            className="rounded-full"
-          />
-          <span>{post.author.name}</span>
-        </div>
+      <CardFooter className="flex justify-end items-center">
         <Link
           href={`/blog/${post.slug}`}
           className="text-primary hover:underline flex items-center gap-1 text-sm"
