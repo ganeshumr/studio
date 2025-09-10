@@ -15,18 +15,20 @@ export function BlogPostCard({post}: BlogPostCardProps) {
 
   return (
     <Card className="flex flex-col h-full overflow-hidden transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
-      <Link href={`/blog/${post.slug}`} className="block">
-        <div className="relative aspect-video">
-          <Image
-            src={post.featuredImage}
-            alt={post.title}
-            fill
-            className="object-cover"
-            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-            data-ai-hint="document real estate"
-          />
-        </div>
-      </Link>
+      {post.featuredImage && (
+        <Link href={`/blog/${post.slug}`} className="block">
+          <div className="relative aspect-video">
+            <Image
+              src={post.featuredImage}
+              alt={post.title}
+              fill
+              className="object-cover"
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+              data-ai-hint="document real estate"
+            />
+          </div>
+        </Link>
+      )}
       <CardHeader>
         {category && (
           <Badge variant="outline" className="w-fit">
@@ -42,7 +44,17 @@ export function BlogPostCard({post}: BlogPostCardProps) {
       <CardContent className="flex-grow">
         <p className="text-muted-foreground line-clamp-3">{post.excerpt}</p>
       </CardContent>
-      <CardFooter className="flex justify-end items-center">
+      <CardFooter className="flex justify-between items-center">
+        <div className="flex items-center gap-2 text-sm text-muted-foreground">
+          <Image
+            src={post.author.avatar}
+            alt={post.author.name}
+            width={24}
+            height={24}
+            className="rounded-full"
+          />
+          <span>{post.author.name}</span>
+        </div>
         <Link
           href={`/blog/${post.slug}`}
           className="text-primary hover:underline flex items-center gap-1 text-sm"

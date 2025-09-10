@@ -51,15 +51,17 @@ export function PostSidebar() {
           {recentPosts.map(post => (
             <li key={post.id}>
               <Link href={`/blog/${post.slug}`} className="flex items-center gap-4 group">
-                <div className="relative h-16 w-16 rounded-md overflow-hidden shrink-0">
-                  <Image
-                    src={post.featuredImage}
-                    alt={post.title}
-                    fill
-                    className="object-cover"
-                    sizes="64px"
-                  />
-                </div>
+                {post.featuredImage && (
+                  <div className="relative h-16 w-16 rounded-md overflow-hidden shrink-0">
+                    <Image
+                      src={post.featuredImage}
+                      alt={post.title}
+                      fill
+                      className="object-cover"
+                      sizes="64px"
+                    />
+                  </div>
+                )}
                 <div>
                   <h4 className="font-semibold leading-tight group-hover:text-primary transition-colors">
                     {post.title}

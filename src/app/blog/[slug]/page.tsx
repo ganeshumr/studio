@@ -102,18 +102,6 @@ export default function BlogPostPage({params}: Props) {
             </h1>
           </header>
 
-          {post.featuredImage && (
-            <div className="relative aspect-video rounded-lg overflow-hidden mb-8">
-              <Image
-                src={post.featuredImage}
-                alt={post.title}
-                fill
-                className="object-cover"
-                priority
-              />
-            </div>
-          )}
-
           <div className="prose prose-lg max-w-none text-foreground prose-h2:font-headline prose-h2:font-bold prose-h3:font-headline prose-h3:font-bold prose-a:text-primary hover:prose-a:underline">
             {post.content}
           </div>

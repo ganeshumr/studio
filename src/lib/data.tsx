@@ -34,6 +34,11 @@ export const categories: Category[] = [
     name: 'Electricity Bill Updates',
     description: 'Assistance with name changes and updates on utility documents.',
   },
+  {
+    slug: 'property-tax',
+    name: 'Property Tax',
+    description: 'Guidance and support for property tax payments and receipts.',
+  },
 ];
 
 export const posts: Post[] = [
@@ -577,8 +582,7 @@ export const posts: Post[] = [
     date: '2024-07-25',
     category: 'property-tax',
     tags: ['property tax', 'telangana', 'jaaga app', 'tax receipt'],
-    featuredImage:
-      '',
+    featuredImage: 'https://picsum.photos/800/450?random=7',
     metaTitle: 'How to Download Property Tax Receipt in Telangana Using JaaGa App',
     metaDescription:
       'A complete guide on how to download your property tax receipt in Telangana quickly and easily using the JaaGa App. Avoid queues and get your receipt online.',
@@ -586,5 +590,3 @@ export const posts: Post[] = [
       'property tax telangana, download tax receipt, jaaga app, ghmc property tax, telangana property tax online',
   },
 ];
-
-    
