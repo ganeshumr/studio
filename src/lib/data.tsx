@@ -1,6 +1,6 @@
 
 import Link from 'next/link';
-import type {Category, Post} from './types';
+import type {Category, Post, Service} from './types';
 import Image from 'next/image';
 
 export const categories: Category[] = [
@@ -40,6 +40,58 @@ export const categories: Category[] = [
     description: 'Guidance and support for property tax payments and receipts.',
   },
 ];
+
+export const services: Service[] = [
+    {
+      categorySlug: 'property-tax',
+      title: 'Get Your Property Tax Receipt',
+      description: 'Official Telangana document verifying property tax payment history.',
+      image: 'https://res.cloudinary.com/dnuayl071/image/upload/v1757505811/M00f8cba13c64a55f2bd628a404dfa0851744179908183_ts5xyb.webp',
+      link: 'https://www.jaaga.ai/documents',
+    },
+    {
+      categorySlug: 'property-audit',
+      title: 'Get a Property Audit Report',
+      description: 'A comprehensive report to verify property titles and check for legal issues.',
+      image: 'https://picsum.photos/seed/service1/400/300',
+      link: 'https://www.jaaga.ai/documents',
+    },
+    {
+      categorySlug: 'legal-verification',
+      title: 'Legal Verification Service',
+      description: 'Ensure your property is legally sound with our expert verification.',
+      image: 'https://picsum.photos/seed/service2/400/300',
+      link: 'https://www.jaaga.ai/documents',
+    },
+    {
+      categorySlug: 'land-survey',
+      title: 'Digital Land Survey',
+      description: 'Accurate and efficient land surveys using modern technology.',
+      image: 'https://picsum.photos/seed/service3/400/300',
+      link: 'https://www.jaaga.ai/documents',
+    },
+    {
+      categorySlug: 'electricity-bill-updates',
+      title: 'Update Electricity Bill',
+      description: 'Get assistance with changing names or details on your electricity bills.',
+      image: 'https://picsum.photos/seed/service4/400/300',
+      link: 'https://www.jaaga.ai/documents',
+    },
+    {
+      categorySlug: 'loan-services',
+      title: 'Home Loan Assistance',
+      description: 'Navigate the home loan application process with our expert guidance.',
+      image: 'https://picsum.photos/seed/service5/400/300',
+      link: 'https://www.jaaga.ai/documents',
+    },
+    {
+      categorySlug: 'property-documents',
+      title: 'Digital Document Management',
+      description: 'Securely store and manage all your property documents in one place.',
+      image: 'https://picsum.photos/seed/service6/400/300',
+      link: 'https://www.jaaga.ai/documents',
+    },
+  ];
 
 export const posts: Post[] = [
   {
@@ -93,8 +145,6 @@ export const posts: Post[] = [
         </p>
       </div>
     ),
-    author: {name: 'Priya Sharma', avatar: 'https://picsum.photos/id/237/40/40'},
-    date: '2024-07-15',
     category: 'property-audit',
     tags: ['property audit', 'investment', 'due diligence'],
     featuredImage: 'https://picsum.photos/800/450?random=1',
@@ -156,8 +206,6 @@ export const posts: Post[] = [
         </p>
       </div>
     ),
-    author: {name: 'Rohan Mehta', avatar: 'https://picsum.photos/id/238/40/40'},
-    date: '2024-07-10',
     category: 'legal-verification',
     tags: ['legal verification', 'property documents', 'due diligence'],
     featuredImage: 'https://picsum.photos/800/450?random=2',
@@ -211,8 +259,6 @@ export const posts: Post[] = [
         </p>
       </div>
     ),
-    author: {name: 'Priya Sharma', avatar: 'https://picsum.photos/id/237/40/40'},
-    date: '2024-07-05',
     category: 'land-survey',
     tags: ['digital survey', 'land mapping', 'technology'],
     featuredImage: 'https://picsum.photos/800/450?random=3',
@@ -273,8 +319,6 @@ export const posts: Post[] = [
         </p>
       </div>
     ),
-    author: {name: 'Anjali Desai', avatar: 'https://picsum.photos/id/239/40/40'},
-    date: '2024-06-28',
     category: 'electricity-bill-updates',
     tags: ['utility bills', 'property ownership', 'documentation'],
     featuredImage: 'https://picsum.photos/800/450?random=4',
@@ -338,8 +382,6 @@ export const posts: Post[] = [
         </p>
       </div>
     ),
-    author: {name: 'Rohan Mehta', avatar: 'https://picsum.photos/id/238/40/40'},
-    date: '2024-06-20',
     category: 'loan-services',
     tags: ['home loan', 'financing', 'documentation'],
     featuredImage: 'https://picsum.photos/800/450?random=5',
@@ -401,8 +443,6 @@ export const posts: Post[] = [
         </p>
       </div>
     ),
-    author: {name: 'Priya Sharma', avatar: 'https://picsum.photos/id/237/40/40'},
-    date: '2024-06-12',
     category: 'property-documents',
     tags: ['blockchain', 'proptech', 'investment security'],
     featuredImage: 'https://picsum.photos/800/450?random=6',
@@ -578,21 +618,13 @@ export const posts: Post[] = [
         />
       </div>
     ),
-    author: {name: 'Priya Sharma', avatar: 'https://picsum.photos/id/237/40/40'},
-    date: '2024-07-25',
     category: 'property-tax',
     tags: ['property tax', 'telangana', 'jaaga app', 'tax receipt'],
-    featuredImage: '',
+    featuredImage: 'https://picsum.photos/800/450?random=7',
     metaTitle: 'How to Download Property Tax Receipt in Telangana Using JaaGa App',
     metaDescription:
       'A complete guide on how to download your property tax receipt in Telangana quickly and easily using the JaaGa App. Avoid queues and get your receipt online.',
     keywords:
       'property tax telangana, download tax receipt, jaaga app, ghmc property tax, telangana property tax online',
-    relatedService: {
-      title: 'Get Your Property Tax Receipt',
-      description: 'Official Telangana document verifying property tax payment history.',
-      image: 'https://res.cloudinary.com/dnuayl071/image/upload/v1757505811/M00f8cba13c64a55f2bd628a404dfa0851744179908183_ts5xyb.webp',
-      link: 'https://www.jaaga.ai/documents',
-    }
   },
 ];

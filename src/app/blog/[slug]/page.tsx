@@ -3,7 +3,7 @@ import React from 'react';
 import {notFound} from 'next/navigation';
 import Image from 'next/image';
 import type {Metadata} from 'next';
-import {posts, categories} from '@/lib/data';
+import {posts, categories, services} from '@/lib/data';
 import {Badge} from '@/components/ui/badge';
 import Link from 'next/link';
 import {PostSidebar} from '@/components/blog/post-sidebar';
@@ -78,6 +78,7 @@ export default function BlogPostPage({params}: Props) {
   }
 
   const category = categories.find(c => c.slug === post.category);
+  const relatedService = services.find(s => s.categorySlug === post.category);
 
   const breadcrumbItems = [
     {label: 'Home', href: '/'},
@@ -103,16 +104,6 @@ export default function BlogPostPage({params}: Props) {
                 <h1 className="font-headline text-3xl md:text-4xl font-bold tracking-tighter mt-2">
                   {post.title}
                 </h1>
-              </div>
-              <div className="text-sm text-muted-foreground text-right">
-                <time dateTime={post.date}>
-                  {new Date(post.date).toLocaleDateString('en-US', {
-                    year: 'numeric',
-                    month: 'long',
-                    day: 'numeric',
-                  })}
-                </time>
-                <p>by {post.author.name}</p>
               </div>
             </div>
           </header>
@@ -144,24 +135,24 @@ export default function BlogPostPage({params}: Props) {
 
         <div className="lg:col-span-1">
           <div className="sticky top-24 space-y-8">
-            {post.relatedService && (
+            {relatedService && (
               <Card className="overflow-hidden">
                 <CardContent className="p-6 text-center">
-                  <h3 className="font-headline text-2xl font-bold mb-2">{post.relatedService.title}</h3>
+                  <h3 className="font-headline text-2xl font-bold mb-2">{relatedService.title}</h3>
                   <div className="relative aspect-video mb-4 rounded-md overflow-hidden">
                      <Image 
-                      src={post.relatedService.image}
-                      alt={post.relatedService.title}
+                      src={relatedService.image}
+                      alt={relatedService.title}
                       fill
                       className="object-contain"
                       data-ai-hint="document"
                      />
                   </div>
                   <p className="text-muted-foreground mb-6">
-                    {post.relatedService.description}
+                    {relatedService.description}
                   </p>
                   <Button asChild size="lg" className="w-full">
-                    <Link href={post.relatedService.link} target="_blank" rel="noopener noreferrer">Apply Now</Link>
+                    <Link href={relatedService.link} target="_blank" rel="noopener noreferrer">Apply Now</Link>
                   </Button>
                 </CardContent>
               </Card>
