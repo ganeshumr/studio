@@ -15,6 +15,21 @@ type Props = {
   params: {slug: string};
 };
 
+// Helper function to extract text from React nodes for the SEO optimizer
+function getNodeText(node: React.ReactNode): string {
+    if (typeof node === 'string') return node;
+    if (typeof node === 'number') return String(node);
+    if (Array.isArray(node)) return node.map(getNodeText).join(' ');
+    if (React.isValidElement(node) && node.props.children) {
+      // Check for nested elements and recursively get their text
+      if (Array.isArray(node.props.children)) {
+        return node.props.children.map(getNodeText).join(' ');
+      }
+      return getNodeText(node.props.children);
+    }
+    return '';
+}
+
 export async function generateStaticParams() {
   return posts.map(post => ({
     slug: post.slug,
@@ -69,14 +84,7 @@ export default function BlogPostPage({params}: Props) {
     {label: post.title, href: `/blog/${post.slug}`},
   ];
   
-  const contentString = React.Children.toArray(post.content.props.children)
-    .map(child => {
-        if (typeof child === 'string') return child;
-        if (React.isValidElement(child) && typeof child.props.children === 'string') {
-            return child.props.children;
-        }
-        return '';
-    }).join(' ');
+  const contentString = getNodeText(post.content);
 
   return (
     <div className="container mx-auto px-4 py-8 md:py-16">
