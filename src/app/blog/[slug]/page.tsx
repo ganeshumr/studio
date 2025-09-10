@@ -1,3 +1,4 @@
+
 import React from 'react';
 import {notFound} from 'next/navigation';
 import Image from 'next/image';
@@ -146,7 +147,7 @@ export default function BlogPostPage({params}: Props) {
                     Official Telangana document verifying property tax payment history.
                   </p>
                   <Button asChild size="lg" className="w-full">
-                    <Link href="https://www.jaaga.ai/services/property-tax-receipt-telangana" target="_blank" rel="noopener noreferrer">Apply Now</Link>
+                    <Link href="https://www.jaaga.ai/documents" target="_blank" rel="noopener noreferrer">Apply Now</Link>
                   </Button>
                 </CardContent>
               </Card>
