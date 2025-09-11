@@ -641,6 +641,14 @@ export const posts: Post[] = [
           ownership from the seller to the buyer and is legally registered at the
           Sub-Registrar’s Office (SRO).
         </p>
+        <Image
+          src="https://res.cloudinary.com/dnuayl071/image/upload/v1757508365/M2945d82b4a5307e0586e9cd1a62d2b591748281141315_r8czj3.webp"
+          alt="How to Download Sale Deed Guide"
+          width={800}
+          height={450}
+          className="rounded-lg"
+          data-ai-hint="legal document property"
+        />
         <p>
           To prove ownership or apply for property-related services, you often need a Certified
           Copy (CC) of the Sale Deed. With digital access, it’s now easier than ever to
@@ -723,7 +731,7 @@ export const posts: Post[] = [
     ),
     category: 'property-documents',
     tags: ['sale deed', 'telangana', 'certified copy', 'jaaga'],
-    featuredImage: 'https://picsum.photos/800/450?random=8',
+    featuredImage: 'https://res.cloudinary.com/dnuayl071/image/upload/v1757508365/M2945d82b4a5307e0586e9cd1a62d2b591748281141315_r8czj3.webp',
     metaTitle: 'How to Download Sale Deed (Certified Copy – CC) in Telangana Online | JaaGa',
     metaDescription:
       'Learn how to easily download a certified copy of your Sale Deed in Telangana online using the JaaGa app. A simple, fast, and reliable process.',
