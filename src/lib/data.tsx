@@ -642,7 +642,7 @@ export const posts: Post[] = [
           Sub-Registrar’s Office (SRO).
         </p>
         <Image
-          src="https://res.cloudinary.com/dnuayl071/image/upload/v1757508365/M2945d82b4a5307e0586e9cd1a62d2b591748281141315_r8czj3.webp"
+          src="https://res.cloudinary.com/dnuayl071/image/upload/v1757576444/Understanding_Adangal_Pahani_How_to_Access_Land_Records_Online_through_JaaGa_3_-Picsart-AiImageEnhancer_e9in3y.png"
           alt="How to Download Sale Deed Guide"
           width={800}
           height={450}
@@ -716,7 +716,7 @@ export const posts: Post[] = [
         <h2 className="font-headline text-2xl font-bold">Conclusion</h2>
         <p>
           A Sale Deed (Certified Copy – CC) is a must-have for any property owner in Telangana.
-          While the IGRS portal provides access, it has limitations in speed, coverage, and
+          While the IGRS portal has limitations in speed, coverage, and
           usability.
         </p>
         <p>
@@ -731,7 +731,7 @@ export const posts: Post[] = [
     ),
     category: 'property-documents',
     tags: ['sale deed', 'telangana', 'certified copy', 'jaaga'],
-    featuredImage: 'https://res.cloudinary.com/dnuayl071/image/upload/v1757508365/M2945d82b4a5307e0586e9cd1a62d2b591748281141315_r8czj3.webp',
+    featuredImage: 'https://res.cloudinary.com/dnuayl071/image/upload/v1757576444/Understanding_Adangal_Pahani_How_to_Access_Land_Records_Online_through_JaaGa_3_-Picsart-AiImageEnhancer_e9in3y.png',
     metaTitle: 'How to Download Sale Deed (Certified Copy – CC) in Telangana Online | JaaGa',
     metaDescription:
       'Learn how to easily download a certified copy of your Sale Deed in Telangana online using the JaaGa app. A simple, fast, and reliable process.',
