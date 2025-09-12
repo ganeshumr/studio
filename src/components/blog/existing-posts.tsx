@@ -1,6 +1,6 @@
 'use client';
 
-import {useState} from 'react';
+import {useState, useEffect} from 'react';
 import {posts as initialPosts} from '@/lib/data';
 import type {Post} from '@/lib/types';
 import {Button} from '@/components/ui/button';
@@ -22,8 +22,28 @@ export function ExistingPosts() {
   const [posts, setPosts] = useState<Post[]>(initialPosts);
   const [postToDelete, setPostToDelete] = useState<Post | null>(null);
 
+  useEffect(() => {
+    const handlePostPublished = () => {
+        // A bit of a hack to force a re-render. In a real app, use a state manager.
+        setPosts([...initialPosts]);
+    };
+
+    window.addEventListener('post-published', handlePostPublished);
+
+    return () => {
+        window.removeEventListener('post-published', handlePostPublished);
+    };
+  }, []);
+
   const handleDelete = () => {
     if (postToDelete) {
+      // Find the index of the post to delete in the original `initialPosts` array
+      const indexToDelete = initialPosts.findIndex(post => post.id === postToDelete.id);
+      if (indexToDelete > -1) {
+          // Remove the post from the source array
+          initialPosts.splice(indexToDelete, 1);
+      }
+      // Update the local state to trigger a re-render
       setPosts(prevPosts => prevPosts.filter(post => post.id !== postToDelete.id));
       setPostToDelete(null);
     }

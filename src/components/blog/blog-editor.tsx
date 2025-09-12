@@ -17,10 +17,11 @@ import {Input} from '@/components/ui/input';
 import {Textarea} from '@/components/ui/textarea';
 import {Select, SelectContent, SelectItem, SelectTrigger, SelectValue} from '@/components/ui/select';
 import {useToast} from '@/hooks/use-toast';
-import {categories} from '@/lib/data';
+import {categories, posts} from '@/lib/data';
 import {useState} from 'react';
 import {Loader2, FileUp} from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
+import type { Post } from '@/lib/types';
 
 const formSchema = z.object({
   title: z.string().min(5, 'Title must be at least 5 characters.'),
@@ -38,9 +39,16 @@ const formSchema = z.object({
 // Mock action - in a real app this would be a server action
 async function publishPostAction(values: z.infer<typeof formSchema>) {
     console.log("Publishing post with values:", values);
-    // Here you would typically send the data to a server/database.
-    // For this prototype, we'll just log it and show a success message.
-    return { success: true, data: values };
+    // In a real app, this would be an API call to a database.
+    // For this prototype, we'll add it to the in-memory `posts` array.
+    const newPost: Post = {
+        id: Date.now(), // Not a robust way to generate IDs, but fine for a prototype
+        ...values,
+        tags: values.tags.split(',').map(tag => tag.trim()),
+        content: <p>{values.content}</p> // In a real app, you'd parse markdown here
+    };
+    posts.unshift(newPost); // Add to the beginning of the array
+    return { success: true, data: newPost };
 }
 
 
@@ -73,8 +81,6 @@ export function BlogEditor() {
 
   async function onSubmit(values: z.infer<typeof formSchema>) {
     setIsLoading(true);
-    // This is where you would call a server action to save the post.
-    // For now, we'll simulate an API call.
     await new Promise(resolve => setTimeout(resolve, 1000));
     const response = await publishPostAction(values);
     setIsLoading(false);
@@ -85,6 +91,9 @@ export function BlogEditor() {
         description: 'Your new blog post has been successfully created.',
       });
       form.reset();
+       // This is a temporary hack to force a re-render of the ExistingPosts component.
+       // In a real app, state management (like Context or Zustand) would handle this.
+      window.dispatchEvent(new Event('post-published'));
     } else {
       toast({
         variant: 'destructive',
