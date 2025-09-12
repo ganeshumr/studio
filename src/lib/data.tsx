@@ -88,7 +88,7 @@ export const services: Service[] = [
       categorySlug: 'property-documents',
       title: 'Digital Document Management',
       description: 'Securely store and manage all your property documents in one place.',
-      image: 'https://picsum.photos/seed/service6/400/300',
+      image: 'https://res.cloudinary.com/dnuayl071/image/upload/v1757580074/saledeed_1_-Picsart-AiImageEnhancer_ilyp5u.png',
       link: 'https://www.jaaga.ai/documents',
     },
   ];
