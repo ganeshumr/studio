@@ -86,7 +86,7 @@ export const services: Service[] = [
     },
     {
       categorySlug: 'property-documents',
-      title: 'Digital Document Management',
+      title: 'Sale Deed (Certified Copy)',
       description: 'Securely store and manage all your property documents in one place.',
       image: 'https://res.cloudinary.com/dnuayl071/image/upload/v1757580074/saledeed_1_-Picsart-AiImageEnhancer_ilyp5u.png',
       link: 'https://www.jaaga.ai/documents',
@@ -642,7 +642,7 @@ export const posts: Post[] = [
           Sub-Registrar’s Office (SRO).
         </p>
         <Image
-          src="https://res.cloudinary.com/dnuayl071/image/upload/v1757576444/Understanding_Adangal_Pahani_How_to_Access_Land_Records_Online_through_JaaGa_3_-Picsart-AiImageEnhancer_e9in3y.png"
+          src="https://res.cloudinary.com/dnuayl071/image/upload/v1757580074/saledeed_1_-Picsart-AiImageEnhancer_ilyp5u.png"
           alt="How to Download Sale Deed Guide"
           width={800}
           height={450}
