@@ -4,10 +4,9 @@ import {useState, useMemo} from 'react';
 import {BlogPostCard} from '@/components/blog/blog-post-card';
 import {posts as initialPosts, categories} from '@/lib/data';
 import {Input} from '@/components/ui/input';
-import {Search, Trash2} from 'lucide-react';
+import {Search} from 'lucide-react';
 import type {Post} from '@/lib/types';
 import React from 'react';
-import { Button } from '@/components/ui/button';
 
 // Helper function to extract text from React nodes
 function getNodeText(node: React.ReactNode): string {
@@ -22,24 +21,19 @@ function getNodeText(node: React.ReactNode): string {
 
 export default function BlogListPage() {
   const [searchQuery, setSearchQuery] = useState('');
-  const [posts, setPosts] = useState<Post[]>(initialPosts);
 
   const filteredPosts = useMemo(() => {
     if (!searchQuery) {
-      return posts;
+      return initialPosts;
     }
-    return posts.filter(post => {
+    return initialPosts.filter(post => {
       const searchTerm = searchQuery.toLowerCase();
       const titleMatch = post.title.toLowerCase().includes(searchTerm);
       const excerptMatch = post.excerpt.toLowerCase().includes(searchTerm);
       const contentMatch = getNodeText(post.content).toLowerCase().includes(searchTerm);
       return titleMatch || excerptMatch || contentMatch;
     });
-  }, [searchQuery, posts]);
-
-  const handleDelete = (postId: number) => {
-    setPosts(prevPosts => prevPosts.filter(post => post.id !== postId));
-  };
+  }, [searchQuery]);
 
 
   return (
@@ -69,13 +63,7 @@ export default function BlogListPage() {
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {filteredPosts.map(post => (
-          <div key={post.id} className="flex flex-col gap-2">
-            <BlogPostCard post={post} />
-            <Button variant="destructive" size="sm" onClick={() => handleDelete(post.id)} className="w-full">
-              <Trash2 className="h-4 w-4 mr-2" />
-              Delete
-            </Button>
-          </div>
+          <BlogPostCard key={post.id} post={post} />
         ))}
       </div>
     </div>
