@@ -641,14 +641,7 @@ export const posts: Post[] = [
           ownership from the seller to the buyer and is legally registered at the
           Sub-Registrar’s Office (SRO).
         </p>
-        <Image
-          src="https://res.cloudinary.com/dnuayl071/image/upload/v1757580074/saledeed_1_-Picsart-AiImageEnhancer_ilyp5u.png"
-          alt="How to Download Sale Deed Guide"
-          width={800}
-          height={450}
-          className="rounded-lg"
-          data-ai-hint="legal document property"
-        />
+        
         <p>
           To prove ownership or apply for property-related services, you often need a Certified
           Copy (CC) of the Sale Deed. With digital access, it’s now easier than ever to
