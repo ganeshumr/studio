@@ -1,4 +1,5 @@
 
+
 import React from 'react';
 import {notFound} from 'next/navigation';
 import Image from 'next/image';
@@ -12,6 +13,8 @@ import {Breadcrumb} from '@/components/common/breadcrumb';
 import {Separator} from '@/components/ui/separator';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
+
+export const dynamic = 'force-dynamic';
 
 type Props = {
   params: {slug: string};
