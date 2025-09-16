@@ -85,7 +85,7 @@ export const services: Service[] = [
       title: 'Electricity Bill Name Update',
       description: 'Get assistance with changing names or details on your electricity bills.',
       image: 'https://picsum.photos/seed/service4/400/300',
-      link: 'https://www.jaaga.ai/documents',
+      link: 'https://www.jaaga.ai/services/property-services/electricity-name-change',
     },
     {
       categorySlug: 'loan-services',
