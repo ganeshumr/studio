@@ -97,7 +97,7 @@ export const services: Service[] = [
     {
       categorySlug: 'property-documents',
       title: 'Sale Deed (Certified Copy)',
-      description: 'Securely store and manage all your property documents in one place.',
+      description: 'Get an official, legally binding copy of your property\'s sale deed.',
       image: 'https://res.cloudinary.com/dnuayl071/image/upload/v1758023191/Sample_Audit_Report_5.pdf_2_kze5k9.png',
       link: 'https://www.jaaga.ai/documents',
     },
@@ -952,4 +952,5 @@ export const posts: Post[] = [
     keywords: 'property audit report India, title verification, real estate investment',
   },
 ];
+
 
