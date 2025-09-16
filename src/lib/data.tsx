@@ -160,7 +160,7 @@ export const posts: Post[] = [
     ),
     category: 'property-documents',
     tags: ['property documents', 'sale deed', 'encumbrance certificate', 'tax receipt'],
-    featuredImage: 'https://picsum.photos/seed/doc-retrieval/800/450',
+    featuredImage: 'https://res.cloudinary.com/dnuayl071/image/upload/v1758022963/Retrieve_Your_Property_Documents_Online_with_JaaGa_2_jxvzlm.png',
     metaTitle: 'Retrieve Property Documents Online – Sale Deed, EC, and Tax Receipts | JaaGa',
     metaDescription: 'Easily access verified property documents like Sale Deeds, Encumbrance Certificates, and Tax Receipts with JaaGa. Simple, secure, and time-saving. Get your records online in just a few clicks!',
     keywords: 'property documents, sale deed online, encumbrance certificate Telangana, property tax receipt, retrieve property documents, online property records, Telangana property documents, property EC, JaaGa property services',
