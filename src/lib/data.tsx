@@ -82,7 +82,7 @@ export const services: Service[] = [
     },
     {
       categorySlug: 'electricity-bill-updates',
-      title: 'Update Electricity Bill',
+      title: 'Electricity Bill Name Change',
       description: 'Get assistance with changing names or details on your electricity bills.',
       image: 'https://picsum.photos/seed/service4/400/300',
       link: 'https://www.jaaga.ai/documents',
@@ -104,6 +104,156 @@ export const services: Service[] = [
   ];
 
 export const posts: Post[] = [
+  {
+    id: 10,
+    slug: 'tgspdcl-electricity-services-bill-payment-name-transfer-guide-telangana',
+    title: 'TGSPDCL: Electricity Services, Bill Payment & Name Transfer Guide in Telangana',
+    excerpt:
+      'Learn about TGSPDCL electricity services in Telangana. Pay bills online, download receipts, and transfer meter name easily with JaaGa’s expert help.',
+    content: (
+      <div className="space-y-6">
+        <h2 className="font-headline text-2xl font-bold">What is TGSPDCL?</h2>
+        <p>
+          TGSPDCL (Telangana Southern Power Distribution Company Limited), formerly known as
+          TSSPDCL, is the official electricity provider for South Telangana. Headquartered in
+          Hyderabad, TGSPDCL has ensured reliable and affordable power supply to domestic,
+          commercial, and agricultural consumers since 2014.
+        </p>
+
+        <h2 className="font-headline text-2xl font-bold">TGSPDCL Service Areas in Telangana</h2>
+        <p>
+          TGSPDCL supplies electricity across 15 key districts of South Telangana, covering both
+          urban and rural regions.
+        </p>
+        <p>
+          <strong>Districts Covered:</strong> Hyderabad, Rangareddy, Medchal, Sangareddy,
+          Mahabubnagar, Narayanpet, Nalgonda, Suryapet, Yadadri Bhuvanagiri, Siddipet, Wanaparthy,
+          Nagarkurnool, Jogulamba Gadwal, Medak, and Vikarabad.
+        </p>
+        <p>
+          <strong>Coverage Area:</strong> Over 6,489 villages, 5,600 hamlets, 2,059 tribal hamlets,
+          12,105 Dalit wadas, and 5,806 weaker sections colonies.
+        </p>
+        <p>
+          If you are in Hyderabad, Medchal, or any of these districts, TGSPDCL is your electricity
+          service provider.
+        </p>
+
+        <h2 className="font-headline text-2xl font-bold">TGSPDCL Services & Digital Initiatives</h2>
+        <p>
+          To improve customer experience and power distribution, TGSPDCL has introduced several
+          digital initiatives:
+        </p>
+        <ul className="list-disc space-y-2 pl-6">
+          <li>
+            <strong>Spot Billing:</strong> Instant meter readings and bill generation at your
+            doorstep.
+          </li>
+          <li>
+            <strong>Smart Energy Meters:</strong> Prepaid digital meters with real-time consumption
+            tracking.
+          </li>
+          <li>
+            <strong>Solar Net Metering:</strong> Feed excess solar power into the TGSPDCL grid and
+            earn credits.
+          </li>
+          <li>
+            <strong>Online Bill Payment:</strong> Pay TGSPDCL bills online through the official
+            website, MeeSeva centers, or trusted platforms like JaaGa.
+          </li>
+          <li>
+            <strong>Download Receipt:</strong> Now you can also download your electricity bill
+            receipt using JaaGa App.
+          </li>
+        </ul>
+
+        <h2 className="font-headline text-2xl font-bold">
+          How to Transfer TGSPDCL Electricity Connection to Your Name
+        </h2>
+        <p>
+          If you have recently purchased a property in Telangana, you must transfer the electricity
+          meter in your name.
+        </p>
+        <h3 className="font-headline text-xl font-bold">✅ Required Documents:</h3>
+        <ul className="list-disc space-y-2 pl-6">
+          <li>Consumer Number (from the current bill)</li>
+          <li>Latest payment receipt</li>
+          <li>Sale deed copy</li>
+          <li>Property tax receipt</li>
+          <li>Electricity bill card (if available)</li>
+          <li>Indemnity bond</li>
+          <li>Aadhaar card</li>
+        </ul>
+
+        <h3 className="font-headline text-xl font-bold">
+          How to Apply for TGSPDCL Electricity Connection Name Transfer
+        </h3>
+        <p>
+          You can transfer your TGSPDCL electricity meter to your name in two simple ways:
+        </p>
+        <h4 className="font-semibold">✅ Option 1: Apply Offline</h4>
+        <ul className="list-disc space-y-2 pl-6">
+            <li>Visit the nearest TGSPDCL office with all required documents.</li>
+            <li>Submit the application form along with your supporting papers.</li>
+        </ul>
+
+        <h4 className="font-semibold">✅ Option 2: Apply Online with Jaaga</h4>
+        <ul className="list-disc space-y-2 pl-6">
+          <li>
+            Skip long queues and manual paperwork by applying through JaaGa.
+          </li>
+          <li>
+            Our experts handle the entire online electricity meter name transfer process.
+          </li>
+          <li>
+            Available across Hyderabad, Rangareddy, Medchal, and other TGSPDCL districts.
+          </li>
+          <li>
+            We assist with document verification, application filing, and follow-ups until the
+            transfer is completed.
+          </li>
+        </ul>
+        <p>
+          👉 Apply for TGSPDCL Electricity Name Transfer with JaaGa and get it done hassle-free
+          from home.
+        </p>
+
+        <h2 className="font-headline text-2xl font-bold">How to Pay TGSPDCL Electricity Bills Online</h2>
+        <p>Avoid queues and delays—pay your TGSPDCL bills online within seconds.</p>
+        <h3 className="font-headline text-xl font-bold">🌐 Benefits of Paying Through Landeed:</h3>
+        <ul className="list-disc space-y-2 pl-6">
+          <li>One-click payment for TGSPDCL electricity bills in Telangana</li>
+          <li>Supports property tax & water bill payments</li>
+          <li>Get bill reminders and alerts before the due date</li>
+          <li>Securely store & manage past bills online</li>
+        </ul>
+        <p>👉 Pay TGSPDCL Bill Online and manage all your utility payments in one place.</p>
+
+        <h2 className="font-headline text-2xl font-bold">Final Thoughts</h2>
+        <p>
+          From electricity bill payment to meter name transfers, TGSPDCL ensures seamless power
+          distribution across South Telangana. With digital platforms like JaaGa, managing TGSPDCL
+          services has become faster, easier, and completely online.
+        </p>
+      </div>
+    ),
+    category: 'electricity-bill-updates',
+    tags: [
+      'TGSPDCL',
+      'bill payment',
+      'name transfer',
+      'Telangana',
+      'electricity',
+    ],
+    featuredImage:
+      'https://res.cloudinary.com/dnuayl071/image/upload/v1757675245/Maf48661992b7ffdc5df4f09dfc4c6ff31755757664104_sesozv.webp',
+    metaTitle:
+      'TGSPDCL: Electricity Services, Bill Payment & Name Transfer Guide in Telangana',
+    metaDescription:
+      'Learn about TGSPDCL electricity services in Telangana. Pay bills online, download receipts, and transfer meter name easily with JaaGa’s expert help.',
+    keywords:
+      'TGSPDCL, TGSPDCL bill payment online, TGSPDCL name transfer, Telangana electricity bill, TGSPDCL services, TGSPDCL meter transfer, Pay TGSPDCL bills Hyderabad, Telangana electricity provider, JaaGa electricity services, TGSPDCL online services',
+  },
   {
     id: 9,
     slug: 'tgspdcl-electricity-services-bill-payment-name-transfer-guide-telangana',
