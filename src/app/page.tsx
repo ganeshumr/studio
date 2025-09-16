@@ -101,8 +101,8 @@ export default function Home() {
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {categories.map(category => {
-              const isPropertyAudit = category.slug === 'property-audit';
-              const href = isPropertyAudit
+              const isExternalLink = ['property-audit', 'property-documents'].includes(category.slug);
+              const href = isExternalLink
                 ? 'https://www.jaaga.ai/documents'
                 : `/category/${category.slug}`;
 
@@ -111,8 +111,8 @@ export default function Home() {
                   key={category.slug}
                   href={href}
                   className="group"
-                  target={isPropertyAudit ? '_blank' : undefined}
-                  rel={isPropertyAudit ? 'noopener noreferrer' : undefined}
+                  target={isExternalLink ? '_blank' : undefined}
+                  rel={isExternalLink ? 'noopener noreferrer' : undefined}
                 >
                   <Card className="h-full transition-all duration-300 hover:shadow-xl hover:-translate-y-1 border-2 border-transparent hover:border-primary">
                     <CardHeader className="flex-row items-center gap-4">
