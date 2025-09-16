@@ -8,6 +8,7 @@ import {ArrowRight, FileCheck} from 'lucide-react';
 import {CategoryIcon} from '@/components/icons/category-icon';
 import {BlogPostCard} from '@/components/blog/blog-post-card';
 import {Badge} from '@/components/ui/badge';
+import type {Post} from '@/lib/types';
 
 function Hero() {
   return (
@@ -81,7 +82,7 @@ function Hero() {
 }
 
 export default function Home() {
-  const featuredPosts = [...posts].sort((a, b) => b.id - a.id).slice(0, 3);
+  const featuredPosts = posts.sort((a, b) => b.id - a.id).slice(0, 3);
 
   return (
     <div className="flex flex-col">
@@ -99,21 +100,34 @@ export default function Home() {
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {categories.map(category => (
-              <Link key={category.slug} href={`/category/${category.slug}`} className="group">
-                <Card className="h-full transition-all duration-300 hover:shadow-xl hover:-translate-y-1 border-2 border-transparent hover:border-primary">
-                  <CardHeader className="flex-row items-center gap-4">
-                    <div className="bg-primary/10 text-primary p-3 rounded-md">
-                      <CategoryIcon categorySlug={category.slug} className="w-6 h-6" />
-                    </div>
-                    <CardTitle className="font-headline text-xl">{category.name}</CardTitle>
-                  </CardHeader>
-                  <CardContent>
-                    <p className="text-muted-foreground">{category.description}</p>
-                  </CardContent>
-                </Card>
-              </Link>
-            ))}
+            {categories.map(category => {
+              const isPropertyAudit = category.slug === 'property-audit';
+              const href = isPropertyAudit
+                ? 'https://www.jaaga.ai/documents'
+                : `/category/${category.slug}`;
+
+              return (
+                <Link
+                  key={category.slug}
+                  href={href}
+                  className="group"
+                  target={isPropertyAudit ? '_blank' : undefined}
+                  rel={isPropertyAudit ? 'noopener noreferrer' : undefined}
+                >
+                  <Card className="h-full transition-all duration-300 hover:shadow-xl hover:-translate-y-1 border-2 border-transparent hover:border-primary">
+                    <CardHeader className="flex-row items-center gap-4">
+                      <div className="bg-primary/10 text-primary p-3 rounded-md">
+                        <CategoryIcon categorySlug={category.slug} className="w-6 h-6" />
+                      </div>
+                      <CardTitle className="font-headline text-xl">{category.name}</CardTitle>
+                    </CardHeader>
+                    <CardContent>
+                      <p className="text-muted-foreground">{category.description}</p>
+                    </CardContent>
+                  </Card>
+                </Link>
+              );
+            })}
           </div>
         </div>
       </section>
@@ -135,7 +149,7 @@ export default function Home() {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {featuredPosts.map(post => (
-              <BlogPostCard key={post.id} post={post} />
+              <BlogPostCard key={post.id} post={post as Post} />
             ))}
           </div>
         </div>
