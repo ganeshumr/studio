@@ -20,7 +20,7 @@ function Hero() {
               <Badge variant="outline">Secure your property rights</Badge>
             </div>
             <div className="flex flex-col gap-4">
-              <h1 className="text-4xl md:text-6xl max-w-lg tracking-tighter font-bold text-primary py-2">
+              <h1 className="text-4xl md:text-6xl max-w-lg tracking-tighter font-bold text-primary leading-tight">
                 Secure Your Digital Property Rights in India.
               </h1>
               <p className="text-lg leading-relaxed tracking-tight text-muted-foreground max-w-md mx-auto md:mx-0">
