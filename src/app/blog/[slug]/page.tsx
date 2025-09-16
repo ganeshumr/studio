@@ -8,7 +8,6 @@ import {posts, categories, services} from '@/lib/data';
 import {Badge} from '@/components/ui/badge';
 import Link from 'next/link';
 import {PostSidebar} from '@/components/blog/post-sidebar';
-import {SeoOptimizer} from '@/components/blog/seo-optimizer';
 import {Breadcrumb} from '@/components/common/breadcrumb';
 import {Separator} from '@/components/ui/separator';
 import { Button } from '@/components/ui/button';
@@ -19,19 +18,6 @@ export const dynamic = 'force-dynamic';
 type Props = {
   params: {slug: string};
 };
-
-function getNodeText(node: React.ReactNode): string {
-  if (typeof node === 'string') return node;
-  if (typeof node === 'number') return String(node);
-  if (Array.isArray(node)) return node.map(getNodeText).join(' ');
-  if (React.isValidElement(node) && node.props.children) {
-    if (Array.isArray(node.props.children)) {
-      return node.props.children.map(getNodeText).join(' ');
-    }
-    return getNodeText(node.props.children);
-  }
-  return '';
-}
 
 export async function generateStaticParams() {
   return posts.map(post => ({
@@ -89,8 +75,6 @@ export default function BlogPostPage({params}: Props) {
     {label: post.title, href: `/blog/${post.slug}`},
   ];
 
-  const contentString = post.content ? getNodeText(post.content) : '';
-
   return (
     <div className="container mx-auto px-4 py-8 md:py-16">
       <div className="grid lg:grid-cols-3 gap-8 lg:gap-12">
@@ -126,13 +110,6 @@ export default function BlogPostPage({params}: Props) {
                 </Badge>
               ))}
             </div>
-          </div>
-
-          <Separator className="my-8" />
-
-          <div>
-            <h3 className="font-headline font-bold text-xl mb-4">AI Tools</h3>
-            <SeoOptimizer content={contentString} keywords={post.keywords} />
           </div>
         </article>
 
