@@ -63,7 +63,7 @@ export const services: Service[] = [
       categorySlug: 'property-audit',
       title: 'Get a Property Audit Report',
       description: 'A comprehensive report to verify property titles and check for legal issues.',
-      image: 'https://picsum.photos/seed/service1/400/300',
+      image: 'https://res.cloudinary.com/dnuayl071/image/upload/v1758023191/Sample_Audit_Report_5.pdf_2_kze5k9.png',
       link: 'https://www.jaaga.ai/documents',
     },
     {
