@@ -101,9 +101,15 @@ export default function Home() {
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {categories.map(category => {
-              const isExternalLink = ['property-audit', 'property-documents'].includes(category.slug);
+              const externalLinks: Record<string, string> = {
+                'property-audit': 'https://www.jaaga.ai/documents',
+                'property-documents': 'https://www.jaaga.ai/documents',
+                'legal-verification': 'https://www.jaaga.ai/services/property-services/title-verification-report',
+              };
+
+              const isExternalLink = Object.keys(externalLinks).includes(category.slug);
               const href = isExternalLink
-                ? 'https://www.jaaga.ai/documents'
+                ? externalLinks[category.slug]
                 : `/category/${category.slug}`;
 
               return (
