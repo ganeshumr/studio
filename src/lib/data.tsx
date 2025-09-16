@@ -82,7 +82,7 @@ export const services: Service[] = [
     },
     {
       categorySlug: 'electricity-bill-updates',
-      title: 'Update Electricity Bill',
+      title: 'Electricity Bill Name Update',
       description: 'Get assistance with changing names or details on your electricity bills.',
       image: 'https://picsum.photos/seed/service4/400/300',
       link: 'https://www.jaaga.ai/documents',
