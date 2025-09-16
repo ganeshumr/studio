@@ -105,6 +105,67 @@ export const services: Service[] = [
 
 export const posts: Post[] = [
   {
+    id: 12,
+    slug: 'retrieve-property-documents-online',
+    title: 'Retrieve Property Documents Online – Sale Deed, EC, and Tax Receipts | JaaGa',
+    excerpt: 'Easily access verified property documents like Sale Deeds, Encumbrance Certificates, and Tax Receipts with JaaGa. Simple, secure, and time-saving. Get your records online in just a few clicks!',
+    content: (
+      <div className="space-y-6">
+        <p>
+          Managing property documents like Sale Deeds, Encumbrance Certificates (EC), or Tax Receipts can often feel stressful and time-consuming. Many property owners struggle with missing paperwork, complicated government portals, or simply not knowing where to begin.
+        </p>
+        <p>
+          At JaaGa, we make this process simple, fast, and stress-free. With just a few key details – like Owner Name, Village/Division, and Survey Number – we help you retrieve essential documents directly from official government sources.
+        </p>
+        <h2 className="font-headline text-2xl font-bold">Documents You Can Retrieve with JaaGa:</h2>
+        <p>
+          We specialize in helping you access verified property records such as:
+        </p>
+        <ul className="list-disc space-y-2 pl-6">
+          <li><strong>Sale Deed / Registered Document Copy:</strong> A legal record proving ownership of your property.</li>
+          <li><strong>Encumbrance Certificate (EC):</strong> A key document showing whether the property has any legal/financial liabilities.</li>
+          <li><strong>Tax Receipts:</strong> Proof of payment for property tax, water tax, or vacant land tax.</li>
+        </ul>
+        <h2 className="font-headline text-2xl font-bold">How JaaGa Helps You</h2>
+        <p>
+          Our process is designed to make document retrieval quick and hassle-free:
+        </p>
+        <ol className="list-decimal space-y-2 pl-6">
+          <li>You provide basic details – Owner Name, Village/Division, and Survey Number.</li>
+          <li>We search official government records on your behalf.</li>
+          <li>We retrieve and verify your documents from trusted sources.</li>
+          <li>We deliver them digitally to you in your secure JaaGa locker.</li>
+        </ol>
+        <p>
+          No more standing in queues, dealing with agents, or struggling with complex portals.
+        </p>
+        <h2 className="font-headline text-2xl font-bold">Why Choose JaaGa?</h2>
+        <ul className="list-disc space-y-2 pl-6">
+          <li><strong>Simple Process</strong> – Just a few details are enough.</li>
+          <li><strong>Trusted Source</strong> – We pull records from official government databases.</li>
+          <li><strong>Time-Saving</strong> – Get your documents without repeated visits to offices.</li>
+          <li><strong>Secure Locker</strong> – Store all your property documents safely in your JaaGa account.</li>
+        </ul>
+        <h2 className="font-headline text-2xl font-bold">🚀 Get Started Today</h2>
+        <p>
+          If you need a Sale Deed, Encumbrance Certificate, or Property Tax Receipt, JaaGa is here to help.
+        </p>
+        <p>
+          👉 Visit <Link href="https://www.jaaga.ai" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">www.jaaga.ai</Link> and retrieve your property documents in a few simple steps.
+        </p>
+        <p>
+          With JaaGa, your property records are always just a click away!
+        </p>
+      </div>
+    ),
+    category: 'property-documents',
+    tags: ['property documents', 'sale deed', 'encumbrance certificate', 'tax receipt'],
+    featuredImage: 'https://picsum.photos/seed/doc-retrieval/800/450',
+    metaTitle: 'Retrieve Property Documents Online – Sale Deed, EC, and Tax Receipts | JaaGa',
+    metaDescription: 'Easily access verified property documents like Sale Deeds, Encumbrance Certificates, and Tax Receipts with JaaGa. Simple, secure, and time-saving. Get your records online in just a few clicks!',
+    keywords: 'property documents, sale deed online, encumbrance certificate Telangana, property tax receipt, retrieve property documents, online property records, Telangana property documents, property EC, JaaGa property services',
+  },
+  {
     id: 11,
     slug: 'tgspdcl-electricity-services-bill-payment-name-transfer-guide-telangana',
     title: 'TGSPDCL: Electricity Services, Bill Payment & Name Transfer Guide in Telangana',
