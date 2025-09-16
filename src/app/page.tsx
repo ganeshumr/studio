@@ -106,6 +106,7 @@ export default function Home() {
                 'property-documents': 'https://www.jaaga.ai/documents',
                 'legal-verification': 'https://www.jaaga.ai/services/property-services/title-verification-report',
                 'loan-services': 'https://www.jaaga.ai/documents',
+                'land-survey': 'https://www.jaaga.ai/services/property-services/digital-land-survey',
               };
 
               const isExternalLink = Object.keys(externalLinks).includes(category.slug);
