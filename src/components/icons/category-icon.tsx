@@ -8,6 +8,7 @@ import {
   Zap,
   HelpCircle,
   Receipt,
+  FileSearch,
 } from 'lucide-react';
 import {cn} from '@/lib/utils';
 
@@ -24,11 +25,10 @@ const iconMap: Record<string, React.ComponentType<{className?: string}>> = {
   'property-documents': FileText,
   'electricity-bill-updates': Zap,
   'property-tax': Receipt,
+  'mortgage-report-cersai': FileSearch,
 };
 
 export const CategoryIcon: FC<CategoryIconProps> = ({categorySlug, className}) => {
   const IconComponent = iconMap[categorySlug] || HelpCircle;
   return <IconComponent className={cn('h-4 w-4', className)} />;
 };
-
-    

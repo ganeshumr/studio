@@ -39,6 +39,11 @@ export const categories: Category[] = [
     name: 'Property Tax',
     description: 'Guidance and support for property tax payments and receipts.',
   },
+  {
+    slug: 'mortgage-report-cersai',
+    name: 'Mortgage Report (CERSAI)',
+    description: 'Check for any existing loans or mortgages on a property through a CERSAI report.',
+  },
 ];
 
 export const services: Service[] = [
