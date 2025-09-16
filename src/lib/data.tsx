@@ -44,6 +44,11 @@ export const categories: Category[] = [
     name: 'Mortgage Report (CERSAI)',
     description: 'Check for any existing loans or mortgages on a property through a CERSAI report.',
   },
+  {
+    slug: 'mutation-creation',
+    name: 'Mutation Creation',
+    description: 'Official process to update land revenue records with the new owner\'s name after a property transfer.',
+  },
 ];
 
 export const services: Service[] = [

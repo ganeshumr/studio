@@ -110,6 +110,7 @@ export default function Home() {
                 'electricity-bill-updates': 'https://www.jaaga.ai/services/property-services/electricity-name-change',
                 'property-tax': 'https://www.jaaga.ai/documents',
                 'mortgage-report-cersai': 'https://www.jaaga.ai/services/property-services/mortgage-report',
+                'mutation-creation': 'https://www.jaaga.ai/services/property-services/mutation-creation',
               };
 
               const isExternalLink = Object.keys(externalLinks).includes(category.slug);
