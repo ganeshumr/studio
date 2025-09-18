@@ -1,8 +1,9 @@
+
 'use client';
 
 import Link from 'next/link';
 import {usePathname} from 'next/navigation';
-import {Menu} from 'lucide-react';
+import {Menu, ArrowUpRight} from 'lucide-react';
 import {Button} from '@/components/ui/button';
 import {
   Sheet,
@@ -72,9 +73,10 @@ export function Header() {
           {navItems}
         </nav>
         <div className="flex items-center gap-2">
-           <Button asChild size="sm" className="hidden md:flex">
+           <Button asChild size="sm" className="hidden md:flex items-center gap-2">
              <Link href="https://www.jaaga.ai/documents" target="_blank" rel="noopener noreferrer">
               Get Property Documents
+              <ArrowUpRight className="h-4 w-4" />
             </Link>
           </Button>
           <Sheet open={isSheetOpen} onOpenChange={setSheetOpen}>
@@ -100,9 +102,10 @@ export function Header() {
                     </MobileNavLink>
                   ))}
                    <hr className="my-4" />
-                   <Button asChild>
+                   <Button asChild className='flex items-center gap-2'>
                       <Link href="https://www.jaaga.ai/documents" target="_blank" rel="noopener noreferrer">
                         Get Property Documents
+                        <ArrowUpRight className="h-4 w-4" />
                       </Link>
                   </Button>
                 </nav>
