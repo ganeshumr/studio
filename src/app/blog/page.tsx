@@ -8,17 +8,6 @@ import {Search} from 'lucide-react';
 import type {Post} from '@/lib/types';
 import React from 'react';
 
-// Helper function to extract text from React nodes
-function getNodeText(node: React.ReactNode): string {
-  if (typeof node === 'string') return node;
-  if (typeof node === 'number') return String(node);
-  if (Array.isArray(node)) return node.map(getNodeText).join('');
-  if (React.isValidElement(node) && node.props.children) {
-    return getNodeText(node.props.children);
-  }
-  return '';
-}
-
 export default function BlogListPage() {
   const [searchQuery, setSearchQuery] = useState('');
 
@@ -30,7 +19,7 @@ export default function BlogListPage() {
       const searchTerm = searchQuery.toLowerCase();
       const titleMatch = post.title.toLowerCase().includes(searchTerm);
       const excerptMatch = post.excerpt.toLowerCase().includes(searchTerm);
-      const contentMatch = getNodeText(post.content).toLowerCase().includes(searchTerm);
+      const contentMatch = post.content.toLowerCase().includes(searchTerm);
       return titleMatch || excerptMatch || contentMatch;
     });
   }, [searchQuery]);

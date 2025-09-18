@@ -1,4 +1,5 @@
 
+
 export type Category = {
   slug: string;
   name: string;
@@ -16,9 +17,9 @@ export type Service = {
 export type Post = {
   id: number;
   slug: string;
-  title: string;
+  title:string;
   excerpt: string;
-  content: React.ReactNode;
+  content: string; // Changed to string to allow for editing
   category: Category['slug'];
   tags: string[];
   featuredImage: string;

@@ -95,9 +95,10 @@ export default function BlogPostPage({params}: Props) {
             </div>
           </header>
 
-          <div className="prose prose-lg max-w-none text-foreground prose-h2:font-headline prose-h2:font-bold prose-h3:font-headline prose-h3:font-bold prose-a:text-primary hover:prose-a:underline">
-            {post.content}
-          </div>
+          <div
+              className="prose prose-lg max-w-none text-foreground prose-h2:font-headline prose-h2:font-bold prose-h3:font-headline prose-h3:font-bold prose-a:text-primary hover:prose-a:underline"
+              dangerouslySetInnerHTML={{ __html: post.content }}
+            />
 
           <Separator className="my-8" />
 

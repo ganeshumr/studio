@@ -4,7 +4,7 @@ import {useState, useEffect} from 'react';
 import {posts as initialPosts} from '@/lib/data';
 import type {Post} from '@/lib/types';
 import {Button} from '@/components/ui/button';
-import {Trash2} from 'lucide-react';
+import {Trash2, Pencil} from 'lucide-react';
 import {Card, CardContent} from '@/components/ui/card';
 import {
   AlertDialog,
@@ -17,21 +17,25 @@ import {
   AlertDialogTitle,
   AlertDialogTrigger,
 } from '@/components/ui/alert-dialog';
+import {EditPostDialog} from './edit-post-dialog';
 
 export function ExistingPosts() {
   const [posts, setPosts] = useState<Post[]>(initialPosts);
   const [postToDelete, setPostToDelete] = useState<Post | null>(null);
+  const [postToEdit, setPostToEdit] = useState<Post | null>(null);
 
+  const forceRerender = () => {
+    // A bit of a hack to force a re-render. In a real app, use a state manager.
+    setPosts([...initialPosts]);
+  };
+  
   useEffect(() => {
-    const handlePostPublished = () => {
-        // A bit of a hack to force a re-render. In a real app, use a state manager.
-        setPosts([...initialPosts]);
-    };
-
-    window.addEventListener('post-published', handlePostPublished);
+    window.addEventListener('post-published', forceRerender);
+    window.addEventListener('post-edited', forceRerender);
 
     return () => {
-        window.removeEventListener('post-published', handlePostPublished);
+        window.removeEventListener('post-published', forceRerender);
+        window.removeEventListener('post-edited', forceRerender);
     };
   }, []);
 
@@ -50,6 +54,7 @@ export function ExistingPosts() {
   };
 
   return (
+    <>
     <Card>
       <CardContent className="p-6">
         <div className="space-y-4">
@@ -60,33 +65,39 @@ export function ExistingPosts() {
                 className="flex items-center justify-between rounded-lg border p-4"
               >
                 <div className="font-medium">{post.title}</div>
-                <AlertDialog>
-                  <AlertDialogTrigger asChild>
-                    <Button
-                      variant="destructive"
-                      size="icon"
-                      onClick={() => setPostToDelete(post)}
-                    >
-                      <Trash2 className="h-4 w-4" />
-                      <span className="sr-only">Delete Post</span>
-                    </Button>
-                  </AlertDialogTrigger>
-                  <AlertDialogContent>
-                    <AlertDialogHeader>
-                      <AlertDialogTitle>Are you sure?</AlertDialogTitle>
-                      <AlertDialogDescription>
-                        This action cannot be undone. This will permanently delete the blog post
-                        "{postToDelete?.title}".
-                      </AlertDialogDescription>
-                    </AlertDialogHeader>
-                    <AlertDialogFooter>
-                      <AlertDialogCancel onClick={() => setPostToDelete(null)}>
-                        Cancel
-                      </AlertDialogCancel>
-                      <AlertDialogAction onClick={handleDelete}>Delete</AlertDialogAction>
-                    </AlertDialogFooter>
-                  </AlertDialogContent>
-                </AlertDialog>
+                <div className="flex items-center gap-2">
+                  <Button variant="outline" size="icon" onClick={() => setPostToEdit(post)}>
+                    <Pencil className="h-4 w-4" />
+                    <span className="sr-only">Edit Post</span>
+                  </Button>
+                  <AlertDialog>
+                    <AlertDialogTrigger asChild>
+                      <Button
+                        variant="destructive"
+                        size="icon"
+                        onClick={() => setPostToDelete(post)}
+                      >
+                        <Trash2 className="h-4 w-4" />
+                        <span className="sr-only">Delete Post</span>
+                      </Button>
+                    </AlertDialogTrigger>
+                    <AlertDialogContent>
+                      <AlertDialogHeader>
+                        <AlertDialogTitle>Are you sure?</AlertDialogTitle>
+                        <AlertDialogDescription>
+                          This action cannot be undone. This will permanently delete the blog post
+                          "{postToDelete?.title}".
+                        </AlertDialogDescription>
+                      </AlertDialogHeader>
+                      <AlertDialogFooter>
+                        <AlertDialogCancel onClick={() => setPostToDelete(null)}>
+                          Cancel
+                        </AlertDialogCancel>
+                        <AlertDialogAction onClick={handleDelete}>Delete</AlertDialogAction>
+                      </AlertDialogFooter>
+                    </AlertDialogContent>
+                  </AlertDialog>
+                </div>
               </div>
             ))
           ) : (
@@ -100,5 +111,13 @@ export function ExistingPosts() {
         </div>
       </CardContent>
     </Card>
+    {postToEdit && (
+        <EditPostDialog 
+            post={postToEdit} 
+            isOpen={!!postToEdit}
+            onClose={() => setPostToEdit(null)}
+        />
+    )}
+    </>
   );
 }
