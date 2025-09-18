@@ -111,7 +111,6 @@ export const posts: Post[] = [
     excerpt: 'Easily access verified property documents like Sale Deeds, Encumbrance Certificates, and Tax Receipts with JaaGa. Simple, secure, and time-saving. Get your records online in just a few clicks!',
     content: (
         <div className="space-y-6">
-          <h1 className="font-headline text-3xl md:text-4xl font-bold tracking-tighter mt-2">How to Get Property Documents Online in India: Sale Deed, Encumbrance Certificate (EC), and Tax Receipts</h1>
           <p>
             Managing property documents like <strong>Sale Deeds, Encumbrance Certificates (EC), and Tax Receipts</strong> has traditionally been a stressful, time-consuming task for property owners in India. Missing paperwork, confusing government portals, and repeated visits to offices are some of the most common challenges faced. However, with the rise of digital property solutions, it is now possible to <strong>retrieve property documents online quickly and securely</strong>.
           </p>
@@ -1111,6 +1110,7 @@ export const posts: Post[] = [
     keywords: 'property audit report India, title verification, real estate investment',
   },
 ];
+
 
 
 
