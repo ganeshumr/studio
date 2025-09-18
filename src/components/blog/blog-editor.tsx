@@ -23,6 +23,7 @@ import {useState} from 'react';
 import {Loader2, FileUp} from 'lucide-react';
 import {Card, CardContent} from '@/components/ui/card';
 import {publishPostAction} from '@/app/actions/publish-post-action';
+import { RichTextEditor } from './rich-text-editor';
 
 const formSchema = z.object({
   title: z.string().min(5, 'Title must be at least 5 characters.'),
@@ -202,15 +203,14 @@ export function BlogEditor() {
             <FormField
               control={form.control}
               name="content"
-              render={({field}) => (
+              render={({ field }) => (
                 <FormItem>
                   <FormLabel>Content</FormLabel>
                   <FormControl>
-                    <Textarea
-                      placeholder="Write your blog post here. You can use Markdown for formatting."
-                      className="min-h-[300px]"
-                      {...field}
-                    />
+                     <RichTextEditor
+                        value={field.value}
+                        onChange={field.onChange}
+                      />
                   </FormControl>
                   <FormDescription>Full content of the blog post.</FormDescription>
                   <FormMessage />

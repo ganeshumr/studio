@@ -16,11 +16,11 @@ import {
 } from '@/components/ui/dialog';
 import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from '@/components/ui/form';
 import { Input } from '@/components/ui/input';
-import { Textarea } from '@/components/ui/textarea';
 import { useToast } from '@/hooks/use-toast';
 import { Loader2 } from 'lucide-react';
 import type { Post } from '@/lib/types';
 import { editPostAction } from '@/app/actions/edit-post-action';
+import { RichTextEditor } from './rich-text-editor';
 
 const formSchema = z.object({
   id: z.number(),
@@ -79,7 +79,7 @@ export function EditPostDialog({ post, isOpen, onClose }: EditPostDialogProps) {
 
   return (
     <Dialog open={isOpen} onOpenChange={onClose}>
-      <DialogContent className="sm:max-w-3xl">
+      <DialogContent className="sm:max-w-4xl">
         <DialogHeader>
           <DialogTitle>Edit Blog Post</DialogTitle>
           <DialogDescription>
@@ -108,10 +108,9 @@ export function EditPostDialog({ post, isOpen, onClose }: EditPostDialogProps) {
                 <FormItem>
                   <FormLabel>Content</FormLabel>
                   <FormControl>
-                    <Textarea
-                      placeholder="Write your blog post here."
-                      className="min-h-[400px]"
-                      {...field}
+                    <RichTextEditor
+                      value={field.value}
+                      onChange={field.onChange}
                     />
                   </FormControl>
                   <FormMessage />

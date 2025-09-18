@@ -19,7 +19,7 @@ export type Post = {
   slug: string;
   title:string;
   excerpt: string;
-  content: string; // Changed to string to allow for editing
+  content: string; 
   category: Category['slug'];
   tags: string[];
   featuredImage: string;

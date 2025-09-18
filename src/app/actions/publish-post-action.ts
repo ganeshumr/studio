@@ -31,7 +31,7 @@ export async function publishPostAction(values: unknown) {
       id: Date.now(),
       ...validatedValues,
       tags: validatedValues.tags.split(',').map(tag => tag.trim()),
-      content: validatedValues.content, // Store as plain string
+      content: validatedValues.content,
     };
 
     posts.unshift(newPost);
