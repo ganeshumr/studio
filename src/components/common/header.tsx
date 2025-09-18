@@ -74,9 +74,9 @@ export function Header() {
         </nav>
         <div className="flex items-center gap-2">
            <Button asChild size="sm" className="hidden md:flex items-center gap-2">
-             <Link href="https://www.jaaga.ai/documents" target="_blank" rel="noopener noreferrer">
+             <Link href="https://www.jaaga.ai/documents" target="_blank" rel="noopener noreferrer" className="group">
               Get Property Documents
-              <ArrowUpRight className="h-4 w-4" />
+              <ArrowUpRight className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1 group-hover:-translate-y-1" />
             </Link>
           </Button>
           <Sheet open={isSheetOpen} onOpenChange={setSheetOpen}>
@@ -103,9 +103,9 @@ export function Header() {
                   ))}
                    <hr className="my-4" />
                    <Button asChild className='flex items-center gap-2'>
-                      <Link href="https://www.jaaga.ai/documents" target="_blank" rel="noopener noreferrer">
+                      <Link href="https://www.jaaga.ai/documents" target="_blank" rel="noopener noreferrer" className="group">
                         Get Property Documents
-                        <ArrowUpRight className="h-4 w-4" />
+                        <ArrowUpRight className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1 group-hover:-translate-y-1" />
                       </Link>
                   </Button>
                 </nav>
