@@ -1,7 +1,7 @@
 
 'use client';
 
-import { useState, useEffect, useMemo } from 'react';
+import { useState, useEffect } from 'react';
 import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { z } from 'zod';
@@ -22,7 +22,7 @@ import type { Post } from '@/lib/types';
 import { editPostAction } from '@/app/actions/edit-post-action';
 import dynamic from 'next/dynamic';
 
-const RichTextEditor = useMemo(() => dynamic(() => import('./rich-text-editor').then(mod => mod.RichTextEditor), { ssr: false }), []);
+const RichTextEditor = dynamic(() => import('./rich-text-editor').then(mod => mod.RichTextEditor), { ssr: false });
 
 const formSchema = z.object({
   id: z.number(),
