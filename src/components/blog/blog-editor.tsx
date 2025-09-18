@@ -19,11 +19,14 @@ import {Textarea} from '@/components/ui/textarea';
 import {Select, SelectContent, SelectItem, SelectTrigger, SelectValue} from '@/components/ui/select';
 import {useToast} from '@/hooks/use-toast';
 import {categories} from '@/lib/data';
-import {useState} from 'react';
+import {useState, useMemo} from 'react';
 import {Loader2, FileUp} from 'lucide-react';
 import {Card, CardContent} from '@/components/ui/card';
 import {publishPostAction} from '@/app/actions/publish-post-action';
-import { RichTextEditor } from './rich-text-editor';
+import dynamic from 'next/dynamic';
+
+const RichTextEditor = useMemo(() => dynamic(() => import('./rich-text-editor').then(mod => mod.RichTextEditor), { ssr: false }), []);
+
 
 const formSchema = z.object({
   title: z.string().min(5, 'Title must be at least 5 characters.'),
