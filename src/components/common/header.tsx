@@ -73,7 +73,7 @@ export function Header() {
           {navItems}
         </nav>
         <div className="flex items-center gap-2">
-           <Button asChild size="sm" className="hidden md:flex items-center gap-2">
+           <Button asChild className="hidden md:flex items-center gap-2">
              <Link href="https://www.jaaga.ai/documents" target="_blank" rel="noopener noreferrer" className="group">
               Get Property Documents
               <ArrowUpRight className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1 group-hover:-translate-y-1" />
