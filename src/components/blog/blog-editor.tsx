@@ -23,10 +23,6 @@ import {useState} from 'react';
 import {Loader2, FileUp} from 'lucide-react';
 import {Card, CardContent} from '@/components/ui/card';
 import {publishPostAction} from '@/app/actions/publish-post-action';
-import dynamic from 'next/dynamic';
-
-const RichTextEditor = dynamic(() => import('./rich-text-editor').then(mod => mod.RichTextEditor), { ssr: false });
-
 
 const formSchema = z.object({
   title: z.string().min(5, 'Title must be at least 5 characters.'),
@@ -210,9 +206,10 @@ export function BlogEditor() {
                 <FormItem>
                   <FormLabel>Content</FormLabel>
                   <FormControl>
-                     <RichTextEditor
-                        value={field.value}
-                        onChange={field.onChange}
+                     <Textarea
+                        placeholder="Full content of the blog post."
+                        className="min-h-[400px]"
+                        {...field}
                       />
                   </FormControl>
                   <FormDescription>Full content of the blog post.</FormDescription>

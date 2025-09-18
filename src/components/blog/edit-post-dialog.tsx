@@ -20,9 +20,7 @@ import { useToast } from '@/hooks/use-toast';
 import { Loader2 } from 'lucide-react';
 import type { Post } from '@/lib/types';
 import { editPostAction } from '@/app/actions/edit-post-action';
-import dynamic from 'next/dynamic';
-
-const RichTextEditor = dynamic(() => import('./rich-text-editor').then(mod => mod.RichTextEditor), { ssr: false });
+import { Textarea } from '../ui/textarea';
 
 const formSchema = z.object({
   id: z.number(),
@@ -110,9 +108,9 @@ export function EditPostDialog({ post, isOpen, onClose }: EditPostDialogProps) {
                 <FormItem>
                   <FormLabel>Content</FormLabel>
                   <FormControl>
-                    <RichTextEditor
-                      value={field.value}
-                      onChange={field.onChange}
+                    <Textarea
+                      className="min-h-[400px]"
+                      {...field}
                     />
                   </FormControl>
                   <FormMessage />
