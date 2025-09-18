@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     'safe property ownership India',
   ],
   icons: {
-    icon: 'https://res.cloudinary.com/dnuayl071/image/upload/v1758188919/Lightning_Corporate_Logo__1_-removebg-preview_cl0twj.png',
+    icon: 'https://res.cloudinary.com/dnuayl071/image/upload/v1758188919/Lightning_Corporate_Logo__1_-removebg-preview_cl0twj.png?v=2',
   },
   openGraph: {
     title: 'Jaaga Insights: Digital Property Solutions in India',
