@@ -60,11 +60,11 @@ export const services: Service[] = [
       link: 'https://www.jaaga.ai/documents',
     },
     {
-      categorySlug: 'property-audit',
-      title: 'Property Audit Report',
-      description: 'A comprehensive report to verify property titles and check for legal issues.',
-      image: 'https://res.cloudinary.com/dnuayl071/image/upload/v1758023191/Sample_Audit_Report_5.pdf_2_kze5k9.png',
-      link: 'https://www.jaaga.ai/documents',
+        categorySlug: 'property-audit',
+        title: 'Property Audit Report',
+        description: 'A comprehensive report to verify property titles and check for legal issues.',
+        image: 'https://res.cloudinary.com/dnuayl071/image/upload/v1758023191/Sample_Audit_Report_5.pdf_2_kze5k9.png',
+        link: 'https://www.jaaga.ai/documents',
     },
     {
       categorySlug: 'legal-verification',
@@ -95,11 +95,11 @@ export const services: Service[] = [
       link: 'https://www.jaaga.ai/documents',
     },
     {
-      categorySlug: 'property-documents',
-      title: 'Sale Deed (Certified Copy)',
-      description: 'Get an official, legally binding copy of your property\'s sale deed.',
-      image: 'https://res.cloudinary.com/dnuayl071/image/upload/v1758023191/Sample_Audit_Report_5.pdf_2_kze5k9.png',
-      link: 'https://www.jaaga.ai/documents',
+        categorySlug: 'property-documents',
+        title: 'Sale Deed (Certified Copy)',
+        description: "Get an official, legally binding copy of your property's sale deed.",
+        image: 'https://res.cloudinary.com/dnuayl071/image/upload/v1758023191/Sample_Audit_Report_5.pdf_2_kze5k9.png',
+        link: 'https://www.jaaga.ai/documents',
     },
   ];
 
@@ -107,7 +107,7 @@ export const posts: Post[] = [
   {
     id: 12,
     slug: 'retrieve-property-documents-online',
-    title: 'Retrieve Property Documents Online – Sale Deed, EC, and Tax Receipts | JaaGa',
+    title: 'How to Get Property Documents Online in India – Sale Deed, Encumbrance Certificate (EC), and Tax Receipts',
     excerpt: 'Easily access verified property documents like Sale Deeds, Encumbrance Certificates, and Tax Receipts with JaaGa. Simple, secure, and time-saving. Get your records online in just a few clicks!',
     content: (
       <div className="space-y-6">
@@ -998,6 +998,7 @@ export const posts: Post[] = [
     keywords: 'property audit report India, title verification, real estate investment',
   },
 ];
+
 
 
 
