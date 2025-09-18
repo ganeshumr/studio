@@ -1,4 +1,3 @@
-
 'use client';
 
 import Link from 'next/link';
@@ -69,10 +68,15 @@ export function Header() {
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container mx-auto flex h-16 items-center justify-between px-4">
         <Logo />
-        <nav className="hidden md:flex items-center gap-10 text-sm font-medium">
+        <nav className="hidden md:flex items-center gap-6 text-sm font-medium">
           {navItems}
         </nav>
         <div className="flex items-center gap-2">
+           <Button asChild size="sm" className="hidden md:flex">
+             <Link href="https://www.jaaga.ai/documents" target="_blank" rel="noopener noreferrer">
+              Get Property Documents
+            </Link>
+          </Button>
           <Sheet open={isSheetOpen} onOpenChange={setSheetOpen}>
             <SheetTrigger asChild>
               <Button variant="ghost" size="icon" className="md:hidden">
@@ -95,6 +99,12 @@ export function Header() {
                       {link.label}
                     </MobileNavLink>
                   ))}
+                   <hr className="my-4" />
+                   <Button asChild>
+                      <Link href="https://www.jaaga.ai/documents" target="_blank" rel="noopener noreferrer">
+                        Get Property Documents
+                      </Link>
+                  </Button>
                 </nav>
               </div>
             </SheetContent>
