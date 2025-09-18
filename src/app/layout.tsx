@@ -1,3 +1,4 @@
+
 import type {Metadata} from 'next';
 import './globals.css';
 import {Header} from '@/components/common/header';
@@ -20,6 +21,9 @@ export const metadata: Metadata = {
     'property documents for loan',
     'safe property ownership India',
   ],
+  icons: {
+    icon: 'https://res.cloudinary.com/dnuayl071/image/upload/v1758188055/Lightning_Corporate_Logo_mtrufa.svg',
+  },
   openGraph: {
     title: 'Jaaga Insights: Digital Property Solutions in India',
     description: 'Your trusted guide for property and legal verification services in India.',
