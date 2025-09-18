@@ -24,7 +24,7 @@ function Hero() {
                 Secure Your Digital Property Rights in India.
               </h1>
               <p className="text-lg leading-relaxed tracking-tight text-muted-foreground max-w-md mx-auto md:mx-0">
-                Jaaga.ai provides expert insights and comprehensive services for property audits,
+                JaaGa provides expert insights and comprehensive services for property audits,
                 legal verification, and digital ownership. Navigate the complexities of Indian real
                 estate with confidence.
               </p>
