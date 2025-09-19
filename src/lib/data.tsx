@@ -105,6 +105,159 @@ export const services: Service[] = [
 
 export const posts: Post[] = [
   {
+    id: 14,
+    slug: 'how-to-prove-legal-ownership-of-property-complete-guide-india-2025',
+    title: 'How Do I Prove Legal Ownership of a Property? Complete Guide (India 2025)',
+    excerpt: 'Owning property is one of the biggest financial and emotional investments in India. But proving legal ownership of a property can often be confusing, especially when disputes, missing documents, or unclear records are involved.',
+    content: `
+      <div class="space-y-6">
+        <p>Owning property is one of the biggest financial and emotional investments in India. But proving legal ownership of a property can often be confusing, especially when disputes, missing documents, or unclear records are involved. Whether you are buying a new house, inheriting land, or resolving a legal dispute, you need strong documentary proof to establish your rights.</p>
+        <p>In this blog, we’ll explain how to prove ownership of property in India, the essential documents you need, the verification process in Telangana and Andhra Pradesh, common legal challenges, and how digital platforms like JaaGa make it simple to retrieve and safeguard your records.</p>
+        
+        <h2 class="font-headline text-2xl font-bold">Why Proving Property Ownership Matters</h2>
+        <ul class="list-disc list-inside space-y-2">
+            <li><strong>Selling property:</strong> Buyers will demand clear documents before purchase.</li>
+            <li><strong>Property disputes:</strong> Courts rely on ownership documents to decide cases.</li>
+            <li><strong>Bank loans:</strong> Financial institutions require proof before approving home loans.</li>
+            <li><strong>Inheritance and transfer:</strong> Heirs need proper documents to update records.</li>
+            <li><strong>Government schemes:</strong> Subsidies, compensation, or regularization require ownership proof.</li>
+        </ul>
+
+        <h2 class="font-headline text-2xl font-bold">Key Documents That Prove Property Ownership in India</h2>
+        
+        <h3 class="font-headline text-xl font-bold">1. Registered Sale Deed</h3>
+        <p>The Sale Deed is the primary proof of ownership. It shows the transfer of property rights from seller to buyer and must be registered at the Sub-Registrar’s office.</p>
+        
+        <h3 class="font-headline text-xl font-bold">2. Encumbrance Certificate (EC)</h3>
+        <p>An EC shows if the property has any legal or financial liabilities. It's required for ownership verification, loans, and resale. In Telangana and Andhra Pradesh, ECs can be downloaded via IGRS portals.</p>
+        
+        <h3 class="font-headline text-xl font-bold">3. Mutation Records / Record of Rights (RoR)</h3>
+        <p>Mutation updates ownership in revenue records. Known as Dharani portal (Telangana) and MeeBhoomi (AP), it's important for tax and agricultural land ownership.</p>
+        
+        <h3 class="font-headline text-xl font-bold">4. Property Tax Receipts</h3>
+        <p>Regular tax payments strengthen ownership claims. Municipal receipts for house tax, water tax, and vacant land tax are valid proofs.</p>
+        
+        <h3 class="font-headline text-xl font-bold">5. Utility Bills (Electricity and Water)</h3>
+        <p>While not conclusive, utility bills in your name support possession. They are often used with Sale Deed and EC as supporting proof.</p>
+        
+        <h3 class="font-headline text-xl font-bold">6. Legal Heir Certificate (Inheritance Cases)</h3>
+        <p>Needed when property passes via inheritance, this establishes the relationship of heirs to the deceased owner.</p>
+        
+        <h2 class="font-headline text-2xl font-bold">How to Verify Property Ownership Step by Step</h2>
+        <ol class="list-decimal list-inside space-y-2">
+            <li><strong>Check Sub-Registrar Records:</strong> Verify registered Sale Deeds and request certified copies if originals are missing.</li>
+            <li><strong>Download EC Online:</strong> Use IGRS Telangana EC Search or the IGRS AP Portal.</li>
+            <li><strong>Verify Mutation / RoR Records:</strong> Check the Dharani Portal (Telangana) or MeeBhoomi AP (Andhra Pradesh).</li>
+            <li><strong>Cross-check Tax and Utility Bills:</strong> Ensure property tax payments match ownership records.</li>
+            <li><strong>Use Legal Verification Services:</strong> Platforms like JaaGa simplify retrieval and verification and provide a digital locker for long-term safety.</li>
+        </ol>
+
+        <h2 class="font-headline text-2xl font-bold">Common Legal Issues in Property Ownership</h2>
+        <ul class="list-disc list-inside space-y-2">
+            <li><strong>Disputed Titles:</strong> Multiple claims on the same property due to missing records.</li>
+            <li><strong>Fake Documents or Forgery:</strong> Illegal Sale Deeds, fake ECs, or forged signatures.</li>
+            <li><strong>Encroachments:</strong> Illegal occupation of property boundaries.</li>
+            <li><strong>Inheritance Conflicts:</strong> Disputes among legal heirs when ownership transfer is unclear.</li>
+            <li><strong>Unpaid Taxes and Loans:</strong> Mortgaged properties or pending tax dues can affect ownership rights.</li>
+        </ul>
+        
+        <h2 class="font-headline text-2xl font-bold">How JaaGa Helps Prove Property Ownership</h2>
+        <ul class="list-disc list-inside space-y-2">
+            <li>Retrieve Sale Deeds, ECs, Tax Receipts online.</li>
+            <li>Verified documents directly from government portals.</li>
+            <li>Secure digital locker for safe storage.</li>
+            <li>Legal verification of ownership and encumbrance.</li>
+            <li>Saves time, no need for middlemen or multiple office visits.</li>
+        </ul>
+        <p>👉 Visit <a href="https://www.jaaga.ai" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">www.jaaga.ai</a> to prove your property ownership in a few clicks.</p>
+
+        <h2 class="font-headline text-2xl font-bold">State Focus – Telangana and Andhra Pradesh</h2>
+        <p><strong>Telangana:</strong> Use Dharani Portal for land records, IGRS Telangana for Sale Deed and EC, and municipal websites for property tax receipts.</p>
+        <p><strong>Andhra Pradesh:</strong> MeeBhoomi AP for RoR and Adangal records, IGRS AP for Sale Deeds and ECs, and municipal corporation portals for tax receipts.</p>
+        
+        <div class="overflow-x-auto">
+            <table class="min-w-full border-collapse border border-border">
+                <thead>
+                    <tr class="bg-muted">
+                        <th class="border border-border p-2 text-left">Document</th>
+                        <th class="border border-border p-2 text-left">Purpose</th>
+                        <th class="border border-border p-2 text-left">Where to Get</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="border border-border p-2">Sale Deed</td>
+                        <td class="border border-border p-2">Main proof of ownership</td>
+                        <td class="border border-border p-2">Sub-Registrar / IGRS</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-border p-2">EC</td>
+                        <td class="border border-border p-2">Shows liabilities</td>
+                        <td class="border border-border p-2">IGRS Telangana / AP</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-border p-2">Mutation / RoR</td>
+                        <td class="border border-border p-2">Updates in revenue records</td>
+                        <td class="border border-border p-2">Dharani / MeeBhoomi</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-border p-2">Property Tax Receipt</td>
+                        <td class="border border-border p-2">Proof of municipal compliance</td>
+                        <td class="border border-border p-2">GHMC/APMC portals</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-border p-2">Utility Bills</td>
+                        <td class="border border-border p-2">Supporting ownership proof</td>
+                        <td class="border border-border p-2">Electricity/Water dept.</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-border p-2">Legal Heir Certificate</td>
+                        <td class="border border-border p-2">Inheritance ownership</td>
+                        <td class="border border-border p-2">Revenue Department</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <h2 class="font-headline text-2xl font-bold">FAQs – Proving Property Ownership</h2>
+        <div class="space-y-4">
+            <div>
+                <h4 class="font-bold">Q1. Is Sale Deed alone enough to prove ownership?</h4>
+                <p>Yes, but supporting documents like EC and tax receipts make ownership stronger.</p>
+            </div>
+            <div>
+                <h4 class="font-bold">Q2. Can I prove ownership without original documents?</h4>
+                <p>Yes, by obtaining certified copies from the Sub-Registrar.</p>
+            </div>
+            <div>
+                <h4 class="font-bold">Q3. How do I check if property is in my name in Telangana or AP?</h4>
+                <p>By searching Dharani (Telangana) or MeeBhoomi (AP) portals.</p>
+            </div>
+            <div>
+                <h4 class="font-bold">Q4. What if property is under dispute?</h4>
+                <p>Consult a property lawyer and verify court case records before transactions.</p>
+            </div>
+            <div>
+                <h4 class="font-bold">Q5. Can digital copies of documents be used in court?</h4>
+                <p>Yes, if they are certified and retrieved from official sources.</p>
+            </div>
+        </div>
+
+        <h2 class="font-headline text-2xl font-bold">Conclusion</h2>
+        <p>Proving property ownership in India requires a combination of registered documents, revenue records, and tax receipts. In states like Telangana and Andhra Pradesh, government portals such as Dharani, MeeBhoomi, and IGRS make this process easier.</p>
+        <p>However, navigating multiple portals can be time-consuming. That is where JaaGa helps by retrieving Sale Deeds, ECs, and Tax Receipts on your behalf, verifying them, and storing them securely in your digital locker.</p>
+        <p>🚀 With JaaGa, you can prove property ownership confidently and stress-free.</p>
+        <p>👉 Visit <a href="https://www.jaaga.ai" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">www.jaaga.ai</a> today and secure your property documents online.</p>
+      </div>
+    `,
+    category: 'legal-verification',
+    tags: ['property ownership', 'sale deed', 'encumbrance certificate', 'legal verification'],
+    featuredImage: 'https://picsum.photos/seed/legal-guide/800/450',
+    metaTitle: 'How to Prove Legal Ownership of a Property: A Complete Guide for India (2025) | JaaGa',
+    metaDescription: 'A comprehensive guide on how to prove legal property ownership in India, covering essential documents like Sale Deeds and ECs, with a focus on Telangana and Andhra Pradesh. Learn how JaaGa simplifies the process.',
+    keywords: 'prove property ownership, legal ownership of property India, sale deed proof of ownership, encumbrance certificate Telangana, property disputes Telangana, JaaGa property services',
+  },
+  {
     id: 13,
     slug: 'why-update-owner-name-on-property-tax-and-electricity-bills',
     title: 'Why It’s Important to Update the Owner’s Name on Property Tax and Electricity Bills',
