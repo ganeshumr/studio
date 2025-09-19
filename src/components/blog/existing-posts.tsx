@@ -25,11 +25,13 @@ export function ExistingPosts() {
   const [postToEdit, setPostToEdit] = useState<Post | null>(null);
 
   const forceRerender = () => {
-    // A bit of a hack to force a re-render. In a real app, use a state manager.
     setPosts([...initialPosts]);
   };
   
   useEffect(() => {
+    // Set initial state on mount to ensure client and server are in sync
+    setPosts(initialPosts);
+
     window.addEventListener('post-published', forceRerender);
     window.addEventListener('post-edited', forceRerender);
 
