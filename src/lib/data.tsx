@@ -1388,7 +1388,7 @@ export let posts: Post[] = [
     `,
     category: 'electricity-bill-updates',
     tags: ['utility bills', 'property ownership', 'documentation', 'Telangana', 'TSSPDCL'],
-    featuredImage: 'https://picsum.photos/800/450?random=4',
+    featuredImage: 'https://res.cloudinary.com/dnuayl071/image/upload/v1758282612/Update_Your_Name_Secure_Your_Property_l6qnuw.png',
     metaTitle: 'How Jaaga.ai Simplifies Electricity Bill Name Change in Telangana | Step-by-Step Guide',
     metaDescription: 'Learn how Jaaga.ai makes electricity bill name change in Telangana simple, fast, and hassle-free. Step-by-step process, required documents, benefits, and FAQs included.',
     keywords: 'Electricity bill name change in Telangana, Jaaga.ai electricity bill service, How to change electricity bill name Telangana, Electricity bill transfer process Telangana, Documents for electricity bill name change Telangana, TSSPDCL electricity bill name change, TSNPDCL electricity bill name change, Online electricity bill name change Telangana, Electricity bill ownership transfer Telangana, Jaaga.ai property services Telangana',
