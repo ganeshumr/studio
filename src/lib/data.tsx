@@ -105,7 +105,7 @@ export const services: Service[] = [
 
 export let posts: Post[] = [
   {
-    id: 16,
+    id: 15,
     slug: 'how-to-prove-legal-ownership-of-a-property-complete-guide-india-2025',
     title: 'How Do I Prove Legal Ownership of a Property? Complete Guide (India 2025)',
     excerpt: 'Owning property is one of the biggest financial and emotional investments in India. But proving legal ownership of a property can often be confusing, especially when disputes, missing documents, or unclear records are involved.',
@@ -372,7 +372,7 @@ export let posts: Post[] = [
     `,
     category: 'property-tax',
     tags: ['property tax', 'electricity bill', 'mutation', 'ownership'],
-    featuredImage: 'https://picsum.photos/seed/update-docs/800/450',
+    featuredImage: 'https://res.cloudinary.com/dnuayl071/image/upload/v1758282612/Update_Your_Name_Secure_Your_Property_l6qnuw.png',
     metaTitle: 'Why Updating Owner’s Name on Property Tax & Electricity Bills is Crucial | JaaGa',
     metaDescription: 'Learn why it’s important to update the owner’s name on property tax receipts and electricity bills after buying a property. Ensure smooth mutation, avoid legal disputes, and secure your ownership with JaaGa’s expert services.',
     keywords: 'update property tax name Telangana, electricity bill name change, mutation of property, property ownership proof, property documents update, name transfer in property tax, update electricity bill name',
@@ -1794,4 +1794,5 @@ export let posts: Post[] = [
     keywords: 'property audit India, legal property verification, property ownership check, real estate compliance, property audit benefits, property investment India, types of property audits, legal audit property, property financial audit, property audit process, property document verification, property inspection India, property documents India, legal property documents, property verification documents, property audit advantages, property investment security, property transaction check, property audit challenges India, property dispute resolution, legal property issues, property audit professionals, property verification experts, real estate auditors, digital property audit India, online property verification, property tax online India, property audit FAQs India, property legal verification questions, real estate audit queries, property legal check, real estate investment security',
   },
 ];
+
 
