@@ -105,7 +105,7 @@ export const services: Service[] = [
 
 export let posts: Post[] = [
   {
-    id: 15,
+    id: 16,
     slug: 'how-to-prove-legal-ownership-of-a-property-complete-guide-india-2025',
     title: 'How Do I Prove Legal Ownership of a Property? Complete Guide (India 2025)',
     excerpt: 'Owning property is one of the biggest financial and emotional investments in India. But proving legal ownership of a property can often be confusing, especially when disputes, missing documents, or unclear records are involved.',
@@ -972,7 +972,7 @@ export let posts: Post[] = [
     `,
     category: 'property-tax',
     tags: ['property tax', 'telangana', 'jaaga app', 'tax receipt'],
-    featuredImage: 'https://picsum.photos/800/450?random=7',
+    featuredImage: 'https://picsum.photos/seed/tax-receipt-app/800/450',
     metaTitle: 'How to Download Property Tax Receipt in Telangana Using JaaGa App',
     metaDescription:
       'A complete guide on how to download your property tax receipt in Telangana quickly and easily using the JaaGa App. Avoid queues and get your receipt online.',
@@ -1109,7 +1109,7 @@ export let posts: Post[] = [
     `,
     category: 'property-documents',
     tags: ['blockchain', 'proptech', 'investment security', 'digital property ownership', 'secure property investment', 'property ownership in Telangana', 'property ownership in Andhra Pradesh', 'digital land records India', 'Dharani portal Telangana', 'MeeBhoomi Andhra Pradesh', 'digital property documents', 'property fraud prevention', 'how to prove property ownership in India', 'online property verification', 'encumbrance certificate online', 'sale deed digital copy', 'land records management', 'real estate investment security', 'digital India property registration', 'e-registration property Telangana', 'e-registration property Andhra Pradesh', 'property legal disputes India', 'blockchain property records'],
-    featuredImage: 'https://picsum.photos/800/450?random=6',
+    featuredImage: 'https://picsum.photos/seed/digital-ownership/800/450',
     metaTitle: 'Securing Your Investment with Digital Property Ownership in India | Guide for Telangana & Andhra Pradesh',
     metaDescription:
       'Learn how to secure your property investment with digital property ownership in India. Discover benefits, fraud prevention, Telangana Dharani portal, Andhra Pradesh MeeBhoomi, and future of digital land records.',
@@ -1230,7 +1230,7 @@ export let posts: Post[] = [
     `,
     category: 'loan-services',
     tags: ['home loan', 'financing', 'documentation', 'essential property documents for home loan', 'property papers required for home loan', 'sale deed for home loan process', 'title deed verification for bank loan', 'encumbrance certificate for housing loan', 'documents needed for smooth home loan approval', 'property documents checklist for home loan'],
-    featuredImage: 'https://picsum.photos/800/450?random=5',
+    featuredImage: 'https://picsum.photos/seed/home-loan-docs/800/450',
     metaTitle: '5 Essential Property Documents for a Smooth Home Loan Process',
     metaDescription:
       'Learn about the 5 essential property documents required for a smooth home loan process. Discover why Sale Deed, Title Deed, Encumbrance Certificate, Approved Building Plan, and Property Tax Receipts are crucial for loan approval.',
@@ -1573,7 +1573,7 @@ export let posts: Post[] = [
     `,
     category: 'land-survey',
     tags: ['digital survey', 'land mapping', 'technology', 'Digital land surveys in real estate', 'Benefits of digital land surveys', 'Digital property records India', 'GIS in real estate', 'Drone land survey India', 'Blockchain land records', 'Online land records Telangana Andhra Pradesh', 'How digital land surveys help buyers and sellers'],
-    featuredImage: 'https://picsum.photos/800/450?random=3',
+    featuredImage: 'https://picsum.photos/seed/digital-land-survey/800/450',
     metaTitle: 'How Digital Land Surveys Are Transforming Real Estate in India',
     metaDescription:
       'Discover how digital land surveys are changing real estate with GPS, drones, GIS, and blockchain. Learn benefits, challenges, and FAQs on property records in India.',
@@ -1650,7 +1650,7 @@ export let posts: Post[] = [
     `,
     category: 'legal-verification',
     tags: ['legal verification', 'property documents', 'due diligence', 'Telangana', 'Andhra Pradesh', 'property verification Telangana', 'legal property check Andhra Pradesh', 'title deed verification', 'encumbrance certificate Telangana', 'Meebhoomi property verification', 'property NOC Andhra Pradesh', 'secure property purchase Telangana'],
-    featuredImage: 'https://picsum.photos/800/450?random=2',
+    featuredImage: 'https://picsum.photos/seed/legal-verification/800/450',
     metaTitle: 'Legal Property Verification in Telangana & Andhra Pradesh: Complete Guide for Buyers',
     metaDescription:
       'Ensure a safe property purchase in Telangana and Andhra Pradesh. Learn step-by-step legal property verification, check ownership, encumbrances, NOCs, and avoid disputes.',
@@ -1787,10 +1787,11 @@ export let posts: Post[] = [
     `,
     category: 'property-audit',
     tags: ['property audit', 'investment', 'due diligence'],
-    featuredImage: 'https://picsum.photos/800/450?random=1',
+    featuredImage: 'https://picsum.photos/seed/property-audit/800/450',
     metaTitle: 'Comprehensive Guide to Property Audits in India | Legal & Financial Insights',
     metaDescription:
       'Learn everything about property audits in India including process, benefits, legal requirements, and FAQs. Ensure your property investment is secure and compliant.',
     keywords: 'property audit India, legal property verification, property ownership check, real estate compliance, property audit benefits, property investment India, types of property audits, legal audit property, property financial audit, property audit process, property document verification, property inspection India, property documents India, legal property documents, property verification documents, property audit advantages, property investment security, property transaction check, property audit challenges India, property dispute resolution, legal property issues, property audit professionals, property verification experts, real estate auditors, digital property audit India, online property verification, property tax online India, property audit FAQs India, property legal verification questions, real estate audit queries, property legal check, real estate investment security',
   },
 ];
+
