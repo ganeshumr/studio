@@ -16,7 +16,7 @@ type BlogPostCardProps = {
 
 export function BlogPostCard({post}: BlogPostCardProps) {
   const category = categories.find(c => c.slug === post.category);
-  const [imageSrc, setImageSrc] = useState('https://picsum.photos/800/450');
+  const [imageSrc, setImageSrc] = useState(post.featuredImage || 'https://picsum.photos/800/450');
 
   useEffect(() => {
     if (post.featuredImage) {
