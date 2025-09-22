@@ -1230,7 +1230,7 @@ export let posts: Post[] = [
     `,
     category: 'loan-services',
     tags: ['home loan', 'financing', 'documentation', 'essential property documents for home loan', 'property papers required for home loan', 'sale deed for home loan process', 'title deed verification for bank loan', 'encumbrance certificate for housing loan', 'documents needed for smooth home loan approval', 'property documents checklist for home loan'],
-    featuredImage: 'https://picsum.photos/seed/home-loan-docs/800/450',
+    featuredImage: 'https://res.cloudinary.com/dxsj2kcwu/image/upload/v1758521970/5_iutnrf.png',
     metaTitle: '5 Essential Property Documents for a Smooth Home Loan Process',
     metaDescription:
       'Learn about the 5 essential property documents required for a smooth home loan process. Discover why Sale Deed, Title Deed, Encumbrance Certificate, Approved Building Plan, and Property Tax Receipts are crucial for loan approval.',
