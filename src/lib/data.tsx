@@ -372,7 +372,7 @@ export let posts: Post[] = [
     `,
     category: 'property-tax',
     tags: ['property tax', 'electricity bill', 'mutation', 'ownership'],
-    featuredImage: 'https://res.cloudinary.com/dnuayl071/image/upload/v1758282612/Update_Your_Name_Secure_Your_Property_l6qnuw.png',
+    featuredImage: 'https://picsum.photos/seed/tax-bill-update/800/450',
     metaTitle: 'Why Updating Owner’s Name on Property Tax & Electricity Bills is Crucial | JaaGa',
     metaDescription: 'Learn why it’s important to update the owner’s name on property tax receipts and electricity bills after buying a property. Ensure smooth mutation, avoid legal disputes, and secure your ownership with JaaGa’s expert services.',
     keywords: 'update property tax name Telangana, electricity bill name change, mutation of property, property ownership proof, property documents update, name transfer in property tax, update electricity bill name',
@@ -1388,7 +1388,7 @@ export let posts: Post[] = [
     `,
     category: 'electricity-bill-updates',
     tags: ['utility bills', 'property ownership', 'documentation', 'Telangana', 'TSSPDCL'],
-    featuredImage: 'https://res.cloudinary.com/dnuayl071/image/upload/v1758282612/Update_Your_Name_Secure_Your_Property_l6qnuw.png',
+    featuredImage: 'https://res.cloudinary.com/dxsj2kcwu/image/upload/v1758521971/6_lyt1xe.png',
     metaTitle: 'How Jaaga.ai Simplifies Electricity Bill Name Change in Telangana | Step-by-Step Guide',
     metaDescription: 'Learn how Jaaga.ai makes electricity bill name change in Telangana simple, fast, and hassle-free. Step-by-step process, required documents, benefits, and FAQs included.',
     keywords: 'Electricity bill name change in Telangana, Jaaga.ai electricity bill service, How to change electricity bill name Telangana, Electricity bill transfer process Telangana, Documents for electricity bill name change Telangana, TSSPDCL electricity bill name change, TSNPDCL electricity bill name change, Online electricity bill name change Telangana, Electricity bill ownership transfer Telangana, Jaaga.ai property services Telangana',
@@ -1796,3 +1796,6 @@ export let posts: Post[] = [
 ];
 
 
+
+
+    
