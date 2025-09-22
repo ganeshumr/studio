@@ -9,7 +9,8 @@ const formSchema = z.object({
   slug: z
     .string()
     .min(5, 'Slug must be at least 5 characters.')
-    .regex(/^[a-z0-9-]+$/, 'Slug can only contain lowercase letters, numbers, and hyphens.'),
+    .regex(/^[a-z0-9-]+$/, 'Slug can only contain lowercase letters, numbers, and hyphens.')
+    .optional(),
   excerpt: z
     .string()
     .min(20, 'Excerpt must be at least 20 characters.')
@@ -23,13 +24,23 @@ const formSchema = z.object({
   keywords: z.string().min(3, 'Please provide at least one keyword.'),
 });
 
+function generateSlug(title: string) {
+    return title
+        .toLowerCase()
+        .replace(/\s+/g, '-')
+        .replace(/[^a-z0-9-]/g, '');
+}
+
 export async function publishPostAction(values: unknown) {
   try {
     const validatedValues = formSchema.parse(values);
 
+    const slug = validatedValues.slug || generateSlug(validatedValues.title);
+
     const newPost: Post = {
       id: Date.now(),
       ...validatedValues,
+      slug,
       tags: validatedValues.tags.split(',').map(tag => tag.trim()),
       content: validatedValues.content,
     };

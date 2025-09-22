@@ -28,8 +28,7 @@ const formSchema = z.object({
   title: z.string().min(5, 'Title must be at least 5 characters.'),
   slug: z
     .string()
-    .min(5, 'Slug must be at least 5 characters.')
-    .regex(/^[a-z0-9-]+$/, 'Slug can only contain lowercase letters, numbers, and hyphens.'),
+    .optional(),
   excerpt: z
     .string()
     .min(20, 'Excerpt must be at least 20 characters.')
@@ -131,7 +130,7 @@ export function BlogEditor() {
                         <Input placeholder="this-will-be-auto-generated" {...field} />
                       </FormControl>
                       <FormDescription>
-                        This is the part of the URL that identifies your post.
+                        This is the part of the URL that identifies your post. It will be auto-generated if left blank.
                       </FormDescription>
                       <FormMessage />
                     </FormItem>
