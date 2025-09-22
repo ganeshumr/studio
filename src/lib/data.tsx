@@ -372,7 +372,7 @@ export let posts: Post[] = [
     `,
     category: 'property-tax',
     tags: ['property tax', 'electricity bill', 'mutation', 'ownership'],
-    featuredImage: 'https://picsum.photos/seed/tax-bill-update/800/450',
+    featuredImage: 'https://3m9tp1dbzk.ucarecd.net/2d855ad5-550d-4c97-8799-f7e9d25aa926/1.png',
     metaTitle: 'Why Updating Owner’s Name on Property Tax & Electricity Bills is Crucial | JaaGa',
     metaDescription: 'Learn why it’s important to update the owner’s name on property tax receipts and electricity bills after buying a property. Ensure smooth mutation, avoid legal disputes, and secure your ownership with JaaGa’s expert services.',
     keywords: 'update property tax name Telangana, electricity bill name change, mutation of property, property ownership proof, property documents update, name transfer in property tax, update electricity bill name',
@@ -692,7 +692,7 @@ export let posts: Post[] = [
       'electricity',
     ],
     featuredImage:
-      'https://res.cloudinary.com/dnuayl071/image/upload/v1757576445/Understanding_Adangal_Pahani_How_to_Access_Land_Records_Online_through_JaaGa_1_-Picsart-AiImageEnhancer_jlj1j0.png',
+      'https://res.cloudinary.com/dxsj2kcwu/image/upload/v1758521969/2_ussagr.png',
     metaTitle:
       'TGSPDCL: Electricity Services, Bill Payment & Name Transfer Guide in Telangana',
     metaDescription:
@@ -1230,7 +1230,7 @@ export let posts: Post[] = [
     `,
     category: 'loan-services',
     tags: ['home loan', 'financing', 'documentation', 'essential property documents for home loan', 'property papers required for home loan', 'sale deed for home loan process', 'title deed verification for bank loan', 'encumbrance certificate for housing loan', 'documents needed for smooth home loan approval', 'property documents checklist for home loan'],
-    featuredImage: 'https://picsum.photos/seed/home-loan-docs/800/450',
+    featuredImage: 'https://res.cloudinary.com/dxsj2kcwu/image/upload/v1758521970/5_iutnrf.png',
     metaTitle: '5 Essential Property Documents for a Smooth Home Loan Process',
     metaDescription:
       'Learn about the 5 essential property documents required for a smooth home loan process. Discover why Sale Deed, Title Deed, Encumbrance Certificate, Approved Building Plan, and Property Tax Receipts are crucial for loan approval.',
@@ -1388,7 +1388,7 @@ export let posts: Post[] = [
     `,
     category: 'electricity-bill-updates',
     tags: ['utility bills', 'property ownership', 'documentation', 'Telangana', 'TSSPDCL'],
-    featuredImage: 'https://picsum.photos/seed/electricity-bill/800/450',
+    featuredImage: 'https://res.cloudinary.com/dxsj2kcwu/image/upload/v1758521971/6_lyt1xe.png',
     metaTitle: 'How Jaaga.ai Simplifies Electricity Bill Name Change in Telangana | Step-by-Step Guide',
     metaDescription: 'Learn how Jaaga.ai makes electricity bill name change in Telangana simple, fast, and hassle-free. Step-by-step process, required documents, benefits, and FAQs included.',
     keywords: 'Electricity bill name change in Telangana, Jaaga.ai electricity bill service, How to change electricity bill name Telangana, Electricity bill transfer process Telangana, Documents for electricity bill name change Telangana, TSSPDCL electricity bill name change, TSNPDCL electricity bill name change, Online electricity bill name change Telangana, Electricity bill ownership transfer Telangana, Jaaga.ai property services Telangana',
@@ -1801,4 +1801,5 @@ export let posts: Post[] = [
     
 
     
+
 
