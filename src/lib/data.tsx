@@ -252,7 +252,7 @@ export let posts: Post[] = [
     `,
     category: 'legal-verification',
     tags: ['property ownership', 'sale deed', 'encumbrance certificate', 'legal verification', 'sale deed proof of ownership', 'how to get sale deed online', 'sale deed Telangana', 'sale deed Andhra Pradesh', 'encumbrance certificate Telangana', 'EC proof of ownership', 'online EC Andhra Pradesh', 'mutation records Telangana', 'Dharani ownership proof', 'MeeBhoomi Andhra Pradesh', 'property tax receipt proof', 'municipal tax Telangana', 'AP property tax online', 'inheritance property proof India', 'legal heir certificate Telangana', 'AP property ownership transfer', 'property disputes Telangana', 'fake property documents India', 'how to solve land disputes', 'retrieve property documents online', 'JaaGa property services', 'digital property locker India'],
-    featuredImage: 'https://picsum.photos/seed/legal-guide/800/450',
+    featuredImage: 'https://ik.imagekit.io/jaaga/Update%20Your%20Name,%20Secure%20Your%20Property%20(2).png?updatedAt=1758529773318',
     metaTitle: 'How to Prove Legal Ownership of a Property: A Complete Guide for India (2025) | JaaGa',
     metaDescription: 'A comprehensive guide on how to prove legal property ownership in India, covering essential documents like Sale Deeds and ECs, with a focus on Telangana and Andhra Pradesh. Learn how JaaGa simplifies the process.',
     keywords: 'prove property ownership, legal ownership of property India, sale deed proof of ownership, encumbrance certificate Telangana, property disputes Telangana, JaaGa property services',
@@ -1801,6 +1801,7 @@ export let posts: Post[] = [
     
 
     
+
 
 
 
