@@ -372,7 +372,7 @@ export let posts: Post[] = [
     `,
     category: 'property-tax',
     tags: ['property tax', 'electricity bill', 'mutation', 'ownership'],
-    featuredImage: 'https://res.cloudinary.com/dxsj2kcwu/image/upload/v1758517612/Update_Your_Name_Secure_Your_Property_1_inwtct.png',
+    featuredImage: 'https://picsum.photos/seed/tax-bill-update/800/450',
     metaTitle: 'Why Updating Owner’s Name on Property Tax & Electricity Bills is Crucial | JaaGa',
     metaDescription: 'Learn why it’s important to update the owner’s name on property tax receipts and electricity bills after buying a property. Ensure smooth mutation, avoid legal disputes, and secure your ownership with JaaGa’s expert services.',
     keywords: 'update property tax name Telangana, electricity bill name change, mutation of property, property ownership proof, property documents update, name transfer in property tax, update electricity bill name',
@@ -692,7 +692,7 @@ export let posts: Post[] = [
       'electricity',
     ],
     featuredImage:
-      'https://res.cloudinary.com/dxsj2kcwu/image/upload/v1758521969/2_ussagr.png',
+      'https://res.cloudinary.com/dnuayl071/image/upload/v1757576445/Understanding_Adangal_Pahani_How_to_Access_Land_Records_Online_through_JaaGa_1_-Picsart-AiImageEnhancer_jlj1j0.png',
     metaTitle:
       'TGSPDCL: Electricity Services, Bill Payment & Name Transfer Guide in Telangana',
     metaDescription:
@@ -1109,7 +1109,7 @@ export let posts: Post[] = [
     `,
     category: 'property-documents',
     tags: ['blockchain', 'proptech', 'investment security', 'digital property ownership', 'secure property investment', 'property ownership in Telangana', 'property ownership in Andhra Pradesh', 'digital land records India', 'Dharani portal Telangana', 'MeeBhoomi Andhra Pradesh', 'digital property documents', 'property fraud prevention', 'how to prove property ownership in India', 'online property verification', 'encumbrance certificate online', 'sale deed digital copy', 'land records management', 'real estate investment security', 'digital India property registration', 'e-registration property Telangana', 'e-registration property Andhra Pradesh', 'property legal disputes India', 'blockchain property records'],
-    featuredImage: 'https://picsum.photos/seed/digital-ownership/800/450',
+    featuredImage: 'https://res.cloudinary.com/dxsj2kcwu/image/upload/v1758521969/4_nylaji.png',
     metaTitle: 'Securing Your Investment with Digital Property Ownership in India | Guide for Telangana & Andhra Pradesh',
     metaDescription:
       'Learn how to secure your property investment with digital property ownership in India. Discover benefits, fraud prevention, Telangana Dharani portal, Andhra Pradesh MeeBhoomi, and future of digital land records.',
@@ -1230,7 +1230,7 @@ export let posts: Post[] = [
     `,
     category: 'loan-services',
     tags: ['home loan', 'financing', 'documentation', 'essential property documents for home loan', 'property papers required for home loan', 'sale deed for home loan process', 'title deed verification for bank loan', 'encumbrance certificate for housing loan', 'documents needed for smooth home loan approval', 'property documents checklist for home loan'],
-    featuredImage: 'https://res.cloudinary.com/dxsj2kcwu/image/upload/v1758521970/5_iutnrf.png',
+    featuredImage: 'https://picsum.photos/seed/home-loan-docs/800/450',
     metaTitle: '5 Essential Property Documents for a Smooth Home Loan Process',
     metaDescription:
       'Learn about the 5 essential property documents required for a smooth home loan process. Discover why Sale Deed, Title Deed, Encumbrance Certificate, Approved Building Plan, and Property Tax Receipts are crucial for loan approval.',
@@ -1238,7 +1238,7 @@ export let posts: Post[] = [
   },
   {
     id: 4,
-    slug: 'how-jaagaai-simplifies-electricity-bill-name-change-in-telangana',
+    slug: 'electricity-bill-name-change-telangana-jaaga-ai',
     title: 'How Jaaga.ai Simplifies Electricity Bill Name Change in Telangana',
     excerpt: 'Changing the name on your electricity bill in Telangana is more than a formality—it is a legal necessity for property ownership, proof of residence, and smooth utility management.',
     content: `
@@ -1388,7 +1388,7 @@ export let posts: Post[] = [
     `,
     category: 'electricity-bill-updates',
     tags: ['utility bills', 'property ownership', 'documentation', 'Telangana', 'TSSPDCL'],
-    featuredImage: 'https://res.cloudinary.com/dxsj2kcwu/image/upload/v1758521971/6_lyt1xe.png',
+    featuredImage: 'https://picsum.photos/seed/electricity-bill/800/450',
     metaTitle: 'How Jaaga.ai Simplifies Electricity Bill Name Change in Telangana | Step-by-Step Guide',
     metaDescription: 'Learn how Jaaga.ai makes electricity bill name change in Telangana simple, fast, and hassle-free. Step-by-step process, required documents, benefits, and FAQs included.',
     keywords: 'Electricity bill name change in Telangana, Jaaga.ai electricity bill service, How to change electricity bill name Telangana, Electricity bill transfer process Telangana, Documents for electricity bill name change Telangana, TSSPDCL electricity bill name change, TSNPDCL electricity bill name change, Online electricity bill name change Telangana, Electricity bill ownership transfer Telangana, Jaaga.ai property services Telangana',
@@ -1581,7 +1581,7 @@ export let posts: Post[] = [
   },
   {
     id: 2,
-    slug: 'navigating-the-maze-of-legal-property-verification-in-telangana-and-andhra-pradesh',
+    slug: 'navigating-legal-property-verification',
     title: 'Navigating the Maze of Legal Property Verification in Telangana and Andhra Pradesh',
     excerpt: 'Ensure a safe property purchase in Telangana and Andhra Pradesh. Learn step-by-step legal property verification, check ownership, encumbrances, NOCs, and avoid disputes.',
     content: `
@@ -1658,7 +1658,7 @@ export let posts: Post[] = [
   },
   {
     id: 1,
-    slug: 'a-comprehensive-guide-to-property-audits-in-india',
+    slug: 'comprehensive-guide-to-property-audit-in-india',
     title: 'A Comprehensive Guide to Property Audits in India',
     excerpt: 'Understand the critical importance of a property audit before you invest. This guide covers everything from title verification to encumbrance checks.',
     content: `
@@ -1801,3 +1801,4 @@ export let posts: Post[] = [
     
 
     
+
