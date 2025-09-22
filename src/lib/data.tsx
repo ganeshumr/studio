@@ -372,7 +372,7 @@ export let posts: Post[] = [
     `,
     category: 'property-tax',
     tags: ['property tax', 'electricity bill', 'mutation', 'ownership'],
-    featuredImage: 'https://picsum.photos/seed/tax-bill-update/800/450',
+    featuredImage: 'https://res.cloudinary.com/dxsj2kcwu/image/upload/v1758517612/Update_Your_Name_Secure_Your_Property_1_inwtct.png',
     metaTitle: 'Why Updating Owner’s Name on Property Tax & Electricity Bills is Crucial | JaaGa',
     metaDescription: 'Learn why it’s important to update the owner’s name on property tax receipts and electricity bills after buying a property. Ensure smooth mutation, avoid legal disputes, and secure your ownership with JaaGa’s expert services.',
     keywords: 'update property tax name Telangana, electricity bill name change, mutation of property, property ownership proof, property documents update, name transfer in property tax, update electricity bill name',
@@ -692,7 +692,7 @@ export let posts: Post[] = [
       'electricity',
     ],
     featuredImage:
-      'https://res.cloudinary.com/dnuayl071/image/upload/v1757675245/Maf48661992b7ffdc5df4f09dfc4c6ff31755757664104_sesozv.webp',
+      'https://res.cloudinary.com/dxsj2kcwu/image/upload/v1758521969/2_ussagr.png',
     metaTitle:
       'TGSPDCL: Electricity Services, Bill Payment & Name Transfer Guide in Telangana',
     metaDescription:
@@ -1238,7 +1238,7 @@ export let posts: Post[] = [
   },
   {
     id: 4,
-    slug: 'electricity-bill-name-change-telangana-jaaga-ai',
+    slug: 'how-jaagaai-simplifies-electricity-bill-name-change-in-telangana',
     title: 'How Jaaga.ai Simplifies Electricity Bill Name Change in Telangana',
     excerpt: 'Changing the name on your electricity bill in Telangana is more than a formality—it is a legal necessity for property ownership, proof of residence, and smooth utility management.',
     content: `
@@ -1581,7 +1581,7 @@ export let posts: Post[] = [
   },
   {
     id: 2,
-    slug: 'navigating-legal-property-verification',
+    slug: 'navigating-the-maze-of-legal-property-verification-in-telangana-and-andhra-pradesh',
     title: 'Navigating the Maze of Legal Property Verification in Telangana and Andhra Pradesh',
     excerpt: 'Ensure a safe property purchase in Telangana and Andhra Pradesh. Learn step-by-step legal property verification, check ownership, encumbrances, NOCs, and avoid disputes.',
     content: `
@@ -1658,7 +1658,7 @@ export let posts: Post[] = [
   },
   {
     id: 1,
-    slug: 'comprehensive-guide-to-property-audit-in-india',
+    slug: 'a-comprehensive-guide-to-property-audits-in-india',
     title: 'A Comprehensive Guide to Property Audits in India',
     excerpt: 'Understand the critical importance of a property audit before you invest. This guide covers everything from title verification to encumbrance checks.',
     content: `
@@ -1797,5 +1797,7 @@ export let posts: Post[] = [
 
 
 
+
+    
 
     
