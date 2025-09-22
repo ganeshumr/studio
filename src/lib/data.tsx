@@ -972,7 +972,7 @@ export let posts: Post[] = [
     `,
     category: 'property-tax',
     tags: ['property tax', 'telangana', 'jaaga app', 'tax receipt'],
-    featuredImage: 'https://picsum.photos/seed/tax-receipt-app/800/450',
+    featuredImage: 'https://ik.imagekit.io/jaaga/3.png?updatedAt=1758525181366',
     metaTitle: 'How to Download Property Tax Receipt in Telangana Using JaaGa App',
     metaDescription:
       'A complete guide on how to download your property tax receipt in Telangana quickly and easily using the JaaGa App. Avoid queues and get your receipt online.',
@@ -1047,7 +1047,7 @@ export let posts: Post[] = [
         
         <h2 class="font-headline text-2xl font-bold">Common Challenges in Digital Property Ownership</h2>
         <p>While digital ownership has many advantages, there are also challenges:</p>
-        <ul class="list-disc space-y-2 pl-6">
+        <ul class="list-disc list-inside space-y-2">
             <li>Lack of awareness among property owners, especially in rural areas.</li>
             <li>Dependence on internet access and digital literacy.</li>
             <li>Initial resistance to adopting technology for property transactions.</li>
@@ -1801,6 +1801,7 @@ export let posts: Post[] = [
     
 
     
+
 
 
 
