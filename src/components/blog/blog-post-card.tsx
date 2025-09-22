@@ -8,7 +8,6 @@ import type {Post} from '@/lib/types';
 import {Badge} from '@/components/ui/badge';
 import {Card, CardContent, CardFooter, CardHeader} from '@/components/ui/card';
 import {categories} from '@/lib/data';
-import { useEffect, useState } from 'react';
 
 type BlogPostCardProps = {
   post: Post;
@@ -16,14 +15,6 @@ type BlogPostCardProps = {
 
 export function BlogPostCard({post}: BlogPostCardProps) {
   const category = categories.find(c => c.slug === post.category);
-  const [imageSrc, setImageSrc] = useState(post.featuredImage || 'https://picsum.photos/800/450');
-
-  useEffect(() => {
-    if (post.featuredImage) {
-      setImageSrc(post.featuredImage);
-    }
-  }, [post.featuredImage]);
-
 
   return (
     <Card className="flex flex-col h-full overflow-hidden transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
@@ -31,7 +22,7 @@ export function BlogPostCard({post}: BlogPostCardProps) {
         <Link href={`/blog/${post.slug}`} className="block">
           <div className="relative aspect-video">
             <Image
-              src={imageSrc}
+              src={post.featuredImage}
               alt={post.title}
               fill
               className="object-cover"
