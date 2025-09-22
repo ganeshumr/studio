@@ -318,7 +318,7 @@ export let posts: Post[] = [
 
             <h2 class="font-headline text-2xl font-bold">4. Eligibility for Government Schemes & Benefits</h2>
             <p>
-                Many government schemes—such as property regularization, subsidies, or compensation for development projects—use utility and tax records to identify the rightful owner.
+                Many government schemes-such as property regularization, subsidies, or compensation for development projects-use utility and tax records to identify the rightful owner.
             </p>
             <p>
                 If your name isn’t updated:
@@ -343,7 +343,7 @@ export let posts: Post[] = [
 
             <h2 class="font-headline text-2xl font-bold">✅ Final Thoughts</h2>
             <p>
-                Updating your property tax records and electricity bills is not just paperwork—it’s an investment in protecting your property.
+                Updating your property tax records and electricity bills is not just paperwork-it’s an investment in protecting your property.
             </p>
             <p>
                 Even though the sale deed remains the primary proof of ownership, supporting documents like utility bills are critical in practice for:
@@ -366,7 +366,7 @@ export let posts: Post[] = [
                 📧 Email: <a href="mailto:social@jaaga.ai" class="text-primary hover:underline">social@jaaga.ai</a>
             </p>
             <p>
-                👉 Don’t wait for issues to arise—update your documents today and secure your property’s future.
+                👉 Don’t wait for issues to arise-update your documents today and secure your property’s future.
             </p>
         </div>
     `,
@@ -665,7 +665,7 @@ export let posts: Post[] = [
         </p>
 
         <h2 class="font-headline text-2xl font-bold">How to Pay TGSPDCL Electricity Bills Online</h2>
-        <p>Avoid queues and delays—pay your TGSPDCL bills online within seconds.</p>
+        <p>Avoid queues and delays-pay your TGSPDCL bills online within seconds.</p>
         <h3 class="font-headline text-xl font-bold">🌐 Benefits of Paying Through Landeed:</h3>
         <ul class="list-disc space-y-2 pl-6">
           <li>One-click payment for TGSPDCL electricity bills in Telangana</li>
@@ -957,7 +957,7 @@ export let posts: Post[] = [
           and without any hassle.
         </p>
         <p>
-          Say goodbye to long lines and confusing portals. Switch to JaaGa and manage your
+          Say goodbye to long lines and confusing portals-switch to JaaGa and manage your
           property the smart way!
         </p>
         <img
@@ -1240,7 +1240,7 @@ export let posts: Post[] = [
     id: 4,
     slug: 'electricity-bill-name-change-telangana-jaaga-ai',
     title: 'How Jaaga.ai Simplifies Electricity Bill Name Change in Telangana',
-    excerpt: 'Changing the name on your electricity bill in Telangana is more than a formality—it is a legal necessity for property ownership, proof of residence, and smooth utility management.',
+    excerpt: 'Changing the name on your electricity bill in Telangana is more than a formality-it is a legal necessity for property ownership, proof of residence, and smooth utility management.',
     content: `
         <div class="space-y-6">
         <p>
@@ -1381,7 +1381,7 @@ export let posts: Post[] = [
         </div>
 
         <h2 class="font-headline text-2xl font-bold">Final Thoughts</h2>
-        <p>Changing the name on your electricity bill in Telangana is more than just an administrative step—it’s a legal necessity for smooth property ownership and utility management. While the traditional method is slow and complicated, Jaaga.ai provides a modern, digital-first solution that saves time, reduces errors, and ensures transparency.</p>
+        <p>Changing the name on your electricity bill in Telangana is more than just an administrative step-it’s a legal necessity for smooth property ownership and utility management. While the traditional method is slow and complicated, Jaaga.ai provides a modern, digital-first solution that saves time, reduces errors, and ensures transparency.</p>
         <p>By using Jaaga.ai, Telangana residents can complete the electricity bill name change process with ease and confidence, making property ownership hassle-free.</p>
         <p>If you’ve recently bought a property, inherited one, or need to update your name on the electricity bill, Jaaga.ai is the simplest and most reliable way to do it in Telangana.</p>
       </div>
@@ -1801,6 +1801,7 @@ export let posts: Post[] = [
     
 
     
+
 
 
 
