@@ -372,7 +372,7 @@ export let posts: Post[] = [
     `,
     category: 'property-tax',
     tags: ['property tax', 'electricity bill', 'mutation', 'ownership'],
-    featuredImage: 'https://3m9tp1dbzk.ucarecd.net/2d855ad5-550d-4c97-8799-f7e9d25aa926/1.png',
+    featuredImage: 'https://ik.imagekit.io/jaaga/1.png?updatedAt=1758525181563',
     metaTitle: 'Why Updating Owner’s Name on Property Tax & Electricity Bills is Crucial | JaaGa',
     metaDescription: 'Learn why it’s important to update the owner’s name on property tax receipts and electricity bills after buying a property. Ensure smooth mutation, avoid legal disputes, and secure your ownership with JaaGa’s expert services.',
     keywords: 'update property tax name Telangana, electricity bill name change, mutation of property, property ownership proof, property documents update, name transfer in property tax, update electricity bill name',
@@ -1801,5 +1801,6 @@ export let posts: Post[] = [
     
 
     
+
 
 
