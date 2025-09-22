@@ -808,7 +808,7 @@ export let posts: Post[] = [
     slug: 'download-property-tax-receipt-telangana-jaaga-app',
     title: 'How to Download Property Tax Receipt in Telangana Using JaaGa App: A Complete Guide',
     excerpt:
-      "If you're a property owner in Telangana, paying your property tax is a legal duty. But paying isn’t enough. You also need the Property Tax Receipt for records, loans, or resale. With the JaaGa App, you can download your receipt online in just a few taps!",
+      'If you\'re a property owner in Telangana, paying your property tax is a legal duty. But paying isn’t enough. You also need the Property Tax Receipt for records, loans, or resale. With the JaaGa App, you can download your receipt online in just a few taps!',
     content: `
       <div class="space-y-6">
         <p>
@@ -1238,9 +1238,9 @@ export let posts: Post[] = [
   },
   {
     id: 4,
-    slug: 'electricity-bill-name-change-telangana-jaaga-ai',
+    slug: 'how-jaagaai-simplifies-electricity-bill-name-change-in-telangana',
     title: 'How Jaaga.ai Simplifies Electricity Bill Name Change in Telangana',
-    excerpt: 'Changing the name on your electricity bill in Telangana is more than a formality-it is a legal necessity for property ownership, proof of residence, and smooth utility management.',
+    excerpt: 'Changing the name on your electricity bill in Telangana is more than a formality it is a legal necessity for property ownership, proof of residence, and smooth utility management.',
     content: `
         <div class="space-y-6">
         <p>
@@ -1381,7 +1381,7 @@ export let posts: Post[] = [
         </div>
 
         <h2 class="font-headline text-2xl font-bold">Final Thoughts</h2>
-        <p>Changing the name on your electricity bill in Telangana is more than just an administrative step-it’s a legal necessity for smooth property ownership and utility management. While the traditional method is slow and complicated, Jaaga.ai provides a modern, digital-first solution that saves time, reduces errors, and ensures transparency.</p>
+        <p>Changing the name on your electricity bill in Telangana is more than just an administrative step it’s a legal necessity for smooth property ownership and utility management. While the traditional method is slow and complicated, Jaaga.ai provides a modern, digital-first solution that saves time, reduces errors, and ensures transparency.</p>
         <p>By using Jaaga.ai, Telangana residents can complete the electricity bill name change process with ease and confidence, making property ownership hassle-free.</p>
         <p>If you’ve recently bought a property, inherited one, or need to update your name on the electricity bill, Jaaga.ai is the simplest and most reliable way to do it in Telangana.</p>
       </div>
@@ -1573,7 +1573,7 @@ export let posts: Post[] = [
     `,
     category: 'land-survey',
     tags: ['digital survey', 'land mapping', 'technology', 'Digital land surveys in real estate', 'Benefits of digital land surveys', 'Digital property records India', 'GIS in real estate', 'Drone land survey India', 'Blockchain land records', 'Online land records Telangana Andhra Pradesh', 'How digital land surveys help buyers and sellers'],
-    featuredImage: 'https://picsum.photos/seed/digital-land-survey/800/450',
+    featuredImage: 'https://ik.imagekit.io/jaaga/Update%20Your%20Name,%20Secure%20Your%20Property%20(3).png?updatedAt=1758541162696',
     metaTitle: 'How Digital Land Surveys Are Transforming Real Estate in India',
     metaDescription:
       'Discover how digital land surveys are changing real estate with GPS, drones, GIS, and blockchain. Learn benefits, challenges, and FAQs on property records in India.',
@@ -1801,6 +1801,7 @@ export let posts: Post[] = [
     
 
     
+
 
 
 
