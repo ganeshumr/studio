@@ -48,7 +48,7 @@ export function PostSidebar() {
         <ul className="space-y-4">
           {recentPosts.map(post => (
             <li key={post.id}>
-              <Link href={`/blog/${post.slug}`} className="flex items-center gap-4 group">
+              <Link href={`/blogs/${post.slug}`} className="flex items-center gap-4 group">
                 {post.featuredImage && (
                   <div className="relative h-16 w-16 rounded-md overflow-hidden shrink-0">
                     <Image

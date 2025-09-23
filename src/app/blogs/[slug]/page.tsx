@@ -55,7 +55,7 @@ export async function generateMetadata({params}: Props): Promise<Metadata> {
       title: post.metaTitle,
       description: post.metaDescription,
       type: 'article',
-      url: `https://www.jaaga.ai/blog/${post.slug}`,
+      url: `https://www.jaaga.ai/blogs/${post.slug}`,
       images: images,
     },
   };
@@ -73,8 +73,8 @@ export default function BlogPostPage({params}: Props) {
 
   const breadcrumbItems = [
     {label: 'Home', href: '/'},
-    {label: 'Blog', href: '/blog'},
-    {label: post.title, href: `/blog/${post.slug}`},
+    {label: 'Blogs', href: '/blogs'},
+    {label: post.title, href: `/blogs/${post.slug}`},
   ];
 
   return (

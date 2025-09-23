@@ -19,7 +19,7 @@ export function BlogPostCard({post}: BlogPostCardProps) {
   return (
     <Card className="flex flex-col h-full overflow-hidden transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
       {post.featuredImage && (
-        <Link href={`/blog/${post.slug}`} className="block">
+        <Link href={`/blogs/${post.slug}`} className="block">
           <div className="relative aspect-video">
             <Image
               src={post.featuredImage}
@@ -41,7 +41,7 @@ export function BlogPostCard({post}: BlogPostCardProps) {
           )}
         </div>
         <h3 className="font-headline text-xl font-bold leading-snug">
-          <Link href={`/blog/${post.slug}`} className="hover:text-primary transition-colors">
+          <Link href={`/blogs/${post.slug}`} className="hover:text-primary transition-colors">
             {post.title}
           </Link>
         </h3>
@@ -51,7 +51,7 @@ export function BlogPostCard({post}: BlogPostCardProps) {
       </CardContent>
       <CardFooter>
         <Link
-          href={`/blog/${post.slug}`}
+          href={`/blogs/${post.slug}`}
           className="text-primary hover:underline flex items-center gap-1 text-sm ml-auto"
         >
           Read More <ArrowRight className="h-4 w-4" />
