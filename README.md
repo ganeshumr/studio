@@ -1,4 +1,4 @@
-# Firebase Studio
+# JaaGa Blogs
 
 This is a NextJS starter in Firebase Studio.
 
