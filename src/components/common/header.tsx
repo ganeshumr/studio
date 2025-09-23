@@ -17,7 +17,7 @@ import {useState} from 'react';
 
 const mainNavLinks = [
   {href: '/', label: 'Home'},
-  {href: '/blog', label: 'Blog'},
+  {href: '/blogs', label: 'Blogs'},
   {href: '/contact-us', label: 'Contact'},
 ];
 
@@ -57,11 +57,11 @@ export function Header() {
           {link.label}
         </NavLink>
       ))}
-      {otherLinks.map(link => (
+      {/* {otherLinks.map(link => (
         <NavLink key={link.href} href={link.href}>
           {link.label}
         </NavLink>
-      ))}
+      ))} */}
     </>
   );
 
@@ -96,11 +96,11 @@ export function Header() {
                     </MobileNavLink>
                   ))}
                   <hr className="my-4" />
-                  {otherLinks.map(link => (
+                  {/* {otherLinks.map(link => (
                     <MobileNavLink key={link.href} href={link.href}>
                       {link.label}
                     </MobileNavLink>
-                  ))}
+                  ))} */}
                    <hr className="my-4" />
                    <Button asChild className='flex items-center gap-2'>
                       <Link href="https://www.jaaga.ai/documents" target="_blank" rel="noopener noreferrer" className="group">
