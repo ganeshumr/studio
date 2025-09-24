@@ -3,17 +3,20 @@ import { posts as initialPosts, categories } from "@/lib/data";
 import BlogListClient from "@/components/blog/blog-list-client";
 
 export default async function BlogListPage() {
+  const baseUrl =
+    process.env.NEXT_PUBLIC_SITE_URL ||
+    (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : null);
+  console.log("Base URL:", baseUrl);
 
-  const headersList = await headers();
-  const host = headersList.get("host");
-  const protocol = host?.includes("localhost") ? "http" : "https";
-  const baseUrl = `${protocol}://${host}`;
-  console.log(baseUrl)
+  if (!baseUrl)
+    throw new Error("Base URL not defined. Check environment variables.");
 
   const res = await fetch(`${baseUrl}/api/posts`, { cache: "no-store" });
-  const posts = await res.json();
-  console.log(posts)
 
+  if (!res.ok) throw new Error("Failed to fetch posts from API");
+
+  const posts = await res.json();
+  console.log(posts);
 
   return (
     <div className="container mx-auto px-4 py-16 md:py-24">
