@@ -1,23 +1,23 @@
-import { headers } from "next/headers";
-import { posts as initialPosts, categories } from "@/lib/data";
 import BlogListClient from "@/components/blog/blog-list-client";
 
 export default async function BlogListPage() {
+  // Determine base URL safely
   const baseUrl =
-    process.env.NEXT_PUBLIC_SITE_URL ||
-    (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : null);
+    process.env.NEXT_PUBLIC_SITE_URL || // local dev or prod
+    (process.env.VERCEL_URL
+      ? `https://${process.env.VERCEL_URL}`
+      : "http://localhost:3000");
 
-  if (!baseUrl) {
-    throw new Error(
-      "Base URL not defined. Set NEXT_PUBLIC_SITE_URL or check VERCEL_URL."
-    );
-  }
+  if (!baseUrl) throw new Error("Base URL is not defined");
 
-  const res = await fetch(`${baseUrl}/api/posts`, { cache: "no-store" });
+  console.log("Base URL:", baseUrl);
 
-  if (!res.ok) {
-    throw new Error("Failed to fetch posts from API");
-  }
+  // Fetch posts from API route
+  const res = await fetch(`${baseUrl}/api/posts`, {
+    cache: "no-store", // no caching for SSR
+  });
+
+  if (!res.ok) throw new Error("Failed to fetch posts from API");
 
   const posts = await res.json();
   console.log(posts);
@@ -33,6 +33,7 @@ export default async function BlogListPage() {
           estate, property law, and digital ownership.
         </p>
       </div>
+      {/* BlogListClient must be a client component */}
       <BlogListClient posts={posts} />
     </div>
   );
