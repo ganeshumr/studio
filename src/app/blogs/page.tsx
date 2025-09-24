@@ -11,6 +11,7 @@ export default async function BlogListPage() {
 
   const res = await fetch(`${baseUrl}/api/posts`, { cache: "no-store" });
   const posts = await res.json();
+  console.log(posts)
 
 
   return (
