@@ -105,6 +105,93 @@ export const services: Service[] = [
 
 export let posts: Post[] = [
   {
+    id: 16,
+    slug: 'bbmp-e-khata-karnataka-everything-you-need-to-know-about-e-khata-online',
+    title: 'BBMP E-Khata Karnataka: Everything You Need to Know About E-Khata Online',
+    excerpt: 'Learn how to apply for BBMP E-Khata online in Karnataka. Check documents required, download E-Khata certificate, understand Khata meaning, and apply easily with E-Aasthi BBMP.',
+    content: `
+      <div class="space-y-6">
+        <h2 class="font-headline text-2xl font-bold">What is BBMP E-Khata?</h2>
+        <p>BBMP E-Khata is a digital record of property ownership maintained by the Bruhat Bengaluru Mahanagara Palike (BBMP). Unlike the traditional Khata, which is a physical document, E-Khata or E-Katha is fully online and provides legal recognition for property tax and property transactions.</p>
+        <p>The E-Khata system is part of E-Aasthi BBMP, an initiative to digitize property records and make property management easier for residents of Bengaluru.</p>
+
+        <h2 class="font-headline text-2xl font-bold">Why E-Khata is Important</h2>
+        <ul class="list-disc list-inside space-y-2">
+            <li><strong>Legal Recognition:</strong> E-Khata is required for property sale, purchase, or mutation.</li>
+            <li><strong>Property Tax Assessment:</strong> It links directly with the BBMP property tax portal, making tax payments easier.</li>
+            <li><strong>Transparency:</strong> Eliminates fraudulent ownership claims.</li>
+            <li><strong>Convenience:</strong> Available online, downloadable anytime.</li>
+        </ul>
+
+        <h2 class="font-headline text-2xl font-bold">Documents Required for E-Khata</h2>
+        <p>To apply for BBMP E-Khata online, you must submit:</p>
+        <ul class="list-disc list-inside space-y-2">
+            <li>Sale deed / gift deed / court order proving ownership</li>
+            <li>Encumbrance Certificate (EC)</li>
+            <li>Property Tax paid receipts</li>
+            <li>Site plan / Building plan approval</li>
+            <li>Occupancy certificate (if applicable)</li>
+            <li>PAN and Aadhaar of owner</li>
+        </ul>
+        <p>These documents are essential to verify the property under E-Aasthi BBMP Khata.</p>
+
+        <h2 class="font-headline text-2xl font-bold">How to Apply for E-Khata Online in Karnataka</h2>
+        <ol class="list-decimal list-inside space-y-2">
+            <li>Visit the BBMP E-Khata online portal.</li>
+            <li>Select ‘Apply for E-Khata’ or ‘E-Khata online application’.</li>
+            <li>Fill in your property details and owner details.</li>
+            <li>Upload all required E-Khata documents.</li>
+            <li>Submit the application and pay the necessary fees.</li>
+            <li>Once verified, you can download BBMP E-Khata certificate online.</li>
+        </ol>
+        <p><strong>Tip:</strong> Keep scanned copies of all property documents ready to avoid delays.</p>
+
+        <h2 class="font-headline text-2xl font-bold">How to Download BBMP E-Khata Online with Jaaga</h2>
+        <p>You can easily download your BBMP E-Khata certificate through Jaaga, without the hassle of visiting BBMP offices:</p>
+        <ol class="list-decimal list-inside space-y-2">
+            <li>Visit Jaaga’s Property Documents page.</li>
+            <li>Enter the required property details:
+                <ul class="list-disc list-inside ml-4">
+                    <li>District: Select your district</li>
+                    <li>Taluk: Select your taluk</li>
+                    <li>Hobli: Select your hobli</li>
+                    <li>Village: Select your village</li>
+                    <li>Khata No.: Enter your Khata number</li>
+                </ul>
+            </li>
+            <li>Request your E-Khata download through the platform.</li>
+            <li>Jaaga’s team will help you download the verified E-Khata PDF.</li>
+            <li>Save the PDF for future reference.</li>
+        </ol>
+        <p>By using Jaaga, your E-Khata is always digitally accessible, and the entire process becomes faster, secure, and hassle-free.</p>
+
+        <h2 class="font-headline text-2xl font-bold">Understanding Khata Meaning</h2>
+        <p><strong>Khata meaning:</strong> Khata is a record maintained by BBMP that lists all details of a property including:</p>
+        <ul class="list-disc list-inside space-y-2">
+            <li>Owner details</li>
+            <li>Property location and boundaries</li>
+            <li>Property tax assessment</li>
+        </ul>
+        <p><strong>E-Khata means:</strong> The digital version of this record, also called E-Katha, recognized by law.</p>
+
+        <h2 class="font-headline text-2xl font-bold">Benefits of E-Khata Online</h2>
+        <ul class="list-disc list-inside space-y-2">
+            <li>Quick and hassle-free process</li>
+            <li>Accessible 24x7</li>
+            <li>No manual visits required</li>
+            <li>Safe and secure digital records</li>
+        </ul>
+        <p>With E-Khata online, Bengaluru residents can efficiently manage their property documentation, save time, and ensure legal compliance.</p>
+      </div>
+    `,
+    category: 'property-documents',
+    tags: ['bbmp e khata', 'e khata', 'khata', 'eaasthi bbmp', 'e aasthi bbmp khata', 'e khata online bbmp', 'bbmp e khata download', 'bbmp e khata online', 'documents required for e khata', 'e katha', 'e katha apply online', 'e khata certificate', 'e khata documents', 'e khata means', 'e khata online', 'e khata online application', 'e khata online download', 'khata meaning'],
+    featuredImage: 'https://ik.imagekit.io/jaaga/E-Khata.png?updatedAt=1758619623837',
+    metaTitle: 'BBMP E-Khata Online | Apply, Download & Know Documents Required',
+    metaDescription: 'Learn how to apply for BBMP E-Khata online in Karnataka. Check documents required, download E-Khata certificate, understand Khata meaning, and apply easily with E-Aasthi BBMP.',
+    keywords: 'bbmp e khata, e khata, khata, eaasthi bbmp, e aasthi bbmp khata, e khata online bbmp, bbmp e khata download, bbmp e khata online, documents required for e khata, e katha, e katha apply online, e khata certificate, e khata documents, e khata means, e khata online, e khata online application, e khata online download, khata meaning',
+  },
+  {
     id: 15,
     slug: 'how-to-prove-legal-ownership-of-a-property-complete-guide-india-2025',
     title: 'How Do I Prove Legal Ownership of a Property? Complete Guide (India 2025)',
@@ -318,7 +405,7 @@ export let posts: Post[] = [
 
             <h2 class="font-headline text-2xl font-bold">4. Eligibility for Government Schemes & Benefits</h2>
             <p>
-                Many government schemes-such as property regularization, subsidies, or compensation for development projects-use utility and tax records to identify the rightful owner.
+                Many government schemes such as property regularization, subsidies, or compensation for development projects use utility and tax records to identify the rightful owner.
             </p>
             <p>
                 If your name isn’t updated:
@@ -343,7 +430,7 @@ export let posts: Post[] = [
 
             <h2 class="font-headline text-2xl font-bold">✅ Final Thoughts</h2>
             <p>
-                Updating your property tax records and electricity bills is not just paperwork-it’s an investment in protecting your property.
+                Updating your property tax records and electricity bills is not just paperwork it’s an investment in protecting your property.
             </p>
             <p>
                 Even though the sale deed remains the primary proof of ownership, supporting documents like utility bills are critical in practice for:
@@ -366,7 +453,7 @@ export let posts: Post[] = [
                 📧 Email: <a href="mailto:social@jaaga.ai" class="text-primary hover:underline">social@jaaga.ai</a>
             </p>
             <p>
-                👉 Don’t wait for issues to arise-update your documents today and secure your property’s future.
+                👉 Don’t wait for issues to arise update your documents today and secure your property’s future.
             </p>
         </div>
     `,
@@ -665,7 +752,7 @@ export let posts: Post[] = [
         </p>
 
         <h2 class="font-headline text-2xl font-bold">How to Pay TGSPDCL Electricity Bills Online</h2>
-        <p>Avoid queues and delays-pay your TGSPDCL bills online within seconds.</p>
+        <p>Avoid queues and delays pay your TGSPDCL bills online within seconds.</p>
         <h3 class="font-headline text-xl font-bold">🌐 Benefits of Paying Through Landeed:</h3>
         <ul class="list-disc space-y-2 pl-6">
           <li>One-click payment for TGSPDCL electricity bills in Telangana</li>
@@ -788,7 +875,7 @@ export let posts: Post[] = [
         <p>
           For a faster, simpler, and more reliable option, choose JaaGa. With just a few clicks,
           you can download your Sale Deed Agreement, Deed of Sale (CC), or other property
-          documents - saving time and ensuring peace of mind.
+          documents saving time and ensuring peace of mind.
         </p>
         <p>
           👉 Visit JaaGa today to download your Sale Deed Certified Copy (CC) online.
@@ -953,11 +1040,11 @@ export let posts: Post[] = [
         <h2 class="font-headline text-2xl font-bold">📢 Final Words</h2>
         <p>
           For property owners in Telangana, downloading a Property Tax Receipt has never been
-          easier. With the JaaGa App, you can access your receipts in seconds: securely, online,
+          easier. With the JaaGa App, you can access your receipts in seconds, securely, online,
           and without any hassle.
         </p>
         <p>
-          Say goodbye to long lines and confusing portals-switch to JaaGa and manage your
+          Say goodbye to long lines and confusing portals switch to JaaGa and manage your
           property the smart way!
         </p>
         <img
@@ -1795,17 +1882,4 @@ export let posts: Post[] = [
   },
 ];
 
-
-
-
     
-
-    
-
-
-
-
-
-
-
-
