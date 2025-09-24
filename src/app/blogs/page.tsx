@@ -6,14 +6,18 @@ export default async function BlogListPage() {
   const baseUrl =
     process.env.NEXT_PUBLIC_SITE_URL ||
     (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : null);
-  console.log("Base URL:", baseUrl);
 
-  if (!baseUrl)
-    throw new Error("Base URL not defined. Check environment variables.");
+  if (!baseUrl) {
+    throw new Error(
+      "Base URL not defined. Set NEXT_PUBLIC_SITE_URL or check VERCEL_URL."
+    );
+  }
 
   const res = await fetch(`${baseUrl}/api/posts`, { cache: "no-store" });
 
-  if (!res.ok) throw new Error("Failed to fetch posts from API");
+  if (!res.ok) {
+    throw new Error("Failed to fetch posts from API");
+  }
 
   const posts = await res.json();
   console.log(posts);
