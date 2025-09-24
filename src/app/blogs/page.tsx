@@ -8,6 +8,7 @@ export default async function BlogListPage() {
   const host = headersList.get("host");
   const protocol = host?.includes("localhost") ? "http" : "https";
   const baseUrl = `${protocol}://${host}`;
+  console.log(baseUrl)
 
   const res = await fetch(`${baseUrl}/api/posts`, { cache: "no-store" });
   const posts = await res.json();
