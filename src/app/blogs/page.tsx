@@ -1,29 +1,16 @@
+import { headers } from "next/headers";
+import { posts as initialPosts, categories } from "@/lib/data";
+import BlogListClient from "@/components/blog/blog-list-client";
 
-'use client';
+export default async function BlogListPage() {
 
-import {useState, useMemo} from 'react';
-import {BlogPostCard} from '@/components/blog/blog-post-card';
-import {posts as initialPosts, categories} from '@/lib/data';
-import {Input} from '@/components/ui/input';
-import {Search} from 'lucide-react';
-import type {Post} from '@/lib/types';
-import React from 'react';
+  const headersList = await headers();
+  const host = headersList.get("host");
+  const protocol = host?.includes("localhost") ? "http" : "https";
+  const baseUrl = `${protocol}://${host}`;
 
-export default function BlogListPage() {
-  const [searchQuery, setSearchQuery] = useState('');
-
-  const filteredPosts = useMemo(() => {
-    if (!searchQuery) {
-      return initialPosts;
-    }
-    return initialPosts.filter(post => {
-      const searchTerm = searchQuery.toLowerCase();
-      const titleMatch = post.title.toLowerCase().includes(searchTerm);
-      const excerptMatch = post.excerpt.toLowerCase().includes(searchTerm);
-      const contentMatch = post.content.toLowerCase().includes(searchTerm);
-      return titleMatch || excerptMatch || contentMatch;
-    });
-  }, [searchQuery]);
+  const res = await fetch(`${baseUrl}/api/posts`, { cache: "no-store" });
+  const posts = await res.json();
 
 
   return (
@@ -33,29 +20,11 @@ export default function BlogListPage() {
           JaaGa Insights
         </h1>
         <p className="mt-4 max-w-3xl mx-auto text-lg text-muted-foreground">
-          Your source for expert analysis and practical advice on Indian real estate, property law,
-          and digital ownership.
+          Your source for expert analysis and practical advice on Indian real
+          estate, property law, and digital ownership.
         </p>
       </div>
-
-      <div className="mb-12 max-w-2xl mx-auto">
-        <div className="relative">
-          <Input
-            type="search"
-            placeholder="Search for articles..."
-            className="w-full pl-10 h-12 text-base"
-            value={searchQuery}
-            onChange={e => setSearchQuery(e.target.value)}
-          />
-          <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-5 w-5 text-muted-foreground" />
-        </div>
-      </div>
-
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        {filteredPosts.map(post => (
-          <BlogPostCard key={post.id} post={post} />
-        ))}
-      </div>
+      <BlogListClient posts={posts} />
     </div>
   );
 }
