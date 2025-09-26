@@ -1,4 +1,5 @@
 
+
 import Link from 'next/link';
 import type {Category, Post, Service} from './types';
 import Image from 'next/image';
@@ -104,6 +105,136 @@ export const services: Service[] = [
   ];
 
 export let posts: Post[] = [
+  {
+    id: 16,
+    slug: 'tamil-nadu-patta-chitta-documents-a-complete-guide',
+    title: 'Tamil Nadu Patta/Chitta Documents: A Complete Guide',
+    excerpt:
+      'When it comes to property ownership in Tamil Nadu, understanding Patta and Chitta documents is crucial. These documents serve as legal proof of land ownership and are essential for property transactions, applying for loans, or transferring property rights.',
+    content: `
+      <div class="space-y-6">
+        <p>When it comes to property ownership in Tamil Nadu, understanding Patta and Chitta documents is crucial. These documents serve as legal proof of land ownership and are essential for property transactions, applying for loans, or transferring property rights.</p>
+        
+        <h2 class="font-headline text-2xl font-bold">What is a Patta?</h2>
+        <p>A Patta is an official document issued by the Revenue Department of Tamil Nadu that certifies the ownership of a land parcel. It contains details like the owner’s name, survey number, extent of the land, and the village or town where the property is located. Patta is required for land registration and is proof that the land revenue has been paid.</p>
+        
+        <h3 class="font-headline text-xl font-bold">Key Details Mentioned in Patta:</h3>
+        <ul class="list-disc list-inside space-y-2">
+            <li>Owner’s name</li>
+            <li>Survey number and sub-division</li>
+            <li>Land area</li>
+            <li>Village/Town and District</li>
+            <li>Land type (agricultural, non-agricultural)</li>
+            <li>Patta number and date of issue</li>
+        </ul>
+
+        <h2 class="font-headline text-2xl font-bold">What is a Chitta?</h2>
+        <p>A Chitta is a land record maintained by the Revenue Department that provides information about the land’s classification, usage, and ownership history. It acts as a reference document for property verification.</p>
+
+        <h3 class="font-headline text-xl font-bold">Key Details Mentioned in Chitta:</h3>
+        <ul class="list-disc list-inside space-y-2">
+            <li>Owner’s name</li>
+            <li>Survey number</li>
+            <li>Land area</li>
+            <li>Classification (e.g., wetland, dry land)</li>
+            <li>Usage type (residential, agricultural, commercial)</li>
+        </ul>
+
+        <h2 class="font-headline text-2xl font-bold">Difference Between Patta and Chitta</h2>
+        <div class="overflow-x-auto">
+            <table class="min-w-full border-collapse border border-border">
+                <thead>
+                    <tr class="bg-muted">
+                        <th class="border border-border p-2 text-left">Feature</th>
+                        <th class="border border-border p-2 text-left">Patta</th>
+                        <th class="border border-border p-2 text-left">Chitta</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="border border-border p-2">Purpose</td>
+                        <td class="border border-border p-2">Proof of ownership</td>
+                        <td class="border border-border p-2">Record of land classification and usage</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-border p-2">Issued by</td>
+                        <td class="border border-border p-2">Revenue Department</td>
+                        <td class="border border-border p-2">Revenue Department</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-border p-2">Legal Importance</td>
+                        <td class="border border-border p-2">Required for property sale, registration, and loan</td>
+                        <td class="border border-border p-2">Used for property verification</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-border p-2">Contains</td>
+                        <td class="border border-border p-2">Owner details, survey number, land extent</td>
+                        <td class="border border-border p-2">Land type, classification, owner details</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <h2 class="font-headline text-2xl font-bold">How to Apply for Patta/Chitta in Tamil Nadu</h2>
+        <p>Applying for Patta or Chitta can be done online or offline:</p>
+
+        <h3 class="font-headline text-xl font-bold">Online Process:</h3>
+        <ol class="list-decimal list-inside space-y-2">
+            <li>Visit the Tamil Nadu e-Services Portal.</li>
+            <li>Navigate to the “Land Records” section.</li>
+            <li>Select “Patta/Chitta” application.</li>
+            <li>Enter details like survey number, district, taluk, and village.</li>
+            <li>Submit the required documents (previous patta, tax receipts, ID proof).</li>
+            <li>Pay applicable fees online.</li>
+            <li>Track your application status on the portal.</li>
+        </ol>
+
+        <h3 class="font-headline text-xl font-bold">Offline Process:</h3>
+        <ol class="list-decimal list-inside space-y-2">
+            <li>Visit the local Taluk or Revenue Office.</li>
+            <li>Fill out the Patta/Chitta application form.</li>
+            <li>Submit supporting documents:
+                <ul class="list-disc list-inside ml-4">
+                    <li>Previous patta or sale deed</li>
+                    <li>ID proof of applicant</li>
+                    <li>Land tax receipts</li>
+                </ul>
+            </li>
+            <li>Pay the prescribed fees.</li>
+            <li>Collect the document once approved.</li>
+        </ol>
+
+        <h2 class="font-headline text-2xl font-bold">Importance of Patta/Chitta Documents</h2>
+        <ul class="list-disc list-inside space-y-2">
+            <li><strong>Legal Proof:</strong> Establishes ownership in court or legal matters.</li>
+            <li><strong>Property Transactions:</strong> Required for selling or buying land.</li>
+            <li><strong>Loans and Mortgages:</strong> Banks require Patta as a primary document for property-backed loans.</li>
+            <li><strong>Dispute Resolution:</strong> Helps in resolving land disputes and ownership claims.</li>
+            <li><strong>Government Schemes:</strong> Necessary for applying to government land-related schemes.</li>
+        </ul>
+
+        <h2 class="font-headline text-2xl font-bold">How to Verify Patta/Chitta Online</h2>
+        <p>Tamil Nadu residents can verify Patta and Chitta details online using the Tamil Nadu Land Records Portal. Verification ensures that the property details are accurate and helps avoid fraud during property transactions.</p>
+        
+        <h3 class="font-headline text-xl font-bold">Steps:</h3>
+        <ol class="list-decimal list-inside space-y-2">
+            <li>Go to the “View Patta/Chitta” section.</li>
+            <li>Enter district, taluk, village, and survey number.</li>
+            <li>Click “Search” to view the land records.</li>
+            <li>Download or print the document for future reference.</li>
+        </ol>
+
+        <h2 class="font-headline text-2xl font-bold">Conclusion</h2>
+        <p>Patta and Chitta documents are essential for anyone owning land in Tamil Nadu. Whether you are buying, selling, or mortgaging your property, having these documents in order is crucial for a smooth process. With the online portal, residents can easily apply, verify, and download these records from the comfort of their home, making property management simpler and more transparent.</p>
+      </div>
+    `,
+    category: 'property-documents',
+    tags: ['Tamil Nadu Patta', 'Chitta documents Tamil Nadu', 'Patta/Chitta download online', 'Tamil Nadu property documents', 'TN land records', 'Tamil Nadu land ownership'],
+    featuredImage: 'https://picsum.photos/seed/tn-patta/800/450',
+    metaTitle: 'Tamil Nadu Patta & Chitta Documents | Apply Online',
+    metaDescription: 'Apply, verify, and download Tamil Nadu Patta & Chitta documents online. Secure your land ownership and check property details easily.',
+    keywords: 'Tamil Nadu Patta, Chitta documents Tamil Nadu, Patta/Chitta download online, Tamil Nadu property documents, TN land records, Tamil Nadu land ownership',
+  },
   {
     id: 15,
     slug: 'how-to-prove-legal-ownership-of-a-property-complete-guide-india-2025',
