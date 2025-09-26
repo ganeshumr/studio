@@ -230,7 +230,7 @@ export let posts: Post[] = [
     `,
     category: 'property-documents',
     tags: ['Tamil Nadu Patta', 'Chitta documents Tamil Nadu', 'Patta/Chitta download online', 'Tamil Nadu property documents', 'TN land records', 'Tamil Nadu land ownership'],
-    featuredImage: 'https://picsum.photos/seed/tn-patta/800/450',
+    featuredImage: 'https://ik.imagekit.io/sravanth/Update%20Your%20Name,%20Secure%20Your%20Property%20(1).png?updatedAt=1758881580977',
     metaTitle: 'Tamil Nadu Patta & Chitta Documents | Apply Online',
     metaDescription: 'Apply, verify, and download Tamil Nadu Patta & Chitta documents online. Secure your land ownership and check property details easily.',
     keywords: 'Tamil Nadu Patta, Chitta documents Tamil Nadu, Patta/Chitta download online, Tamil Nadu property documents, TN land records, Tamil Nadu land ownership',
@@ -1512,7 +1512,7 @@ export let posts: Post[] = [
         </div>
 
         <h2 class="font-headline text-2xl font-bold">Final Thoughts</h2>
-        <p>Changing the name on your electricity bill in Telangana is more than just an administrative step it’s a legal necessity for smooth property ownership and utility management. While the traditional method is slow and complicated, Jaaga.ai provides a modern, digital-first solution that saves time, reduces errors, and ensures transparency.</p>
+        <p>Changing the name on your electricity bill in Telangana is more than just an administrative step—it’s a legal necessity for smooth property ownership and utility management. While the traditional method is slow and complicated, Jaaga.ai provides a modern, digital-first solution that saves time, reduces errors, and ensures transparency.</p>
         <p>By using Jaaga.ai, Telangana residents can complete the electricity bill name change process with ease and confidence, making property ownership hassle-free.</p>
         <p>If you’ve recently bought a property, inherited one, or need to update your name on the electricity bill, Jaaga.ai is the simplest and most reliable way to do it in Telangana.</p>
       </div>
