@@ -1,26 +1,30 @@
-import BlogListClient from "@/components/blog/blog-list-client";
 
-export default async function BlogListPage() {
-  // Determine base URL safely
-  const baseUrl =
-    process.env.NEXT_PUBLIC_SITE_URL || // local dev or prod
-    (process.env.VERCEL_URL
-      ? `https://${process.env.VERCEL_URL}`
-      : "http://localhost:3000");
+'use client';
 
-  if (!baseUrl) throw new Error("Base URL is not defined");
+import {useState, useMemo} from 'react';
+import {BlogPostCard} from '@/components/blog/blog-post-card';
+import {posts as initialPosts, categories} from '@/lib/data';
+import {Input} from '@/components/ui/input';
+import {Search} from 'lucide-react';
+import type {Post} from '@/lib/types';
+import React from 'react';
 
-  console.log("Base URL:", baseUrl);
+export default function BlogListPage() {
+  const [searchQuery, setSearchQuery] = useState('');
 
-  // Fetch posts from API route
-  const res = await fetch(`${baseUrl}/api/posts`, {
-    cache: "no-store", // no caching for SSR
-  });
+  const filteredPosts = useMemo(() => {
+    if (!searchQuery) {
+      return initialPosts;
+    }
+    return initialPosts.filter(post => {
+      const searchTerm = searchQuery.toLowerCase();
+      const titleMatch = post.title.toLowerCase().includes(searchTerm);
+      const excerptMatch = post.excerpt.toLowerCase().includes(searchTerm);
+      const contentMatch = post.content.toLowerCase().includes(searchTerm);
+      return titleMatch || excerptMatch || contentMatch;
+    });
+  }, [searchQuery]);
 
-  if (!res.ok) throw new Error("Failed to fetch posts from API");
-
-  const posts = await res.json();
-  console.log(posts);
 
   return (
     <div className="container mx-auto px-4 py-16 md:py-24">
@@ -29,12 +33,29 @@ export default async function BlogListPage() {
           JaaGa Insights
         </h1>
         <p className="mt-4 max-w-3xl mx-auto text-lg text-muted-foreground">
-          Your source for expert analysis and practical advice on Indian real
-          estate, property law, and digital ownership.
+          Your source for expert analysis and practical advice on Indian real estate, property law,
+          and digital ownership.
         </p>
       </div>
-      {/* BlogListClient must be a client component */}
-      <BlogListClient posts={posts} />
+
+      <div className="mb-12 max-w-2xl mx-auto">
+        <div className="relative">
+          <Input
+            type="search"
+            placeholder="Search for articles..."
+            className="w-full pl-10 h-12 text-base"
+            value={searchQuery}
+            onChange={e => setSearchQuery(e.target.value)}
+          />
+          <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-5 w-5 text-muted-foreground" />
+        </div>
+      </div>
+
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        {filteredPosts.map(post => (
+          <BlogPostCard key={post.id} post={post} />
+        ))}
+      </div>
     </div>
   );
 }
