@@ -1,30 +1,26 @@
+import BlogListClient from "@/components/blog/blog-list-client";
 
-'use client';
+export default async function BlogListPage() {
+  // Determine base URL safely
+  const baseUrl =
+    process.env.NEXT_PUBLIC_SITE_URL || // local dev or prod
+    (process.env.VERCEL_URL
+      ? `https://${process.env.VERCEL_URL}`
+      : "http://localhost:3000");
 
-import {useState, useMemo} from 'react';
-import {BlogPostCard} from '@/components/blog/blog-post-card';
-import {posts as initialPosts, categories} from '@/lib/data';
-import {Input} from '@/components/ui/input';
-import {Search} from 'lucide-react';
-import type {Post} from '@/lib/types';
-import React from 'react';
+  if (!baseUrl) throw new Error("Base URL is not defined");
 
-export default function BlogListPage() {
-  const [searchQuery, setSearchQuery] = useState('');
+  console.log("Base URL:", baseUrl);
 
-  const filteredPosts = useMemo(() => {
-    if (!searchQuery) {
-      return initialPosts;
-    }
-    return initialPosts.filter(post => {
-      const searchTerm = searchQuery.toLowerCase();
-      const titleMatch = post.title.toLowerCase().includes(searchTerm);
-      const excerptMatch = post.excerpt.toLowerCase().includes(searchTerm);
-      const contentMatch = post.content.toLowerCase().includes(searchTerm);
-      return titleMatch || excerptMatch || contentMatch;
-    });
-  }, [searchQuery]);
+  // Fetch posts from API route
+  const res = await fetch(`${baseUrl}/api/posts`, {
+    cache: "no-store", // no caching for SSR
+  });
 
+  if (!res.ok) throw new Error("Failed to fetch posts from API");
+
+  const posts = await res.json();
+  console.log(posts);
 
   return (
     <div className="container mx-auto px-4 py-16 md:py-24">
