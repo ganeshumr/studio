@@ -1781,7 +1781,7 @@ export let posts: Post[] = [
     `,
     category: 'legal-verification',
     tags: ['legal verification', 'property documents', 'due diligence', 'Telangana', 'Andhra Pradesh', 'property verification Telangana', 'legal property check Andhra Pradesh', 'title deed verification', 'encumbrance certificate Telangana', 'Meebhoomi property verification', 'property NOC Andhra Pradesh', 'secure property purchase Telangana'],
-    featuredImage: 'https://picsum.photos/seed/legal-verification/800/450',
+    featuredImage: 'https://ik.imagekit.io/sravanth/Update%20Your%20Name,%20Secure%20Your%20Property%20(2).png?updatedAt=1759129644613',
     metaTitle: 'Legal Property Verification in Telangana & Andhra Pradesh: Complete Guide for Buyers',
     metaDescription:
       'Ensure a safe property purchase in Telangana and Andhra Pradesh. Learn step-by-step legal property verification, check ownership, encumbrances, NOCs, and avoid disputes.',
@@ -1927,3 +1927,4 @@ export let posts: Post[] = [
 ];
 
     
+
