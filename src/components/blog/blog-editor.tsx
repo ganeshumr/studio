@@ -19,10 +19,11 @@ import {Textarea} from '@/components/ui/textarea';
 import {Select, SelectContent, SelectItem, SelectTrigger, SelectValue} from '@/components/ui/select';
 import {useToast} from '@/hooks/use-toast';
 import {categories} from '@/lib/data';
-import {useState} from 'react';
+import {useState, useMemo} from 'react';
 import {Loader2, FileUp} from 'lucide-react';
 import {Card, CardContent} from '@/components/ui/card';
 import {publishPostAction} from '@/app/actions/publish-post-action';
+import dynamic from 'next/dynamic';
 
 const formSchema = z.object({
   title: z.string().min(5, 'Title must be at least 5 characters.'),
@@ -45,6 +46,9 @@ const formSchema = z.object({
 export function BlogEditor() {
   const [isLoading, setIsLoading] = useState(false);
   const {toast} = useToast();
+
+  const ReactQuill = useMemo(() => dynamic(() => import('react-quill'), { ssr: false }),[]);
+
 
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
@@ -205,10 +209,11 @@ export function BlogEditor() {
                 <FormItem>
                   <FormLabel>Content</FormLabel>
                   <FormControl>
-                     <Textarea
-                        placeholder="Full content of the blog post."
-                        className="min-h-[400px]"
-                        {...field}
+                     <ReactQuill
+                        theme="snow"
+                        value={field.value}
+                        onChange={field.onChange}
+                        className="min-h-[400px] bg-white text-gray-900"
                       />
                   </FormControl>
                   <FormDescription>Full content of the blog post.</FormDescription>

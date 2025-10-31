@@ -1,7 +1,7 @@
 
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useMemo } from 'react';
 import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { z } from 'zod';
@@ -20,7 +20,7 @@ import { useToast } from '@/hooks/use-toast';
 import { Loader2 } from 'lucide-react';
 import type { Post } from '@/lib/types';
 import { editPostAction } from '@/app/actions/edit-post-action';
-import { Textarea } from '../ui/textarea';
+import dynamic from 'next/dynamic';
 
 const formSchema = z.object({
   id: z.number(),
@@ -37,6 +37,8 @@ type EditPostDialogProps = {
 export function EditPostDialog({ post, isOpen, onClose }: EditPostDialogProps) {
   const [isLoading, setIsLoading] = useState(false);
   const { toast } = useToast();
+  
+  const ReactQuill = useMemo(() => dynamic(() => import('react-quill'), { ssr: false }),[]);
 
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
@@ -108,10 +110,12 @@ export function EditPostDialog({ post, isOpen, onClose }: EditPostDialogProps) {
                 <FormItem>
                   <FormLabel>Content</FormLabel>
                   <FormControl>
-                    <Textarea
-                      className="min-h-[400px]"
-                      {...field}
-                    />
+                    <ReactQuill
+                        theme="snow"
+                        value={field.value}
+                        onChange={field.onChange}
+                        className="min-h-[400px] bg-white text-gray-900"
+                      />
                   </FormControl>
                   <FormMessage />
                 </FormItem>

@@ -68,8 +68,12 @@
 }
 
 /* Custom styles for react-quill */
-.ql-editor {
+.ql-container {
     @apply text-base;
+}
+
+.ql-editor {
+  min-height: 400px;
 }
 
 .prose {
