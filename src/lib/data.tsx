@@ -106,6 +106,134 @@ export const services: Service[] = [
 
 export let posts: Post[] = [
   {
+    id: 17,
+    slug: 'apply-for-property-mutation-in-telangana-complete-guide-2025',
+    title: 'How to Apply Mutation in Telangana Using JaaGa App – A Complete Guide 2025',
+    excerpt: 'Mutation is the process of changing the title of a property in the revenue records after it has been sold, inherited, or transferred. In Telangana, the mutation process ensures that the new owner\'s name is officially registered in government records, allowing them to pay property tax and establish legal ownership.',
+    content: `
+      <div class="space-y-6">
+        <h2 class="font-headline text-2xl font-bold">What is Mutation?</h2>
+        <p>Mutation is the process of changing the title of a property in the revenue records after it has been sold, inherited, or transferred. In Telangana, the mutation process ensures that the new owner's name is officially registered in government records, allowing them to pay property tax and establish legal ownership.</p>
+        
+        <h3 class="font-headline text-xl font-bold">💡 Why is Mutation Important?</h3>
+        <ul class="list-disc list-inside space-y-2">
+            <li>✅ Updating government records with your ownership</li>
+            <li>✅ Selling or transferring property in the future</li>
+            <li>✅ Applying for home loans or land development</li>
+            <li>✅ Avoiding property disputes or double registrations</li>
+            <li>✅ Getting property tax in your name</li>
+        </ul>
+        <p>⚠️ Note: Even if you have a registered sale deed, if mutation is not done, government still shows the old owner’s name!</p>
+
+        <h3 class="font-headline text-xl font-bold">Mutation Certificate Includes:</h3>
+        <ul class="list-disc list-inside space-y-2">
+            <li>Owner name</li>
+            <li>Survey number / Plot number</li>
+            <li>Extent of land (area)</li>
+            <li>Village / Mandal / District</li>
+            <li>Nature of transaction (sale/gift/inheritance)</li>
+            <li>Date of mutation</li>
+            <li>Mutation reference number</li>
+        </ul>
+
+        <h2 class="font-headline text-2xl font-bold">Steps to Apply Mutation in Telangana Using the JaaGa App (2025)</h2>
+        <h3 class="font-headline text-xl font-bold">Step 1: Install the JaaGa App</h3>
+        <ul class="list-disc list-inside space-y-2">
+            <li>Go to the Google Play Store or Apple App Store</li>
+            <li>Search for “JaaGa: Digital Property Docs”</li>
+            <li>Tap Install and open the app</li>
+            <li>Or Visit JaaGa Website: <a href="https://www.jaaga.ai/services/property-services/mutation-creation" target="_blank" rel="noopener noreferrer" class="text-primary hover:underline">https://www.jaaga.ai/services/property-services/mutation-creation</a></li>
+            <li>Log in or register as a new user.</li>
+        </ul>
+
+        <h3 class="font-headline text-xl font-bold">Step 2: Enter Required Property Details</h3>
+        <p>Enter your:</p>
+        <ul class="list-disc list-inside space-y-2">
+            <li>Owner Name</li>
+            <li>Village/Division</li>
+            <li>SRO</li>
+        </ul>
+
+        <h3 class="font-headline text-xl font-bold">Step 3: Upload Supporting Documents</h3>
+        <p>Usually required:</p>
+        <ul class="list-disc list-inside space-y-2">
+            <li>✅ Registered Sale Deed / Gift Deed / Partition Deed Party 1</li>
+            <li>✅ Registered Sale Deed / Gift Deed / Partition Deed Party 2</li>
+            <li>✅ Id & Address Proof</li>
+            <li>✅ Property Tax Receipt</li>
+            <li>✅ Latest Encumbrance Certificate (EC)</li>
+        </ul>
+        <p>📌 Don’t worry — the app guides you step-by-step on what documents are needed based on your case.</p>
+
+        <h3 class="font-headline text-xl font-bold">Step 4: Pay the Service Fee</h3>
+        <ul class="list-disc list-inside space-y-2">
+            <li>Fees vary by property type & location (service fee - ₹1,999 )</li>
+            <li>Make the payment to proceed with further steps</li>
+        </ul>
+
+        <h3 class="font-headline text-xl font-bold">Step 6: Support Team Contact</h3>
+        <p>After successful payment, our support team will contact you to assist with the next steps of the process.</p>
+        
+        <h2 class="font-headline text-2xl font-bold">Districts & Municipalities Supported</h2>
+        <p>JaaGa supports mutation filing for all districts and mandals in Telangana, including:</p>
+        <ul class="list-disc list-inside space-y-2">
+            <li>Hyderabad, Rangareddy, Medchal</li>
+            <li>Warangal, Karimnagar, Nizamabad, Khammam</li>
+            <li>Mahbubnagar, Nalgonda, Siddipet, Suryapet</li>
+            <li>All revenue villages under the Dharani portal</li>
+        </ul>
+        <p>✅ Whether your property is agricultural or non-agricultural, JaaGa supports both.</p>
+
+        <h2 class="font-headline text-2xl font-bold">🔐 Is JaaGa Safe?</h2>
+        <p>Yes! The JaaGa App:</p>
+        <ul class="list-disc list-inside space-y-2">
+            <li>🔐 Uses government APIs (Dharani, Registration Dept., CDMA)</li>
+            <li>🧾 Fetches official data directly</li>
+            <li>🔒 Uses encrypted & secure storage</li>
+            <li>✅ Is trusted by 1000s of Telangana property owners</li>
+        </ul>
+
+        <h2 class="font-headline text-2xl font-bold">🤔 What If I Don’t Know My Survey Number or SRO?</h2>
+        <p>No problem! The app has a built-in “Don’t Have Details? or by Know Your SRO” feature. You can search your property using:</p>
+        <ul class="list-disc list-inside space-y-2">
+            <li>🏘️ Village / Division</li>
+        </ul>
+        <p>The app will auto-fetch your land records and show them to you.</p>
+
+        <h2 class="font-headline text-2xl font-bold">FAQs on Mutation in Telangana</h2>
+        <div class="space-y-4">
+            <div>
+                <h4 class="font-bold">Q1: How long does the mutation process take?</h4>
+                <p>Online mutation can take 15–30 days, depending on verification.</p>
+            </div>
+            <div>
+                <h4 class="font-bold">Q2: Can I track the status of my mutation application?</h4>
+                <p>Yes, use the acknowledgment number/Order ID on the JaaGa portal.</p>
+            </div>
+            <div>
+                <h4 class="font-bold">Q3: Is mutation the same as property registration?</h4>
+                <p>No. Registration is done at the sub-registrar’s office. Mutation records the new owner in the revenue records.</p>
+            </div>
+            <div>
+                <h4 class="font-bold">Q4: Can a mutation be done without a sale deed?</h4>
+                <p>Only in cases of inheritance or court order.</p>
+            </div>
+        </div>
+
+        <h2 class="font-headline text-2xl font-bold">Final Words</h2>
+        <p>If you’ve bought a property or inherited land in Telangana, mutation is not optional — it’s your legal responsibility. With the JaaGa App, you can now apply for mutation online in just a few taps — no middlemen, no confusion, no waiting in queues.</p>
+        <p>🧾 Get your mutation certificate, update your ownership legally, and protect your property rights — the smart, digital way!</p>
+        <p>🚀 Download the JaaGa App today and apply for mutation from your phone!</p>
+      </div>
+    `,
+    category: 'mutation-creation',
+    tags: ['mutation', 'telangana', 'jaaga', 'dharani'],
+    featuredImage: 'https://ik.imagekit.io/sravanth/Update%20Your%20Name,%20Secure%20Your%20Property%20(3).png?updatedAt=1759134015694',
+    metaTitle: 'How to Apply Mutation in Telangana Using JaaGa App – A Complete Guide 2025',
+    metaDescription: 'Easily apply for mutation in Telangana online using the JaaGa App. Step-by-step guide to update land ownership records, check mutation status, and download your mutation certificate securely in 2025.',
+    keywords: 'mutation Telangana, apply mutation online Telangana, Telangana land mutation certificate, how to apply mutation in Telangana 2025, JaaGa mutation service Telangana, Dharani mutation application, mutation status Telangana online, mutation certificate download Telangana, JaaGa app mutation guide',
+  },
+  {
     id: 16,
     slug: 'tamil-nadu-patta-chitta-documents-a-complete-guide',
     title: 'Tamil Nadu Patta/Chitta Documents: A Complete Guide',
@@ -1927,4 +2055,5 @@ export let posts: Post[] = [
 ];
 
     
+
 
