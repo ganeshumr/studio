@@ -40,7 +40,7 @@ function Hero() {
                 </Link>
               </Button>
               <Button size="lg" className="gap-4" asChild>
-                <Link href="/blog">
+                <Link href="/blogs">
                   Read Insights <ArrowRight className="w-4 h-4" />
                 </Link>
               </Button>
@@ -154,7 +154,7 @@ export default function Home() {
               </p>
             </div>
             <Button asChild variant="link" className="text-primary mt-4 md:mt-0">
-              <Link href="/blog">
+              <Link href="/blogs">
                 View All Posts <ArrowRight className="ml-2 h-4 w-4" />
               </Link>
             </Button>
