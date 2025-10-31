@@ -221,14 +221,15 @@ export let posts: Post[] = [
         </div>
 
         <h2 class="font-headline text-2xl font-bold">Final Words</h2>
-        <p>If you’ve bought a property or inherited land in Telangana, mutation is not optional — it’s your legal responsibility. With the JaaGa App, you can now apply for mutation online in just a few taps — no middlemen, no confusion, no waiting in queues.</p>
+        <p>If you’ve bought a property or inherited land in Telangana, mutation is not optional — it’s your legal responsibility.</p>
+        <p>With the JaaGa App, you can now apply for mutation online in just a few taps — no middlemen, no confusion, no waiting in queues.</p>
         <p>🧾 Get your mutation certificate, update your ownership legally, and protect your property rights — the smart, digital way!</p>
         <p>🚀 Download the JaaGa App today and apply for mutation from your phone!</p>
       </div>
     `,
     category: 'mutation-creation',
     tags: ['mutation', 'telangana', 'jaaga', 'dharani'],
-    featuredImage: 'https://ik.imagekit.io/sravanth/Update%20Your%20Name,%20Secure%20Your%20Property%20(3).png?updatedAt=1759134015694',
+    featuredImage: 'https://ik.imagekit.io/jaaga/Update%20Your%20Name,%20Secure%20Your%20Property%20(4).png?updatedAt=1761916011550',
     metaTitle: 'How to Apply Mutation in Telangana Using JaaGa App – A Complete Guide 2025',
     metaDescription: 'Easily apply for mutation in Telangana online using the JaaGa App. Step-by-step guide to update land ownership records, check mutation status, and download your mutation certificate securely in 2025.',
     keywords: 'mutation Telangana, apply mutation online Telangana, Telangana land mutation certificate, how to apply mutation in Telangana 2025, JaaGa mutation service Telangana, Dharani mutation application, mutation status Telangana online, mutation certificate download Telangana, JaaGa app mutation guide',
@@ -2053,6 +2054,7 @@ export let posts: Post[] = [
 ];
 
     
+
 
 
 
