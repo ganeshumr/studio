@@ -117,11 +117,11 @@ export let posts: Post[] = [
         
         <h3 class="font-headline text-xl font-bold">💡 Why is Mutation Important?</h3>
         <ul class="list-disc list-inside space-y-2">
-            <li>✅ Updating government records with your ownership</li>
-            <li>✅ Selling or transferring property in the future</li>
-            <li>✅ Applying for home loans or land development</li>
-            <li>✅ Avoiding property disputes or double registrations</li>
-            <li>✅ Getting property tax in your name</li>
+            <li>Updating government records with your ownership</li>
+            <li>Selling or transferring property in the future</li>
+            <li>Applying for home loans or land development</li>
+            <li>Avoiding property disputes or double registrations</li>
+            <li>Getting property tax in your name</li>
         </ul>
         <p>⚠️ Note: Even if you have a registered sale deed, if mutation is not done, government still shows the old owner’s name!</p>
 
@@ -157,11 +157,11 @@ export let posts: Post[] = [
         <h3 class="font-headline text-xl font-bold">Step 3: Upload Supporting Documents</h3>
         <p>Usually required:</p>
         <ul class="list-disc list-inside space-y-2">
-            <li>✅ Registered Sale Deed / Gift Deed / Partition Deed Party 1</li>
-            <li>✅ Registered Sale Deed / Gift Deed / Partition Deed Party 2</li>
-            <li>✅ Id & Address Proof</li>
-            <li>✅ Property Tax Receipt</li>
-            <li>✅ Latest Encumbrance Certificate (EC)</li>
+            <li>Registered Sale Deed / Gift Deed / Partition Deed Party 1</li>
+            <li>Registered Sale Deed / Gift Deed / Partition Deed Party 2</li>
+            <li>Id & Address Proof</li>
+            <li>Property Tax Receipt</li>
+            <li>Latest Encumbrance Certificate (EC)</li>
         </ul>
         <p>📌 Don’t worry — the app guides you step-by-step on what documents are needed based on your case.</p>
 
@@ -187,10 +187,10 @@ export let posts: Post[] = [
         <h2 class="font-headline text-2xl font-bold">🔐 Is JaaGa Safe?</h2>
         <p>Yes! The JaaGa App:</p>
         <ul class="list-disc list-inside space-y-2">
-            <li>🔐 Uses government APIs (Dharani, Registration Dept., CDMA)</li>
-            <li>🧾 Fetches official data directly</li>
-            <li>🔒 Uses encrypted & secure storage</li>
-            <li>✅ Is trusted by 1000s of Telangana property owners</li>
+            <li>Uses government APIs (Dharani, Registration Dept., CDMA)</li>
+            <li>Fetches official data directly</li>
+            <li>Uses encrypted & secure storage</li>
+            <li>Is trusted by 1000s of Telangana property owners</li>
         </ul>
 
         <h2 class="font-headline text-2xl font-bold">🤔 What If I Don’t Know My Survey Number or SRO?</h2>
@@ -1305,7 +1305,6 @@ export let posts: Post[] = [
         </ul>
         
         <h2 class="font-headline text-2xl font-bold">Common Challenges in Digital Property Ownership</h2>
-        <p>While digital ownership has many advantages, there are also challenges:</p>
         <ul class="list-disc list-inside space-y-2">
             <li>Lack of awareness among property owners, especially in rural areas.</li>
             <li>Dependence on internet access and digital literacy.</li>
@@ -1440,7 +1439,6 @@ export let posts: Post[] = [
         </ul>
         <p><strong>Why Banks Need It:</strong><br>Updated tax receipts and bills prove that there are no outstanding payments. They also confirm the property’s existence and usage.</p>
         <h2 class="font-headline text-2xl font-bold">Other Supporting Documents You May Need</h2>
-        <p>Apart from the 5 essential property documents, banks may also ask for:</p>
         <ul class="list-disc space-y-2 pl-6">
             <li><strong>No Objection Certificate (NOC) from Society or Builder</strong> – If buying an apartment.</li>
             <li><strong>Possession Certificate</strong> – For under-construction properties.</li>
@@ -1565,12 +1563,12 @@ export let posts: Post[] = [
 
         <h2 class="font-headline text-2xl font-bold">Benefits of Using Jaaga.ai for Electricity Bill Name Change in Telangana</h2>
         <ul class="list-disc space-y-2 pl-6">
-          <li><strong>✅ Time-Saving:</strong> Avoid multiple visits to government offices.</li>
-          <li><strong>✅ Error-Free Process:</strong> Expert guidance ensures no rejections due to incomplete documents.</li>
-          <li><strong>✅ Transparency:</strong> Real-time updates and tracking keep you informed.</li>
-          <li><strong>✅ Convenience:</strong> End-to-end service from the comfort of your home.</li>
-          <li><strong>✅ Legal Compliance:</strong> Ensures your electricity bill is legally valid and updated.</li>
-          <li><strong>✅ Customer Support:</strong> Jaaga.ai provides support to clarify doubts and assist with follow-ups.</li>
+          <li><strong>Time-Saving:</strong> Avoid multiple visits to government offices.</li>
+          <li><strong>Error-Free Process:</strong> Expert guidance ensures no rejections due to incomplete documents.</li>
+          <li><strong>Transparency:</strong> Real-time updates and tracking keep you informed.</li>
+          <li><strong>Convenience:</strong> End-to-end service from the comfort of your home.</li>
+          <li><strong>Legal Compliance:</strong> Ensures your electricity bill is legally valid and updated.</li>
+          <li><strong>Customer Support:</strong> Jaaga.ai provides support to clarify doubts and assist with follow-ups.</li>
         </ul>
 
         <h2 class="font-headline text-2xl font-bold">Documents Required for Electricity Bill Name Change in Telangana</h2>
@@ -2055,5 +2053,6 @@ export let posts: Post[] = [
 ];
 
     
+
 
 
