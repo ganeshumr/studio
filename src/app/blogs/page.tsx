@@ -1,5 +1,24 @@
 import BlogListClient from "@/components/blog/blog-list-client";
 import { posts } from "@/lib/data";
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'JaaGa Insights Blog',
+  description: 'Your source for expert analysis and practical advice on Indian real estate, property law, and digital ownership. Find articles on patta, chitta, EC, land records, and more.',
+  keywords: [
+    'real estate blog India',
+    'property law India',
+    'digital ownership',
+    'land records Telangana',
+    'patta chitta Tamil Nadu',
+    'Encumbrance Certificate AP',
+    'property verification',
+    'JaaGa insights',
+    'property documents online',
+    'legal heir certificate',
+    'sale deed'
+  ],
+};
 
 export default function BlogListPage() {
   return (
