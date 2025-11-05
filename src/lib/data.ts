@@ -1596,7 +1596,7 @@ export let posts: Post[] = [
             <p>Yes, for ready-to-move properties, banks usually require an Occupancy Certificate as proof that the building is legally fit for occupation.</p>
             <h4 class="font-bold">6. Are property tax receipts necessary for home loan approval?</h4>
             <p>Yes. They show that the current owner has cleared all municipal dues and the property is not under dispute.</p>
-            <h4 class="font-bold">7. What happens if property documents are missing?</h4>
+            <h4 class="font-bold">7. What if property documents are missing?</h4>
             <p>Missing documents can delay or even reject your home loan application. Always ensure proper documentation before proceeding.</p>
             <h4 class="font-bold">8. Can banks help verify property documents?</h4>
             <p>Yes. Most banks conduct a legal and technical verification of documents before approving a loan.</p>
@@ -2174,6 +2174,7 @@ export let posts: Post[] = [
 ];
 
     
+
 
 
 
