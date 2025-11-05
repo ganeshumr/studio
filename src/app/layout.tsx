@@ -42,7 +42,6 @@ export const metadata: Metadata = {
     'Kaveri Documents',
     'Certified Copy',
     'patta',
-    'mypatta',
     'patta download',
     'patta online',
     'ec telangana',
