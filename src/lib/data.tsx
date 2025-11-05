@@ -112,119 +112,115 @@ export let posts: Post[] = [
     excerpt: 'A Certified Encumbrance Certificate (EC) is a government-issued legal document that shows the complete history of transactions on a property. It helps buyers, banks, and legal authorities verify that the property is free from any mortgage, loan, claim, dispute, or legal restriction.',
     content: `
       <div class="space-y-6">
-        <h2 class="font-headline text-2xl font-bold">Understanding Certified Encumbrance Certificate (EC) in Telangana</h2>
-        <p>A Certified Encumbrance Certificate (EC) is a government-issued legal document that shows the complete history of transactions on a property. It helps buyers, banks, and legal authorities verify that the property is free from any mortgage, loan, claim, dispute, or legal restriction. In Telangana, this certificate is issued by the Registration & Stamps Department and is physically signed and sealed by the Sub-Registrar, which makes it valid for official purposes.</p>
-        <p>Unlike the normal online EC (which is only for reference), a <strong>Certified EC</strong> comes with an official stamp, signature, and QR validation — making it legally acceptable in courts, banks, and revenue offices.</p>
-        
-        <h3 class="font-headline text-xl font-bold">Key Highlights</h3>
-        <ul class="list-disc list-inside space-y-2">
-            <li><strong>Issued by:</strong> Telangana Registration & Stamps Department (SRO)</li>
-            <li><strong>Legally valid:</strong> Yes – contains seal + digital or physical signature</li>
-            <li><strong>Mandatory for:</strong> Home loans, resale, court cases, property transfer</li>
-            <li><strong>Available online through:</strong> JaaGa.ai – no SRO visit required</li>
-        </ul>
+        <h1>How to Download a Certified Encumbrance Certificate (EC) in Telangana – Step-by-Step Guide</h1>
 
-        <h2 class="font-headline text-2xl font-bold">How to Download a Certified EC in Telangana Using JaaGa.ai?</h2>
-        <p>With JaaGa.ai, you can apply online and download a signed Certified EC without standing in queues at the Sub-Registrar Office. Here is the complete step-by-step process:</p>
-        <ol class="list-decimal list-inside space-y-2">
-            <li>Visit <strong>JaaGa.ai</strong> and log in or create an account.</li>
-            <li>Select <strong>Property Documents</strong> and choose <strong>Telangana</strong> from the dropdown.</li>
-            <li>Tap on <strong>Encumbrance Certificate (EC)</strong> or <strong>Certified EC</strong>.</li>
-            <li>Select one of the search options:
-                <ul class="list-disc list-inside ml-4">
-                    <li><strong>EC by Document Number</strong> – Enter SRO, Document No, Registration Year</li>
-                    <li><strong>EC by Property Details</strong> – Enter District, Mandal, Village, Survey/Door/Flat No</li>
-                </ul>
-            </li>
-            <li>Verify property details shown on screen and pay the applicable fee.</li>
-            <li>Once processed by the SRO, click <strong>“View Document”</strong> to download the signed Certified EC in PDF format.</li>
-        </ol>
-        <p>The entire process is online — no broker, no physical visit, no manual forms.</p>
+<h2>Understanding Certified Encumbrance Certificate (EC) in Telangana</h2>
+<p>A Certified Encumbrance Certificate (EC) is a government-issued legal document that shows the complete history of transactions on a property. It helps buyers, banks, and legal authorities verify that the property is free from any mortgage, loan, claim, dispute, or legal restriction. In Telangana, this certificate is issued by the Registration & Stamps Department and is physically signed and sealed by the Sub-Registrar, which makes it valid for official purposes.</p>
 
-        <h2 class="font-headline text-2xl font-bold">Details You Will Find in a Certified Encumbrance Certificate</h2>
-        <ul class="list-disc list-inside space-y-2">
-            <li>Current and previous owner names</li>
-            <li>Survey number, subdivision, or municipal door/flat number</li>
-            <li>All registered transactions: sale deed, gift deed, mortgage, release, partition, etc.</li>
-            <li>Encumbrance period (10/20/30 years or custom range)</li>
-            <li>Nil EC – issued if no transactions exist</li>
-            <li>Jurisdictional SRO name and code</li>
-            <li>Registrar’s seal, digital signature, and reference number</li>
-        </ul>
+<p>Unlike the normal online EC (which is only for reference), a <strong>Certified EC</strong> comes with an official stamp, signature, and QR validation — making it legally acceptable in courts, banks, and revenue offices.</p>
 
-        <h2 class="font-headline text-2xl font-bold">Why Do You Need a Certified EC in Telangana?</h2>
-        <ul class="list-disc list-inside space-y-2">
-            <li><strong>Home Loans:</strong> Banks require a Certified EC before sanctioning property loans.</li>
-            <li><strong>Property Sale/Resale:</strong> Buyers demand EC to verify clean title.</li>
-            <li><strong>Court & Legal Cases:</strong> Only signed Certified EC is accepted as evidence.</li>
-            <li><strong>Inheritance & Family Settlement:</strong> Used during mutation and succession.</li>
-            <li><strong>Government Permissions:</strong> Required for building permits, layout approvals, etc.</li>
-        </ul>
+<h3>Key Highlights</h3>
+<ul>
+  <li><strong>Issued by:</strong> Telangana Registration & Stamps Department (SRO)</li>
+  <li><strong>Legally valid:</strong> Yes – contains seal + digital or physical signature</li>
+  <li><strong>Mandatory for:</strong> Home loans, resale, court cases, property transfer</li>
+  <li><strong>Available online through:</strong> JaaGa.ai – no SRO visit required</li>
+</ul>
 
-        <h2 class="font-headline text-2xl font-bold">Difference Between Online EC and Certified EC</h2>
-        <div class="overflow-x-auto">
-            <table class="min-w-full border-collapse border border-border">
-                <thead>
-                    <tr class="bg-muted">
-                        <th class="border border-border p-2 text-left">Online EC (Reference Copy)</th>
-                        <th class="border border-border p-2 text-left">Certified EC (Legal Copy)</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td class="border border-border p-2">Available instantly online</td>
-                        <td class="border border-border p-2">Issued with physical/digital signature</td>
-                    </tr>
-                    <tr>
-                        <td class="border border-border p-2">Not valid in courts or banks</td>
-                        <td class="border border-border p-2">Legally valid everywhere</td>
-                    </tr>
-                    <tr>
-                        <td class="border border-border p-2">For personal verification only</td>
-                        <td class="border border-border p-2">Required for loans, registrations, disputes</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
+<h2>How to Download a Certified EC in Telangana Using JaaGa.ai?</h2>
+<p>With JaaGa.ai, you can apply online and download a signed Certified EC without standing in queues at the Sub-Registrar Office. Here is the complete step-by-step process:</p>
 
-        <h2 class="font-headline text-2xl font-bold">Common Mistakes to Avoid</h2>
-        <ul class="list-disc list-inside space-y-2">
-            <li>Entering the wrong SRO or survey number</li>
-            <li>Applying for wrong year range (example: 10 years instead of 30)</li>
-            <li>Using online EC instead of certified EC for bank/legal use</li>
-            <li>Not verifying spelling of owner names</li>
-        </ul>
+<ol>
+  <li>Visit <strong>JaaGa.ai</strong> and log in or create an account.</li>
+  <li>Select <strong>Property Documents</strong> and choose <strong>Telangana</strong> from the dropdown.</li>
+  <li>Tap on <strong>Encumbrance Certificate (EC)</strong> or <strong>Certified EC</strong>.</li>
+  <li>Select one of the search options:
+    <ul>
+      <li><strong>EC by Document Number</strong> – Enter SRO, Document No, Registration Year</li>
+      <li><strong>EC by Property Details</strong> – Enter District, Mandal, Village, Survey/Door/Flat No</li>
+    </ul>
+  </li>
+  <li>Verify property details shown on screen and pay the applicable fee.</li>
+  <li>Once processed by the SRO, click <strong>“View Document”</strong> to download the signed Certified EC in PDF format.</li>
+</ol>
 
-        <h2 class="font-headline text-2xl font-bold">Frequently Asked Questions (FAQ)</h2>
-        <div class="space-y-4">
-            <div>
-                <h4 class="font-bold">1. How long does it take to get a Certified EC?</h4>
-                <p>Using JaaGa.ai, it normally takes between 24 to 72 hours depending on the SRO workload.</p>
-            </div>
-            <div>
-                <h4 class="font-bold">2. Can I use an online EC for a home loan?</h4>
-                <p>No. Banks require a Certified Encumbrance Certificate with seal & signature.</p>
-            </div>
-            <div>
-                <h4 class="font-bold">3. What if the EC shows no transactions?</h4>
-                <p>You will get a “Nil Encumbrance Certificate” — it means the property has no registered dealings.</p>
-            </div>
-            <div>
-                <h4 class="font-bold">4. Can I apply for EC without document number?</h4>
-                <p>Yes. You can search using district, mandal, village, and survey/door number.</p>
-            </div>
-        </div>
+<p>The entire process is online — no broker, no physical visit, no manual forms.</p>
 
-        <h2 class="font-headline text-2xl font-bold">Expert Tip</h2>
-        <p>Always keep both copies — <strong>online EC (quick reference)</strong> + <strong>Certified EC (official use)</strong>. This helps during resale, legal disputes, and loan renewals.</p>
+<h2>Details You Will Find in a Certified Encumbrance Certificate</h2>
+<ul>
+  <li>Current and previous owner names</li>
+  <li>Survey number, subdivision, or municipal door/flat number</li>
+  <li>All registered transactions: sale deed, gift deed, mortgage, release, partition, etc.</li>
+  <li>Encumbrance period (10/20/30 years or custom range)</li>
+  <li>Nil EC – issued if no transactions exist</li>
+  <li>Jurisdictional SRO name and code</li>
+  <li>Registrar’s seal, digital signature, and reference number</li>
+</ul>
 
-        <h2 class="font-headline text-2xl font-bold">Conclusion</h2>
-        <p>The Certified Encumbrance Certificate (EC) is one of the most important property ownership documents in Telangana. Whether you are buying land, applying for a loan, or verifying title history, a legally approved EC ensures the property is free from risks. With JaaGa.ai, you can now request, track, and download your Certified EC online — without visiting the Sub-Registrar Office or relying on agents.</p>
+<h2>Why Do You Need a Certified EC in Telangana?</h2>
+<ul>
+  <li><strong>Home Loans:</strong> Banks require a Certified EC before sanctioning property loans.</li>
+  <li><strong>Property Sale/Resale:</strong> Buyers demand EC to verify clean title.</li>
+  <li><strong>Court & Legal Cases:</strong> Only signed Certified EC is accepted as evidence.</li>
+  <li><strong>Inheritance & Family Settlement:</strong> Used during mutation and succession.</li>
+  <li><strong>Government Permissions:</strong> Required for building permits, layout approvals, etc.</li>
+</ul>
+
+<h2>Difference Between Online EC and Certified EC</h2>
+<table border="1" cellpadding="6">
+  <tr>
+    <th>Online EC (Reference Copy)</th>
+    <th>Certified EC (Legal Copy)</th>
+  </tr>
+  <tr>
+    <td>Available instantly online</td>
+    <td>Issued with physical/digital signature</td>
+  </tr>
+  <tr>
+    <td>Not valid in courts or banks</td>
+    <td>Legally valid everywhere</td>
+  </tr>
+  <tr>
+    <td>For personal verification only</td>
+    <td>Required for loans, registrations, disputes</td>
+  </tr>
+</table>
+
+<h2>Common Mistakes to Avoid</h2>
+<ul>
+  <li>Entering the wrong SRO or survey number</li>
+  <li>Applying for wrong year range (example: 10 years instead of 30)</li>
+  <li>Using online EC instead of certified EC for bank/legal use</li>
+  <li>Not verifying spelling of owner names</li>
+</ul>
+
+<h2>Frequently Asked Questions (FAQ)</h2>
+<h3>1. How long does it take to get a Certified EC?</h3>
+<p>Using JaaGa.ai, it normally takes between 24 to 72 hours depending on the SRO workload.</p>
+
+<h3>2. Can I use an online EC for a home loan?</h3>
+<p>No. Banks require a Certified Encumbrance Certificate with seal & signature.</p>
+
+<h3>3. What if the EC shows no transactions?</h3>
+<p>You will get a “Nil Encumbrance Certificate” — it means the property has no registered dealings.</p>
+
+<h3>4. Can I apply for EC without document number?</h3>
+<p>Yes. You can search using district, mandal, village, and survey/door number.</p>
+
+<h2>Expert Tip</h2>
+<p>Always keep both copies — <strong>online EC (quick reference)</strong> + <strong>Certified EC (official use)</strong>. This helps during resale, legal disputes, and loan renewals.</p>
+
+<h2>Conclusion</h2>
+<p>The Certified Encumbrance Certificate (EC) is one of the most important property ownership documents in Telangana. Whether you are buying land, applying for a loan, or verifying title history, a legally approved EC ensures the property is free from risks. With JaaGa.ai, you can now request, track, and download your Certified EC online — without visiting the Sub-Registrar Office or relying on agents.</p>
+
+
+<a href="https://jaaga.ai/property-documents">Property Documents – Telangana</a>
+<a href="https://jaaga.ai/my-locker">My Locker – Store Property Docs</a>
       </div>
     `,
     category: 'property-documents',
     tags: ['encumbrance certificate', 'telangana', 'certified ec', 'jaaga'],
-    featuredImage: 'https://picsum.photos/seed/ec-guide/800/450',
+    featuredImage: 'https://ik.imagekit.io/jaaga/Update%20Your%20Name,%20Secure%20Your%20Property.jpg?updatedAt=1762335309956',
     metaTitle: 'How to Download Certified Encumbrance Certificate (EC) in Telangana',
     metaDescription: 'Step-by-step guide on how to download a certified Encumbrance Certificate (EC) in Telangana using JaaGa.ai. Legally valid for home loans, property sales, and court cases.',
     keywords: 'certified ec telangana, download encumbrance certificate telangana, telangana ec online, jaaga.ai ec service, property documents telangana',
@@ -756,7 +752,7 @@ export let posts: Post[] = [
     `,
     category: 'property-tax',
     tags: ['property tax', 'electricity bill', 'mutation', 'ownership'],
-    featuredImage: 'https://ik.imagekit.io/jaaga/1.png?updatedAt=1758525181563',
+    featuredImage: 'https://ik.imagekit.io/jaaga/Update%20Your%20Name,%20Secure%20Your%20Property.jpg?updatedAt=1762335309956',
     metaTitle: 'Why Updating Owner’s Name on Property Tax & Electricity Bills is Crucial | JaaGa',
     metaDescription: 'Learn why it’s important to update the owner’s name on property tax receipts and electricity bills after buying a property. Ensure smooth mutation, avoid legal disputes, and secure your ownership with JaaGa’s expert services.',
     keywords: 'update property tax name Telangana, electricity bill name change, mutation of property, property ownership proof, property documents update, name transfer in property tax, update electricity bill name',
@@ -2178,6 +2174,7 @@ export let posts: Post[] = [
 ];
 
     
+
 
 
 
