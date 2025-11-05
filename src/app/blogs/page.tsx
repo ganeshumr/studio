@@ -3,7 +3,7 @@ import { posts } from "@/lib/data";
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'JaaGa Insights Blog',
+  title: 'JaaGa Blog – Property Documents, Legal Guides & Real Estate Knowledge',
   description: 'Your source for expert analysis and practical advice on Indian real estate, property law, and digital ownership. Find articles on patta, chitta, EC, land records, and more.',
   keywords: [
     'real estate blog India',
