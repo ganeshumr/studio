@@ -106,6 +106,161 @@ export const services: Service[] = [
 
 export let posts: Post[] = [
   {
+    id: 19,
+    slug: 'how-to-download-mutation-certificate-in-telangana-jaaga',
+    title: 'How to Download a Mutation Certificate in Telangana — Step-by-Step Guide',
+    excerpt: 'Learn how to download the GHMC Mutation Certificate online in Telangana using the JaaGa app. Search by PTIN, owner name, or door number and get the certificate instantly.',
+    content: `
+      <div class="space-y-6">
+        <h2 class="font-headline text-2xl font-bold">🔍 What is a Mutation Certificate in Telangana?</h2>
+        <p>A Mutation Certificate is an official document issued by the municipal corporation or revenue department after property ownership is transferred. In Telangana, especially under GHMC (Greater Hyderabad Municipal Corporation) limits, this certificate updates the municipal records with the new owner’s name.</p>
+        <p>Today, property owners can apply for and download the mutation certificate online using their PTIN number, circle/ward, owner name, or door number — no need to visit the municipal office.</p>
+        
+        <h2 class="font-headline text-2xl font-bold">✅ Key Highlights</h2>
+        <div class="overflow-x-auto">
+            <table class="min-w-full border-collapse border border-border">
+                <thead>
+                    <tr class="bg-muted">
+                        <th class="border border-border p-2 text-left">Key Point</th>
+                        <th class="border border-border p-2 text-left">Why It Matters</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="border border-border p-2">Mutation Certificate = Ownership Update</td>
+                        <td class="border border-border p-2">Confirms that the property is legally transferred in your name</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-border p-2">Mandatory for Transactions</td>
+                        <td class="border border-border p-2">Needed for property sale, inheritance, loans, and tax records</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-border p-2">Search Using PTIN Number</td>
+                        <td class="border border-border p-2">Easily accessible online through the Jaaga app</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-border p-2">Government Recognition</td>
+                        <td class="border border-border p-2">Ensures ownership is reflected in official municipal records</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+        <h2 class="font-headline text-2xl font-bold">🛠️ How to Download a GHMC Mutation Certificate Online (Via JaaGa App)</h2>
+        <p>You can now get your GHMC mutation certificate instantly using the JaaGa App, without visiting any municipal office.</p>
+        
+        <h3 class="font-headline text-xl font-bold">📲 Step-by-Step Process</h3>
+        <ol class="list-decimal list-inside space-y-2">
+            <li>Open the JaaGa App (Android / iOS) or visit jaaga.ai</li>
+            <li>Log in or create a free account</li>
+            <li>Select "Telangana" as the state</li>
+            <li>Tap on "Mutation Certificate"</li>
+            <li>Enter any one of the following:
+                <ul class="list-disc list-inside ml-4">
+                    <li>PTIN Number</li>
+                    <li>Owner Name + Door Number</li>
+                    <li>Circle/Ward Details</li>
+                </ul>
+            </li>
+            <li>Tap Search</li>
+            <li>Once your mutation record is found, tap “View Certificate”</li>
+            <li>Download, save, or share the PDF copy instantly</li>
+        </ol>
+        <p>✅ No physical visit<br/>✅ No file number required<br/>✅ Works for GHMC & other municipalities in Telangana</p>
+        
+        <h2 class="font-headline text-2xl font-bold">📄 What Details Are Shown in a GHMC Mutation Certificate?</h2>
+        <div class="overflow-x-auto">
+            <table class="min-w-full border-collapse border border-border">
+                <thead>
+                    <tr class="bg-muted">
+                        <th class="border border-border p-2 text-left">Field</th>
+                        <th class="border border-border p-2 text-left">Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="border border-border p-2">Owner Name</td>
+                        <td class="border border-border p-2">Updated property holder details</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-border p-2">PTIN Number</td>
+                        <td class="border border-border p-2">Property Tax Identification Number</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-border p-2">Circle / Ward</td>
+                        <td class="border border-border p-2">Municipal zone of the property</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-border p-2">Property Details</td>
+                        <td class="border border-border p-2">Survey no., door no., plot area, boundaries</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-border p-2">Mutation Certificate No. & Date</td>
+                        <td class="border border-border p-2">Official proof of approval</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+        <h2 class="font-headline text-2xl font-bold">🏦 Why is a Mutation Certificate Important?</h2>
+        <div class="overflow-x-auto">
+            <table class="min-w-full border-collapse border border-border">
+                <thead>
+                    <tr class="bg-muted">
+                        <th class="border border-border p-2 text-left">Purpose</th>
+                        <th class="border border-border p-2 text-left">Why You Need It</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="border border-border p-2">Ownership Proof</td>
+                        <td class="border border-border p-2">Confirms title transfer legally</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-border p-2">Property Tax Update</td>
+                        <td class="border border-border p-2">Ensures tax is billed to the new owner</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-border p-2">Bank Loan / Mortgage</td>
+                        <td class="border border-border p-2">Required by banks for property loans</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-border p-2">Resale or Transfer</td>
+                        <td class="border border-border p-2">Buyers demand mutation proof before purchase</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-border p-2">Legal Compliance</td>
+                        <td class="border border-border p-2">Useful in disputes, inheritance, and registration</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+        <h2 class="font-headline text-2xl font-bold">⚠️ Things to Keep in Mind</h2>
+        <ul class="list-disc list-inside space-y-2">
+            <li>✔ Always enter the correct PTIN and circle details</li>
+            <li>✔ Cross-check with Certified Copy (Nakal) and Encumbrance Certificate (EC)</li>
+            <li>✔ Save a digital copy for future transactions</li>
+            <li>✔ Mutation is mandatory after property purchase or inheritance</li>
+            <li>✔ If status shows Pending, contact the GHMC circle office</li>
+        </ul>
+        
+        <h2 class="font-headline text-2xl font-bold">💡 Pro Tip (JaaGa Advantage)</h2>
+        <p>With the JaaGa App, you can access Mutation Certificate, EC, Certified Copy, Tax Receipt, Land Records, and more — all in one place. No more multiple logins, portals, or municipal office visits.</p>
+        
+        <h2 class="font-headline text-2xl font-bold">🏁 Conclusion</h2>
+        <p>The GHMC Mutation Certificate is a crucial document that legally updates property ownership in Telangana. With the JaaGa App, you can apply, track, and download your mutation certificate online using just your PTIN number — making property documentation faster, simpler, and 100% digital.</p>
+        <p>🔗 Download the JaaGa App today and manage all your Telangana property documents in one place.</p>
+      </div>
+    `,
+    category: 'mutation-creation',
+    tags: ['GHMC Mutation Certificate Download', 'Mutation Certificate Telangana Online', 'Download Mutation Certificate using PTIN', 'Telangana Property Mutation Online', 'GHMC Property Ownership Transfer', 'How to Get Mutation Certificate in Telangana', 'GHMC PTIN Mutation Status', 'Property Mutation Certificate Telangana', 'Online Mutation Certificate GHMC', 'JaaGa Telangana Property Documents'],
+    featuredImage: 'https://ik.imagekit.io/jaaga/Update%20Your%20Name,%20Secure%20Your%20Property%20(4).png?updatedAt=1761916011550',
+    metaTitle: 'How to Download Mutation Certificate in Telangana Online - JaaGa App',
+    metaDescription: 'Learn how to download the GHMC Mutation Certificate online in Telangana using the JaaGa app. Search by PTIN, owner name, or door number and get the certificate instantly.',
+    keywords: 'GHMC Mutation Certificate Download, Mutation Certificate Telangana Online, Download Mutation Certificate using PTIN, Telangana Property Mutation Online, GHMC Property Ownership Transfer, How to Get Mutation Certificate in Telangana, GHMC PTIN Mutation Status, Property Mutation Certificate Telangana, Online Mutation Certificate GHMC, JaaGa Telangana Property Documents',
+  },
+  {
     id: 18,
     slug: 'how-to-download-certified-encumbrance-certificate-ec-telangana-guide',
     title: 'How to Download a Certified Encumbrance Certificate (EC) in Telangana – Step-by-Step Guide',
@@ -2176,3 +2331,4 @@ export let posts: Post[] = [
     
 
     
+
