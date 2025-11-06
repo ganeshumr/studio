@@ -1,5 +1,4 @@
 
-
 import Link from 'next/link';
 import type {Category, Post, Service} from './types';
 import Image from 'next/image';
@@ -252,6 +251,7 @@ export let posts: Post[] = [
         <p>The GHMC Mutation Certificate is a crucial document that legally updates property ownership in Telangana.
 With the JaaGa App, you can apply, track, and download your mutation certificate online using just your PTIN number — making property documentation faster, simpler, and 100% digital.</p>
         <p>🔗 Download the JaaGa App today and manage all your Telangana property documents in one place.</p>
+        <img src="https://ik.imagekit.io/jaaga/M3cf6418431982ca18111130a438a61b61759987765500%20(1).webp?updatedAt=1762412127043" alt="JaaGa App promotion" class="rounded-lg" />
       </div>
     `,
     category: 'mutation-creation',
