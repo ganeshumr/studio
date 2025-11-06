@@ -245,7 +245,8 @@ export let posts: Post[] = [
         </ul>
         
         <h2 class="font-headline text-2xl font-bold">💡 Pro Tip (JaaGa Advantage)</h2>
-        <p>With the JaaGa App, you can access Mutation Certificate, EC, Certified Copy, Tax Receipt, Land Records, and more — all in one place. No more multiple logins, portals, or municipal office visits.</p>
+        <p>With the JaaGa App, you can access Mutation Certificate, EC, Certified Copy, Tax Receipt, Land Records, and more — all in one place.
+No more multiple logins, portals, or municipal office visits.</p>
         
         <h2 class="font-headline text-2xl font-bold">🏁 Conclusion</h2>
         <p>The GHMC Mutation Certificate is a crucial document that legally updates property ownership in Telangana.
@@ -372,6 +373,7 @@ With the JaaGa App, you can apply, track, and download your mutation certificate
 
 <a href="https://jaaga.ai/property-documents">Property Documents – Telangana</a>
 <a href="https://jaaga.ai/my-locker">My Locker – Store Property Docs</a>
+<img src="https://ik.imagekit.io/jaaga/M3cf6418431982ca18111130a438a61b61759987765500%20(1).webp?updatedAt=1762412127043" alt="JaaGa App promotion" class="rounded-lg" />
       </div>
     `,
     category: 'property-documents',
@@ -501,6 +503,7 @@ With the JaaGa App, you can apply, track, and download your mutation certificate
         <p>With the JaaGa App, you can now apply for mutation online in just a few taps — no middlemen, no confusion, no waiting in queues.</p>
         <p>🧾 Get your mutation certificate, update your ownership legally, and protect your property rights — the smart, digital way!</p>
         <p>🚀 Download the JaaGa App today and apply for mutation from your phone!</p>
+        <img src="https://ik.imagekit.io/jaaga/M3cf6418431982ca18111130a438a61b61759987765500%20(1).webp?updatedAt=1762412127043" alt="JaaGa App promotion" class="rounded-lg" />
       </div>
     `,
     category: 'mutation-creation',
@@ -632,6 +635,7 @@ With the JaaGa App, you can apply, track, and download your mutation certificate
 
         <h2 class="font-headline text-2xl font-bold">Conclusion</h2>
         <p>Patta and Chitta documents are essential for anyone owning land in Tamil Nadu. Whether you are buying, selling, or mortgaging your property, having these documents in order is crucial for a smooth process. With the online portal, residents can easily apply, verify, and download these records from the comfort of their home, making property management simpler and more transparent.</p>
+        <img src="https://ik.imagekit.io/jaaga/M3cf6418431982ca18111130a438a61b61759987765500%20(1).webp?updatedAt=1762412127043" alt="JaaGa App promotion" class="rounded-lg" />
       </div>
     `,
     category: 'property-documents',
@@ -785,6 +789,7 @@ With the JaaGa App, you can apply, track, and download your mutation certificate
         <p>However, navigating multiple portals can be time-consuming. That is where JaaGa helps by retrieving Sale Deeds, ECs, and Tax Receipts on your behalf, verifying them, and storing them securely in your digital locker.</p>
         <p>🚀 With JaaGa, you can prove property ownership confidently and stress-free.</p>
         <p>👉 Visit <a href="https://www.jaaga.ai" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">www.jaaga.ai</a> today and secure your property documents online.</p>
+        <img src="https://ik.imagekit.io/jaaga/M3cf6418431982ca18111130a438a61b61759987765500%20(1).webp?updatedAt=1762412127043" alt="JaaGa App promotion" class="rounded-lg" />
       </div>
     `,
     category: 'legal-verification',
@@ -905,6 +910,7 @@ With the JaaGa App, you can apply, track, and download your mutation certificate
             <p>
                 👉 Don’t wait for issues to arise update your documents today and secure your property’s future.
             </p>
+            <img src="https://ik.imagekit.io/jaaga/M3cf6418431982ca18111130a438a61b61759987765500%20(1).webp?updatedAt=1762412127043" alt="JaaGa App promotion" class="rounded-lg" />
         </div>
     `,
     category: 'property-tax',
@@ -1078,6 +1084,7 @@ With the JaaGa App, you can apply, track, and download your mutation certificate
           <p>
             ✨ With <strong>JaaGa</strong>, your property records are always just a click away!
           </p>
+          <img src="https://ik.imagekit.io/jaaga/M3cf6418431982ca18111130a438a61b61759987765500%20(1).webp?updatedAt=1762412127043" alt="JaaGa App promotion" class="rounded-lg" />
         </div>
       `,
     category: 'property-documents',
@@ -1218,6 +1225,7 @@ With the JaaGa App, you can apply, track, and download your mutation certificate
           distribution across South Telangana. With digital platforms like JaaGa, managing TGSPDCL
           services has become faster, easier, and completely online.
         </p>
+        <img src="https://ik.imagekit.io/jaaga/M3cf6418431982ca18111130a438a61b61759987765500%20(1).webp?updatedAt=1762412127043" alt="JaaGa App promotion" class="rounded-lg" />
       </div>
     `,
     category: 'electricity-bill-updates',
@@ -1330,6 +1338,7 @@ With the JaaGa App, you can apply, track, and download your mutation certificate
         <p>
           👉 Visit JaaGa today to download your Sale Deed Certified Copy (CC) online.
         </p>
+        <img src="https://ik.imagekit.io/jaaga/M3cf6418431982ca18111130a438a61b61759987765500%20(1).webp?updatedAt=1762412127043" alt="JaaGa App promotion" class="rounded-lg" />
       </div>
     `,
     category: 'property-documents',
@@ -1505,6 +1514,7 @@ With the JaaGa App, you can apply, track, and download your mutation certificate
           class="rounded-lg"
           data-ai-hint="contact info banner"
         />
+        <img src="https://ik.imagekit.io/jaaga/M3cf6418431982ca18111130a438a61b61759987765500%20(1).webp?updatedAt=1762412127043" alt="JaaGa App promotion" class="rounded-lg" />
       </div>
     `,
     category: 'property-tax',
@@ -1641,6 +1651,7 @@ With the JaaGa App, you can apply, track, and download your mutation certificate
         <p>
           By adopting digital solutions, you not only safeguard your current investment but also create a secure inheritance for future generations. Whether you are a first-time buyer or an experienced investor, embracing digital property ownership is the smartest way to secure your real estate journey.
         </p>
+        <img src="https://ik.imagekit.io/jaaga/M3cf6418431982ca18111130a438a61b61759987765500%20(1).webp?updatedAt=1762412127043" alt="JaaGa App promotion" class="rounded-lg" />
       </div>
     `,
     category: 'property-documents',
@@ -1761,6 +1772,7 @@ With the JaaGa App, you can apply, track, and download your mutation certificate
         <h2 class="font-headline text-2xl font-bold">Final Thoughts</h2>
         <p>A home loan is not just about financial eligibility but also about the property’s legal authenticity. Having the essential property documents in order ensures a smooth loan process, avoids legal troubles, and gives you long-term peace of mind. Whether you are buying a new apartment, a resale house, or a plot, make sure your documents are clear, updated, and verified by professionals.</p>
         <p>When you prepare well, the home loan journey becomes simple, transparent, and hassle-free.</p>
+        <img src="https://ik.imagekit.io/jaaga/M3cf6418431982ca18111130a438a61b61759987765500%20(1).webp?updatedAt=1762412127043" alt="JaaGa App promotion" class="rounded-lg" />
       </div>
     `,
     category: 'loan-services',
@@ -1919,6 +1931,7 @@ With the JaaGa App, you can apply, track, and download your mutation certificate
         <p>Changing the name on your electricity bill in Telangana is more than just an administrative step—it’s a legal necessity for smooth property ownership and utility management. While the traditional method is slow and complicated, Jaaga.ai provides a modern, digital-first solution that saves time, reduces errors, and ensures transparency.</p>
         <p>By using Jaaga.ai, Telangana residents can complete the electricity bill name change process with ease and confidence, making property ownership hassle-free.</p>
         <p>If you’ve recently bought a property, inherited one, or need to update your name on the electricity bill, Jaaga.ai is the simplest and most reliable way to do it in Telangana.</p>
+        <img src="https://ik.imagekit.io/jaaga/M3cf6418431982ca18111130a438a61b61759987765500%20(1).webp?updatedAt=1762412127043" alt="JaaGa App promotion" class="rounded-lg" />
       </div>
     `,
     category: 'electricity-bill-updates',
@@ -2104,6 +2117,7 @@ With the JaaGa App, you can apply, track, and download your mutation certificate
         <p>
           As India moves toward complete digitalization of land records, property ownership will become simpler and more accessible. The future of real estate will be built on digital trust, and land surveys will play a central role in shaping it.
         </p>
+        <img src="https://ik.imagekit.io/jaaga/M3cf6418431982ca18111130a438a61b61759987765500%20(1).webp?updatedAt=1762412127043" alt="JaaGa App promotion" class="rounded-lg" />
       </div>
     `,
     category: 'land-survey',
@@ -2181,6 +2195,7 @@ With the JaaGa App, you can apply, track, and download your mutation certificate
         <p>
           Legal property verification in Telangana and Andhra Pradesh is essential to safeguard your investment. Using online portals like Dharani and Meebhoomi, verifying tax receipts, encumbrance certificates, and approvals ensures you avoid disputes and fraudulent transactions. Following these steps provides peace of mind and a secure real estate investment in these rapidly growing states.
         </p>
+        <img src="https://ik.imagekit.io/jaaga/M3cf6418431982ca18111130a438a61b61759987765500%20(1).webp?updatedAt=1762412127043" alt="JaaGa App promotion" class="rounded-lg" />
       </div>
     `,
     category: 'legal-verification',
@@ -2318,6 +2333,7 @@ With the JaaGa App, you can apply, track, and download your mutation certificate
         <h2 class="font-headline text-2xl font-bold">Conclusion</h2>
         <p>Property audits in India are an essential step for anyone dealing with real estate, whether for investment, buying, or selling. They ensure transparency, prevent disputes, and provide a legal and financial safety net.</p>
         <p>By understanding the process, types, and benefits of property audits, property owners and investors can make informed decisions and secure their investments. Professional audits, combined with digital verification tools, make property audits more accessible, accurate, and reliable than ever before.</p>
+        <img src="https://ik.imagekit.io/jaaga/M3cf6418431982ca18111130a438a61b61759987765500%20(1).webp?updatedAt=1762412127043" alt="JaaGa App promotion" class="rounded-lg" />
       </div>
     `,
     category: 'property-audit',
@@ -2330,6 +2346,9 @@ With the JaaGa App, you can apply, track, and download your mutation certificate
   },
 ];
 
+
+
+    
 
 
     
