@@ -21,7 +21,7 @@ export function Footer() {
   };
 
   const servicesLinks = [
-      { href: "https://www.jaaga.ai/my-locker", name: "My Locker"},
+      { href: "https://www.jaaga.ai/properties/my-properties", name: "My Locker"},
       { href: "https://www.jaaga.ai/documents", name: "Property Documents"},
       { href: "https://www.jaaga.ai/services/property-services/title-verification-report", name: "Property Services"},
   ]
