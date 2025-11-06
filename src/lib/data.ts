@@ -766,7 +766,7 @@ With the JaaGa App, you can apply, track, and download your mutation certificate
         <p>In this blog, we’ll explain how to prove ownership of property in India, the essential documents you need, the verification process in Telangana and Andhra Pradesh, common legal challenges, and how digital platforms like JaaGa make it simple to retrieve and safeguard your records.</p>
         
         <h2 class="font-headline text-2xl font-bold">Why Proving Property Ownership Matters</h2>
-        <ul class="list-disc list-inside space-y-2">
+        <ul class="list-disc space-y-2 pl-6">
             <li><strong>Selling property:</strong> Buyers will demand clear documents before purchase.</li>
             <li><strong>Property disputes:</strong> Courts rely on ownership documents to decide cases.</li>
             <li><strong>Bank loans:</strong> Financial institutions require proof before approving home loans.</li>
@@ -804,7 +804,7 @@ With the JaaGa App, you can apply, track, and download your mutation certificate
         </ol>
 
         <h2 class="font-headline text-2xl font-bold">Common Legal Issues in Property Ownership</h2>
-        <ul class="list-disc list-inside space-y-2">
+        <ul class="list-disc space-y-2 pl-6">
             <li><strong>Disputed Titles:</strong> Multiple claims on the same property due to missing records.</li>
             <li><strong>Fake Documents or Forgery:</strong> Illegal Sale Deeds, fake ECs, or forged signatures.</li>
             <li><strong>Encroachments:</strong> Illegal occupation of property boundaries.</li>
@@ -813,7 +813,7 @@ With the JaaGa App, you can apply, track, and download your mutation certificate
         </ul>
         
         <h2 class="font-headline text-2xl font-bold">How JaaGa Helps Prove Property Ownership</h2>
-        <ul class="list-disc list-inside space-y-2">
+        <ul class="list-disc space-y-2 pl-6">
             <li>Retrieve Sale Deeds, ECs, Tax Receipts online.</li>
             <li>Verified documents directly from government portals.</li>
             <li>Secure digital locker for safe storage.</li>
@@ -1025,7 +1025,7 @@ With the JaaGa App, you can apply, track, and download your mutation certificate
     `,
     category: 'property-tax',
     tags: ['property tax', 'electricity bill', 'mutation', 'ownership'],
-    featuredImage: 'https://ik.imagekit.io/jaaga/1.png?updatedAt=1758525181563',
+    featuredImage: 'https://ik.imagekit.io/jaaga/Update%20Your%20Name,%20Secure%20Your%20Property.jpg?updatedAt=1762335309956',
     metaTitle: 'Why Updating Owner’s Name on Property Tax & Electricity Bills is Crucial | JaaGa',
     metaDescription: 'Learn why it’s important to update the owner’s name on property tax receipts and electricity bills after buying a property. Ensure smooth mutation, avoid legal disputes, and secure your ownership with JaaGa’s expert services.',
     keywords: 'update property tax name Telangana, electricity bill name change, mutation of property, property ownership proof, property documents update, name transfer in property tax, update electricity bill name',
@@ -2461,6 +2461,7 @@ With the JaaGa App, you can apply, track, and download your mutation certificate
 
 
     
+
 
 
 
