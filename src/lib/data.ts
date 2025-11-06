@@ -357,7 +357,7 @@ export let posts: Post[] = [
   {
     id: 16,
     slug: 'tamil-nadu-patta-chitta-documents-a-complete-guide',
-    title: 'Tamil Nadu Patta/Chitta Documents: A Complete Guide',
+    title: 'Your Guide to Patta Chitta Tamil Nadu Documents',
     excerpt:
       'When it comes to property ownership in Tamil Nadu, understanding Patta and Chitta documents is crucial. These documents serve as legal proof of land ownership and are essential for property transactions, applying for loans, or transferring property rights.',
     content: `
