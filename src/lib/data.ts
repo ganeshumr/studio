@@ -256,7 +256,7 @@ With the JaaGa App, you can apply, track, and download your mutation certificate
     `,
     category: 'mutation-creation',
     tags: ['GHMC Mutation Certificate Download', 'Mutation Certificate Telangana Online', 'Download Mutation Certificate using PTIN', 'Telangana Property Mutation Online', 'GHMC Property Ownership Transfer', 'How to Get Mutation Certificate in Telangana', 'GHMC PTIN Mutation Status', 'Property Mutation Certificate Telangana', 'Online Mutation Certificate GHMC', 'JaaGa Telangana Property Documents'],
-    featuredImage: 'https://ik.imagekit.io/jaaga/Update%20Your%20Name,%20Secure%20Your%20Property%20(4).png?updatedAt=1761916011550',
+    featuredImage: 'https://ik.imagekit.io/jaaga/Update%20Your%20Name,%20Secure%20Your%20Property%20(6).png?updatedAt=1762411393121',
     metaTitle: 'How to Download Mutation Certificate in Telangana Online - JaaGa App',
     metaDescription: 'Learn how to download the GHMC Mutation Certificate online in Telangana using the JaaGa app. Search by PTIN, owner name, or door number and get the certificate instantly.',
     keywords: 'GHMC Mutation Certificate Download, Mutation Certificate Telangana Online, Download Mutation Certificate using PTIN, Telangana Property Mutation Online, GHMC Property Ownership Transfer, How to Get Mutation Certificate in Telangana, GHMC PTIN Mutation Status, Property Mutation Certificate Telangana, Online Mutation Certificate GHMC, JaaGa Telangana Property Documents',
@@ -2330,3 +2330,6 @@ With the JaaGa App, you can apply, track, and download your mutation certificate
   },
 ];
 
+
+
+    
