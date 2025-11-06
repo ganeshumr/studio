@@ -10,11 +10,11 @@ import { Analytics } from '@vercel/analytics/react';
 
 export const metadata: Metadata = {
   title: {
-    default: 'Instant Property Documents and services across 5+ states - JaaGa',
+    default: 'Instant Property Documents and Services across 5+ States – JaaGa',
     template: '%s | Jaaga Insights',
   },
   description:
-    'Get instant property documents and services across 5+ states with JaaGa.ai. Search, verify & download documents like EC, 7/12, Patta, Khata, ROR, and get Property Audit & Legal Reports instantly — Fast & Verified.',
+    'Get instant access to certified property documents and land records across 5+ states with JaaGa. Download sale deed, Patta/chitta, 7/12, EC, Property Card, Mutation, and more in minutes.',
   keywords: [
     'Property Documents Online',
     'Telangana Property Documents',
