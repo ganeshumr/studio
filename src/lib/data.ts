@@ -751,9 +751,9 @@ With the JaaGa App, you can apply, track, and download your mutation certificate
     category: 'property-documents',
     tags: ['Tamil Nadu Patta', 'Chitta documents Tamil Nadu', 'Patta/Chitta download online', 'Tamil Nadu property documents', 'TN land records', 'Tamil Nadu land ownership'],
     featuredImage: 'https://ik.imagekit.io/sravanth/Update%20Your%20Name,%20Secure%20Your%20Property%20(1).png?updatedAt=1758881580977',
-    metaTitle: 'Tamil Nadu Patta & Chitta Documents | Apply Online',
+    metaTitle: 'Your Guide to Patta Chitta Tamil Nadu Documents | Apply Online',
     metaDescription: 'Apply, verify, and download Tamil Nadu Patta & Chitta documents online. Secure your land ownership and check property details easily.',
-    keywords: 'Tamil Nadu Patta, Chitta documents Tamil Nadu, Patta/Chitta download online, Tamil Nadu property documents, TN land records, Tamil Nadu land ownership',
+    keywords: 'Tamil Nadu Patta, Chitta documents Tamil Nadu, Patta/Chitta download online, Tamil Nadu property documents, TN land records, Tamil Nadu land ownership, patta chitta tamil nadu',
   },
   {
     id: 15,
@@ -1206,7 +1206,7 @@ With the JaaGa App, you can apply, track, and download your mutation certificate
   },
   {
     id: 11,
-    slug: 'tgspdcl-electricity-services-bill-payment-name-transfer-guide-telangana',
+    slug: 'ts-electricity-bill-name-change-tgspdcl',
     title: 'TGSPDCL: Electricity Services, Bill Payment & Name Transfer Guide in Telangana',
     excerpt:
       'Learn about TGSPDCL electricity services in Telangana. Pay bills online, download receipts, and transfer meter name easily with JaaGa’s expert help.',
@@ -1348,12 +1348,11 @@ With the JaaGa App, you can apply, track, and download your mutation certificate
     ],
     featuredImage:
       'https://res.cloudinary.com/dxsj2kcwu/image/upload/v1758521969/2_ussagr.png',
-    metaTitle:
-      'TGSPDCL: Electricity Services, Bill Payment & Name Transfer Guide in Telangana',
+    metaTitle: 'Electricity Bill Name Change in Telangana (TGSPDCL) – JaaGa',
     metaDescription:
-      'Learn about TGSPDCL electricity services in Telangana. Pay bills online, download receipts, and transfer meter name easily with JaaGa’s expert help.',
+      'Change the electricity meter name in Telangana online through TGSPDCL. JaaGa helps with document filing, ownership update, and hassle-free name transfer.',
     keywords:
-      'TGSPDCL, TGSPDCL bill payment online, TGSPDCL name transfer, Telangana electricity bill, TGSPDCL services, TGSPDCL meter transfer, Pay TGSPDCL bills Hyderabad, Telangana electricity provider, JaaGa electricity services, TGSPDCL online services',
+      'electricity bill name change Telangana, TGSPDCL name transfer, electricity meter name change online, how to change name in electricity bill TGSPDCL, Telangana power connection name change, TGSPDCL ownership transfer, electricity bill transfer after sale deed, name change in electricity bill documents, transfer electricity connection Telangana, JaaGa electricity services',
   },
   {
     id: 10,
@@ -2462,5 +2461,6 @@ With the JaaGa App, you can apply, track, and download your mutation certificate
 
 
     
+
 
 
