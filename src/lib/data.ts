@@ -205,7 +205,7 @@ export let posts: Post[] = [
     `,
     category: 'property-documents',
     tags: ['Telangana Pattadar Passbook', 'Download Pahani Online Telangana', 'Telangana Land Records', 'Dharani Portal Pahani', 'Telangana Property Documents'],
-    featuredImage: 'https://picsum.photos/seed/pahani-guide/800/450',
+    featuredImage: 'https://ik.imagekit.io/jaaga/Update%20Your%20Name,%20Secure%20Your%20Property%20(7).png?updatedAt=1762419002612',
     metaTitle: 'How to Download Telangana Pattadar Passbook (Pahani) Online – Complete Guide 2025',
     metaDescription: 'Learn how to download your Telangana Pattadar Passbook (Pahani) online using JaaGa. A step-by-step walkthrough using Survey No, Village, and Khata Number.',
     keywords: 'Telangana Pattadar Passbook, Download Pahani Online Telangana, Telangana Land Records, Dharani Portal Pahani, Telangana Property Documents, Survey Number Telangana, Khata Number Search, Village Land Records Telangana, Download ROR 1B Telangana, JaaGa Telangana property search, How to download Telangana Pattadar Passbook online, Step-by-step guide to get Pahani from Dharani portal, Access land records in Telangana using Khata number, Online Pahani download without visiting revenue office, Telangana Pahani certificate legal use and verification, Get certified copy of land records in Telangana, Best tool for Telangana land ownership verification',
@@ -2462,4 +2462,5 @@ With the JaaGa App, you can apply, track, and download your mutation certificate
 
 
     
+
 
