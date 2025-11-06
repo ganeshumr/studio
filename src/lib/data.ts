@@ -249,7 +249,8 @@ export let posts: Post[] = [
         <p>With the JaaGa App, you can access Mutation Certificate, EC, Certified Copy, Tax Receipt, Land Records, and more — all in one place. No more multiple logins, portals, or municipal office visits.</p>
         
         <h2 class="font-headline text-2xl font-bold">🏁 Conclusion</h2>
-        <p>The GHMC Mutation Certificate is a crucial document that legally updates property ownership in Telangana. With the JaaGa App, you can apply, track, and download your mutation certificate online using just your PTIN number — making property documentation faster, simpler, and 100% digital.</p>
+        <p>The GHMC Mutation Certificate is a crucial document that legally updates property ownership in Telangana.
+With the JaaGa App, you can apply, track, and download your mutation certificate online using just your PTIN number — making property documentation faster, simpler, and 100% digital.</p>
         <p>🔗 Download the JaaGa App today and manage all your Telangana property documents in one place.</p>
       </div>
     `,
@@ -2327,8 +2328,5 @@ export let posts: Post[] = [
       'Learn everything about property audits in India including process, benefits, legal requirements, and FAQs. Ensure your property investment is secure and compliant.',
     keywords: 'property audit India, legal property verification, property ownership check, real estate compliance, property audit benefits, property investment India, types of property audits, legal audit property, property financial audit, property audit process, property document verification, property inspection India, property documents India, legal property documents, property verification documents, property audit advantages, property investment security, property transaction check, property audit challenges India, property dispute resolution, legal property issues, property audit professionals, property verification experts, real estate auditors, digital property audit India, online property verification, property tax online India, property audit FAQs India, property legal verification questions, real estate audit queries, property legal check, real estate investment security',
   },
-]
-    
-
-    
+];
 

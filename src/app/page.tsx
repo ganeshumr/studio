@@ -82,7 +82,7 @@ function Hero() {
 }
 
 export default function Home() {
-  const featuredPosts = posts.sort((a, b) => b.id - a.id).slice(0, 3);
+  const featuredPosts = [...posts].sort((a, b) => b.id - a.id).slice(0, 3);
 
   return (
     <div className="flex flex-col">
