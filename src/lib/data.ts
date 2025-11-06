@@ -1025,7 +1025,7 @@ With the JaaGa App, you can apply, track, and download your mutation certificate
     `,
     category: 'property-tax',
     tags: ['property tax', 'electricity bill', 'mutation', 'ownership'],
-    featuredImage: 'https://ik.imagekit.io/jaaga/Update%20Your%20Name,%20Secure%20Your%20Property.jpg?updatedAt=1762335309956',
+    featuredImage: 'https://ik.imagekit.io/jaaga/1.png?updatedAt=1758525181563',
     metaTitle: 'Why Updating Owner’s Name on Property Tax & Electricity Bills is Crucial | JaaGa',
     metaDescription: 'Learn why it’s important to update the owner’s name on property tax receipts and electricity bills after buying a property. Ensure smooth mutation, avoid legal disputes, and secure your ownership with JaaGa’s expert services.',
     keywords: 'update property tax name Telangana, electricity bill name change, mutation of property, property ownership proof, property documents update, name transfer in property tax, update electricity bill name',
@@ -2466,3 +2466,6 @@ With the JaaGa App, you can apply, track, and download your mutation certificate
 
 
 
+
+
+    
