@@ -19,7 +19,7 @@ export function BlogPostCard({post}: BlogPostCardProps) {
   return (
     <Card className="flex flex-col h-full overflow-hidden transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
       {post.featuredImage && (
-        <Link href={`/blogs/${post.slug}`} className="block">
+        <Link href={`/blogs/${post.slug}`} className="block" aria-label={`Read more about ${post.title}`}>
           <div className="relative aspect-video">
             <Image
               src={post.featuredImage}
