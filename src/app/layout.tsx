@@ -62,7 +62,7 @@ const pageKeywords = [
 export const metadata: Metadata = {
   title: {
     default: pageTitle,
-    template: '%s | Jaaga Insights',
+    template: '%s - Jaaga Insights',
   },
   description: pageDescription,
   keywords: pageKeywords,
@@ -72,7 +72,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: {
       default: pageTitle,
-      template: '%s | Jaaga Insights',
+      template: '%s - Jaaga Insights',
     },
     description: pageDescription,
     url: 'https://www.jaaga.ai',
