@@ -10,11 +10,11 @@ import { Analytics } from '@vercel/analytics/react';
 
 export const metadata: Metadata = {
   title: {
-    default: 'Instant Property Documents & Audit Reports Online | JaaGa.ai',
+    default: 'Instant Property Documents and services across 5+ states - JaaGa',
     template: '%s | Jaaga Insights',
   },
   description:
-    'Search, verify & download property documents like EC, 7/12, Patta, Khata, ROR, and get Property Audit & Legal Reports instantly with JaaGa.ai — Fast & Verified.',
+    'Get instant property documents and services across 5+ states with JaaGa.ai. Search, verify & download documents like EC, 7/12, Patta, Khata, ROR, and get Property Audit & Legal Reports instantly — Fast & Verified.',
   keywords: [
     'Property Documents Online',
     'Telangana Property Documents',
