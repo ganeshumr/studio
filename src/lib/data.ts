@@ -105,6 +105,112 @@ export const services: Service[] = [
 
 export let posts: Post[] = [
   {
+    id: 20,
+    slug: 'how-to-download-telangana-pattadar-passbook-pahani-online',
+    title: 'How to Download Telangana Pattadar Passbook (Pahani) Online – Complete Guide 2025',
+    excerpt: 'Learn how to download your Telangana Pattadar Passbook (Pahani) online using JaaGa. A step-by-step walkthrough using Survey No, Village, and Khata Number.',
+    content: `
+      <div class="space-y-6">
+        <h2 class="font-headline text-2xl font-bold">How to Download Telangana Pattadar Passbook (Pahani) Online — Step-by-Step Guide Using JaaGa</h2>
+        <p>The <strong>Pattadar Passbook</strong>, commonly called <strong>Pahani</strong>, is an essential land ownership document in Telangana. It provides key details such as:</p>
+        <ul class="list-disc list-inside space-y-2">
+            <li>Owner’s name</li>
+            <li>Land survey number</li>
+            <li>Total land extent</li>
+            <li>Classification of land (agriculture, commercial, etc.)</li>
+            <li>Cultivation details and crop history</li>
+        </ul>
+        <p>Traditionally, retrieving a Pahani document required multiple visits to the Revenue Department office. Now, with <strong>JaaGa’s simplified interface</strong>, landowners can conveniently download their <strong>Pahani</strong> online without the hassle.</p>
+        <p>This guide walks you through how to download the Telangana Pattadar Passbook using <strong>JaaGa’s land record tools</strong>.</p>
+        
+        <hr class="my-8" />
+
+        <h2 class="font-headline text-2xl font-bold">Why Use JaaGa?</h2>
+        <p>JaaGa integrates directly with government portals like <strong>Dharani Telangana</strong>, offering a user-friendly way to:</p>
+        <ul class="list-disc list-inside space-y-2">
+            <li>Search property records</li>
+            <li>Verify land ownership</li>
+            <li>Download certified documents like <strong>Pahani / ROR 1B</strong></li>
+            <li>Track changes like mutation status and EC</li>
+        </ul>
+        <p>Unlike manual searching, JaaGa provides:</p>
+        <ul class="list-disc list-inside space-y-2">
+            <li>A guided form for entry</li>
+            <li>Automatic validation of entries</li>
+            <li>Fast access to official PDFs</li>
+        </ul>
+        
+        <hr class="my-8" />
+
+        <h2 class="font-headline text-2xl font-bold">Step-by-Step Process to Download Pattadar Passbook via JaaGa</h2>
+        <h3 class="font-headline text-xl font-bold">Step 1: Visit JaaGa’s Land Records Tool</h3>
+        <p>Go to <a href="https://www.jaaga.ai/" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">JaaGa.ai</a> and navigate to <strong>“Property Records”</strong> > <strong>“Telangana Land Records”</strong>.</p>
+        
+        <hr class="my-8" />
+
+        <h3 class="font-headline text-xl font-bold">Step 2: Select the Document Type</h3>
+        <p>Choose <strong>“Pattadar Passbook / Pahani”</strong> from the list of record types available.</p>
+        
+        <hr class="my-8" />
+        
+        <h3 class="font-headline text-xl font-bold">Step 3: Enter the Required Land Details</h3>
+        <p>Fill in the simple 3-field form:</p>
+        <ol class="list-decimal list-inside space-y-2">
+            <li><strong>Village or Division</strong> – Start typing your village name and select from the dropdown.</li>
+            <li><strong>Survey Number</strong> – Enter the exact survey number of the land.</li>
+            <li><strong>Khata Number</strong> – Input your Khata Number (available on older land documents or passbook).</li>
+        </ol>
+        <p>📸 <em>As shown in the screenshot above, these fields are mandatory.</em></p>
+
+        <hr class="my-8" />
+
+        <h3 class="font-headline text-xl font-bold">Step 4: Click 'Search Record'</h3>
+        <p>JaaGa will connect to the <strong>Dharani Portal</strong> in real time and retrieve the matching land records.</p>
+        
+        <hr class="my-8" />
+
+        <h3 class="font-headline text-xl font-bold">Step 5: View and Download Your Pattadhar Passbook /  Pahani</h3>
+        <p>Once your land record is retrieved:</p>
+        <ul class="list-disc list-inside space-y-2">
+            <li>Click <strong>“Preview”</strong> to verify the details.</li>
+            <li>Select <strong>“Download Pattadhar Passbook /  Pahani”</strong> to get a certified PDF copy.</li>
+        </ul>
+        <p>You can save it for personal reference or print it for use in property-related transactions.</p>
+        
+        <hr class="my-8" />
+
+        <h2 class="font-headline text-2xl font-bold">Benefits of Using JaaGa for Pattadhar Passbook /  Pahani Download</h2>
+        <ul class="list-disc list-inside space-y-2">
+            <li>✅ No need to navigate government portals manually</li>
+            <li>✅ Auto-filled village and survey data helps reduce errors</li>
+            <li>✅ Fast, verified access to digital land records</li>
+            <li>✅ Download legally accepted copies anytime</li>
+        </ul>
+        
+        <hr class="my-8" />
+
+        <h2 class="font-headline text-2xl font-bold">Common FAQs</h2>
+        <h4 class="font-bold">Q. Is the downloaded Pahani from JaaGa legally valid?</h4>
+        <p>Yes. JaaGa connects directly with the Dharani system to fetch official records.</p>
+        <h4 class="font-bold">Q. Can I search land details if I only know the Khata Number?</h4>
+        <p>Yes. Khata Number is sufficient in many cases to locate and retrieve land records.</p>
+        <h4 class="font-bold">Q. Is there a cost to download through JaaGa?</h4>
+        <p>Basic searches are free. For certified downloads, a small processing fee may apply.</p>
+        
+        <hr class="my-8" />
+
+        <p>JaaGa empowers you to take control of your property records with ease. Try downloading your Telangana Pattadhar Passbook /  Pahani today!</p>
+        <img src="https://ik.imagekit.io/jaaga/M3cf6418431982ca18111130a438a61b61759987765500%20(1).webp?updatedAt=1762412127043" alt="JaaGa App promotion" class="rounded-lg" />
+      </div>
+    `,
+    category: 'property-documents',
+    tags: ['Telangana Pattadar Passbook', 'Download Pahani Online Telangana', 'Telangana Land Records', 'Dharani Portal Pahani', 'Telangana Property Documents'],
+    featuredImage: 'https://picsum.photos/seed/pahani-guide/800/450',
+    metaTitle: 'How to Download Telangana Pattadar Passbook (Pahani) Online – Complete Guide 2025',
+    metaDescription: 'Learn how to download your Telangana Pattadar Passbook (Pahani) online using JaaGa. A step-by-step walkthrough using Survey No, Village, and Khata Number.',
+    keywords: 'Telangana Pattadar Passbook, Download Pahani Online Telangana, Telangana Land Records, Dharani Portal Pahani, Telangana Property Documents, Survey Number Telangana, Khata Number Search, Village Land Records Telangana, Download ROR 1B Telangana, JaaGa Telangana property search, How to download Telangana Pattadar Passbook online, Step-by-step guide to get Pahani from Dharani portal, Access land records in Telangana using Khata number, Online Pahani download without visiting revenue office, Telangana Pahani certificate legal use and verification, Get certified copy of land records in Telangana, Best tool for Telangana land ownership verification',
+  },
+  {
     id: 19,
     slug: 'how-to-download-mutation-certificate-in-telangana-jaaga',
     title: 'How to Download a Mutation Certificate in Telangana — Step-by-Step Guide',
@@ -382,7 +488,7 @@ With the JaaGa App, you can apply, track, and download your mutation certificate
     `,
     category: 'property-documents',
     tags: ['encumbrance certificate', 'telangana', 'certified ec', 'jaaga'],
-    featuredImage: 'https://ik.imagekit.io/jaaga/Update%20Your%20Name,%20Secure%20Your%20Property.jpg?updatedAt=1762335309956',
+    featuredImage: 'https://ik.imagekit.io/jaaga/ec%20(1).png?updatedAt=1762413677713',
     metaTitle: 'How to Download Certified Encumbrance Certificate (EC) in Telangana',
     metaDescription: 'Step-by-step guide on how to download a certified Encumbrance Certificate (EC) in Telangana using JaaGa.ai. Legally valid for home loans, property sales, and court cases.',
     keywords: 'certified ec telangana, download encumbrance certificate telangana, telangana ec online, jaaga.ai ec service, property documents telangana',
@@ -1910,7 +2016,7 @@ With the JaaGa App, you can apply, track, and download your mutation certificate
                 <p>Yes, Jaaga.ai allows you to complete the process online without visiting the office.</p>
             </div>
             <div>
-                <h4 class="font-bold">Q3. What happens if I don’t update the electricity bill name after property purchase?</h4>
+                <h4 class="font-bold">Q3. What if I don’t update the electricity bill name after property purchase?</h4>
                 <p>It may create legal issues during resale, inheritance disputes, and complications in availing loans.</p>
             </div>
             <div>
@@ -2356,3 +2462,4 @@ With the JaaGa App, you can apply, track, and download your mutation certificate
 
 
     
+
