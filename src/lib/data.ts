@@ -488,7 +488,7 @@ With the JaaGa App, you can apply, track, and download your mutation certificate
     `,
     category: 'property-documents',
     tags: ['encumbrance certificate', 'telangana', 'certified ec', 'jaaga'],
-    featuredImage: 'https://ik.imagekit.io/jaaga/ec%20(1).png?updatedAt=1762413677713',
+    featuredImage: 'https://ik.imagekit.io/jaaga/Update%20Your%20Name,%20Secure%20Your%20Property.jpg?updatedAt=1762335309956',
     metaTitle: 'How to Download Certified Encumbrance Certificate (EC) in Telangana',
     metaDescription: 'Step-by-step guide on how to download a certified Encumbrance Certificate (EC) in Telangana using JaaGa.ai. Legally valid for home loans, property sales, and court cases.',
     keywords: 'certified ec telangana, download encumbrance certificate telangana, telangana ec online, jaaga.ai ec service, property documents telangana',
@@ -859,7 +859,7 @@ With the JaaGa App, you can apply, track, and download your mutation certificate
                     <tr>
                         <td class="border border-border p-2">Utility Bills</td>
                         <td class="border border-border p-2">Supporting ownership proof</td>
-                        <td class="border border-border p-2">Electricity/Water dept.</li>
+                        <td class="border border-border p-2">Electricity/Water dept.</td>
                     </tr>
                     <tr>
                         <td class="border border-border p-2">Legal Heir Certificate</td>
@@ -2461,6 +2461,7 @@ With the JaaGa App, you can apply, track, and download your mutation certificate
 
 
     
+
 
 
 
