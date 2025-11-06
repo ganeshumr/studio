@@ -8,14 +8,9 @@ import {Toaster} from '@/components/ui/toaster';
 import {AuthProvider} from '@/context/auth-context';
 import { Analytics } from '@vercel/analytics/react';
 
-export const metadata: Metadata = {
-  title: {
-    default: 'Instant Property Documents and Services across 5+ States – JaaGa',
-    template: '%s | Jaaga Insights',
-  },
-  description:
-    'Get instant access to certified property documents and land records across 5+ states with JaaGa. Download sale deed, Patta/chitta, 7/12, EC, Property Card, Mutation, and more in minutes.',
-  keywords: [
+const pageTitle = 'Instant Property Documents and Services across 5+ States – JaaGa';
+const pageDescription = 'Get instant access to certified property documents and land records across 5+ states with JaaGa. Download sale deed, Patta/chitta, 7/12, EC, Property Card, Mutation, and more in minutes.';
+const pageKeywords = [
     'Property Documents Online',
     'Telangana Property Documents',
     'Andhra Pradesh Property Records',
@@ -62,13 +57,24 @@ export const metadata: Metadata = {
     'ap ec download',
     'ec in telangana',
     'tn land survey village map'
-  ],
+];
+
+export const metadata: Metadata = {
+  title: {
+    default: pageTitle,
+    template: '%s | Jaaga Insights',
+  },
+  description: pageDescription,
+  keywords: pageKeywords,
   icons: {
     icon: 'https://res.cloudinary.com/dnuayl071/image/upload/v1758188919/Lightning_Corporate_Logo__1_-removebg-preview_cl0twj.png?v=2',
   },
   openGraph: {
-    title: 'Instant Property Documents & Audit Reports Online | JaaGa.ai',
-    description: 'Search, verify & download property documents like EC, 7/12, Patta, Khata, ROR, and get Property Audit & Legal Reports instantly with JaaGa.ai — Fast & Verified.',
+    title: {
+      default: pageTitle,
+      template: '%s | Jaaga Insights',
+    },
+    description: pageDescription,
     url: 'https://www.jaaga.ai',
     siteName: 'Jaaga Insights',
     images: [
@@ -84,8 +90,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Instant Property Documents & Audit Reports Online | JaaGa.ai',
-    description: 'Search, verify & download property documents like EC, 7/12, Patta, Khata, ROR, and get Property Audit & Legal Reports instantly with JaaGa.ai — Fast & Verified.',
+    title: pageTitle,
+    description: pageDescription,
     images: ['https://picsum.photos/1200/630'],
   },
 };

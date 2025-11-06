@@ -2,10 +2,9 @@ import BlogListClient from "@/components/blog/blog-list-client";
 import { posts } from "@/lib/data";
 import type { Metadata } from 'next';
 
-export const metadata: Metadata = {
-  title: 'JaaGa Blog – Property Documents, Legal Guides & Real Estate Knowledge',
-  description: 'Your source for expert analysis and practical advice on Indian real estate, property law, and digital ownership. Find articles on patta, chitta, EC, land records, and more.',
-  keywords: [
+const pageTitle = 'JaaGa Blog – Property Documents, Legal Guides & Real Estate Knowledge';
+const pageDescription = 'Your source for expert analysis and practical advice on Indian real estate, property law, and digital ownership. Find articles on patta, chitta, EC, land records, and more.';
+const pageKeywords = [
     'real estate blog India',
     'property law India',
     'digital ownership',
@@ -78,7 +77,16 @@ export const metadata: Metadata = {
     'survey number check', 
     'property title verification', 
     'legal property documents online'
-  ],
+];
+
+export const metadata: Metadata = {
+  title: pageTitle,
+  description: pageDescription,
+  keywords: pageKeywords,
+  openGraph: {
+    title: pageTitle,
+    description: pageDescription,
+  },
 };
 
 export default function BlogListPage() {
