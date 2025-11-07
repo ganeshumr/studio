@@ -236,7 +236,7 @@ export let posts: Post[] = [
     category: 'property-documents',
     tags: ['FMB', 'Village Map', 'Andhra Pradesh', 'JaaGa', 'Land Records'],
     featuredImage: 'https://ik.imagekit.io/jaaga/Update%20Your%20Name,%20Secure%20Your%20Property%20(8).png?updatedAt=1762495716194',
-    metaTitle: 'How to Download FMB & Village Maps in Andhra Pradesh Online - JaaGa 2025',
+    metaTitle: 'How to Download FMB &amp; Village Maps in Andhra Pradesh Online',
     metaDescription: 'A Village Map in Andhra Pradesh is an essential land record that also includes FMB (Field Measurement Book) maps showing exact land boundaries and survey details. Learn how to download both using JaaGa in 2025.',
     keywords: 'download FMB Andhra Pradesh, Download FMB, Andhra Pradesh village map online, FMB map survey number search, AP land records FMB download, field measurement book Andhra Pradesh, how to get village map online AP, land boundary map download Andhra Pradesh',
   },
@@ -280,7 +280,7 @@ export let posts: Post[] = [
 
         <h2 class="font-headline text-2xl font-bold">Step-by-Step Process to Download Pattadar Passbook via JaaGa</h2>
         <h3 class="font-headline text-xl font-bold">Step 1: Visit JaaGa’s Land Records Tool</h3>
-        <p>Go to <a href="https://www.jaaga.ai/" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">JaaGa.ai</a> and navigate to <strong>“Property Records”</strong> > <strong>“Telangana Land Records”</strong>.</p>
+        <p>Go to <a href="https://www.jaaga.ai/" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">JaaGa.ai</a> and navigate to <strong>“Property Records”</strong> &gt; <strong>“Telangana Land Records”</strong>.</p>
         
         <hr class="my-8" />
 
@@ -335,7 +335,7 @@ export let posts: Post[] = [
         
         <hr class="my-8" />
 
-        <p>JaaGa empowers you to take control of your property records with ease. Try downloading your Telangana Pattadhar Passbook /  Pahani today!</p>
+        <p>JaaGa empowers you to take control of your property records with ease. Try downloading your Telangana Pattadar Passbook /  Pahani today!</p>
         <img src="https://ik.imagekit.io/jaaga/M3cf6418431982ca18111130a438a61b61759987765500%20(1).webp?updatedAt=1762412127043" alt="JaaGa App promotion" class="rounded-lg" />
       </div>
     `,
@@ -407,7 +407,7 @@ export let posts: Post[] = [
             <li>Once your mutation record is found, tap “View Certificate”</li>
             <li>Download, save, or share the PDF copy instantly</li>
         </ol>
-        <p>✅ No physical visit<br/>✅ No file number required<br/>✅ Works for GHMC & other municipalities in Telangana</p>
+        <p>✅ No physical visit<br/>✅ No file number required<br/>✅ Works for GHMC &amp; other municipalities in Telangana</p>
         
         <h2 class="font-headline text-2xl font-bold">📄 What Details Are Shown in a GHMC Mutation Certificate?</h2>
         <div class="overflow-x-auto">
@@ -436,7 +436,7 @@ export let posts: Post[] = [
                         <td class="border border-border p-2">Survey no., door no., plot area, boundaries</td>
                     </tr>
                     <tr>
-                        <td class="border border-border p-2">Mutation Certificate No. & Date</td>
+                        <td class="border border-border p-2">Mutation Certificate No. &amp; Date</td>
                         <td class="border border-border p-2">Official proof of approval</td>
                     </tr>
                 </tbody>
@@ -558,8 +558,8 @@ With the JaaGa App, you can apply, track, and download your mutation certificate
         <ul class="list-disc list-inside space-y-2">
           <li><strong>Home Loans:</strong> Banks require a Certified EC before sanctioning property loans.</li>
           <li><strong>Property Sale/Resale:</strong> Buyers demand EC to verify clean title.</li>
-          <li><strong>Court & Legal Cases:</strong> Only signed Certified EC is accepted as evidence.</li>
-          <li><strong>Inheritance & Family Settlement:</strong> Used during mutation and succession.</li>
+          <li><strong>Court &amp; Legal Cases:</strong> Only signed Certified EC is accepted as evidence.</li>
+          <li><strong>Inheritance &amp; Family Settlement:</strong> Used during mutation and succession.</li>
           <li><strong>Government Permissions:</strong> Required for building permits, layout approvals, etc.</li>
         </ul>
 
@@ -888,7 +888,7 @@ With the JaaGa App, you can apply, track, and download your mutation certificate
     tags: ['Tamil Nadu Patta', 'Chitta documents Tamil Nadu', 'Patta/Chitta download online', 'Tamil Nadu property documents', 'TN land records', 'Tamil Nadu land ownership'],
     featuredImage: 'https://ik.imagekit.io/sravanth/Update%20Your%20Name,%20Secure%20Your%20Property%20(1).png?updatedAt=1758881580977',
     metaTitle: 'Your Guide to Patta Chitta Tamil Nadu Documents - Apply Online',
-    metaDescription: 'Apply, verify, and download Tamil Nadu Patta & Chitta documents online. Secure your land ownership and check property details easily.',
+    metaDescription: 'Apply, verify, and download Tamil Nadu Patta &amp; Chitta documents online. Secure your land ownership and check property details easily.',
     keywords: 'Tamil Nadu Patta, Chitta documents Tamil Nadu, Patta/Chitta download online, Tamil Nadu property documents, TN land records, Tamil Nadu land ownership, patta chitta tamil nadu',
   },
   {
@@ -1162,7 +1162,7 @@ With the JaaGa App, you can apply, track, and download your mutation certificate
     category: 'property-tax',
     tags: ['property tax', 'electricity bill', 'mutation', 'ownership'],
     featuredImage: 'https://ik.imagekit.io/jaaga/1.png?updatedAt=1758525181563',
-    metaTitle: 'Why Updating Owner’s Name on Property Tax & Electricity Bills is Crucial - JaaGa',
+    metaTitle: 'Why Updating Owner’s Name on Property Tax &amp; Electricity Bills is Crucial - JaaGa',
     metaDescription: 'Learn why it’s important to update the owner’s name on property tax receipts and electricity bills after buying a property. Ensure smooth mutation, avoid legal disputes, and secure your ownership with JaaGa’s expert services.',
     keywords: 'update property tax name Telangana, electricity bill name change, mutation of property, property ownership proof, property documents update, name transfer in property tax, update electricity bill name',
   },
@@ -1682,7 +1682,6 @@ With the JaaGa App, you can apply, track, and download your mutation certificate
             You will receive the official PDF receipt issued by GHMC or your respective
             municipal body.
           </li>
-          <li>You can then save it to your device or share it via WhatsApp, email, or Google Drive.</li>
         </ul>
 
         <h2 class="font-headline text-2xl font-bold">
@@ -1905,7 +1904,7 @@ With the JaaGa App, you can apply, track, and download your mutation certificate
     category: 'property-documents',
     tags: ['blockchain', 'proptech', 'investment security', 'digital property ownership', 'secure property investment', 'property ownership in Telangana', 'property ownership in Andhra Pradesh', 'digital land records India', 'Dharani portal Telangana', 'MeeBhoomi Andhra Pradesh', 'digital property documents', 'property fraud prevention', 'how to prove property ownership in India', 'online property verification', 'encumbrance certificate online', 'sale deed digital copy', 'land records management', 'real estate investment security', 'digital India property registration', 'e-registration property Telangana', 'e-registration property Andhra Pradesh', 'property legal disputes India', 'blockchain property records'],
     featuredImage: 'https://res.cloudinary.com/dxsj2kcwu/image/upload/v1758521969/4_nylaji.png',
-    metaTitle: 'Securing Your Investment with Digital Property Ownership in India - Guide for Telangana & Andhra Pradesh',
+    metaTitle: 'Securing Your Investment with Digital Property Ownership in India - Guide for Telangana &amp; Andhra Pradesh',
     metaDescription:
       'Learn how to secure your property investment with digital property ownership in India. Discover benefits, fraud prevention, Telangana Dharani portal, Andhra Pradesh MeeBhoomi, and future of digital land records.',
     keywords: 'digital property ownership, secure property investment, property ownership in Telangana, property ownership in Andhra Pradesh, digital land records India, Dharani portal Telangana, MeeBhoomi Andhra Pradesh, digital property documents, property fraud prevention, how to prove property ownership in India, online property verification, encumbrance certificate online, sale deed digital copy, land records management, real estate investment security, digital India property registration, e-registration property Telangana, e-registration property Andhra Pradesh, property legal disputes India, blockchain property records',
@@ -2449,7 +2448,7 @@ With the JaaGa App, you can apply, track, and download your mutation certificate
     category: 'legal-verification',
     tags: ['legal verification', 'property documents', 'due diligence', 'Telangana', 'Andhra Pradesh', 'property verification Telangana', 'legal property check Andhra Pradesh', 'title deed verification', 'encumbrance certificate Telangana', 'Meebhoomi property verification', 'property NOC Andhra Pradesh', 'secure property purchase Telangana'],
     featuredImage: 'https://ik.imagekit.io/sravanth/Update%20Your%20Name,%20Secure%20Your%20Property%20(2).png?updatedAt=1759129644613',
-    metaTitle: 'Legal Property Verification in Telangana & Andhra Pradesh - Complete Guide for Buyers',
+    metaTitle: 'Legal Property Verification in Telangana &amp; Andhra Pradesh - Complete Guide for Buyers',
     metaDescription:
       'Ensure a safe property purchase in Telangana and Andhra Pradesh. Learn step-by-step legal property verification, check ownership, encumbrances, NOCs, and avoid disputes.',
     keywords: 'property verification Telangana, legal property check Andhra Pradesh, title deed verification, encumbrance certificate Telangana, Meebhoomi property verification, property NOC Andhra Pradesh, secure property purchase Telangana',
@@ -2587,10 +2586,11 @@ With the JaaGa App, you can apply, track, and download your mutation certificate
     category: 'property-audit',
     tags: ['property audit', 'investment', 'due diligence'],
     featuredImage: 'https://picsum.photos/seed/property-audit/800/450',
-    metaTitle: 'Comprehensive Guide to Property Audits in India - Legal & Financial Insights',
+    metaTitle: 'Comprehensive Guide to Property Audits in India - Legal &amp; Financial Insights',
     metaDescription:
       'Learn everything about property audits in India including process, benefits, legal requirements, and FAQs. Ensure your property investment is secure and compliant.',
     keywords: 'property audit India, legal property verification, property ownership check, real estate compliance, property audit benefits, property investment India, types of property audits, legal audit property, property financial audit, property audit process, property document verification, property inspection India, property documents India, legal property documents, property verification documents, property audit advantages, property investment security, property transaction check, property audit challenges India, property dispute resolution, legal property issues, property audit professionals, property verification experts, real estate auditors, digital property audit India, online property verification, property tax online India, property audit FAQs India, property legal verification questions, real estate audit queries, property legal check, real estate investment security',
   },
 ];
+
 
