@@ -206,7 +206,7 @@ export let posts: Post[] = [
     category: 'property-documents',
     tags: ['Telangana Pattadar Passbook', 'Download Pahani Online Telangana', 'Telangana Land Records', 'Dharani Portal Pahani', 'Telangana Property Documents'],
     featuredImage: 'https://ik.imagekit.io/jaaga/Update%20Your%20Name,%20Secure%20Your%20Property%20(7).png?updatedAt=1762419002612',
-    metaTitle: 'How to Download Telangana Pattadar Passbook (Pahani) Online – Complete Guide 2025',
+    metaTitle: 'How to Download Telangana Pattadar Passbook (Pahani) Online - Complete Guide 2025',
     metaDescription: 'Learn how to download your Telangana Pattadar Passbook (Pahani) online using JaaGa. A step-by-step walkthrough using Survey No, Village, and Khata Number.',
     keywords: 'Telangana Pattadar Passbook, Download Pahani Online Telangana, Telangana Land Records, Dharani Portal Pahani, Telangana Property Documents, Survey Number Telangana, Khata Number Search, Village Land Records Telangana, Download ROR 1B Telangana, JaaGa Telangana property search, How to download Telangana Pattadar Passbook online, Step-by-step guide to get Pahani from Dharani portal, Access land records in Telangana using Khata number, Online Pahani download without visiting revenue office, Telangana Pahani certificate legal use and verification, Get certified copy of land records in Telangana, Best tool for Telangana land ownership verification',
   },
@@ -619,7 +619,7 @@ With the JaaGa App, you can apply, track, and download your mutation certificate
     category: 'mutation-creation',
     tags: ['mutation', 'telangana', 'jaaga', 'dharani'],
     featuredImage: 'https://ik.imagekit.io/jaaga/Update%20Your%20Name,%20Secure%20Your%20Property%20(4).png?updatedAt=1761916011550',
-    metaTitle: 'How to Apply Mutation in Telangana Using JaaGa App – A Complete Guide 2025',
+    metaTitle: 'How to Download Mutation Certificate in Telangana Online Instantly',
     metaDescription: 'Easily apply for mutation in Telangana online using the JaaGa App. Step-by-step guide to update land ownership records, check mutation status, and download your mutation certificate securely in 2025.',
     keywords: 'mutation Telangana, apply mutation online Telangana, Telangana land mutation certificate, how to apply mutation in Telangana 2025, JaaGa mutation service Telangana, Dharani mutation application, mutation status Telangana online, mutation certificate download Telangana, JaaGa app mutation guide',
   },
@@ -1357,7 +1357,7 @@ With the JaaGa App, you can apply, track, and download your mutation certificate
   {
     id: 10,
     slug: 'how-to-download-sale-deed-certified-copy-telangana-online-jaaga',
-    title: 'How to Download Sale Deed (Certified Copy – CC) in Telangana Online | JaaGa',
+    title: 'How to Download Sale Deed (Certified Copy – CC) in Telangana Online - JaaGa',
     excerpt:
       'When buying or selling property in Telangana, one of the most important legal documents is the Sale Deed. It records the transfer of property ownership from the seller to the buyer and is legally registered at the Sub-Registrar’s Office (SRO).',
     content: `
@@ -2466,6 +2466,9 @@ With the JaaGa App, you can apply, track, and download your mutation certificate
 
 
 
+
+
+    
 
 
     
