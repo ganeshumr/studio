@@ -350,7 +350,7 @@ export let posts: Post[] = [
   {
     id: 19,
     slug: 'how-to-download-mutation-certificate-in-telangana-jaaga',
-    title: 'How to Download a Mutation Certificate in Telangana — Step-by-Step Guide',
+    title: 'How to Apply Mutation in Telangana Using JaaGa App – A Complete Guide 2025',
     excerpt: 'Learn how to download the GHMC Mutation Certificate online in Telangana using the JaaGa app. Search by PTIN, owner name, or door number and get the certificate instantly.',
     content: `
       <div class="space-y-6">
@@ -2589,6 +2589,7 @@ With the JaaGa App, you can apply, track, and download your mutation certificate
     keywords: 'property audit India, legal property verification, property ownership check, real estate compliance, property audit benefits, property investment India, types of property audits, legal audit property, property financial audit, property audit process, property document verification, property inspection India, property documents India, legal property documents, property verification documents, property audit advantages, property investment security, property transaction check, property audit challenges India, property dispute resolution, legal property issues, property audit professionals, property verification experts, real estate auditors, digital property audit India, online property verification, property tax online India, property audit FAQs India, property legal verification questions, real estate audit queries, property legal check, real estate investment security',
   },
 ];
+
 
 
 
