@@ -168,6 +168,7 @@ export let posts: Post[] = [
         
         <h3 class="font-headline text-xl font-bold">Step 3: Enter Property Details</h3>
         <p>As shown in the screenshot:</p>
+        <img src="https://ik.imagekit.io/jaaga/Screenshot%202025-11-07%20151229.png?updatedAt=1762508622344" alt="Enter Property Details on JaaGa" class="rounded-lg my-4" />
         <ol class="list-decimal list-inside space-y-2">
             <li><strong>Village or Division</strong> – Start typing and select from the dropdown</li>
             <li><strong>Survey Number</strong> – Enter exact survey number</li>
@@ -1747,7 +1748,7 @@ With the JaaGa App, you can apply, track, and download your mutation certificate
     category: 'property-tax',
     tags: ['property tax', 'telangana', 'jaaga app', 'tax receipt'],
     featuredImage: 'https://ik.imagekit.io/jaaga/3.png?updatedAt=1758525181366',
-    metaTitle: 'How to Download Property Tax Receipt in Telangana Using JaaGa App - A Complete Guide',
+    metaTitle: 'How to Download Property Tax Receipt in Telangana Using JaaGa App: A Complete Guide',
     metaDescription:
       'A complete guide on how to download your property tax receipt in Telangana quickly and easily using the JaaGa App. Avoid queues and get your receipt online.',
     keywords:
@@ -2592,6 +2593,7 @@ With the JaaGa App, you can apply, track, and download your mutation certificate
     keywords: 'property audit India, legal property verification, property ownership check, real estate compliance, property audit benefits, property investment India, types of property audits, legal audit property, property financial audit, property audit process, property document verification, property inspection India, property documents India, legal property documents, property verification documents, property audit advantages, property investment security, property transaction check, property audit challenges India, property dispute resolution, legal property issues, property audit professionals, property verification experts, real estate auditors, digital property audit India, online property verification, property tax online India, property audit FAQs India, property legal verification questions, real estate audit queries, property legal check, real estate investment security',
   },
 ];
+
 
 
 
