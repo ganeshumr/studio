@@ -237,7 +237,7 @@ export let posts: Post[] = [
     category: 'property-documents',
     tags: ['FMB', 'Village Map', 'Andhra Pradesh', 'JaaGa', 'Land Records'],
     featuredImage: 'https://ik.imagekit.io/jaaga/Update%20Your%20Name,%20Secure%20Your%20Property%20(8).png?updatedAt=1762495716194',
-    metaTitle: 'How to Download FMB & Village Maps in Andhra Pradesh Online',
+    metaTitle: 'Download FMB Map/LP Map in Andhra Pradesh',
     metaDescription: 'A Village Map in Andhra Pradesh is an essential land record that also includes FMB (Field Measurement Book) maps showing exact land boundaries and survey details. Learn how to download both using JaaGa in 2025.',
     keywords: 'download FMB Andhra Pradesh, Download FMB, Andhra Pradesh village map online, FMB map survey number search, AP land records FMB download, field measurement book Andhra Pradesh, how to get village map online AP, land boundary map download Andhra Pradesh',
   },
@@ -1739,10 +1739,6 @@ With the JaaGa App, you can apply, track, and download your mutation certificate
           easier. With the JaaGa App, you can access your receipts in seconds, securely, online,
           and without any hassle.
         </p>
-        <p>
-          Say goodbye to long lines and confusing portals switch to JaaGa and manage your
-          property the smart way!
-        </p>
       </div>
     `,
     category: 'property-tax',
@@ -2593,6 +2589,7 @@ With the JaaGa App, you can apply, track, and download your mutation certificate
     keywords: 'property audit India, legal property verification, property ownership check, real estate compliance, property audit benefits, property investment India, types of property audits, legal audit property, property financial audit, property audit process, property document verification, property inspection India, property documents India, legal property documents, property verification documents, property audit advantages, property investment security, property transaction check, property audit challenges India, property dispute resolution, legal property issues, property audit professionals, property verification experts, real estate auditors, digital property audit India, online property verification, property tax online India, property audit FAQs India, property legal verification questions, real estate audit queries, property legal check, real estate investment security',
   },
 ];
+
 
 
 
