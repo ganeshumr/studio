@@ -97,7 +97,7 @@ export const services: Service[] = [
     {
         categorySlug: 'property-documents',
         title: 'FMB Sketch',
-        description: "Get an official, legally binding copy of your property's sale deed.",
+        description: "Get your FMB Sketch Instantly",
         image: 'https://ik.imagekit.io/jaaga/ap_fmb%20(1).png?updatedAt=1762507684715',
         link: 'https://www.jaaga.ai/documents',
     },
@@ -1162,7 +1162,7 @@ With the JaaGa App, you can apply, track, and download your mutation certificate
     category: 'property-tax',
     tags: ['property tax', 'electricity bill', 'mutation', 'ownership'],
     featuredImage: 'https://ik.imagekit.io/jaaga/1.png?updatedAt=1758525181563',
-    metaTitle: 'Why Updating Owner’s Name on Property Tax &amp; Electricity Bills is Crucial - JaaGa',
+    metaTitle: 'Why Updating Owner’s Name on Property Tax & Electricity Bills is Crucial - JaaGa',
     metaDescription: 'Learn why it’s important to update the owner’s name on property tax receipts and electricity bills after buying a property. Ensure smooth mutation, avoid legal disputes, and secure your ownership with JaaGa’s expert services.',
     keywords: 'update property tax name Telangana, electricity bill name change, mutation of property, property ownership proof, property documents update, name transfer in property tax, update electricity bill name',
   },
@@ -1904,7 +1904,7 @@ With the JaaGa App, you can apply, track, and download your mutation certificate
     category: 'property-documents',
     tags: ['blockchain', 'proptech', 'investment security', 'digital property ownership', 'secure property investment', 'property ownership in Telangana', 'property ownership in Andhra Pradesh', 'digital land records India', 'Dharani portal Telangana', 'MeeBhoomi Andhra Pradesh', 'digital property documents', 'property fraud prevention', 'how to prove property ownership in India', 'online property verification', 'encumbrance certificate online', 'sale deed digital copy', 'land records management', 'real estate investment security', 'digital India property registration', 'e-registration property Telangana', 'e-registration property Andhra Pradesh', 'property legal disputes India', 'blockchain property records'],
     featuredImage: 'https://res.cloudinary.com/dxsj2kcwu/image/upload/v1758521969/4_nylaji.png',
-    metaTitle: 'Securing Your Investment with Digital Property Ownership in India - Guide for Telangana &amp; Andhra Pradesh',
+    metaTitle: 'Securing Your Investment with Digital Property Ownership in India - Guide for Telangana & Andhra Pradesh',
     metaDescription:
       'Learn how to secure your property investment with digital property ownership in India. Discover benefits, fraud prevention, Telangana Dharani portal, Andhra Pradesh MeeBhoomi, and future of digital land records.',
     keywords: 'digital property ownership, secure property investment, property ownership in Telangana, property ownership in Andhra Pradesh, digital land records India, Dharani portal Telangana, MeeBhoomi Andhra Pradesh, digital property documents, property fraud prevention, how to prove property ownership in India, online property verification, encumbrance certificate online, sale deed digital copy, land records management, real estate investment security, digital India property registration, e-registration property Telangana, e-registration property Andhra Pradesh, property legal disputes India, blockchain property records',
@@ -2448,7 +2448,7 @@ With the JaaGa App, you can apply, track, and download your mutation certificate
     category: 'legal-verification',
     tags: ['legal verification', 'property documents', 'due diligence', 'Telangana', 'Andhra Pradesh', 'property verification Telangana', 'legal property check Andhra Pradesh', 'title deed verification', 'encumbrance certificate Telangana', 'Meebhoomi property verification', 'property NOC Andhra Pradesh', 'secure property purchase Telangana'],
     featuredImage: 'https://ik.imagekit.io/sravanth/Update%20Your%20Name,%20Secure%20Your%20Property%20(2).png?updatedAt=1759129644613',
-    metaTitle: 'Legal Property Verification in Telangana &amp; Andhra Pradesh - Complete Guide for Buyers',
+    metaTitle: 'Legal Property Verification in Telangana & Andhra Pradesh - Complete Guide for Buyers',
     metaDescription:
       'Ensure a safe property purchase in Telangana and Andhra Pradesh. Learn step-by-step legal property verification, check ownership, encumbrances, NOCs, and avoid disputes.',
     keywords: 'property verification Telangana, legal property check Andhra Pradesh, title deed verification, encumbrance certificate Telangana, Meebhoomi property verification, property NOC Andhra Pradesh, secure property purchase Telangana',
@@ -2586,12 +2586,13 @@ With the JaaGa App, you can apply, track, and download your mutation certificate
     category: 'property-audit',
     tags: ['property audit', 'investment', 'due diligence'],
     featuredImage: 'https://picsum.photos/seed/property-audit/800/450',
-    metaTitle: 'Comprehensive Guide to Property Audits in India - Legal &amp; Financial Insights',
+    metaTitle: 'Comprehensive Guide to Property Audits in India - Legal & Financial Insights',
     metaDescription:
       'Learn everything about property audits in India including process, benefits, legal requirements, and FAQs. Ensure your property investment is secure and compliant.',
     keywords: 'property audit India, legal property verification, property ownership check, real estate compliance, property audit benefits, property investment India, types of property audits, legal audit property, property financial audit, property audit process, property document verification, property inspection India, property documents India, legal property documents, property verification documents, property audit advantages, property investment security, property transaction check, property audit challenges India, property dispute resolution, legal property issues, property audit professionals, property verification experts, real estate auditors, digital property audit India, online property verification, property tax online India, property audit FAQs India, property legal verification questions, real estate audit queries, property legal check, real estate investment security',
   },
 ];
+
 
 
 
