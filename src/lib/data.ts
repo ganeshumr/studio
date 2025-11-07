@@ -364,7 +364,7 @@ With the JaaGa App, you can apply, track, and download your mutation certificate
     category: 'mutation-creation',
     tags: ['GHMC Mutation Certificate Download', 'Mutation Certificate Telangana Online', 'Download Mutation Certificate using PTIN', 'Telangana Property Mutation Online', 'GHMC Property Ownership Transfer', 'How to Get Mutation Certificate in Telangana', 'GHMC PTIN Mutation Status', 'Property Mutation Certificate Telangana', 'Online Mutation Certificate GHMC', 'JaaGa Telangana Property Documents'],
     featuredImage: 'https://ik.imagekit.io/jaaga/Update%20Your%20Name,%20Secure%20Your%20Property%20(6).png?updatedAt=1762411393121',
-    metaTitle: 'How to Download Mutation Certificate in Telangana Online - JaaGa App',
+    metaTitle: 'How to Download Mutation Certificate in Telangana Online Instantly',
     metaDescription: 'Learn how to download the GHMC Mutation Certificate online in Telangana using the JaaGa app. Search by PTIN, owner name, or door number and get the certificate instantly.',
     keywords: 'GHMC Mutation Certificate Download, Mutation Certificate Telangana Online, Download Mutation Certificate using PTIN, Telangana Property Mutation Online, GHMC Property Ownership Transfer, How to Get Mutation Certificate in Telangana, GHMC PTIN Mutation Status, Property Mutation Certificate Telangana, Online Mutation Certificate GHMC, JaaGa Telangana Property Documents',
   },
@@ -1615,21 +1615,13 @@ With the JaaGa App, you can apply, track, and download your mutation certificate
           Say goodbye to long lines and confusing portals switch to JaaGa and manage your
           property the smart way!
         </p>
-        <img
-          src="https://res.cloudinary.com/dnuayl071/image/upload/v1757506208/M983e58325c68619effb6149a7691af6c1747810343169_zzjy0t.webp"
-          alt="JaaGa App contact info"
-          width="800"
-          height="150"
-          class="rounded-lg"
-          data-ai-hint="contact info banner"
-        />
         <img src="https://ik.imagekit.io/jaaga/M3cf6418431982ca18111130a438a61b61759987765500%20(1).webp?updatedAt=1762412127043" alt="JaaGa App promotion" class="rounded-lg" />
       </div>
     `,
     category: 'property-tax',
     tags: ['property tax', 'telangana', 'jaaga app', 'tax receipt'],
     featuredImage: 'https://ik.imagekit.io/jaaga/3.png?updatedAt=1758525181366',
-    metaTitle: 'How to Download Property Tax Receipt in Telangana Using JaaGa App',
+    metaTitle: 'How to Download Property Tax Receipt in Telangana Using JaaGa App - A Complete Guide',
     metaDescription:
       'A complete guide on how to download your property tax receipt in Telangana quickly and easily using the JaaGa App. Avoid queues and get your receipt online.',
     keywords:
@@ -2310,7 +2302,7 @@ With the JaaGa App, you can apply, track, and download your mutation certificate
     category: 'legal-verification',
     tags: ['legal verification', 'property documents', 'due diligence', 'Telangana', 'Andhra Pradesh', 'property verification Telangana', 'legal property check Andhra Pradesh', 'title deed verification', 'encumbrance certificate Telangana', 'Meebhoomi property verification', 'property NOC Andhra Pradesh', 'secure property purchase Telangana'],
     featuredImage: 'https://ik.imagekit.io/sravanth/Update%20Your%20Name,%20Secure%20Your%20Property%20(2).png?updatedAt=1759129644613',
-    metaTitle: 'Legal Property Verification in Telangana & Andhra Pradesh: Complete Guide for Buyers',
+    metaTitle: 'Legal Property Verification in Telangana & Andhra Pradesh - Complete Guide for Buyers',
     metaDescription:
       'Ensure a safe property purchase in Telangana and Andhra Pradesh. Learn step-by-step legal property verification, check ownership, encumbrances, NOCs, and avoid disputes.',
     keywords: 'property verification Telangana, legal property check Andhra Pradesh, title deed verification, encumbrance certificate Telangana, Meebhoomi property verification, property NOC Andhra Pradesh, secure property purchase Telangana',
