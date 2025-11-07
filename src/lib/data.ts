@@ -98,7 +98,7 @@ export const services: Service[] = [
         categorySlug: 'property-documents',
         title: 'FMB Sketch',
         description: "Get an official, legally binding copy of your property's sale deed.",
-        image: 'https://res.cloudinary.com/dnuayl071/image/upload/v1758023191/Sample_Audit_Report_5.pdf_2_kze5k9.png',
+        image: 'https://ik.imagekit.io/jaaga/ap_fmb%20(1).png?updatedAt=1762507684715',
         link: 'https://www.jaaga.ai/documents',
     },
   ];
@@ -2592,6 +2592,7 @@ With the JaaGa App, you can apply, track, and download your mutation certificate
     keywords: 'property audit India, legal property verification, property ownership check, real estate compliance, property audit benefits, property investment India, types of property audits, legal audit property, property financial audit, property audit process, property document verification, property inspection India, property documents India, legal property documents, property verification documents, property audit advantages, property investment security, property transaction check, property audit challenges India, property dispute resolution, legal property issues, property audit professionals, property verification experts, real estate auditors, digital property audit India, online property verification, property tax online India, property audit FAQs India, property legal verification questions, real estate audit queries, property legal check, real estate investment security',
   },
 ];
+
 
 
 
