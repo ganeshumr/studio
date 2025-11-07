@@ -105,6 +105,142 @@ export const services: Service[] = [
 
 export let posts: Post[] = [
   {
+    id: 21,
+    slug: 'how-to-download-fmb-village-maps-andhra-pradesh-online',
+    title: 'How to Download FMB and Village Maps from JaaGa (Andhra Pradesh) – Step-by-Step Guide 2025',
+    excerpt: 'A Village Map in Andhra Pradesh is an essential land record that also includes FMB (Field Measurement Book) maps showing exact land boundaries and survey details. Learn how to download both using JaaGa in 2025.',
+    content: `
+      <div class="space-y-6">
+        <h2 class="font-headline text-2xl font-bold">How to Download FMB and Village Maps from JaaGa (Andhra Pradesh) – Step-by-Step Guide 2025</h2>
+        <p>The <strong>Village Map</strong> and <strong>FMB (Field Measurement Book) Map</strong> are crucial land documents in Andhra Pradesh. Together, they provide:</p>
+        <ul class="list-disc list-inside space-y-2">
+            <li>Exact survey boundaries of each land parcel</li>
+            <li>Sub-division & extent details</li>
+            <li>Geographical layout of the entire village</li>
+            <li>Survey-wise measurement representation in scale</li>
+        </ul>
+        <p>Earlier, these maps were available only through the Revenue Office or Mandal Surveyor. But now, JaaGa allows <strong>instant digital access</strong> to both documents using only basic land details.</p>
+        
+        <hr class="my-8" />
+
+        <h2 class="font-headline text-2xl font-bold">✅ What You Can Download from JaaGa</h2>
+        <div class="overflow-x-auto">
+            <table class="min-w-full border-collapse border border-border">
+                <thead>
+                    <tr class="bg-muted">
+                        <th class="border border-border p-2 text-left">Document</th>
+                        <th class="border border-border p-2 text-left">Format</th>
+                        <th class="border border-border p-2 text-left">Availability</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="border border-border p-2">Village Map</td>
+                        <td class="border border-border p-2">PDF</td>
+                        <td class="border border-border p-2">Digital Copy / Hard Copy</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-border p-2">FMB (Field Measurement Book) Map</td>
+                        <td class="border border-border p-2">PDF</td>
+                        <td class="border border-border p-2">Digital Copy / Hard Copy</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-border p-2">Combined Village + FMB Extract</td>
+                        <td class="border border-border p-2">PDF</td>
+                        <td class="border border-border p-2">On request</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+        <hr class="my-8" />
+
+        <h2 class="font-headline text-2xl font-bold">Step-by-Step Guide: Download FMB & Village Map via JaaGa</h2>
+        <h3 class="font-headline text-xl font-bold">Step 1: Visit JaaGa Property Records Portal</h3>
+        <p>Go to <a href="http://www.jaaga.ai/documents" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">www.jaaga.ai/documents</a> → Select <strong>Andhra Pradesh (Agriculture / Non‑Agriculture)</strong>.</p>
+        
+        <hr class="my-8" />
+
+        <h3 class="font-headline text-xl font-bold">Step 2: Choose Document Type</h3>
+        <p>Select <strong>"Village Map / FMB Map"</strong> from the document list.</p>
+        
+        <hr class="my-8" />
+        
+        <h3 class="font-headline text-xl font-bold">Step 3: Enter Property Details</h3>
+        <p>As shown in the screenshot:</p>
+        <ol class="list-decimal list-inside space-y-2">
+            <li><strong>Village or Division</strong> – Start typing and select from the dropdown</li>
+            <li><strong>Survey Number</strong> – Enter exact survey number</li>
+        </ol>
+        <p><em>These two fields are mandatory to fetch the correct FMB sheet and village map.</em></p>
+
+        <hr class="my-8" />
+
+        <h3 class="font-headline text-xl font-bold">Step 4: Select Copy Type</h3>
+        <div class="overflow-x-auto">
+            <table class="min-w-full border-collapse border border-border">
+                <thead>
+                    <tr class="bg-muted">
+                        <th class="border border-border p-2 text-left">Type</th>
+                        <th class="border border-border p-2 text-left">Use Case</th>
+                        <th class="border border-border p-2 text-left">Delivery Time</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="border border-border p-2"><strong>Soft Copy (PDF)</strong></td>
+                        <td class="border border-border p-2">Instant download</td>
+                        <td class="border border-border p-2">1 working days</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-border p-2"><strong>Hard Copy (Printed + Courier)</strong></td>
+                        <td class="border border-border p-2">Bank loans / legal use</td>
+                        <td class="border border-border p-2">2-3 working days</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <hr class="my-8" />
+
+        <h3 class="font-headline text-xl font-bold">Step 5: Accept Terms & Click ‘Get It Now’</h3>
+        <p>JaaGa fetches the document directly from <strong>AP Survey & Settlement Records</strong> and delivers it to your email / courier address.</p>
+        
+        <hr class="my-8" />
+
+        <h2 class="font-headline text-2xl font-bold">Why Download FMB & Village Maps?</h2>
+        <ul class="list-disc list-inside space-y-2">
+            <li>✔️ Proof of exact land measurement</li>
+            <li>✔️ Used in land disputes & boundary verification</li>
+            <li>✔️ Required for layout approvals & plotting</li>
+            <li>✔️ Mandatory in many bank loan processes</li>
+            <li>✔️ Helps verify encroachment & overlaps</li>
+        </ul>
+        
+        <hr class="my-8" />
+
+        <h2 class="font-headline text-2xl font-bold">FAQs</h2>
+        <h4 class="font-bold">Q. Is the FMB map from JaaGa legally valid?</h4>
+        <p>Yes, the digital copy is a certified extract from AP Survey Department.</p>
+        <h4 class="font-bold">Q. Can I download without Survey Number?</h4>
+        <p>Yes, JaaGa provides an alternate search using owner name or Khata.</p>
+        <h4 class="font-bold">Q. Does JaaGa provide layout maps too?</h4>
+        <p>Yes, available on request for approved layouts.</p>
+        
+        <hr class="my-8" />
+
+        <p>JaaGa makes property documentation effortless. Start your <strong>FMB / Village Map download</strong> in minutes - no survey office visit required.</p>
+        <img src="https://ik.imagekit.io/jaaga/M3cf6418431982ca18111130a438a61b61759987765500%20(1).webp?updatedAt=1762412127043" alt="JaaGa App promotion" class="rounded-lg" />
+      </div>
+    `,
+    category: 'property-documents',
+    tags: ['FMB', 'Village Map', 'Andhra Pradesh', 'JaaGa', 'Land Records'],
+    featuredImage: 'https://picsum.photos/seed/fmb-ap/800/450',
+    metaTitle: 'How to Download FMB & Village Maps in Andhra Pradesh Online - JaaGa 2025',
+    metaDescription: 'A Village Map in Andhra Pradesh is an essential land record that also includes FMB (Field Measurement Book) maps showing exact land boundaries and survey details. Learn how to download both using JaaGa in 2025.',
+    keywords: 'download FMB Andhra Pradesh, Download FMB, Andhra Pradesh village map online, FMB map survey number search, AP land records FMB download, field measurement book Andhra Pradesh, how to get village map online AP, land boundary map download Andhra Pradesh',
+  },
+  {
     id: 20,
     slug: 'how-to-download-telangana-pattadar-passbook-pahani-online',
     title: 'How to Download Telangana Pattadar Passbook (Pahani) Online – Complete Guide 2025',
@@ -466,7 +602,7 @@ With the JaaGa App, you can apply, track, and download your mutation certificate
         <p>Using JaaGa.ai, it normally takes between 24 to 72 hours depending on the SRO workload.</p>
 
         <h3 class="font-headline text-xl font-bold">2. Can I use an online EC for a home loan?</h3>
-        <p>No. Banks require a Certified Encumbrance Certificate with seal & signature.</p>
+        <p>No. Banks require a Certified Encumbrance Certificate with seal &amp; signature.</p>
 
         <h3 class="font-headline text-xl font-bold">3. What if the EC shows no transactions?</h3>
         <p>You will get a “Nil Encumbrance Certificate” — it means the property has no registered dealings.</p>
@@ -547,7 +683,7 @@ With the JaaGa App, you can apply, track, and download your mutation certificate
         <ul class="list-disc list-inside space-y-2">
             <li>Registered Sale Deed / Gift Deed / Partition Deed Party 1</li>
             <li>Registered Sale Deed / Gift Deed / Partition Deed Party 2</li>
-            <li>Id & Address Proof</li>
+            <li>Id &amp; Address Proof</li>
             <li>Property Tax Receipt</li>
             <li>Latest Encumbrance Certificate (EC)</li>
         </ul>
@@ -555,7 +691,7 @@ With the JaaGa App, you can apply, track, and download your mutation certificate
 
         <h3 class="font-headline text-xl font-bold">Step 4: Pay the Service Fee</h3>
         <ul class="list-disc list-inside space-y-2">
-            <li>Fees vary by property type & location (service fee - ₹1,999 )</li>
+            <li>Fees vary by property type &amp; location (service fee - ₹1,999 )</li>
             <li>Make the payment to proceed with further steps</li>
         </ul>
 
@@ -577,7 +713,7 @@ With the JaaGa App, you can apply, track, and download your mutation certificate
         <ul class="list-disc list-inside space-y-2">
             <li>Uses government APIs (Dharani, Registration Dept., CDMA)</li>
             <li>Fetches official data directly</li>
-            <li>Uses encrypted & secure storage</li>
+            <li>Uses encrypted &amp; secure storage</li>
             <li>Is trusted by 1000s of Telangana property owners</li>
         </ul>
 
@@ -1173,7 +1309,7 @@ With the JaaGa App, you can apply, track, and download your mutation certificate
             <li><strong>Choose the Document Service</strong> – Sale Deed, EC, or Tax Receipts.</li>
             <li><strong>Enter Property Details</strong> – Owner Name, Village/Division, Survey Number.</li>
             <li><strong>Submit Request</strong> – JaaGa fetches and verifies the document.</li>
-            <li><strong>Download & Store</strong> – Securely receive your documents in your JaaGa locker.</li>
+            <li><strong>Download &amp; Store</strong> – Securely receive your documents in your JaaGa locker.</li>
           </ol>
           <p>🚀 <strong>In just a few steps, your essential property documents are retrieved online hassle-free.</strong></p>
           <hr class="my-8" />
@@ -1323,9 +1459,9 @@ With the JaaGa App, you can apply, track, and download your mutation certificate
         <h3 class="font-headline text-xl font-bold">🌐 Benefits of Paying Through Landeed:</h3>
         <ul class="list-disc space-y-2 pl-6">
           <li>One-click payment for TGSPDCL electricity bills in Telangana</li>
-          <li>Supports property tax & water bill payments</li>
+          <li>Supports property tax &amp; water bill payments</li>
           <li>Get bill reminders and alerts before the due date</li>
-          <li>Securely store & manage past bills online</li>
+          <li>Securely store &amp; manage past bills online</li>
         </ul>
         <p>👉 Pay TGSPDCL Bill Online and manage all your utility payments in one place.</p>
 
@@ -1413,9 +1549,9 @@ With the JaaGa App, you can apply, track, and download your mutation certificate
         <p>Fill in basic details such as:</p>
         <ul class="list-disc space-y-2 pl-6">
           <li>Sub-Registrar Office (SRO)</li>
-          <li>Document Number & Year</li>
+          <li>Document Number &amp; Year</li>
         </ul>
-        <h3 class="font-headline text-xl font-bold">6️⃣ Submit Request & Pay Fees</h3>
+        <h3 class="font-headline text-xl font-bold">6️⃣ Submit Request &amp; Pay Fees</h3>
         <p>Proceed with secure online payment for document retrieval.</p>
         <h3 class="font-headline text-xl font-bold">7️⃣ Download Your Sale Deed (CC)</h3>
         <p>
@@ -1497,7 +1633,7 @@ With the JaaGa App, you can apply, track, and download your mutation certificate
             <strong>Legal Compliance:</strong> It shows that you are compliant with local tax laws.
           </li>
           <li>
-            <strong>Loans & Resale:</strong> It's a mandatory document for home loan applications,
+            <strong>Loans &amp; Resale:</strong> It's a mandatory document for home loan applications,
             and during the sale or transfer of property.
           </li>
           <li>
@@ -1508,15 +1644,7 @@ With the JaaGa App, you can apply, track, and download your mutation certificate
         <h2 class="font-headline text-2xl font-bold">
           📲 Steps to Download Your Property Tax Receipt with the JaaGa App
         </h2>
-        <img
-          src="https://res.cloudinary.com/dnuayl071/image/upload/v1757505811/M00f8cba13c64a55f2bd628a404dfa0851744179908183_ts5xyb.webp"
-          alt="JaaGa App step-by-step guide"
-          width="800"
-          height="450"
-          class="rounded-lg"
-          data-ai-hint="mobile app screenshot"
-        />
-
+        
         <h3 class="font-headline text-xl font-bold">Step 1: Install the JaaGa App</h3>
         <ul class="list-disc space-y-2 pl-6">
           <li>Go to the Google Play Store or the Apple App Store.</li>
@@ -1582,7 +1710,7 @@ With the JaaGa App, you can apply, track, and download your mutation certificate
             <strong>Instant Access:</strong> Get an instant PDF download of your official receipt.
           </li>
           <li>
-            <strong>Secure & Verified:</strong> Data is fetched directly from secure government APIs.
+            <strong>Secure &amp; Verified:</strong> Data is fetched directly from secure government APIs.
           </li>
           <li>
             <strong>All-in-One:</strong> Also offers other property document services like certified
@@ -2446,21 +2574,3 @@ With the JaaGa App, you can apply, track, and download your mutation certificate
     keywords: 'property audit India, legal property verification, property ownership check, real estate compliance, property audit benefits, property investment India, types of property audits, legal audit property, property financial audit, property audit process, property document verification, property inspection India, property documents India, legal property documents, property verification documents, property audit advantages, property investment security, property transaction check, property audit challenges India, property dispute resolution, legal property issues, property audit professionals, property verification experts, real estate auditors, digital property audit India, online property verification, property tax online India, property audit FAQs India, property legal verification questions, real estate audit queries, property legal check, real estate investment security',
   },
 ];
-
-
-
-    
-
-
-    
-
-
-
-
-
-
-
-    
-
-
-    
