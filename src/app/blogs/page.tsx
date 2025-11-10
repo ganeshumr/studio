@@ -1,31 +1,95 @@
+import BlogListClient from "@/components/blog/blog-list-client";
+import { posts } from "@/lib/data";
+import type { Metadata } from 'next';
 
-'use client';
+const pageTitle = 'JaaGa Blog – Property Documents, Legal Guides & Real Estate Knowledge';
+const pageDescription = 'Your source for expert analysis and practical advice on Indian real estate, property law, and digital ownership. Find articles on patta, chitta, EC, land records, and more.';
+const pageKeywords = [
+    'real estate blog India',
+    'property law India',
+    'digital ownership',
+    'land records Telangana',
+    'patta chitta Tamil Nadu',
+    'Encumbrance Certificate AP',
+    'property verification',
+    'JaaGa insights',
+    'property documents online',
+    'legal heir certificate',
+    'sale deed',
+    'Telangana EC', 
+    'Encumbrance Certificate Telangana', 
+    'Certified EC Telangana', 
+    'ROR 1B Telangana', 
+    'Pahani Telangana', 
+    'Dharani land record', 
+    'Telangana sale deed copy', 
+    'Telangana mutation', 
+    'PTIN search Telangana', 
+    'GHMC property tax receipt', 
+    'Telangana market value certificate', 
+    'Telangana survey number check', 
+    'Telangana land ownership check',
+    'AP EC online', 
+    'Encumbrance Certificate AP', 
+    '1B record AP', 
+    'Adangal AP', 
+    'AP sale deed copy', 
+    'MeeBhoomi document download', 
+    'AP mutation online', 
+    'AP land records search', 
+    'AP property tax receipt', 
+    'AP survey number check', 
+    'AP property title check',
+    'Patta Chitta online', 
+    'Tamil Nadu EC', 
+    'TSLR extract Tamil Nadu', 
+    'Tamil Nadu sale deed copy', 
+    'Patta transfer TN', 
+    'FMB sketch Tamil Nadu', 
+    'Tamil Nadu property tax receipt', 
+    'Tamil Nadu survey number search', 
+    'TN land ownership verification',
+    '7/12 extract online', 
+    'Satbara Utara', 
+    '8A extract Maharashtra', 
+    'Maharashtra EC download', 
+    'Property Card Maharashtra', 
+    'Maharashtra sale deed copy', 
+    'mutation 7/12 online', 
+    'Mahabhulekh land record', 
+    'Maharashtra property tax receipt', 
+    'survey number Maharashtra',
+    'RTC Karnataka online', 
+    'Pahani Karnataka', 
+    'Mutation extract Karnataka', 
+    'EC Karnataka download', 
+    'Survey Tippani Karnataka', 
+    'eKhata Karnataka', 
+    'BBMP property tax receipt', 
+    'Karnataka land record online', 
+    'Karnataka sale deed copy',
+    'download property documents online', 
+    'certified encumbrance certificate', 
+    'mutation name transfer online', 
+    'land record search app', 
+    'sale deed copy download', 
+    'property tax receipt online', 
+    'survey number check', 
+    'property title verification', 
+    'legal property documents online'
+];
 
-import {useState, useMemo} from 'react';
-import {BlogPostCard} from '@/components/blog/blog-post-card';
-import {posts as initialPosts, categories} from '@/lib/data';
-import {Input} from '@/components/ui/input';
-import {Search} from 'lucide-react';
-import type {Post} from '@/lib/types';
-import React from 'react';
+export const metadata: Metadata = {
+  title: pageTitle,
+  description: pageDescription,
+  keywords: pageKeywords,
+  openGraph: {
+    title: pageTitle,
+    description: pageDescription,
+  },
+};
 
 export default function BlogListPage() {
-  const [searchQuery, setSearchQuery] = useState('');
-
-  const filteredPosts = useMemo(() => {
-    if (!searchQuery) {
-      return initialPosts;
-    }
-    return initialPosts.filter(post => {
-      const searchTerm = searchQuery.toLowerCase();
-      const titleMatch = post.title.toLowerCase().includes(searchTerm);
-      const excerptMatch = post.excerpt.toLowerCase().includes(searchTerm);
-      const contentMatch = post.content.toLowerCase().includes(searchTerm);
-      return titleMatch || excerptMatch || contentMatch;
-    });
-  }, [searchQuery]);
-
-
   return (
     <div className="container mx-auto px-4 py-12 md:py-12">
       <div className="text-center mb-12">
@@ -37,25 +101,7 @@ export default function BlogListPage() {
           and digital ownership.
         </p>
       </div>
-
-      <div className="mb-12 max-w-2xl mx-auto">
-        <div className="relative">
-          <Input
-            type="search"
-            placeholder="Search for articles..."
-            className="w-full pl-10 h-12 text-base"
-            value={searchQuery}
-            onChange={e => setSearchQuery(e.target.value)}
-          />
-          <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-5 w-5 text-muted-foreground" />
-        </div>
-      </div>
-
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        {filteredPosts.map(post => (
-          <BlogPostCard key={post.id} post={post} />
-        ))}
-      </div>
+      <BlogListClient posts={posts} />
     </div>
   );
 }

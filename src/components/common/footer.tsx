@@ -20,6 +20,12 @@ export function Footer() {
     }
   };
 
+  const servicesLinks = [
+      { href: "https://www.jaaga.ai/properties/my-properties", name: "My Locker"},
+      { href: "https://www.jaaga.ai/documents", name: "Property Documents"},
+      { href: "https://www.jaaga.ai/services", name: "Property Services"},
+  ]
+
   return (
     <footer className="bg-background border-t">
       <div className="container mx-auto px-4 py-12">
@@ -49,18 +55,24 @@ export function Footer() {
                   Contact
                 </Link>
               </li>
+               <li>
+                <Link href="https://www.jaaga.ai/" target='_blank' className="text-muted-foreground hover:text-primary">
+                  Website
+                </Link>
+              </li>
             </ul>
           </div>
           <div>
-            <h3 className="font-headline font-semibold mb-4">Categories</h3>
+            <h3 className="font-headline font-semibold mb-4">Services</h3>
             <ul className="space-y-2 text-sm">
-              {categories.slice(0, 5).map(category => (
-                <li key={category.slug}>
+              {servicesLinks.map(link => (
+                <li key={link.href}>
                   <Link
-                    href={`/category/${category.slug}`}
+                    href={link.href}
+                    target='_blank'
                     className="text-muted-foreground hover:text-primary"
                   >
-                    {category.name}
+                    {link.name}
                   </Link>
                 </li>
               ))}

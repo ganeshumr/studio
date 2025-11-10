@@ -1,126 +1,80 @@
 
 import type {Metadata} from 'next';
 import './globals.css';
+import 'react-quill/dist/quill.snow.css';
 import {Header} from '@/components/common/header';
 import {Footer} from '@/components/common/footer';
 import {Toaster} from '@/components/ui/toaster';
 import {AuthProvider} from '@/context/auth-context';
+import { Analytics } from '@vercel/analytics/react';
+
+const pageTitle = 'Instant Property Documents and Services across 5+ States – JaaGa';
+const pageDescription = 'Get instant access to certified property documents and land records across 5+ states with JaaGa. Download sale deed, Patta/chitta, 7/12, EC, Property Card, Mutation, and more in minutes.';
+const pageKeywords = [
+    'Property Documents Online',
+    'Telangana Property Documents',
+    'Andhra Pradesh Property Records',
+    'Tamil Nadu Chitta Adangal',
+    'Karnataka RTC',
+    'Maharashtra 7/12 Utara',
+    'Encumbrance Certificate',
+    'Sale Deed Copy',
+    'Khata Certificate',
+    'Patta & Chitta',
+    'Mutation Record',
+    'Property Audit Report',
+    'Legal Opinion',
+    'Property Title Verification',
+    'Property Ownership Check',
+    'Land Record Search',
+    'EC Download',
+    'Property Services',
+    'Property Verification Online',
+    'Digital Land Records',
+    'Kaveri EC',
+    'Landeed',
+    'EC CC documents',
+    'Kaveri Documents',
+    'Certified Copy',
+    'patta',
+    'patta download',
+    'patta online',
+    'ec telangana',
+    'tslr extract',
+    'old land records in andhra pradesh',
+    'nakal copy',
+    'ec for land in tamilnadu online',
+    'legal heir certificate online maharashtra',
+    'certified true copy of property documents online chennai',
+    'pattadar passbook telangana',
+    'fmb sketch download',
+    'bhu bharati ec',
+    'cc copy telangana',
+    'a register',
+    'adangal andhra pradesh',
+    'e khata download',
+    'encumbrance certificate ap',
+    'ap ec download',
+    'ec in telangana',
+    'tn land survey village map'
+];
 
 export const metadata: Metadata = {
   title: {
-    default: 'Jaaga Insights: Digital Property Solutions in India',
-    template: '%s | Jaaga Insights',
+    default: pageTitle,
+    template: '%s - Jaaga Insights',
   },
-  description:
-    'Expert insights on property audit, legal verification, loan services, land survey, and digital ownership in India. Your guide to safe property ownership.',
-  keywords: [
-    'land records',
-    'encumbrance certificate',
-    'rtc online',
-    'land registration',
-    'ec search',
-    'online ec telangana',
-    'ec telangana',
-    'encumbrance certificate ap',
-    'telangana ec search',
-    'land information',
-    'encumbrance certificate telangana',
-    'ec andhra pradesh',
-    'online ec',
-    'land record maharashtra',
-    'ec search telangana',
-    'land records karnataka',
-    'ec download',
-    'land record haryana',
-    'online ec view tamilnadu',
-    '1b adangal',
-    'satbara utara',
-    'land deed',
-    'property title search',
-    'property survey records',
-    'deed search',
-    'title search',
-    'property details',
-    'land registry office',
-    'property search',
-    'online deed search',
-    'land ownership',
-    'property lookup',
-    'land survey records',
-    'property documents',
-    'title search report',
-    'look up deeds online',
-    'deed search by name',
-    'house ownership',
-    'document search',
-    'property id search',
-    'dharani ec search',
-    'ec telangana online search',
-    'certified copy',
-    'telangana land records with survey numbers',
-    'property application',
-    'property documentation',
-    'online deed lookup',
-    'free online document search',
-    'kaveri online ec download',
-    'ap land records',
-    'online ec search',
-    'ec karnataka',
-    'encumbrance certificate karnataka',
-    'ec download karnataka',
-    'encumbrance certificate karnataka online',
-    'ec online bangalore',
-    'telangana registration ec',
-    'ap adangal',
-    'adangal ap',
-    'kaveri online ec',
-    'property deed search',
-    'property deeds',
-    'land registry search',
-    'land deed search',
-    'house deed',
-    'land registry documents',
-    'land register online',
-    'land registry website',
-    'property records',
-    'land registry check',
-    'property check',
-    'property ownership',
-    'property data',
-    'check property ownership',
-    'find property',
-    'copy of deeds',
-    'property deed lookup',
-    'property online',
-    'property information',
-    'property ownership search',
-    'deed transfer',
-    'property line',
-    'land registry check online',
-    'property search by name',
-    'property ownership lookup',
-    'property check online',
-    'land registry records',
-    'property number search',
-    'property info',
-    'deeds online',
-    'house lookup',
-    'land registry documents download',
-    'property verification',
-    'deed number lookup',
-    'land registry number',
-    'land registry details',
-    'property lookup by address',
-    'real estate documents',
-    'check land ownership',
-    'property lookup by name',
-  ],
+  description: pageDescription,
+  keywords: pageKeywords,
   icons: {
     icon: 'https://res.cloudinary.com/dnuayl071/image/upload/v1758188919/Lightning_Corporate_Logo__1_-removebg-preview_cl0twj.png?v=2',
   },
   openGraph: {
-    title: 'Jaaga Insights: Digital Property Solutions in India',
-    description: 'Your trusted guide for property and legal verification services in India.',
+    title: {
+      default: pageTitle,
+      template: '%s - Jaaga Insights',
+    },
+    description: pageDescription,
     url: 'https://www.jaaga.ai',
     siteName: 'Jaaga Insights',
     images: [
@@ -136,8 +90,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Jaaga Insights: Digital Property Solutions in India',
-    description: 'Expert insights on property audit, legal verification, and more.',
+    title: pageTitle,
+    description: pageDescription,
     images: ['https://picsum.photos/1200/630'],
   },
 };
@@ -150,6 +104,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <meta name="google-site-verification" content="DXQ8v30NfhIWCK_BWdbspTx-6Jpi1TjsWvFbTytJhBI" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link
@@ -166,6 +121,7 @@ export default function RootLayout({
           </div>
           <Toaster />
         </AuthProvider>
+        <Analytics />
       </body>
     </html>
   );
