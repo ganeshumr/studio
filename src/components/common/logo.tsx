@@ -1,11 +1,11 @@
-import Link from 'next/link';
-import {cn} from '@/lib/utils';
+import Link from "next/link";
+import { cn } from "@/lib/utils";
 
-export function Logo({className}: {className?: string}) {
+export function Logo({ className }: { className?: string }) {
   return (
     <Link
-      href="/"
-      className={cn('inline-flex items-center gap-2', className)}
+      href="https://www.jaaga.ai"
+      className={cn("inline-flex items-center gap-2", className)}
       aria-label="Back to homepage"
     >
       <svg

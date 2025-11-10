@@ -73,16 +73,16 @@ export function BlogEditor() {
   };
 
   async function onSubmit(values: z.infer<typeof formSchema>) {
-    setIsLoading(true);
+    // setIsLoading(true);
     const response = await publishPostAction(values);
-    setIsLoading(false);
+    // setIsLoading(false);
 
     if (response.success) {
       toast({
         title: 'Blog Post Published!',
         description: 'Your new blog post has been successfully created.',
       });
-      form.reset();
+      // form.reset();
       // This is a temporary hack to force a re-render of the ExistingPosts component.
       // In a real app, state management (like Context or Zustand) would handle this.
       window.dispatchEvent(new Event('post-published'));

@@ -1,116 +1,134 @@
+import Link from "next/link";
 
-
-import Link from 'next/link';
-import type {Category, Post, Service} from './types';
-import Image from 'next/image';
+import type { Category, Post, Service } from "./types";
+import Image from "next/image";
 
 export const categories: Category[] = [
   {
-    slug: 'property-audit',
-    name: 'Property Audit',
-    description: 'In-depth analysis and reporting on property titles and documentation.',
+    slug: "property-audit",
+    name: "Property Audit",
+    description:
+      "In-depth analysis and reporting on property titles and documentation.",
   },
   {
-    slug: 'property-documents',
-    name: 'Property Documents',
-    description: 'Modern solutions for managing and securing your property documents digitally.',
+    slug: "property-documents",
+    name: "Property Documents",
+    description:
+      "Modern solutions for managing and securing your property documents digitally.",
   },
   {
-    slug: 'legal-verification',
-    name: 'Legal Verification',
-    description: 'Comprehensive legal checks to ensure your property is free from any disputes.',
+    slug: "legal-verification",
+    name: "Legal Verification",
+    description:
+      "Comprehensive legal checks to ensure your property is free from any disputes.",
   },
   {
-    slug: 'loan-services',
-    name: 'Loan Services',
-    description: 'Guidance and support for securing loans against your property.',
+    slug: "loan-services",
+    name: "Loan Services",
+    description:
+      "Guidance and support for securing loans against your property.",
   },
   {
-    slug: 'land-survey',
-    name: 'Land Survey',
-    description: 'Accurate digital land surveying to define and protect your boundaries.',
+    slug: "land-survey",
+    name: "Land Survey",
+    description:
+      "Accurate digital land surveying to define and protect your boundaries.",
   },
   {
-    slug: 'electricity-bill-updates',
-    name: 'Electricity Bill Updates',
-    description: 'Assistance with name changes and updates on utility documents.',
+    slug: "electricity-bill-updates",
+    name: "Electricity Bill Updates",
+    description:
+      "Assistance with name changes and updates on utility documents.",
   },
   {
-    slug: 'property-tax',
-    name: 'Property Tax',
-    description: 'Guidance and support for property tax payments and receipts.',
+    slug: "property-tax",
+    name: "Property Tax",
+    description: "Guidance and support for property tax payments and receipts.",
   },
   {
-    slug: 'mortgage-report-cersai',
-    name: 'Mortgage Report (CERSAI)',
-    description: 'Check for any existing loans or mortgages on a property through a CERSAI report.',
+    slug: "mortgage-report-cersai",
+    name: "Mortgage Report (CERSAI)",
+    description:
+      "Check for any existing loans or mortgages on a property through a CERSAI report.",
   },
   {
-    slug: 'mutation-creation',
-    name: 'Mutation Creation',
-    description: 'Official process to update land revenue records with the new owner\'s name after a property transfer.',
+    slug: "mutation-creation",
+    name: "Mutation Creation",
+    description:
+      "Official process to update land revenue records with the new owner's name after a property transfer.",
   },
 ];
 
 export const services: Service[] = [
-    {
-      categorySlug: 'property-tax',
-      title: 'Get Your Property Tax Receipt',
-      description: 'Official Telangana document verifying property tax payment history.',
-      image: 'https://res.cloudinary.com/dnuayl071/image/upload/v1757505811/M00f8cba13c64a55f2bd628a404dfa0851744179908183_ts5xyb.webp',
-      link: 'https://www.jaaga.ai/documents',
-    },
-    {
-        categorySlug: 'property-audit',
-        title: 'Property Audit Report',
-        description: 'A comprehensive report to verify property titles and check for legal issues.',
-        image: 'https://res.cloudinary.com/dnuayl071/image/upload/v1758023191/Sample_Audit_Report_5.pdf_2_kze5k9.png',
-        link: 'https://www.jaaga.ai/documents',
-    },
-    {
-      categorySlug: 'legal-verification',
-      title: 'Legal Verification Service',
-      description: 'Ensure your property is legally sound with our expert verification.',
-      image: 'https://picsum.photos/seed/service2/400/300',
-      link: 'https://www.jaaga.ai/documents',
-    },
-    {
-      categorySlug: 'land-survey',
-      title: 'Digital Land Survey',
-      description: 'Accurate and efficient land surveys using modern technology.',
-      image: 'https://picsum.photos/seed/service3/400/300',
-      link: 'https://www.jaaga.ai/documents',
-    },
-    {
-      categorySlug: 'electricity-bill-updates',
-      title: 'Electricity Bill Name Update',
-      description: 'Get assistance with changing names or details on your electricity bills.',
-      image: 'https://res.cloudinary.com/dnuayl071/image/upload/v1758021842/electricity_bill_x5zrtl.png',
-      link: 'https://www.jaaga.ai/services/property-services/electricity-name-change',
-    },
-    {
-      categorySlug: 'loan-services',
-      title: 'Home Loan Assistance',
-      description: 'Navigate the home loan application process with our expert guidance.',
-      image: 'https://picsum.photos/seed/service5/400/300',
-      link: 'https://www.jaaga.ai/documents',
-    },
-    {
-        categorySlug: 'property-documents',
-        title: 'Sale Deed (Certified Copy)',
-        description: "Get an official, legally binding copy of your property's sale deed.",
-        image: 'https://res.cloudinary.com/dnuayl071/image/upload/v1758023191/Sample_Audit_Report_5.pdf_2_kze5k9.png',
-        link: 'https://www.jaaga.ai/documents',
-    },
-  ];
+  {
+    categorySlug: "property-tax",
+    title: "Get Your Property Tax Receipt",
+    description:
+      "Official Telangana document verifying property tax payment history.",
+    image:
+      "https://res.cloudinary.com/dnuayl071/image/upload/v1757505811/M00f8cba13c64a55f2bd628a404dfa0851744179908183_ts5xyb.webp",
+    link: "https://www.jaaga.ai/documents",
+  },
+  {
+    categorySlug: "property-audit",
+    title: "Property Audit Report",
+    description:
+      "A comprehensive report to verify property titles and check for legal issues.",
+    image:
+      "https://res.cloudinary.com/dnuayl071/image/upload/v1758023191/Sample_Audit_Report_5.pdf_2_kze5k9.png",
+    link: "https://www.jaaga.ai/documents",
+  },
+  {
+    categorySlug: "legal-verification",
+    title: "Legal Verification Service",
+    description:
+      "Ensure your property is legally sound with our expert verification.",
+    image: "https://picsum.photos/seed/service2/400/300",
+    link: "https://www.jaaga.ai/documents",
+  },
+  {
+    categorySlug: "land-survey",
+    title: "Digital Land Survey",
+    description: "Accurate and efficient land surveys using modern technology.",
+    image: "https://picsum.photos/seed/service3/400/300",
+    link: "https://www.jaaga.ai/documents",
+  },
+  {
+    categorySlug: "electricity-bill-updates",
+    title: "Electricity Bill Name Update",
+    description:
+      "Get assistance with changing names or details on your electricity bills.",
+    image:
+      "https://res.cloudinary.com/dnuayl071/image/upload/v1758021842/electricity_bill_x5zrtl.png",
+    link: "https://www.jaaga.ai/services/property-services/electricity-name-change",
+  },
+  {
+    categorySlug: "loan-services",
+    title: "Home Loan Assistance",
+    description:
+      "Navigate the home loan application process with our expert guidance.",
+    image: "https://picsum.photos/seed/service5/400/300",
+    link: "https://www.jaaga.ai/documents",
+  },
+  {
+    categorySlug: "property-documents",
+    title: "Sale Deed (Certified Copy)",
+    description:
+      "Get an official, legally binding copy of your property's sale deed.",
+    image:
+      "https://res.cloudinary.com/dnuayl071/image/upload/v1758023191/Sample_Audit_Report_5.pdf_2_kze5k9.png",
+    link: "https://www.jaaga.ai/documents",
+  },
+];
+
 
 export let posts: Post[] = [
   {
     id: 16,
-    slug: 'tamil-nadu-patta-chitta-documents-a-complete-guide',
-    title: 'Tamil Nadu Patta/Chitta Documents: A Complete Guide',
+    slug: "tamil-nadu-patta-chitta-documents-a-complete-guide",
+    title: "Tamil Nadu Patta/Chitta Documents: A Complete Guide",
     excerpt:
-      'When it comes to property ownership in Tamil Nadu, understanding Patta and Chitta documents is crucial. These documents serve as legal proof of land ownership and are essential for property transactions, applying for loans, or transferring property rights.',
+      "When it comes to property ownership in Tamil Nadu, understanding Patta and Chitta documents is crucial. These documents serve as legal proof of land ownership and are essential for property transactions, applying for loans, or transferring property rights.",
     content: `
       <div class="space-y-6">
         <p>When it comes to property ownership in Tamil Nadu, understanding Patta and Chitta documents is crucial. These documents serve as legal proof of land ownership and are essential for property transactions, applying for loans, or transferring property rights.</p>
@@ -228,18 +246,30 @@ export let posts: Post[] = [
         <p>Patta and Chitta documents are essential for anyone owning land in Tamil Nadu. Whether you are buying, selling, or mortgaging your property, having these documents in order is crucial for a smooth process. With the online portal, residents can easily apply, verify, and download these records from the comfort of their home, making property management simpler and more transparent.</p>
       </div>
     `,
-    category: 'property-documents',
-    tags: ['Tamil Nadu Patta', 'Chitta documents Tamil Nadu', 'Patta/Chitta download online', 'Tamil Nadu property documents', 'TN land records', 'Tamil Nadu land ownership'],
-    featuredImage: 'https://ik.imagekit.io/sravanth/Update%20Your%20Name,%20Secure%20Your%20Property%20(1).png?updatedAt=1758881580977',
-    metaTitle: 'Tamil Nadu Patta & Chitta Documents | Apply Online',
-    metaDescription: 'Apply, verify, and download Tamil Nadu Patta & Chitta documents online. Secure your land ownership and check property details easily.',
-    keywords: 'Tamil Nadu Patta, Chitta documents Tamil Nadu, Patta/Chitta download online, Tamil Nadu property documents, TN land records, Tamil Nadu land ownership',
+    category: "property-documents",
+    tags: [
+      "Tamil Nadu Patta",
+      "Chitta documents Tamil Nadu",
+      "Patta/Chitta download online",
+      "Tamil Nadu property documents",
+      "TN land records",
+      "Tamil Nadu land ownership",
+    ],
+    featuredImage:
+      "https://ik.imagekit.io/sravanth/Update%20Your%20Name,%20Secure%20Your%20Property%20(1).png?updatedAt=1758881580977",
+    metaTitle: "Tamil Nadu Patta & Chitta Documents | Apply Online",
+    metaDescription:
+      "Apply, verify, and download Tamil Nadu Patta & Chitta documents online. Secure your land ownership and check property details easily.",
+    keywords:
+      "Tamil Nadu Patta, Chitta documents Tamil Nadu, Patta/Chitta download online, Tamil Nadu property documents, TN land records, Tamil Nadu land ownership",
   },
   {
     id: 15,
-    slug: 'how-to-prove-legal-ownership-of-a-property-complete-guide-india-2025',
-    title: 'How Do I Prove Legal Ownership of a Property? Complete Guide (India 2025)',
-    excerpt: 'Owning property is one of the biggest financial and emotional investments in India. But proving legal ownership of a property can often be confusing, especially when disputes, missing documents, or unclear records are involved.',
+    slug: "how-to-prove-legal-ownership-of-a-property-complete-guide-india-2025",
+    title:
+      "How Do I Prove Legal Ownership of a Property? Complete Guide (India 2025)",
+    excerpt:
+      "Owning property is one of the biggest financial and emotional investments in India. But proving legal ownership of a property can often be confusing, especially when disputes, missing documents, or unclear records are involved.",
     content: `
       <div class="space-y-6">
         <p>Owning property is one of the biggest financial and emotional investments in India. But proving legal ownership of a property can often be confusing, especially when disputes, missing documents, or unclear records are involved. Whether you are buying a new house, inheriting land, or resolving a legal dispute, you need strong documentary proof to establish your rights.</p>
@@ -381,18 +411,51 @@ export let posts: Post[] = [
         <p>👉 Visit <a href="https://www.jaaga.ai" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">www.jaaga.ai</a> today and secure your property documents online.</p>
       </div>
     `,
-    category: 'legal-verification',
-    tags: ['property ownership', 'sale deed', 'encumbrance certificate', 'legal verification', 'sale deed proof of ownership', 'how to get sale deed online', 'sale deed Telangana', 'sale deed Andhra Pradesh', 'encumbrance certificate Telangana', 'EC proof of ownership', 'online EC Andhra Pradesh', 'mutation records Telangana', 'Dharani ownership proof', 'MeeBhoomi Andhra Pradesh', 'property tax receipt proof', 'municipal tax Telangana', 'AP property tax online', 'inheritance property proof India', 'legal heir certificate Telangana', 'AP property ownership transfer', 'property disputes Telangana', 'fake property documents India', 'how to solve land disputes', 'retrieve property documents online', 'JaaGa property services', 'digital property locker India'],
-    featuredImage: 'https://ik.imagekit.io/jaaga/Update%20Your%20Name,%20Secure%20Your%20Property%20(2).png?updatedAt=1758529773318',
-    metaTitle: 'How to Prove Legal Ownership of a Property: A Complete Guide for India (2025) | JaaGa',
-    metaDescription: 'A comprehensive guide on how to prove legal property ownership in India, covering essential documents like Sale Deeds and ECs, with a focus on Telangana and Andhra Pradesh. Learn how JaaGa simplifies the process.',
-    keywords: 'prove property ownership, legal ownership of property India, sale deed proof of ownership, encumbrance certificate Telangana, property disputes Telangana, JaaGa property services',
+    category: "legal-verification",
+    tags: [
+      "property ownership",
+      "sale deed",
+      "encumbrance certificate",
+      "legal verification",
+      "sale deed proof of ownership",
+      "how to get sale deed online",
+      "sale deed Telangana",
+      "sale deed Andhra Pradesh",
+      "encumbrance certificate Telangana",
+      "EC proof of ownership",
+      "online EC Andhra Pradesh",
+      "mutation records Telangana",
+      "Dharani ownership proof",
+      "MeeBhoomi Andhra Pradesh",
+      "property tax receipt proof",
+      "municipal tax Telangana",
+      "AP property tax online",
+      "inheritance property proof India",
+      "legal heir certificate Telangana",
+      "AP property ownership transfer",
+      "property disputes Telangana",
+      "fake property documents India",
+      "how to solve land disputes",
+      "retrieve property documents online",
+      "JaaGa property services",
+      "digital property locker India",
+    ],
+    featuredImage:
+      "https://ik.imagekit.io/jaaga/Update%20Your%20Name,%20Secure%20Your%20Property%20(2).png?updatedAt=1758529773318",
+    metaTitle:
+      "How to Prove Legal Ownership of a Property: A Complete Guide for India (2025) | JaaGa",
+    metaDescription:
+      "A comprehensive guide on how to prove legal property ownership in India, covering essential documents like Sale Deeds and ECs, with a focus on Telangana and Andhra Pradesh. Learn how JaaGa simplifies the process.",
+    keywords:
+      "prove property ownership, legal ownership of property India, sale deed proof of ownership, encumbrance certificate Telangana, property disputes Telangana, JaaGa property services",
   },
   {
     id: 13,
-    slug: 'why-update-owner-name-on-property-tax-and-electricity-bills',
-    title: 'Why It’s Important to Update the Owner’s Name on Property Tax and Electricity Bills',
-    excerpt: 'When you purchase a property, registering the sale deed is just the beginning. A crucial but often overlooked step is updating the owner’s name on property tax records and electricity bills.',
+    slug: "why-update-owner-name-on-property-tax-and-electricity-bills",
+    title:
+      "Why It’s Important to Update the Owner’s Name on Property Tax and Electricity Bills",
+    excerpt:
+      "When you purchase a property, registering the sale deed is just the beginning. A crucial but often overlooked step is updating the owner’s name on property tax records and electricity bills.",
     content: `
         <div class="space-y-6">
             <p>
@@ -501,18 +564,23 @@ export let posts: Post[] = [
             </p>
         </div>
     `,
-    category: 'property-tax',
-    tags: ['property tax', 'electricity bill', 'mutation', 'ownership'],
-    featuredImage: 'https://ik.imagekit.io/jaaga/1.png?updatedAt=1758525181563',
-    metaTitle: 'Why Updating Owner’s Name on Property Tax & Electricity Bills is Crucial | JaaGa',
-    metaDescription: 'Learn why it’s important to update the owner’s name on property tax receipts and electricity bills after buying a property. Ensure smooth mutation, avoid legal disputes, and secure your ownership with JaaGa’s expert services.',
-    keywords: 'update property tax name Telangana, electricity bill name change, mutation of property, property ownership proof, property documents update, name transfer in property tax, update electricity bill name',
+    category: "property-tax",
+    tags: ["property tax", "electricity bill", "mutation", "ownership"],
+    featuredImage: "https://ik.imagekit.io/jaaga/1.png?updatedAt=1758525181563",
+    metaTitle:
+      "Why Updating Owner’s Name on Property Tax & Electricity Bills is Crucial | JaaGa",
+    metaDescription:
+      "Learn why it’s important to update the owner’s name on property tax receipts and electricity bills after buying a property. Ensure smooth mutation, avoid legal disputes, and secure your ownership with JaaGa’s expert services.",
+    keywords:
+      "update property tax name Telangana, electricity bill name change, mutation of property, property ownership proof, property documents update, name transfer in property tax, update electricity bill name",
   },
   {
     id: 12,
-    slug: 'retrieve-property-documents-online',
-    title: 'How to Get Property Documents Online in India – Sale Deed, Encumbrance Certificate (EC), and Tax Receipts',
-    excerpt: 'Easily access verified property documents like Sale Deeds, Encumbrance Certificates, and Tax Receipts with JaaGa. Simple, secure, and time-saving. Get your records online in just a few clicks!',
+    slug: "retrieve-property-documents-online",
+    title:
+      "How to Get Property Documents Online in India – Sale Deed, Encumbrance Certificate (EC), and Tax Receipts",
+    excerpt:
+      "Easily access verified property documents like Sale Deeds, Encumbrance Certificates, and Tax Receipts with JaaGa. Simple, secure, and time-saving. Get your records online in just a few clicks!",
     content: `
         <div class="space-y-6">
           <p>
@@ -674,19 +742,29 @@ export let posts: Post[] = [
           </p>
         </div>
       `,
-    category: 'property-documents',
-    tags: ['property documents', 'sale deed', 'encumbrance certificate', 'tax receipt'],
-    featuredImage: 'https://res.cloudinary.com/dnuayl071/image/upload/v1758022963/Retrieve_Your_Property_Documents_Online_with_JaaGa_2_jxvzlm.png',
-    metaTitle: 'Retrieve Property Documents Online – Sale Deed, EC, and Tax Receipts | JaaGa',
-    metaDescription: 'Easily access verified property documents like Sale Deeds, Encumbrance Certificates, and Tax Receipts with JaaGa. Simple, secure, and time-saving. Get your records online in just a few clicks!',
-    keywords: 'property documents, sale deed online, encumbrance certificate Telangana, property tax receipt, retrieve property documents, online property records, Telangana property documents, property EC, JaaGa property services',
+    category: "property-documents",
+    tags: [
+      "property documents",
+      "sale deed",
+      "encumbrance certificate",
+      "tax receipt",
+    ],
+    featuredImage:
+      "https://res.cloudinary.com/dnuayl071/image/upload/v1758022963/Retrieve_Your_Property_Documents_Online_with_JaaGa_2_jxvzlm.png",
+    metaTitle:
+      "Retrieve Property Documents Online – Sale Deed, EC, and Tax Receipts | JaaGa",
+    metaDescription:
+      "Easily access verified property documents like Sale Deeds, Encumbrance Certificates, and Tax Receipts with JaaGa. Simple, secure, and time-saving. Get your records online in just a few clicks!",
+    keywords:
+      "property documents, sale deed online, encumbrance certificate Telangana, property tax receipt, retrieve property documents, online property records, Telangana property documents, property EC, JaaGa property services",
   },
   {
     id: 11,
-    slug: 'tgspdcl-electricity-services-bill-payment-name-transfer-guide-telangana',
-    title: 'TGSPDCL: Electricity Services, Bill Payment & Name Transfer Guide in Telangana',
+    slug: "tgspdcl-electricity-services-bill-payment-name-transfer-guide-telangana",
+    title:
+      "TGSPDCL: Electricity Services, Bill Payment & Name Transfer Guide in Telangana",
     excerpt:
-      'Learn about TGSPDCL electricity services in Telangana. Pay bills online, download receipts, and transfer meter name easily with JaaGa’s expert help.',
+      "Learn about TGSPDCL electricity services in Telangana. Pay bills online, download receipts, and transfer meter name easily with JaaGa’s expert help.",
     content: `
       <div class="space-y-6">
         <h2 class="font-headline text-2xl font-bold">What is TGSPDCL?</h2>
@@ -814,29 +892,30 @@ export let posts: Post[] = [
         </p>
       </div>
     `,
-    category: 'electricity-bill-updates',
+    category: "electricity-bill-updates",
     tags: [
-      'TGSPDCL',
-      'bill payment',
-      'name transfer',
-      'Telangana',
-      'electricity',
+      "TGSPDCL",
+      "bill payment",
+      "name transfer",
+      "Telangana",
+      "electricity",
     ],
     featuredImage:
-      'https://res.cloudinary.com/dxsj2kcwu/image/upload/v1758521969/2_ussagr.png',
+      "https://res.cloudinary.com/dxsj2kcwu/image/upload/v1758521969/2_ussagr.png",
     metaTitle:
-      'TGSPDCL: Electricity Services, Bill Payment & Name Transfer Guide in Telangana',
+      "TGSPDCL: Electricity Services, Bill Payment & Name Transfer Guide in Telangana",
     metaDescription:
-      'Learn about TGSPDCL electricity services in Telangana. Pay bills online, download receipts, and transfer meter name easily with JaaGa’s expert help.',
+      "Learn about TGSPDCL electricity services in Telangana. Pay bills online, download receipts, and transfer meter name easily with JaaGa’s expert help.",
     keywords:
-      'TGSPDCL, TGSPDCL bill payment online, TGSPDCL name transfer, Telangana electricity bill, TGSPDCL services, TGSPDCL meter transfer, Pay TGSPDCL bills Hyderabad, Telangana electricity provider, JaaGa electricity services, TGSPDCL online services',
+      "TGSPDCL, TGSPDCL bill payment online, TGSPDCL name transfer, Telangana electricity bill, TGSPDCL services, TGSPDCL meter transfer, Pay TGSPDCL bills Hyderabad, Telangana electricity provider, JaaGa electricity services, TGSPDCL online services",
   },
   {
     id: 10,
-    slug: 'how-to-download-sale-deed-certified-copy-telangana-online-jaaga',
-    title: 'How to Download Sale Deed (Certified Copy – CC) in Telangana Online | JaaGa',
+    slug: "how-to-download-sale-deed-certified-copy-telangana-online-jaaga",
+    title:
+      "How to Download Sale Deed (Certified Copy – CC) in Telangana Online | JaaGa",
     excerpt:
-      'When buying or selling property in Telangana, one of the most important legal documents is the Sale Deed. It records the transfer of property ownership from the seller to the buyer and is legally registered at the Sub-Registrar’s Office (SRO).',
+      "When buying or selling property in Telangana, one of the most important legal documents is the Sale Deed. It records the transfer of property ownership from the seller to the buyer and is legally registered at the Sub-Registrar’s Office (SRO).",
     content: `
       <div class="space-y-6">
         <p>
@@ -926,20 +1005,24 @@ export let posts: Post[] = [
         </p>
       </div>
     `,
-    category: 'property-documents',
-    tags: ['sale deed', 'telangana', 'certified copy', 'jaaga'],
-    featuredImage: 'https://res.cloudinary.com/dnuayl071/image/upload/v1757576444/Understanding_Adangal_Pahani_How_to_Access_Land_Records_Online_through_JaaGa_3_-Picsart-AiImageEnhancer_e9in3y.png',
-    metaTitle: 'How to Download Sale Deed (Certified Copy – CC) in Telangana Online | JaaGa',
+    category: "property-documents",
+    tags: ["sale deed", "telangana", "certified copy", "jaaga"],
+    featuredImage:
+      "https://res.cloudinary.com/dnuayl071/image/upload/v1757576444/Understanding_Adangal_Pahani_How_to_Access_Land_Records_Online_through_JaaGa_3_-Picsart-AiImageEnhancer_e9in3y.png",
+    metaTitle:
+      "How to Download Sale Deed (Certified Copy – CC) in Telangana Online | JaaGa",
     metaDescription:
-      'Learn how to easily download a certified copy of your Sale Deed in Telangana online using the JaaGa app. A simple, fast, and reliable process.',
-    keywords: 'sale deed telangana, certified copy online, download sale deed, jaaga app',
+      "Learn how to easily download a certified copy of your Sale Deed in Telangana online using the JaaGa app. A simple, fast, and reliable process.",
+    keywords:
+      "sale deed telangana, certified copy online, download sale deed, jaaga app",
   },
   {
     id: 9,
-    slug: 'download-property-tax-receipt-telangana-jaaga-app',
-    title: 'How to Download Property Tax Receipt in Telangana Using JaaGa App: A Complete Guide',
+    slug: "download-property-tax-receipt-telangana-jaaga-app",
+    title:
+      "How to Download Property Tax Receipt in Telangana Using JaaGa App: A Complete Guide",
     excerpt:
-      'If you\'re a property owner in Telangana, paying your property tax is a legal duty. But paying isn’t enough. You also need the Property Tax Receipt for records, loans, or resale. With the JaaGa App, you can download your receipt online in just a few taps!',
+      "If you're a property owner in Telangana, paying your property tax is a legal duty. But paying isn’t enough. You also need the Property Tax Receipt for records, loans, or resale. With the JaaGa App, you can download your receipt online in just a few taps!",
     content: `
       <div class="space-y-6">
         <p>
@@ -1101,21 +1184,22 @@ export let posts: Post[] = [
         />
       </div>
     `,
-    category: 'property-tax',
-    tags: ['property tax', 'telangana', 'jaaga app', 'tax receipt'],
-    featuredImage: 'https://ik.imagekit.io/jaaga/3.png?updatedAt=1758525181366',
-    metaTitle: 'How to Download Property Tax Receipt in Telangana Using JaaGa App',
+    category: "property-tax",
+    tags: ["property tax", "telangana", "jaaga app", "tax receipt"],
+    featuredImage: "https://ik.imagekit.io/jaaga/3.png?updatedAt=1758525181366",
+    metaTitle:
+      "How to Download Property Tax Receipt in Telangana Using JaaGa App",
     metaDescription:
-      'A complete guide on how to download your property tax receipt in Telangana quickly and easily using the JaaGa App. Avoid queues and get your receipt online.',
+      "A complete guide on how to download your property tax receipt in Telangana quickly and easily using the JaaGa App. Avoid queues and get your receipt online.",
     keywords:
-      'property tax telangana, download tax receipt, jaaga app, ghmc property tax, telangana property tax online',
+      "property tax telangana, download tax receipt, jaaga app, ghmc property tax, telangana property tax online",
   },
   {
     id: 6,
-    slug: 'securing-your-investment-with-digital-property-ownership',
-    title: 'Securing Your Investment with Digital Property Ownership',
+    slug: "securing-your-investment-with-digital-property-ownership",
+    title: "Securing Your Investment with Digital Property Ownership",
     excerpt:
-      'The future of real estate is digital. Explore how blockchain and digital ledgers are creating a new paradigm for safe property ownership in India.',
+      "The future of real estate is digital. Explore how blockchain and digital ledgers are creating a new paradigm for safe property ownership in India.",
     content: `
       <div class="space-y-6">
         <h2 class="font-headline text-2xl font-bold">Introduction</h2>
@@ -1238,20 +1322,47 @@ export let posts: Post[] = [
         </p>
       </div>
     `,
-    category: 'property-documents',
-    tags: ['blockchain', 'proptech', 'investment security', 'digital property ownership', 'secure property investment', 'property ownership in Telangana', 'property ownership in Andhra Pradesh', 'digital land records India', 'Dharani portal Telangana', 'MeeBhoomi Andhra Pradesh', 'digital property documents', 'property fraud prevention', 'how to prove property ownership in India', 'online property verification', 'encumbrance certificate online', 'sale deed digital copy', 'land records management', 'real estate investment security', 'digital India property registration', 'e-registration property Telangana', 'e-registration property Andhra Pradesh', 'property legal disputes India', 'blockchain property records'],
-    featuredImage: 'https://res.cloudinary.com/dxsj2kcwu/image/upload/v1758521969/4_nylaji.png',
-    metaTitle: 'Securing Your Investment with Digital Property Ownership in India | Guide for Telangana & Andhra Pradesh',
+    category: "property-documents",
+    tags: [
+      "blockchain",
+      "proptech",
+      "investment security",
+      "digital property ownership",
+      "secure property investment",
+      "property ownership in Telangana",
+      "property ownership in Andhra Pradesh",
+      "digital land records India",
+      "Dharani portal Telangana",
+      "MeeBhoomi Andhra Pradesh",
+      "digital property documents",
+      "property fraud prevention",
+      "how to prove property ownership in India",
+      "online property verification",
+      "encumbrance certificate online",
+      "sale deed digital copy",
+      "land records management",
+      "real estate investment security",
+      "digital India property registration",
+      "e-registration property Telangana",
+      "e-registration property Andhra Pradesh",
+      "property legal disputes India",
+      "blockchain property records",
+    ],
+    featuredImage:
+      "https://res.cloudinary.com/dxsj2kcwu/image/upload/v1758521969/4_nylaji.png",
+    metaTitle:
+      "Securing Your Investment with Digital Property Ownership in India | Guide for Telangana & Andhra Pradesh",
     metaDescription:
-      'Learn how to secure your property investment with digital property ownership in India. Discover benefits, fraud prevention, Telangana Dharani portal, Andhra Pradesh MeeBhoomi, and future of digital land records.',
-    keywords: 'digital property ownership, secure property investment, property ownership in Telangana, property ownership in Andhra Pradesh, digital land records India, Dharani portal Telangana, MeeBhoomi Andhra Pradesh, digital property documents, property fraud prevention, how to prove property ownership in India, online property verification, encumbrance certificate online, sale deed digital copy, land records management, real estate investment security, digital India property registration, e-registration property Telangana, e-registration property Andhra Pradesh, property legal disputes India, blockchain property records',
+      "Learn how to secure your property investment with digital property ownership in India. Discover benefits, fraud prevention, Telangana Dharani portal, Andhra Pradesh MeeBhoomi, and future of digital land records.",
+    keywords:
+      "digital property ownership, secure property investment, property ownership in Telangana, property ownership in Andhra Pradesh, digital land records India, Dharani portal Telangana, MeeBhoomi Andhra Pradesh, digital property documents, property fraud prevention, how to prove property ownership in India, online property verification, encumbrance certificate online, sale deed digital copy, land records management, real estate investment security, digital India property registration, e-registration property Telangana, e-registration property Andhra Pradesh, property legal disputes India, blockchain property records",
   },
   {
     id: 5,
-    slug: 'essential-property-documents-for-home-loan',
-    title: '5 Essential Property Documents for a Smooth Home Loan Process',
+    slug: "essential-property-documents-for-home-loan",
+    title: "5 Essential Property Documents for a Smooth Home Loan Process",
     excerpt:
-      'Learn about the 5 essential property documents required for a smooth home loan process. Discover why Sale Deed, Title Deed, Encumbrance Certificate, Approved Building Plan, and Property Tax Receipts are crucial for loan approval.',
+      "Learn about the 5 essential property documents required for a smooth home loan process. Discover why Sale Deed, Title Deed, Encumbrance Certificate, Approved Building Plan, and Property Tax Receipts are crucial for loan approval.",
     content: `
       <div class="space-y-6">
         <p>Applying for a home loan is one of the biggest financial decisions in life. Whether you are purchasing your first house or upgrading to a bigger property, the home loan process involves detailed verification of property documents. Banks and financial institutions need to ensure that the property you are buying has a clear legal title and no disputes. Missing or incomplete property papers often result in loan rejection or long delays.</p>
@@ -1359,19 +1470,33 @@ export let posts: Post[] = [
         <p>When you prepare well, the home loan journey becomes simple, transparent, and hassle-free.</p>
       </div>
     `,
-    category: 'loan-services',
-    tags: ['home loan', 'financing', 'documentation', 'essential property documents for home loan', 'property papers required for home loan', 'sale deed for home loan process', 'title deed verification for bank loan', 'encumbrance certificate for housing loan', 'documents needed for smooth home loan approval', 'property documents checklist for home loan'],
-    featuredImage: 'https://res.cloudinary.com/dxsj2kcwu/image/upload/v1758521970/5_iutnrf.png',
-    metaTitle: '5 Essential Property Documents for a Smooth Home Loan Process',
+    category: "loan-services",
+    tags: [
+      "home loan",
+      "financing",
+      "documentation",
+      "essential property documents for home loan",
+      "property papers required for home loan",
+      "sale deed for home loan process",
+      "title deed verification for bank loan",
+      "encumbrance certificate for housing loan",
+      "documents needed for smooth home loan approval",
+      "property documents checklist for home loan",
+    ],
+    featuredImage:
+      "https://res.cloudinary.com/dxsj2kcwu/image/upload/v1758521970/5_iutnrf.png",
+    metaTitle: "5 Essential Property Documents for a Smooth Home Loan Process",
     metaDescription:
-      'Learn about the 5 essential property documents required for a smooth home loan process. Discover why Sale Deed, Title Deed, Encumbrance Certificate, Approved Building Plan, and Property Tax Receipts are crucial for loan approval.',
-    keywords: 'essential property documents for home loan, property papers required for home loan, sale deed for home loan, title deed verification for bank loan, encumbrance certificate housing loan, property tax receipts for loan, approved building plan for bank loan, home loan documents checklist, housing loan property papers, smooth home loan process',
+      "Learn about the 5 essential property documents required for a smooth home loan process. Discover why Sale Deed, Title Deed, Encumbrance Certificate, Approved Building Plan, and Property Tax Receipts are crucial for loan approval.",
+    keywords:
+      "essential property documents for home loan, property papers required for home loan, sale deed for home loan, title deed verification for bank loan, encumbrance certificate housing loan, property tax receipts for loan, approved building plan for bank loan, home loan documents checklist, housing loan property papers, smooth home loan process",
   },
   {
     id: 4,
-    slug: 'how-jaagaai-simplifies-electricity-bill-name-change-in-telangana',
-    title: 'How Jaaga.ai Simplifies Electricity Bill Name Change in Telangana',
-    excerpt: 'Changing the name on your electricity bill in Telangana is more than a formality it is a legal necessity for property ownership, proof of residence, and smooth utility management.',
+    slug: "how-jaagaai-simplifies-electricity-bill-name-change-in-telangana",
+    title: "How Jaaga.ai Simplifies Electricity Bill Name Change in Telangana",
+    excerpt:
+      "Changing the name on your electricity bill in Telangana is more than a formality it is a legal necessity for property ownership, proof of residence, and smooth utility management.",
     content: `
         <div class="space-y-6">
         <p>
@@ -1517,18 +1642,29 @@ export let posts: Post[] = [
         <p>If you’ve recently bought a property, inherited one, or need to update your name on the electricity bill, Jaaga.ai is the simplest and most reliable way to do it in Telangana.</p>
       </div>
     `,
-    category: 'electricity-bill-updates',
-    tags: ['utility bills', 'property ownership', 'documentation', 'Telangana', 'TSSPDCL'],
-    featuredImage: 'https://res.cloudinary.com/dxsj2kcwu/image/upload/v1758521971/6_lyt1xe.png',
-    metaTitle: 'How Jaaga.ai Simplifies Electricity Bill Name Change in Telangana | Step-by-Step Guide',
-    metaDescription: 'Learn how Jaaga.ai makes electricity bill name change in Telangana simple, fast, and hassle-free. Step-by-step process, required documents, benefits, and FAQs included.',
-    keywords: 'Electricity bill name change in Telangana, Jaaga.ai electricity bill service, How to change electricity bill name Telangana, Electricity bill transfer process Telangana, Documents for electricity bill name change Telangana, TSSPDCL electricity bill name change, TSNPDCL electricity bill name change, Online electricity bill name change Telangana, Electricity bill ownership transfer Telangana, Jaaga.ai property services Telangana',
+    category: "electricity-bill-updates",
+    tags: [
+      "utility bills",
+      "property ownership",
+      "documentation",
+      "Telangana",
+      "TSSPDCL",
+    ],
+    featuredImage:
+      "https://res.cloudinary.com/dxsj2kcwu/image/upload/v1758521971/6_lyt1xe.png",
+    metaTitle:
+      "How Jaaga.ai Simplifies Electricity Bill Name Change in Telangana | Step-by-Step Guide",
+    metaDescription:
+      "Learn how Jaaga.ai makes electricity bill name change in Telangana simple, fast, and hassle-free. Step-by-step process, required documents, benefits, and FAQs included.",
+    keywords:
+      "Electricity bill name change in Telangana, Jaaga.ai electricity bill service, How to change electricity bill name Telangana, Electricity bill transfer process Telangana, Documents for electricity bill name change Telangana, TSSPDCL electricity bill name change, TSNPDCL electricity bill name change, Online electricity bill name change Telangana, Electricity bill ownership transfer Telangana, Jaaga.ai property services Telangana",
   },
   {
     id: 3,
-    slug: 'how-digital-land-surveys-are-changing-real-estate',
-    title: 'How Digital Land Surveys Are Changing Real Estate',
-    excerpt: 'The real estate sector has always depended on accuracy, documentation, and transparency. Land surveys have traditionally been a cornerstone in property transactions, helping buyers, sellers, developers, and government authorities establish clear ownership boundaries and legal records. However, with rapid digital transformation, conventional paper-based surveys are being replaced by digital land surveys.',
+    slug: "how-digital-land-surveys-are-changing-real-estate",
+    title: "How Digital Land Surveys Are Changing Real Estate",
+    excerpt:
+      "The real estate sector has always depended on accuracy, documentation, and transparency. Land surveys have traditionally been a cornerstone in property transactions, helping buyers, sellers, developers, and government authorities establish clear ownership boundaries and legal records. However, with rapid digital transformation, conventional paper-based surveys are being replaced by digital land surveys.",
     content: `
       <div class="space-y-6">
         <h2 class="font-headline text-2xl font-bold">Introduction</h2>
@@ -1702,19 +1838,34 @@ export let posts: Post[] = [
         </p>
       </div>
     `,
-    category: 'land-survey',
-    tags: ['digital survey', 'land mapping', 'technology', 'Digital land surveys in real estate', 'Benefits of digital land surveys', 'Digital property records India', 'GIS in real estate', 'Drone land survey India', 'Blockchain land records', 'Online land records Telangana Andhra Pradesh', 'How digital land surveys help buyers and sellers'],
-    featuredImage: 'https://ik.imagekit.io/jaaga/Update%20Your%20Name,%20Secure%20Your%20Property%20(3).png?updatedAt=1758541162696',
-    metaTitle: 'How Digital Land Surveys Are Transforming Real Estate in India',
+    category: "land-survey",
+    tags: [
+      "digital survey",
+      "land mapping",
+      "technology",
+      "Digital land surveys in real estate",
+      "Benefits of digital land surveys",
+      "Digital property records India",
+      "GIS in real estate",
+      "Drone land survey India",
+      "Blockchain land records",
+      "Online land records Telangana Andhra Pradesh",
+      "How digital land surveys help buyers and sellers",
+    ],
+    featuredImage:
+      "https://ik.imagekit.io/jaaga/Update%20Your%20Name,%20Secure%20Your%20Property%20(3).png?updatedAt=1758541162696",
+    metaTitle: "How Digital Land Surveys Are Transforming Real Estate in India",
     metaDescription:
-      'Discover how digital land surveys are changing real estate with GPS, drones, GIS, and blockchain. Learn benefits, challenges, and FAQs on property records in India.',
-    keywords: 'digital land survey booking, land mapping, property technology',
+      "Discover how digital land surveys are changing real estate with GPS, drones, GIS, and blockchain. Learn benefits, challenges, and FAQs on property records in India.",
+    keywords: "digital land survey booking, land mapping, property technology",
   },
   {
     id: 2,
-    slug: 'navigating-legal-property-verification',
-    title: 'Navigating the Maze of Legal Property Verification in Telangana and Andhra Pradesh',
-    excerpt: 'Ensure a safe property purchase in Telangana and Andhra Pradesh. Learn step-by-step legal property verification, check ownership, encumbrances, NOCs, and avoid disputes.',
+    slug: "navigating-legal-property-verification",
+    title:
+      "Navigating the Maze of Legal Property Verification in Telangana and Andhra Pradesh",
+    excerpt:
+      "Ensure a safe property purchase in Telangana and Andhra Pradesh. Learn step-by-step legal property verification, check ownership, encumbrances, NOCs, and avoid disputes.",
     content: `
       <div class="space-y-6">
         <p>
@@ -1779,19 +1930,35 @@ export let posts: Post[] = [
         </p>
       </div>
     `,
-    category: 'legal-verification',
-    tags: ['legal verification', 'property documents', 'due diligence', 'Telangana', 'Andhra Pradesh', 'property verification Telangana', 'legal property check Andhra Pradesh', 'title deed verification', 'encumbrance certificate Telangana', 'Meebhoomi property verification', 'property NOC Andhra Pradesh', 'secure property purchase Telangana'],
-    featuredImage: 'https://picsum.photos/seed/legal-verification/800/450',
-    metaTitle: 'Legal Property Verification in Telangana & Andhra Pradesh: Complete Guide for Buyers',
+    category: "legal-verification",
+    tags: [
+      "legal verification",
+      "property documents",
+      "due diligence",
+      "Telangana",
+      "Andhra Pradesh",
+      "property verification Telangana",
+      "legal property check Andhra Pradesh",
+      "title deed verification",
+      "encumbrance certificate Telangana",
+      "Meebhoomi property verification",
+      "property NOC Andhra Pradesh",
+      "secure property purchase Telangana",
+    ],
+    featuredImage: "https://picsum.photos/seed/legal-verification/800/450",
+    metaTitle:
+      "Legal Property Verification in Telangana & Andhra Pradesh: Complete Guide for Buyers",
     metaDescription:
-      'Ensure a safe property purchase in Telangana and Andhra Pradesh. Learn step-by-step legal property verification, check ownership, encumbrances, NOCs, and avoid disputes.',
-    keywords: 'property verification Telangana, legal property check Andhra Pradesh, title deed verification, encumbrance certificate Telangana, Meebhoomi property verification, property NOC Andhra Pradesh, secure property purchase Telangana',
+      "Ensure a safe property purchase in Telangana and Andhra Pradesh. Learn step-by-step legal property verification, check ownership, encumbrances, NOCs, and avoid disputes.",
+    keywords:
+      "property verification Telangana, legal property check Andhra Pradesh, title deed verification, encumbrance certificate Telangana, Meebhoomi property verification, property NOC Andhra Pradesh, secure property purchase Telangana",
   },
   {
     id: 1,
-    slug: 'comprehensive-guide-to-property-audit-in-india',
-    title: 'A Comprehensive Guide to Property Audits in India',
-    excerpt: 'Understand the critical importance of a property audit before you invest. This guide covers everything from title verification to encumbrance checks.',
+    slug: "comprehensive-guide-to-property-audit-in-india",
+    title: "A Comprehensive Guide to Property Audits in India",
+    excerpt:
+      "Understand the critical importance of a property audit before you invest. This guide covers everything from title verification to encumbrance checks.",
     content: `
       <div class="space-y-6">
         <h2 class="font-headline text-2xl font-bold">Introduction to Property Audits in India</h2>
@@ -1916,14 +2083,14 @@ export let posts: Post[] = [
         <p>By understanding the process, types, and benefits of property audits, property owners and investors can make informed decisions and secure their investments. Professional audits, combined with digital verification tools, make property audits more accessible, accurate, and reliable than ever before.</p>
       </div>
     `,
-    category: 'property-audit',
-    tags: ['property audit', 'investment', 'due diligence'],
-    featuredImage: 'https://picsum.photos/seed/property-audit/800/450',
-    metaTitle: 'Comprehensive Guide to Property Audits in India | Legal & Financial Insights',
+    category: "property-audit",
+    tags: ["property audit", "investment", "due diligence"],
+    featuredImage: "https://picsum.photos/seed/property-audit/800/450",
+    metaTitle:
+      "Comprehensive Guide to Property Audits in India | Legal & Financial Insights",
     metaDescription:
-      'Learn everything about property audits in India including process, benefits, legal requirements, and FAQs. Ensure your property investment is secure and compliant.',
-    keywords: 'property audit India, legal property verification, property ownership check, real estate compliance, property audit benefits, property investment India, types of property audits, legal audit property, property financial audit, property audit process, property document verification, property inspection India, property documents India, legal property documents, property verification documents, property audit advantages, property investment security, property transaction check, property audit challenges India, property dispute resolution, legal property issues, property audit professionals, property verification experts, real estate auditors, digital property audit India, online property verification, property tax online India, property audit FAQs India, property legal verification questions, real estate audit queries, property legal check, real estate investment security',
+      "Learn everything about property audits in India including process, benefits, legal requirements, and FAQs. Ensure your property investment is secure and compliant.",
+    keywords:
+      "property audit India, legal property verification, property ownership check, real estate compliance, property audit benefits, property investment India, types of property audits, legal audit property, property financial audit, property audit process, property document verification, property inspection India, property documents India, legal property documents, property verification documents, property audit advantages, property investment security, property transaction check, property audit challenges India, property dispute resolution, legal property issues, property audit professionals, property verification experts, real estate auditors, digital property audit India, online property verification, property tax online India, property audit FAQs India, property legal verification questions, real estate audit queries, property legal check, real estate investment security",
   },
 ];
-
-    
