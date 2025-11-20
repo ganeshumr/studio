@@ -67,7 +67,7 @@ export const metadata: Metadata = {
   description: pageDescription,
   keywords: pageKeywords,
   icons: {
-    icon: 'https://res.cloudinary.com/dnuayl071/image/upload/v1758188919/Lightning_Corporate_Logo__1_-removebg-preview_cl0twj.png?v=2',
+    icon: 'https://ik.imagekit.io/jaaga/Frame%202147229453.png',
   },
   openGraph: {
     title: {
