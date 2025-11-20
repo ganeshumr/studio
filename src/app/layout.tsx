@@ -5,7 +5,7 @@ import 'react-quill/dist/quill.snow.css';
 import {Header} from '@/components/common/header';
 import {Footer} from '@/components/common/footer';
 import {Toaster} from '@/components/ui/toaster';
-import {AuthProvider} from '@/context/auth-context';
+import {AuthProvider}from '@/context/auth-context';
 import { Analytics } from '@vercel/analytics/react';
 
 const pageTitle = 'Instant Property Documents and Services across 5+ States – JaaGa';
