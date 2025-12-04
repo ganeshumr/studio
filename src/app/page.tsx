@@ -103,7 +103,7 @@ export default function Home() {
             {categories.map(category => {
               const externalLinks: Record<string, string> = {
                 'property-audit': 'https://www.jaaga.ai/documents',
-                'property-documents': 'https://www.jaaga.ai/documents',
+                'property-documents': 'https://www.jaaga.ai/telangana',
                 'legal-verification': 'https://www.jaaga.ai/services/property-services/title-verification-report',
                 'loan-services': 'https://www.jaaga.ai/documents',
                 'land-survey': 'https://www.jaaga.ai/services/property-services/digital-land-survey',
