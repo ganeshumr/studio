@@ -32,7 +32,7 @@ function Hero() {
             <div className="flex flex-col sm:flex-row gap-4">
               <Button size="lg" className="gap-4" variant="outline" asChild>
                 <Link
-                  href="https://www.jaaga.ai/documents"
+                  href="https://www.jaaga.ai/telangana/property-binder"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
