@@ -120,28 +120,6 @@ export default async function BlogPostPage({params}: Props) {
 
         <div className="lg:col-span-1">
           <div className="sticky top-24 space-y-8">
-            {relatedService && (
-              <Card className="overflow-hidden">
-                <CardContent className="p-6 text-center">
-                  <h3 className="font-headline text-2xl font-bold mb-2">{relatedService.title}</h3>
-                  <div className="relative aspect-video mb-4 rounded-md overflow-hidden">
-                     <Image 
-                      src={relatedService.image}
-                      alt={relatedService.title}
-                      fill
-                      className="object-contain"
-                      data-ai-hint="document"
-                     />
-                  </div>
-                  <p className="text-muted-foreground mb-6">
-                    {relatedService.description}
-                  </p>
-                  <Button asChild size="lg" className="w-full">
-                    <Link href={relatedService.link} target="_blank" rel="noopener noreferrer">Apply Now</Link>
-                  </Button>
-                </CardContent>
-              </Card>
-            )}
             <PostSidebar />
           </div>
         </div>
