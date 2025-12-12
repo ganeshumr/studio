@@ -67,7 +67,7 @@ export const metadata: Metadata = {
   description: pageDescription,
   keywords: pageKeywords,
   icons: {
-    icon: 'https://ik.imagekit.io/jaaga/Frame%202147229453.png',
+    icon: 'https://ik.imagekit.io/jaaga/Untitled%20design%20(2).jpg',
   },
   openGraph: {
     title: {
