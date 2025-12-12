@@ -342,7 +342,7 @@ export let posts: Post[] = [
     `,
     category: "legal-verification",
     tags: ["due diligence", "home loan", "banking solution", "b2b", "audit reports", "title report"],
-    featuredImage: "https://picsum.photos/seed/banking-due-diligence/800/450",
+    featuredImage: "https://ik.imagekit.io/jaaga/blog%20banners%20(1).jpg",
     metaTitle: "Transforming Banking Due Diligence: How JaaGa Ends Manual Verification for Home Loans",
     metaDescription: "Discover how JaaGa automates banking due diligence, eliminates manual verification, accelerates APF and mortgage checks, and delivers fast, accurate property intelligence.",
     keywords: "due diligence, home loan, banking solution, home loans solution, b2b, audit reports, title due diligence, title report",
