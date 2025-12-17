@@ -444,19 +444,19 @@ export let posts: Post[] = [
         <p>This consolidation leads to up to 75% faster due diligence.</p>
         
         <h2 class="font-headline text-2xl font-bold">How <a href="https://www.jaaga.ai" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">JaaGa</a> Delivers Time, Cost, and Operational Advantage</h2>
-        <p>✔ <strong>Save Time</strong></p>
+        <p><strong>✔ Save Time</strong></p>
         <ul class="list-disc list-inside space-y-1">
           <li>✔ Automated retrieval from all government portals</li>
           <li>✔ Instant cross-verification</li>
           <li>✔ Fast digital site checks</li>
         </ul>
-        <p>✔ <strong>Save Money</strong></p>
+        <p><strong>✔ Save Money</strong></p>
         <ul class="list-disc list-inside space-y-1">
           <li>✔ Reduced reliance on analyst hours</li>
           <li>✔ Lower vendor fragmentation</li>
           <li>✔ Fraud and NPA risk prevention</li>
         </ul>
-        <p>✔ <strong>Reduce Effort</strong></p>
+        <p><strong>✔ Reduce Effort</strong></p>
         <ul class="list-disc list-inside space-y-1">
           <li>✔ One partner across title audit, compliance, valuation, and resolution</li>
           <li>✔ Standardized due diligence across all states</li>
@@ -471,7 +471,7 @@ export let posts: Post[] = [
         <ul class="list-disc list-inside space-y-1">
           <li>✔ Corrective action that turns incomplete files into sanction-ready files.</li>
         </ul>
-        <p>✔ <strong>Outcomes Banks Are Achieving</strong></p>
+        <p><strong>✔ Outcomes Banks Are Achieving</strong></p>
         <ul class="list-disc list-inside space-y-1">
           <li>✔ 75% faster APF and retail mortgage processing</li>
           <li>✔ Near-zero manual document chasing</li>
