@@ -56,7 +56,25 @@ const pageKeywords = [
     'encumbrance certificate ap',
     'ap ec download',
     'ec in telangana',
-    'tn land survey village map'
+    'tn land survey village map',
+    'igrs telangana',
+    'telangana registration',
+    'telangana ec search',
+    'dharani telangana',
+    'lrs telangana',
+    'pahani telangana',
+    'ror 1b telangana',
+    'telangana land records',
+    'village map with survey numbers in telangana',
+    'telangana land registration',
+    'prohibited properties telangana',
+    'ec download telangana',
+    'igrs telangana ec',
+    'telangana land details',
+    'sro telangana',
+    'encumbrance certificate online telangana',
+    'ccla telangana',
+    'telangana market value'
 ];
 
 export const metadata: Metadata = {
