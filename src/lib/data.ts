@@ -345,8 +345,8 @@ export let posts: Post[] = [
     tags: ["due diligence", "home loan", "banking solution", "b2b", "audit reports", "title report"],
     featuredImage: "https://ik.imagekit.io/jaaga/blog%20banners%20(1).jpg",
     metaTitle: "Transforming Banking Due Diligence: How JaaGa Ends Manual Verification for Home Loans",
-    metaDescription: "Discover how JaaGa automates banking due diligence, eliminates manual verification, accelerates APF and mortgage checks, and delivers fast, accurate property intelligence.",
-    keywords: "due diligence, home loan, banking solution, home loans solution, b2b, audit reports, title due diligence, title report",
+    metaDescription: "Discover how Jaaga automates banking due diligence, eliminates manual verification, accelerates APF and mortgage checks, and delivers fast, accurate property intelligence.",
+    keywords: "due diligence, home loan, banking solution, home loans solution, b2b, audit reports, title due diligence, title report, ec telangana, igrs telangana, dharani telangana, telangana land records",
   },
   {
     id: 22,
@@ -478,7 +478,7 @@ export let posts: Post[] = [
     featuredImage: "https://ik.imagekit.io/jaaga/blog%20banners.jpg",
     metaTitle: "Professional Property Valuation Services in Hyderabad – Complete Guide",
     metaDescription: "Get accurate, certified property valuation in Hyderabad. Residential, commercial & land valuation for loans, sale, purchase, and legal purposes. Fast & reliable.",
-    keywords: "Hyderabad property valuers, Property valuation service Hyderabad, Property valuer Hyderabad, Property valuation report Hyderabad, Property value assessment Hyderabad, Certified property valuers in Hyderabad, Bank approved valuer Hyderabad, Real estate valuation Hyderabad, Residential property valuation, Commercial property valuation, Land valuation Hyderabad, Property inspection Hyderabad, Online property valuation Hyderabad, Market value of property in Hyderabad, Property valuation for loan",
+    keywords: "Hyderabad property valuers, Property valuation service Hyderabad, Property valuer Hyderabad, Property valuation report Hyderabad, Property value assessment Hyderabad, Certified property valuers in Hyderabad, Bank approved valuer Hyderabad, Real estate valuation Hyderabad, Residential property valuation, Commercial property valuation, Land valuation Hyderabad, Property inspection Hyderabad, Online property valuation Hyderabad, Market value of property in Hyderabad, Property valuation for loan, telangana land records, telangana market value, dharani telangana, market value certificate telangana",
   },
   {
     id: 21,
@@ -497,7 +497,7 @@ export let posts: Post[] = [
             <li>Geographical layout of the entire village</li>
             <li>Survey-wise measurement representation in scale</li>
         </ul>
-        <p>Earlier, these maps were available only through the Revenue Office or Mandal Surveyor. But now, <a href="https://www_jaaga.ai" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">JaaGa</a> allows <strong>instant digital access</strong> to both documents using only basic land details.</p>
+        <p>Earlier, these maps were available only through the Revenue Office or Mandal Surveyor. But now, <a href="https://www.jaaga.ai" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">JaaGa</a> allows <strong>instant digital access</strong> to both documents using only basic land details.</p>
         
         <hr class="my-8" />
 
@@ -738,7 +738,7 @@ export let posts: Post[] = [
     metaDescription:
       "Learn how to download your Telangana Pattadar Passbook (Pahani) online using JaaGa. A step-by-step walkthrough using Survey No, Village, and Khata Number.",
     keywords:
-      "Telangana Pattadar Passbook, Download Pahani Online Telangana, Telangana Land Records, Dharani Portal Pahani, Telangana Property Documents, Survey Number Telangana, Khata Number Search, Village Land Records Telangana, Download ROR 1B Telangana, JaaGa Telangana property search, How to download Telangana Pattadar Passbook online, Step-by-step guide to get Pahani from Dharani portal, Access land records in Telangana using Khata number, Online Pahani download without visiting revenue office, Telangana Pahani certificate legal use and verification, Get certified copy of land records in Telangana, Best tool for Telangana land ownership verification",
+      "Telangana Pattadar Passbook, Download Pahani Online Telangana, Telangana Land Records, Dharani Portal Pahani, Telangana Property Documents, Survey Number Telangana, Khata Number Search, Village Land Records Telangana, Download ROR 1B Telangana, JaaGa Telangana property search, How to download Telangana Pattadar Passbook online, Step-by-step guide to get Pahani from Dharani portal, Access land records in Telangana using Khata number, Online Pahani download without visiting revenue office, Telangana Pahani certificate legal use and verification, Get certified copy of land records in Telangana, pahani telangana, ror 1b telangana, dharani telangana, telangana land records, telangana pahani",
   },
   {
     id: 19,
@@ -913,7 +913,7 @@ With the <a href="https://www.jaaga.ai" class="text-primary hover:underline" tar
     metaDescription:
       "Learn how to download the GHMC Mutation Certificate online in Telangana using the JaaGa app. Search by PTIN, owner name, or door number and get the certificate instantly.",
     keywords:
-      "GHMC Mutation Certificate Download, Mutation Certificate Telangana Online, Download Mutation Certificate using PTIN, Telangana Property Mutation Online, GHMC Property Ownership Transfer, How to Get Mutation Certificate in Telangana, GHMC PTIN Mutation Status, Property Mutation Certificate Telangana, Online Mutation Certificate GHMC, JaaGa Telangana Property Documents",
+      "GHMC Mutation Certificate Download, Mutation Certificate Telangana Online, Download Mutation Certificate using PTIN, Telangana Property Mutation Online, GHMC Property Ownership Transfer, How to Get Mutation Certificate in Telangana, GHMC PTIN Mutation Status, Property Mutation Certificate Telangana, Online Mutation Certificate GHMC, JaaGa Telangana Property Documents, mutation certificate telangana, telangana land records, dharani telangana",
   },
   {
     id: 18,
@@ -1045,7 +1045,7 @@ With the <a href="https://www.jaaga.ai" class="text-primary hover:underline" tar
     metaDescription:
       "Step-by-step guide on how to download a certified Encumbrance Certificate (EC) in Telangana using JaaGa.ai. Legally valid for home loans, property sales, and court cases.",
     keywords:
-      "certified ec telangana, download encumbrance certificate telangana, telangana ec online, jaaga.ai ec service, property documents telangana",
+      "certified ec telangana, download encumbrance certificate telangana, telangana ec online, jaaga.ai ec service, property documents telangana, encumbrance certificate telangana, ec telangana, igrs telangana, telangana ec search, dharani telangana, telangana registration, ec download telangana",
   },
   {
     id: 17,
@@ -1181,7 +1181,7 @@ With the <a href="https://www.jaaga.ai" class="text-primary hover:underline" tar
     metaDescription:
       "Easily apply for mutation in Telangana online using the JaaGa App. Step-by-step guide to update land ownership records, check mutation status, and download your mutation certificate securely in 2025.",
     keywords:
-      "mutation Telangana, apply mutation online Telangana, Telangana land mutation certificate, how to apply mutation in Telangana 2025, JaaGa mutation service Telangana, Dharani mutation application, mutation status Telangana online, mutation certificate download Telangana, JaaGa app mutation guide",
+      "mutation Telangana, apply mutation online Telangana, Telangana land mutation certificate, how to apply mutation in Telangana 2025, JaaGa mutation service Telangana, Dharani mutation application, mutation status Telangana online, mutation certificate download Telangana, JaaGa app mutation guide, dharani telangana, telangana land records, mutation certificate telangana",
   },
   {
     id: 16,
@@ -1510,7 +1510,7 @@ With the <a href="https://www.jaaga.ai" class="text-primary hover:underline" tar
     metaDescription:
       "A comprehensive guide on how to prove legal property ownership in India, covering essential documents like Sale Deeds and ECs, with a focus on Telangana and Andhra Pradesh. Learn how JaaGa simplifies the process.",
     keywords:
-      "prove property ownership, legal ownership of property India, sale deed proof of ownership, encumbrance certificate Telangana, property disputes Telangana, JaaGa property services",
+      "prove property ownership, legal ownership of property India, sale deed proof of ownership, encumbrance certificate Telangana, property disputes Telangana, JaaGa property services, ec telangana, igrs telangana, dharani telangana, telangana land records",
   },
   {
     id: 13,
@@ -1636,7 +1636,7 @@ With the <a href="https://www.jaaga.ai" class="text-primary hover:underline" tar
     metaDescription:
       "Learn why it’s important to update the owner’s name on property tax receipts and electricity bills after buying a property. Ensure smooth mutation, avoid legal disputes, and secure your ownership with JaaGa’s expert services.",
     keywords:
-      "update property tax name Telangana, electricity bill name change, mutation of property, property ownership proof, property documents update, name transfer in property tax, update electricity bill name",
+      "update property tax name Telangana, electricity bill name change, mutation of property, property ownership proof, property documents update, name transfer in property tax, update electricity bill name, telangana property tax, ghmc property tax, mutation certificate telangana",
   },
   {
     id: 12,
@@ -1690,7 +1690,7 @@ With the <a href="https://www.jaaga.ai" class="text-primary hover:underline" tar
           <h3 class="font-headline text-xl font-bold">General Steps to Retrieve Documents Online:</h3>
           <ol class="list-decimal space-y-2 pl-6">
             <li><strong>Visit Your State’s Official Property Portal</strong>
-              <p class="text-sm text-muted-foreground">Example: Dharani Telangana, Kaveri Karnataka, IGR Maharashtra, etc.</p>
+              <p class="text-sm text-muted-foreground">Example: Dharani Telangana, Kaveri Karnataka, IGRS Maharashtra, etc.</p>
             </li>
             <li><strong>Enter Required Details</strong>
               <ul class="list-disc space-y-1 pl-6 mt-1">
@@ -1821,7 +1821,7 @@ With the <a href="https://www.jaaga.ai" class="text-primary hover:underline" tar
     metaDescription:
       "Easily access verified property documents like Sale Deeds, Encumbrance Certificates, and Tax Receipts with JaaGa. Simple, secure, and time-saving. Get your records online in just a few clicks!",
     keywords:
-      "property documents, sale deed online, encumbrance certificate Telangana, property tax receipt, retrieve property documents, online property records, Telangana property documents, property EC, JaaGa property services",
+      "property documents, sale deed online, encumbrance certificate Telangana, property tax receipt, retrieve property documents, online property records, Telangana property documents, property EC, JaaGa property services, ec telangana, igrs telangana, dharani telangana",
   },
   {
     id: 11,
@@ -1947,7 +1947,7 @@ With the <a href="https://www.jaaga.ai" class="text-primary hover:underline" tar
           <li>Get bill reminders and alerts before the due date</li>
           <li>Securely store &amp; manage past bills online</li>
         </ul>
-        <p>👉 Pay TGSPDCL Bill Online with <a href="https://wwwGPT-3.5-Turbo-Web-NextJS-port-to-15-app-router-and-tailwind-and-other-deps-and-fix-vulnerabilities.jaaga.ai" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">JaaGa</a> and manage all your utility payments in one place.</p>
+        <p>👉 Pay TGSPDCL Bill Online with <a href="https://www.jaaga.ai" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">JaaGa</a> and manage all your utility payments in one place.</p>
 
         <h2 class="font-headline text-2xl font-bold">Final Thoughts</h2>
         <p>
@@ -1972,7 +1972,7 @@ With the <a href="https://www.jaaga.ai" class="text-primary hover:underline" tar
     metaDescription:
       "Change the electricity meter name in Telangana online through TGSPDCL. JaaGa helps with document filing, ownership update, and hassle-free name transfer.",
     keywords:
-      "electricity bill name change Telangana, TGSPDCL name transfer, electricity meter name change online, how to change name in electricity bill TGSPDCL, Telangana power connection name change, TGSPDCL ownership transfer, electricity bill transfer after sale deed, name change in electricity bill documents, transfer electricity connection Telangana, JaaGa electricity services",
+      "electricity bill name change Telangana, TGSPDCL name transfer, electricity meter name change online, how to change name in electricity bill TGSPDCL, Telangana power connection name change, TGSPDCL ownership transfer, electricity bill transfer after sale deed, name change in electricity bill documents, transfer electricity connection Telangana, JaaGa electricity services, telangana bill payment, southern power telangana bill payment",
   },
   {
     id: 10,
@@ -2066,7 +2066,7 @@ With the <a href="https://www.jaaga.ai" class="text-primary hover:underline" tar
           documents saving time and ensuring peace of mind.
         </p>
         <p>
-          👉 Visit <a href="https://www.jaaga.ai" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">JaaGa</a> today to download your Sale Deed Certified Copy (CC) online. For more info, visit <a href="https://www.jaaga.ai" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">www.jaagaai</a>.
+          👉 Visit <a href="https://www.jaaga.ai" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">JaaGa</a> today to download your Sale Deed Certified Copy (CC) online. For more info, visit <a href="https://www.jaaga.ai" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">www.jaaga.ai</a>.
         </p>
         <img src="https://ik.imagekit.io/jaaga/M3cf6418431982ca18111130a438a61b61759987765500%20(1).webp?updatedAt=1762412127043" alt="JaaGa App promotion" class="rounded-lg" />
       </div>
@@ -2080,7 +2080,7 @@ With the <a href="https://www.jaaga.ai" class="text-primary hover:underline" tar
     metaDescription:
       "Learn how to easily download a certified copy of your Sale Deed in Telangana online using the JaaGa app. A simple, fast, and reliable process.",
     keywords:
-      "sale deed telangana, certified copy online, download sale deed, jaaga app",
+      "sale deed telangana, certified copy online, download sale deed, jaaga app, telangana registration, igrs telangana, sro telangana, cc copy telangana, telangana land registration documents online",
   },
   {
     id: 9,
@@ -2237,7 +2237,7 @@ With the <a href="https://www.jaaga.ai" class="text-primary hover:underline" tar
     metaDescription:
       "A complete guide on how to download your property tax receipt in Telangana quickly and easily using the JaaGa App. Avoid queues and get your receipt online.",
     keywords:
-      "property tax telangana, download tax receipt, jaaga app, ghmc property tax, telangana property tax online",
+      "property tax telangana, download tax receipt, jaaga app, ghmc property tax, telangana property tax online, ptin telangana, house tax telangana",
   },
   {
     id: 6,
@@ -2285,7 +2285,7 @@ With the <a href="https://www.jaaga.ai" class="text-primary hover:underline" tar
         </ol>
         
         <h2 class="font-headline text-2xl font-bold">Legal Documents Required for Property Audit in India</h2>
-        <p>A successful property audit requires specific legal documents:</p>
+        <p>A successful property audit requires specific legal documents. You can get assistance with these at <a href="https://www.jaaga.ai" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">JaaGa</a>.</p>
         <ul class="list-disc space-y-2 pl-6">
           <li><strong>Sale Deed:</strong> Confirms ownership transfer.</li>
           <li><strong>Title Deed:</strong> Establishes legal ownership of the property.</li>
@@ -2295,7 +2295,7 @@ With the <a href="https://www.jaaga.ai" class="text-primary hover:underline" tar
           <li><strong>Occupancy Certificate:</strong> Confirms property is fit for occupation.</li>
           <li><strong>No-Objection Certificates (NOCs):</strong> From relevant authorities or lenders.</li>
         </ul>
-        <p>Ensuring all these documents are authentic is crucial for a credible audit. <a href="https://www.jaaga.ai" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">JaaGa</a> can help you with this.</p>
+        <p>Ensuring all these documents are authentic is crucial for a credible audit.</p>
         
         <h2 class="font-headline text-2xl font-bold">Benefits of Conducting a Property Audit</h2>
         <ul class="list-disc space-y-2 pl-6">
@@ -2334,7 +2334,7 @@ With the <a href="https://www.jaaga.ai" class="text-primary hover:underline" tar
           <li>Transparent record keeping</li>
           <li>Easy access to historical property records</li>
         </ul>
-        <p>Online platforms can also generate encumbrance certificates, property tax receipts, and NOCs digitally, making audits more efficient.</p>
+        <p>Online platforms like <a href="https://www.jaaga.ai" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">JaaGa</a> can also generate encumbrance certificates, property tax receipts, and NOCs digitally, making audits more efficient.</p>
         
         <h2 class="font-headline text-2xl font-bold">FAQs About Property Audits in India</h2>
         <div class="space-y-4">
@@ -2344,7 +2344,7 @@ With the <a href="https://www.jaaga.ai" class="text-primary hover:underline" tar
           </div>
           <div>
             <h4 class="font-bold">2. Who can conduct a property audit?</h4>
-            <p>Legal experts, chartered accountants, surveyors, and certified property auditors can conduct audits professionally. You can find them at <a href="https://www.jaaga.ai" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">JaaGa</a>.</p>
+            <p>Legal experts, chartered accountants, surveyors, and certified property auditors can conduct audits professionally.</p>
           </div>
           <div>
             <h4 class="font-bold">3. How long does a property audit take?</h4>
@@ -2370,7 +2370,7 @@ With the <a href="https://www.jaaga.ai" class="text-primary hover:underline" tar
         <img src="https://ik.imagekit.io/jaaga/M3cf6418431982ca18111130a438a61b61759987765500%20(1).webp?updatedAt=1762412127043" alt="JaaGa App promotion" class="rounded-lg" />
       </div>
     `,
-    category: "property-documents",
+    category: "property-audit",
     tags: [
       "blockchain",
       "proptech",
@@ -2403,7 +2403,7 @@ With the <a href="https://www.jaaga.ai" class="text-primary hover:underline" tar
     metaDescription:
       "Learn how to secure your property investment with digital property ownership in India. Discover benefits, fraud prevention, Telangana Dharani portal, Andhra Pradesh MeeBhoomi, and future of digital land records.",
     keywords:
-      "digital property ownership, secure property investment, property ownership in Telangana, property ownership in Andhra Pradesh, digital land records India, Dharani portal Telangana, MeeBhoomi Andhra Pradesh, digital property documents, property fraud prevention, how to prove property ownership in India, online property verification, encumbrance certificate online, sale deed digital copy, land records management, real estate investment security, digital India property registration, e-registration property Telangana, e-registration property Andhra Pradesh, property legal disputes India, blockchain property records",
+      "digital property ownership, secure property investment, property ownership in Telangana, property ownership in Andhra Pradesh, digital land records India, Dharani portal Telangana, MeeBhoomi Andhra Pradesh, digital property documents, property fraud prevention, how to prove property ownership in India, online property verification, encumbrance certificate online, sale deed digital copy, land records management, real estate investment security, digital India property registration, e-registration property Telangana, e-registration property Andhra Pradesh, property legal disputes India, blockchain property records, ec telangana, igrs telangana, telangana land records",
   },
   {
     id: 5,
@@ -2538,7 +2538,7 @@ With the <a href="https://www.jaaga.ai" class="text-primary hover:underline" tar
     metaDescription:
       "Learn about the 5 essential property documents required for a smooth home loan process. Discover why Sale Deed, Title Deed, Encumbrance Certificate, Approved Building Plan, and Property Tax Receipts are crucial for loan approval.",
     keywords:
-      "essential property documents for home loan, property papers required for home loan, sale deed for home loan, title deed verification for bank loan, encumbrance certificate housing loan, property tax receipts for loan, approved building plan for bank loan, home loan documents checklist, housing loan property papers, smooth home loan process",
+      "essential property documents for home loan, property papers required for home loan, sale deed for home loan, title deed verification for bank loan, encumbrance certificate housing loan, property tax receipts for loan, approved building plan for bank loan, home loan documents checklist, housing loan property papers, smooth home loan process, encumbrance certificate telangana, sale deed telangana",
   },
   {
     id: 4,
@@ -2707,7 +2707,7 @@ With the <a href="https://www.jaaga.ai" class="text-primary hover:underline" tar
     metaDescription:
       "Learn how Jaaga.ai makes electricity bill name change in Telangana simple, fast, and hassle-free. Step-by-step process, required documents, benefits, and FAQs included.",
     keywords:
-      "Electricity bill name change in Telangana, Jaaga.ai electricity bill service, How to change electricity bill name Telangana, Electricity bill transfer process Telangana, Documents for electricity bill name change Telangana, TSSPDCL electricity bill name change, TSNPDCL electricity bill name change, Online electricity bill name change Telangana, Electricity bill ownership transfer Telangana, Jaaga.ai property services Telangana",
+      "Electricity bill name change in Telangana, Jaaga.ai electricity bill service, How to change electricity bill name Telangana, Electricity bill transfer process Telangana, Documents for electricity bill name change Telangana, TSSPDCL electricity bill name change, TSNPDCL electricity bill name change, Online electricity bill name change Telangana, Electricity bill ownership transfer Telangana, Jaaga.ai property services Telangana, telangana southern power bill payment",
   },
   {
     id: 3,
@@ -2908,7 +2908,7 @@ With the <a href="https://www.jaaga.ai" class="text-primary hover:underline" tar
     metaTitle: "How Digital Land Surveys Are Transforming Real Estate in India",
     metaDescription:
       "Discover how digital land surveys are changing real estate with GPS, drones, GIS, and blockchain. Learn benefits, challenges, and FAQs on property records in India.",
-    keywords: "digital land survey booking, land mapping, property technology",
+    keywords: "digital land survey booking, land mapping, property technology, telangana land survey, telangana land records, dharani telangana",
   },
   {
     id: 2,
@@ -3005,7 +3005,7 @@ With the <a href="https://www.jaaga.ai" class="text-primary hover:underline" tar
     metaDescription:
       "Ensure a safe property purchase in Telangana and Andhra Pradesh. Learn step-by-step legal property verification, check ownership, encumbrances, NOCs, and avoid disputes.",
     keywords:
-      "property verification Telangana, legal property check Andhra Pradesh, title deed verification, encumbrance certificate Telangana, Meebhoomi property verification, property NOC Andhra Pradesh, secure property purchase Telangana",
+      "property verification Telangana, legal property check Andhra Pradesh, title deed verification, encumbrance certificate Telangana, Meebhoomi property verification, property NOC Andhra Pradesh, secure property purchase Telangana, ec telangana, igrs telangana, dharani telangana, telangana land records",
   },
   {
     id: 1,
