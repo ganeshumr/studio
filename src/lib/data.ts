@@ -141,35 +141,35 @@ export let posts: Post[] = [
         <p>Together, they form the 7 12 Utara Maharashtra, which acts as proof of land ownership and land usage history.</p>
 
         <h2 class="font-headline text-2xl font-bold">Key Information Found in 7/12 Extract Maharashtra</h2>
-        <h3 class="font-headline text-xl font-bold">Landowner Details</h3>
+        <h3 class="font-headline text-xl font-bold">1. Landowner Details</h3>
         <ul class="list-disc list-inside space-y-1">
           <li>Name(s) of owner</li>
           <li>Shareholding pattern</li>
           <li>Rights and liabilities</li>
         </ul>
 
-        <h3 class="font-headline text-xl font-bold">Survey Number & Area</h3>
+        <h3 class="font-headline text-xl font-bold">2. Survey Number & Area</h3>
         <ul class="list-disc list-inside space-y-1">
           <li>Survey / Gat number</li>
           <li>Total land area (Guntha, Hectare)</li>
           <li>Useful to check survey number online Maharashtra</li>
         </ul>
 
-        <h3 class="font-headline text-xl font-bold">Agricultural Details</h3>
+        <h3 class="font-headline text-xl font-bold">3. Agricultural Details</h3>
         <ul class="list-disc list-inside space-y-1">
           <li>Type of land (irrigated, dry)</li>
           <li>Crops grown</li>
           <li>Agricultural classification</li>
         </ul>
 
-        <h3 class="font-headline text-xl font-bold">Loan & Encumbrance Information</h3>
+        <h3 class="font-headline text-xl font-bold">4. Loan & Encumbrance Information</h3>
         <ul class="list-disc list-inside space-y-1">
           <li>Government loans</li>
           <li>Subsidies</li>
           <li>Legal remarks</li>
         </ul>
         
-        <h3 class="font-headline text-xl font-bold">Tax & Revenue Status</h3>
+        <h3 class="font-headline text-xl font-bold">5. Tax & Revenue Status</h3>
         <ul class="list-disc list-inside space-y-1">
           <li>Land revenue paid</li>
           <li>Arrears if any</li>
@@ -1333,7 +1333,7 @@ With the <a href="https://www.jaaga.ai" class="text-primary hover:underline" tar
         <p>If you’ve bought a property or inherited land in Telangana, mutation is not optional — it’s your legal responsibility.</p>
         <p>With the <a href="https://www.jaaga.ai" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">JaaGa</a> App, you can now apply for mutation online in just a few taps — no middlemen, no confusion, no waiting in queues.</p>
         <p>🧾 Get your mutation certificate, update your ownership legally, and protect your property rights — the smart, digital way!</p>
-        <p>🚀 Download the <a href="https://www_jaaga.ai" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">JaaGa</a> App today and apply for mutation from your phone! For more information, visit <a href="https://www.jaaga.ai" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">www.jaaga.ai</a>.</p>
+        <p>🚀 Download the <a href="https://www.jaaga.ai" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">JaaGa</a> App today and apply for mutation from your phone! For more information, visit <a href="https://www.jaaga.ai" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">www.jaaga.ai</a>.</p>
         <img src="https://ik.imagekit.io/jaaga/M3cf6418431982ca18111130a438a61b61759987765500%20(1).webp?updatedAt=1762412127043" alt="JaaGa App promotion" class="rounded-lg" />
       </div>
     `,
@@ -1678,4 +1678,7 @@ With the <a href="https://www.jaaga.ai" class="text-primary hover:underline" tar
       "prove property ownership, legal ownership of property India, sale deed proof of ownership, encumbrance certificate Telangana, property disputes Telangana, JaaGa property services, ec telangana, igrs telangana, dharani telangana, telangana land records",
   }
 ]
+    
+
+
     
