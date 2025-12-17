@@ -141,35 +141,35 @@ export let posts: Post[] = [
         <p>Together, they form the 7 12 Utara Maharashtra, which acts as proof of land ownership and land usage history.</p>
 
         <h2 class="font-headline text-2xl font-bold">Key Information Found in 7/12 Extract Maharashtra</h2>
-        <h3 class="font-headline text-xl font-bold">1. Landowner Details</h3>
+        <h3 class="font-headline text-xl font-bold">Landowner Details</h3>
         <ul class="list-disc list-inside space-y-1">
           <li>Name(s) of owner</li>
           <li>Shareholding pattern</li>
           <li>Rights and liabilities</li>
         </ul>
 
-        <h3 class="font-headline text-xl font-bold">2. Survey Number & Area</h3>
+        <h3 class="font-headline text-xl font-bold">Survey Number & Area</h3>
         <ul class="list-disc list-inside space-y-1">
           <li>Survey / Gat number</li>
           <li>Total land area (Guntha, Hectare)</li>
           <li>Useful to check survey number online Maharashtra</li>
         </ul>
 
-        <h3 class="font-headline text-xl font-bold">3. Agricultural Details</h3>
+        <h3 class="font-headline text-xl font-bold">Agricultural Details</h3>
         <ul class="list-disc list-inside space-y-1">
           <li>Type of land (irrigated, dry)</li>
           <li>Crops grown</li>
           <li>Agricultural classification</li>
         </ul>
 
-        <h3 class="font-headline text-xl font-bold">4. Loan & Encumbrance Information</h3>
+        <h3 class="font-headline text-xl font-bold">Loan & Encumbrance Information</h3>
         <ul class="list-disc list-inside space-y-1">
           <li>Government loans</li>
           <li>Subsidies</li>
           <li>Legal remarks</li>
         </ul>
         
-        <h3 class="font-headline text-xl font-bold">5. Tax & Revenue Status</h3>
+        <h3 class="font-headline text-xl font-bold">Tax & Revenue Status</h3>
         <ul class="list-disc list-inside space-y-1">
           <li>Land revenue paid</li>
           <li>Arrears if any</li>
