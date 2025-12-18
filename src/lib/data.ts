@@ -122,6 +122,163 @@ export const services: Service[] = [
 
 export let posts: Post[] = [
   {
+    id: 25,
+    slug: "jaaga-property-registration-services-one-stop-solution",
+    title: "JaaGa Property Registration Services: A Complete One-Stop Solution for Hassle-Free Property Registration",
+    excerpt: "Buying property is one of the most significant investments in a person’s life. Yet, the registration process can often feel like a maze of paperwork, legal jargon, and endless waiting. This is where JaaGa Property Registration Services steps in — providing a one-stop, online registration solution designed to simplify and streamline the entire process.",
+    content: `
+      <div class="space-y-6">
+        <h2 class="font-headline text-2xl font-bold">Introduction to JaaGa Property Registration Services</h2>
+        <p>Buying property is one of the most significant investments in a person’s life. Yet, the registration process can often feel like a maze of paperwork, legal jargon, and endless waiting. This is where JaaGa Property Registration Services steps in — providing a one-stop, online registration solution designed to simplify and streamline the entire process.</p>
+        <p>JaaGa’s platform enables property buyers, sellers, and agents to initiate, track, and complete their registration process digitally. With its secure payment integration, real-time tracking, and expert backend support, JaaGa eliminates delays and manual hassles, making property registration more efficient and transparent than ever before.</p>
+
+        <h2 class="font-headline text-2xl font-bold">The Vision Behind JaaGa Property Registration</h2>
+        <p>At its core, JaaGa’s mission is to bridge the gap between property owners and legal documentation. Traditional property registration involves multiple visits to government offices, manual paperwork, and uncertainty regarding timelines. JaaGa redefines this by introducing a digital-first, legally compliant process that’s transparent, time-efficient, and user-friendly.</p>
+        <p>The company envisions a future where property registration is as easy as booking a flight—quick, digital, and completely secure.</p>
+
+        <h2 class="font-headline text-2xl font-bold">Key Features of JaaGa’s One-Stop Registration Portal</h2>
+        <p>JaaGa’s service stands out because it’s designed around user convenience and operational efficiency. Let’s explore its key features:</p>
+        <ul class="list-disc list-inside space-y-2">
+            <li><strong>User-Friendly Online Platform:</strong> The intuitive dashboard allows users to easily initiate registrations, upload documents, and monitor progress from start to finish.</li>
+            <li><strong>Integrated Secure Payment Options:</strong> Payments are processed through encrypted gateways, ensuring safety and transparency at every step.</li>
+            <li><strong>Streamlined Workflow Management:</strong> Every registration follows a step-by-step automated workflow, minimizing delays and ensuring accuracy in documentation.</li>
+            <li><strong>Real-Time Tracking and Updates:</strong> Clients can view the status of their registration in real time, receiving notifications at every milestone.</li>
+        </ul>
+
+        <h2 class="font-headline text-2xl font-bold">Step-by-Step Property Registration Process with JaaGa</h2>
+        <p>JaaGa’s streamlined system simplifies the entire registration journey into five easy steps:</p>
+        <ol class="list-decimal list-inside space-y-2">
+            <li><strong>Initiate Your Registration:</strong> Log in to the portal and start your registration request.</li>
+            <li><strong>Submit Required Documents:</strong> Upload the scanned copies of property papers, ID proofs, and sale deeds.</li>
+            <li><strong>Make a Secure Payment & Book Your Slot:</strong> Pay online using trusted gateways and get your slot reserved.</li>
+            <li><strong>Verification & Validation:</strong> JaaGa’s experts cross-check and validate all submitted documents.</li>
+            <li><strong>Completion & Confirmation:</strong> Once verified, the registration is completed and the confirmation documents are sent digitally.</li>
+        </ol>
+
+        <h2 class="font-headline text-2xl font-bold">What You Need for Registration</h2>
+        <p>To ensure smooth processing, JaaGa’s team will get in touch with you shortly after the initiation to collect details such as:</p>
+        <ul class="list-disc list-inside space-y-2">
+            <li>Owner’s name and contact details</li>
+            <li>Property address and identification number</li>
+            <li>Relevant legal documents (sale deed, NOC, ID proofs, etc.)</li>
+        </ul>
+        <p>JaaGa’s experts help you organize and verify these documents, saving you from confusion and paperwork errors.</p>
+
+        <h2 class="font-headline text-2xl font-bold">What You Get with JaaGa Property Registration Services</h2>
+        <p>Choosing JaaGa means gaining access to a complete, end-to-end service package that includes:</p>
+        <ul class="list-disc list-inside space-y-2">
+            <li><strong>Slot Booking:</strong> No more long queues; your appointment is pre-scheduled.</li>
+            <li><strong>Document Collection & Verification:</strong> Professionals handle your paperwork accurately.</li>
+            <li><strong>Registration Process Completion:</strong> Every legal step is managed on your behalf.</li>
+            <li><strong>Confirmation Delivery:</strong> Receive your verified registration proof directly online.</li>
+        </ul>
+
+        <h2 class="font-headline text-2xl font-bold">Advantages of Choosing JaaGa</h2>
+        <p>Here’s why JaaGa has become the trusted choice for property registration in India:</p>
+        <ul class="list-disc list-inside space-y-2">
+            <li>Saves significant time and effort</li>
+            <li>Offers expert legal guidance</li>
+            <li>Ensures 100% secure digital transactions</li>
+            <li>Provides real-time tracking</li>
+            <li>Guarantees affordable pricing with no hidden charges</li>
+        </ul>
+
+        <h2 class="font-headline text-2xl font-bold">How JaaGa Ensures Security and Compliance</h2>
+        <p>Every transaction on JaaGa’s platform is protected by advanced encryption. All documents are processed through legally verified channels, ensuring complete compliance with Indian property laws. JaaGa also adheres to data protection standards, safeguarding your privacy at every step.</p>
+
+        <h2 class="font-headline text-2xl font-bold">Customer Support and Accessibility</h2>
+        <p>JaaGa’s support team is available 24/7 to help clients with queries, updates, and assistance. The platform offers real-time chat, email, and phone support, ensuring every user feels confident throughout the process.</p>
+
+        <h2 class="font-headline text-2xl font-bold">Comparison: Traditional vs. JaaGa Registration</h2>
+        <div class="overflow-x-auto">
+            <table class="min-w-full border-collapse border border-border">
+                <thead>
+                    <tr class="bg-muted">
+                        <th class="border border-border p-2 text-left">Aspect</th>
+                        <th class="border border-border p-2 text-left">Traditional Registration</th>
+                        <th class="border border-border p-2 text-left">JaaGa Online Registration</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="border border-border p-2">Time Taken</td>
+                        <td class="border border-border p-2">3–5 Days</td>
+                        <td class="border border-border p-2">1–2 Days</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-border p-2">Paperwork</td>
+                        <td class="border border-border p-2">Manual</td>
+                        <td class="border border-border p-2">Digital</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-border p-2">Transparency</td>
+                        <td class="border border-border p-2">Low</td>
+                        <td class="border border-border p-2">High</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-border p-2">Cost</td>
+                        <td class="border border-border p-2">Variable</td>
+                        <td class="border border-border p-2">Fixed & Affordable</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-border p-2">Tracking</td>
+                        <td class="border border-border p-2">Not Available</td>
+                        <td class="border border-border p-2">Real-Time Online</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <h2 class="font-headline text-2xl font-bold">Who Can Benefit from JaaGa?</h2>
+        <ul class="list-disc list-inside space-y-2">
+            <li>Individual Buyers & Sellers</li>
+            <li>Real Estate Agents</li>
+            <li>Builders & Developers</li>
+            <li>NRI Investors</li>
+        </ul>
+        <p>JaaGa offers tailored solutions for each category, ensuring compliance and convenience for all.</p>
+
+        <h2 class="font-headline text-2xl font-bold">Frequently Asked Questions (FAQs)</h2>
+        <div class="space-y-4">
+            <div>
+                <h4 class="font-bold">1. What is JaaGa Property Registration Services?</h4>
+                <p>It’s an online platform that simplifies property registration through digital document submission, secure payments, and expert verification.</p>
+            </div>
+            <div>
+                <h4 class="font-bold">2. How long does the registration process take?</h4>
+                <p>Typically, it’s completed within 1–2 business days once all documents are verified.</p>
+            </div>
+            <div>
+                <h4 class="font-bold">3. Are my documents safe?</h4>
+                <p>Absolutely. JaaGa uses encrypted channels and secure storage systems to protect your data.</p>
+            </div>
+            <div>
+                <h4 class="font-bold">4. Do I need to visit the registration office?</h4>
+                <p>In most cases, no. JaaGa manages the entire process digitally, but certain cases may require minimal physical verification.</p>
+            </div>
+            <div>
+                <h4 class="font-bold">5. Can NRIs use JaaGa Property Registration Services?</h4>
+                <p>Yes, the platform is designed for Indian and overseas clients alike.</p>
+            </div>
+            <div>
+                <h4 class="font-bold">6. How can I track my registration status?</h4>
+                <p>Simply log in to your JaaGa account to view real-time updates.</p>
+            </div>
+        </div>
+
+        <h2 class="font-headline text-2xl font-bold">Conclusion: Why JaaGa is the Most Trusted Property Registration Partner</h2>
+        <p>In a world that’s moving towards digital transformation, JaaGa Property Registration Services is redefining how Indians register their properties — with speed, security, and simplicity. Whether you’re an individual, developer, or NRI, JaaGa ensures your registration is handled professionally and completed efficiently.</p>
+        <p>For a seamless property registration experience, trust JaaGa — where efficiency meets reliability. For more information, visit <a href="https://www.jaaga.ai" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">www.jaaga.ai</a>.</p>
+      </div>
+    `,
+    category: "legal-verification",
+    tags: ["property registration online", "digital registration service", "document verification", "secure property registration", "real estate documentation", "online land registration", "property registration portal"],
+    featuredImage: "https://picsum.photos/seed/jaaga-reg/800/600",
+    metaTitle: "JaaGa Property Registration Services: The Ultimate One-Stop Solution for Hassle-Free Property Registration in India",
+    metaDescription: "Discover how JaaGa Property Registration Services simplifies property registration with a user-friendly online portal, secure payments, and expert guidance from start to finish. Get your property registered seamlessly today!",
+    keywords: "JaaGa Property Registration Services, property registration online, digital registration service, document verification, secure property registration, real estate documentation, online land registration, property registration portal",
+  },
+  {
     id: 24,
     slug: "understanding-satbara-7-12-utara-land-records-maharashtra",
     title: "Understanding the Satbara 7/12 (Utara) Land Records of Maharashtra",
@@ -527,12 +684,12 @@ export let posts: Post[] = [
         <h2 class="font-headline text-2xl font-bold">Why Property Valuation Is Important</h2>
         <p>A professional valuation helps you:</p>
         <ul class="list-disc list-inside space-y-2">
-          <li>Determine the fair market price before sale or purchase</li>
-          <li>Apply for bank loans, mortgages, balance transfer</li>
-          <li>Calculate capital gains tax, wealth tax, inheritance value</li>
-          <li>Finalize property disputes or settlements</li>
-          <li>Get accurate value for insurance purposes</li>
-          <li>Plan investments with real-time market insights</li>
+          <li>✔ Determine the fair market price before sale or purchase</li>
+          <li>✔ Apply for bank loans, mortgages, balance transfer</li>
+          <li>✔ Calculate capital gains tax, wealth tax, inheritance value</li>
+          <li>✔ Finalize property disputes or settlements</li>
+          <li>✔ Get accurate value for insurance purposes</li>
+          <li>✔ Plan investments with real-time market insights</li>
         </ul>
         
         <h2 class="font-headline text-2xl font-bold">Our Valuation Services in Hyderabad</h2>
@@ -540,62 +697,62 @@ export let posts: Post[] = [
         
         <h3 class="font-headline text-xl font-bold">1. Residential Property Valuation</h3>
         <ul class="list-disc list-inside space-y-1">
-          <li>Apartments</li>
-          <li>Independent houses</li>
-          <li>Villas</li>
-          <li>Plots in HMDA/GHMC limits</li>
+          <li>✔ Apartments</li>
+          <li>✔ Independent houses</li>
+          <li>✔ Villas</li>
+          <li>✔ Plots in HMDA/GHMC limits</li>
         </ul>
         
         <h3 class="font-headline text-xl font-bold">2. Commercial Valuation</h3>
         <ul class="list-disc list-inside space-y-1">
-          <li>Shops</li>
-          <li>Offices</li>
-          <li>Showrooms</li>
-          <li>Complexes</li>
+          <li>✔ Shops</li>
+          <li>✔ Offices</li>
+          <li>✔ Showrooms</li>
+          <li>✔ Complexes</li>
         </ul>
         
         <h3 class="font-headline text-xl font-bold">3. Land Valuation</h3>
         <ul class="list-disc list-inside space-y-1">
-          <li>Agriculture & non-agriculture lands</li>
-          <li>HMDA approved layout plots</li>
-          <li>Open lands in Hyderabad & outskirts (covering all telangana land records)</li>
+          <li>✔ Agriculture & non-agriculture lands</li>
+          <li>✔ HMDA approved layout plots</li>
+          <li>✔ Open lands in Hyderabad & outskirts (covering all telangana land records)</li>
         </ul>
         
         <h3 class="font-headline text-xl font-bold">4. Industrial Valuation</h3>
         <ul class="list-disc list-inside space-y-1">
-          <li>Warehouses</li>
-          <li>Manufacturing units</li>
-          <li>Industrial land and buildings</li>
+          <li>✔ Warehouses</li>
+          <li>✔ Manufacturing units</li>
+          <li>✔ Industrial land and buildings</li>
         </ul>
         
         <h3 class="font-headline text-xl font-bold">5. Bank-Approved Valuation</h3>
         <p>Certified valuation for:</p>
         <ul class="list-disc list-inside space-y-1">
-          <li>HDFC, ICICI, SBI, Axis, Kotak, and most nationalized banks.</li>
+          <li>✔ HDFC, ICICI, SBI, Axis, Kotak, and most nationalized banks.</li>
         </ul>
         
         <h2 class="font-headline text-2xl font-bold">How We Calculate Property Value</h2>
         <p>Our valuers use a combination of:</p>
         <ul class="list-disc list-inside space-y-2">
-          <li>Circle rate / government guideline value (telangana market value)</li>
-          <li>Recent market transactions</li>
-          <li>Property age & depreciation</li>
-          <li>Location quality & demand</li>
-          <li>Land value & construction cost</li>
-          <li>Amenities & condition of the building</li>
+          <li>✔ Circle rate / government guideline value (telangana market value)</li>
+          <li>✔ Recent market transactions</li>
+          <li>✔ Property age & depreciation</li>
+          <li>✔ Location quality & demand</li>
+          <li>✔ Land value & construction cost</li>
+          <li>✔ Amenities & condition of the building</li>
         </ul>
         <p>All reports follow international valuation standards (IVS).</p>
         
         <h2 class="font-headline text-2xl font-bold">What You Get in the Valuation Report</h2>
         <p>Our digital valuation report includes:</p>
         <ul class="list-disc list-inside space-y-2">
-          <li>Detailed property inspection details</li>
-          <li>Land & building valuation breakdown</li>
-          <li>Market comparison</li>
-          <li>Depreciation chart</li>
-          <li>Final certified value</li>
-          <li>Stamp duty & tax calculation (using official registration charges in telangana)</li>
-          <li>Reviewer signature & seal</li>
+          <li>✔ Detailed property inspection details</li>
+          <li>✔ Land & building valuation breakdown</li>
+          <li>✔ Market comparison</li>
+          <li>✔ Depreciation chart</li>
+          <li>✔ Final certified value</li>
+          <li>✔ Stamp duty & tax calculation (using official registration charges in telangana)</li>
+          <li>✔ Reviewer signature & seal</li>
         </ul>
         <p>Delivered within 24–48 hours.</p>
         
@@ -612,10 +769,10 @@ export let posts: Post[] = [
         <h2 class="font-headline text-2xl font-bold">How to Book a Valuation?</h2>
         <p>Booking is simple with <a href="https://www.jaaga.ai" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">JaaGa</a>:</p>
         <ol class="list-decimal list-inside space-y-2">
-          <li>Share property details on our platform.</li>
-          <li>Schedule inspection</li>
-          <li>Valuer visits site</li>
-          <li>Report prepared and delivered digitally</li>
+          <li>✔ Share property details on our platform.</li>
+          <li>✔ Schedule inspection</li>
+          <li>✔ Valuer visits site</li>
+          <li>✔ Report prepared and delivered digitally</li>
         </ol>
         
         <h2 class="font-headline text-2xl font-bold">Conclusion</h2>
@@ -658,10 +815,10 @@ export let posts: Post[] = [
         <h2 class="font-headline text-2xl font-bold">How to Download FMB and Village Maps from JaaGa (Andhra Pradesh) – Step-by-Step Guide 2025</h2>
         <p>The <strong>Village Map</strong> and <strong>FMB (Field Measurement Book) Map</strong> are crucial land documents in Andhra Pradesh. Together, they provide:</p>
         <ul class="list-disc list-inside space-y-2">
-            <li>Exact survey boundaries of each land parcel</li>
-            <li>Sub-division & extent details</li>
-            <li>Geographical layout of the entire village</li>
-            <li>Survey-wise measurement representation in scale</li>
+            <li>✔ Exact survey boundaries of each land parcel</li>
+            <li>✔ Sub-division & extent details</li>
+            <li>✔ Geographical layout of the entire village</li>
+            <li>✔ Survey-wise measurement representation in scale</li>
         </ul>
         <p>Earlier, these maps were available only through the Revenue Office or Mandal Surveyor. But now, <a href="https://www.jaaga.ai" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">JaaGa</a> allows <strong>instant digital access</strong> to both documents using only basic land details.</p>
         
@@ -714,8 +871,8 @@ export let posts: Post[] = [
         <p>As shown in the screenshot:</p>
         <img src="https://ik.imagekit.io/jaaga/Screenshot%202025-11-07%20151229.png?updatedAt=1762508622344" alt="Enter Property Details on JaaGa" class="rounded-lg my-4" />
         <ol class="list-decimal list-inside space-y-2">
-            <li><strong>Village or Division</strong> – Start typing and select from the dropdown</li>
-            <li><strong>Survey Number</strong> – Enter exact survey number</li>
+            <li>✔ <strong>Village or Division</strong> – Start typing and select from the dropdown</li>
+            <li>✔ <strong>Survey Number</strong> – Enter exact survey number</li>
         </ol>
         <p><em>These two fields are mandatory to fetch the correct FMB sheet and village map.</em></p>
 
@@ -755,11 +912,11 @@ export let posts: Post[] = [
 
         <h2 class="font-headline text-2xl font-bold">Why Download FMB & Village Maps?</h2>
         <ul class="list-disc list-inside space-y-2">
-            <li>✔️ Proof of exact land measurement</li>
-            <li>✔️ Used in land disputes & boundary verification</li>
-            <li>✔️ Required for layout approvals & plotting</li>
-            <li>✔️ Mandatory in many bank loan processes</li>
-            <li>✔️ Helps verify encroachment & overlaps</li>
+            <li>✔ Proof of exact land measurement</li>
+            <li>✔ Used in land disputes & boundary verification</li>
+            <li>✔ Required for layout approvals & plotting</li>
+            <li>✔ Mandatory in many bank loan processes</li>
+            <li>✔ Helps verify encroachment & overlaps</li>
         </ul>
         
         <hr class="my-8" />
@@ -800,11 +957,11 @@ export let posts: Post[] = [
         <h2 class="font-headline text-2xl font-bold">How to Download Telangana Pattadar Passbook (Pahani) Online — Step-by-Step Guide Using <a href="https://www.jaaga.ai" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">JaaGa</a></h2>
         <p>The <strong>Pattadar Passbook</strong>, commonly called <strong>Pahani</strong>, is an essential land ownership document in Telangana. It provides key details such as:</p>
         <ul class="list-disc list-inside space-y-2">
-            <li>Owner’s name</li>
-            <li>Land survey number</li>
-            <li>Total land extent</li>
-            <li>Classification of land (agriculture, commercial, etc.)</li>
-            <li>Cultivation details and crop history</li>
+            <li>✔ Owner’s name</li>
+            <li>✔ Land survey number</li>
+            <li>✔ Total land extent</li>
+            <li>✔ Classification of land (agriculture, commercial, etc.)</li>
+            <li>✔ Cultivation details and crop history</li>
         </ul>
         <p>Traditionally, retrieving a Pahani document required multiple visits to the Revenue Department office. Now, with <strong><a href="https://www.jaaga.ai" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">JaaGa</a>’s simplified interface</strong>, landowners can conveniently download their <strong>pahani telangana</strong> online without the hassle.</p>
         <p>This guide walks you through how to download the Telangana Pattadar Passbook using <strong><a href="https://www.jaaga.ai" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">JaaGa</a>’s land record tools</strong>.</p>
@@ -814,16 +971,16 @@ export let posts: Post[] = [
         <h2 class="font-headline text-2xl font-bold">Why Use <a href="https://www.jaaga.ai" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">JaaGa</a>?</h2>
         <p><a href="https://www.jaaga.ai" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">JaaGa</a> integrates directly with government portals like <strong>dharani telangana</strong>, offering a user-friendly way to:</p>
         <ul class="list-disc list-inside space-y-2">
-            <li>Search property records and telangana land records</li>
-            <li>Verify land ownership</li>
-            <li>Download certified documents like <strong>Pahani / ROR 1B</strong></li>
-            <li>Track changes like mutation status and EC (encumbrance certificate telangana)</li>
+            <li>✔ Search property records and telangana land records</li>
+            <li>✔ Verify land ownership</li>
+            <li>✔ Download certified documents like <strong>Pahani / ROR 1B</strong></li>
+            <li>✔ Track changes like mutation status and EC (encumbrance certificate telangana)</li>
         </ul>
         <p>Unlike manual searching, <a href="https://www.jaaga.ai" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">JaaGa</a> provides:</p>
         <ul class="list-disc list-inside space-y-2">
-            <li>A guided form for entry</li>
-            <li>Automatic validation of entries</li>
-            <li>Fast access to official PDFs</li>
+            <li>✔ A guided form for entry</li>
+            <li>✔ Automatic validation of entries</li>
+            <li>✔ Fast access to official PDFs</li>
         </ul>
         
         <hr class="my-8" />
@@ -842,9 +999,9 @@ export let posts: Post[] = [
         <h3 class="font-headline text-xl font-bold">Step 3: Enter the Required Land Details</h3>
         <p>Fill in the simple 3-field form:</p>
         <ol class="list-decimal list-inside space-y-2">
-            <li><strong>Village or Division</strong> – Start typing your village name and select from the dropdown.</li>
-            <li><strong>Survey Number</strong> – Enter the exact survey number of the land.</li>
-            <li><strong>Khata Number</strong> – Input your Khata Number (available on older land documents or passbook).</li>
+            <li>✔ <strong>Village or Division</strong> – Start typing your village name and select from the dropdown.</li>
+            <li>✔ <strong>Survey Number</strong> – Enter the exact survey number of the land.</li>
+            <li>✔ <strong>Khata Number</strong> – Input your Khata Number (available on older land documents or passbook).</li>
         </ol>
         <p>📸 <em>As shown in the screenshot above, these fields are mandatory.</em></p>
 
@@ -858,8 +1015,8 @@ export let posts: Post[] = [
         <h3 class="font-headline text-xl font-bold">Step 5: View and Download Your Pattadhar Passbook /  Pahani</h3>
         <p>Once your land record is retrieved:</p>
         <ul class="list-disc list-inside space-y-2">
-            <li>Click <strong>“Preview”</strong> to verify the details.</li>
-            <li>Select <strong>“Download Pattadhar Passbook /  Pahani”</strong> to get a certified PDF copy for your telangana land registration.</li>
+            <li>✔ Click <strong>“Preview”</strong> to verify the details.</li>
+            <li>✔ Select <strong>“Download Pattadhar Passbook /  Pahani”</strong> to get a certified PDF copy for your telangana land registration.</li>
         </ul>
         <p>You can save it for personal reference or print it for use in property-related transactions.</p>
         
@@ -904,7 +1061,7 @@ export let posts: Post[] = [
     metaDescription:
       "Learn how to download your Telangana Pattadar Passbook (Pahani) online using JaaGa. A step-by-step walkthrough using Survey No, Village, and Khata Number.",
     keywords:
-      "Telangana Pattadar Passbook, Download Pahani Online Telangana, Telangana Land Records, Dharani Portal Pahani, Telangana Property Documents, Survey Number Telangana, Khata Number Search, Village Land Records Telangana, Download ROR 1B Telangana, JaaGa Telangana property search, How to download Telangana Pattadar Passbook online, Step-by-step guide to get Pahani from Dharani portal, Access land records in Telangana using Khata number, Online Pahani download without visiting revenue office, Telangana Pahani certificate legal use and verification, Get certified copy of land records in Telangana, pahani telangana, ror 1b telangana, dharani telangana, telangana land records, telangana pahani",
+      "Telangana Pattadar Passbook, Download Pahani Online Telangana, Telangana Land Records, Dharani Portal Pahani, Telangana Property Documents, Survey Number Telangana, Khata Number Search, Village Land Records Telangana, Download ROR 1B Telangana, JaaGa Telangana property search, How to download Telangana Pattadar Passbook online, Step-by-step guide to get Pahani from Dharani portal, Access land records in Telangana using Khata number, Online Pahani download without visiting revenue office, Telangana Pahani certificate legal use and verification, Get certified copy of land records in Telangana, pahani telangana, ror 1b telangana, dharani telangana, telangana land records, telangana pahani, encumbrance certificate telangana, telangana registration",
   },
   {
     id: 19,
@@ -954,20 +1111,20 @@ export let posts: Post[] = [
         
         <h3 class="font-headline text-xl font-bold">📲 Step-by-Step Process</h3>
         <ol class="list-decimal list-inside space-y-2">
-            <li>Open the <a href="https://www.jaaga.ai" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">JaaGa</a> App (Android / iOS) or visit <a href="https://www.jaaga.ai" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">jaaga.ai</a></li>
-            <li>Log in or create a free account</li>
-            <li>Select "Telangana" as the state</li>
-            <li>Tap on "Mutation Certificate"</li>
-            <li>Enter any one of the following:
+            <li>✔ Open the <a href="https://www.jaaga.ai" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">JaaGa</a> App (Android / iOS) or visit <a href="https://www.jaaga.ai" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">jaaga.ai</a></li>
+            <li>✔ Log in or create a free account</li>
+            <li>✔ Select "Telangana" as the state</li>
+            <li>✔ Tap on "Mutation Certificate"</li>
+            <li>✔ Enter any one of the following:
                 <ul class="list-disc list-inside ml-4">
                     <li>PTIN Number</li>
                     <li>Owner Name + Door Number</li>
                     <li>Circle/Ward Details</li>
                 </ul>
             </li>
-            <li>Tap Search</li>
-            <li>Once your mutation record is found, tap “View Certificate”</li>
-            <li>Download, save, or share the PDF copy instantly</li>
+            <li>✔ Tap Search</li>
+            <li>✔ Once your mutation record is found, tap “View Certificate”</li>
+            <li>✔ Download, save, or share the PDF copy instantly</li>
         </ol>
         <p>✅ No physical visit<br/>✅ No file number required<br/>✅ Works for GHMC &amp; other municipalities in Telangana</p>
         
@@ -1078,7 +1235,7 @@ With the <a href="https://www.jaaga.ai" class="text-primary hover:underline" tar
     metaDescription:
       "Learn how to download the GHMC Mutation Certificate online in Telangana using the JaaGa app. Search by PTIN, owner name, or door number and get the certificate instantly.",
     keywords:
-      "GHMC Mutation Certificate Download, Mutation Certificate Telangana Online, Download Mutation Certificate using PTIN, Telangana Property Mutation Online, GHMC Property Ownership Transfer, How to Get Mutation Certificate in Telangana, GHMC PTIN Mutation Status, Property Mutation Certificate Telangana, Online Mutation Certificate GHMC, JaaGa Telangana Property Documents, mutation certificate telangana, telangana land records, dharani telangana",
+      "GHMC Mutation Certificate Download, Mutation Certificate Telangana Online, Download Mutation Certificate using PTIN, Telangana Property Mutation Online, GHMC Property Ownership Transfer, How to Get Mutation Certificate in Telangana, GHMC PTIN Mutation Status, Property Mutation Certificate Telangana, Online Mutation Certificate GHMC, JaaGa Telangana Property Documents, mutation certificate telangana, telangana land records, dharani telangana, telangana registration, ec telangana, sro telangana",
   },
   {
     id: 18,
@@ -1096,49 +1253,49 @@ With the <a href="https://www.jaaga.ai" class="text-primary hover:underline" tar
 
         <h3 class="font-headline text-xl font-bold">Key Highlights</h3>
         <ul class="list-disc list-inside space-y-2">
-          <li><strong>Issued by:</strong> Telangana Registration & Stamps Department (SRO)</li>
-          <li><strong>Legally valid:</strong> Yes – contains seal + digital or physical signature</li>
-          <li><strong>Mandatory for:</strong> Home loans, resale, court cases, property transfer</li>
-          <li><strong>Available online through:</strong> <a href="https://www.jaaga.ai" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">JaaGa.ai</a> – no SRO visit required for your telangana registration document download.</li>
+          <li>✔ <strong>Issued by:</strong> Telangana Registration & Stamps Department (SRO)</li>
+          <li>✔ <strong>Legally valid:</strong> Yes – contains seal + digital or physical signature</li>
+          <li>✔ <strong>Mandatory for:</strong> Home loans, resale, court cases, property transfer</li>
+          <li>✔ <strong>Available online through:</strong> <a href="https://www.jaaga.ai" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">JaaGa.ai</a> – no SRO visit required for your telangana registration document download.</li>
         </ul>
 
         <h2 class="font-headline text-2xl font-bold">How to Download a Certified EC in Telangana Using <a href="https://www.jaaga.ai" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">JaaGa.ai</a>?</h2>
         <p>With <a href="https://www.jaaga.ai" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">JaaGa.ai</a>, you can apply online and download a signed Certified EC without standing in queues at the Sub-Registrar Office. Here is the complete step-by-step process:</p>
 
         <ol class="list-decimal list-inside space-y-2">
-          <li>Visit <strong><a href="https://www.jaaga.ai" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">JaaGa.ai</a></strong> and log in or create an account.</li>
-          <li>Select <strong>Property Documents</strong> and choose <strong>Telangana</strong> from the dropdown.</li>
-          <li>Tap on <strong>Encumbrance Certificate (EC)</strong> or <strong>Certified EC</strong>.</li>
-          <li>Select one of the search options:
+          <li>✔ Visit <strong><a href="https://www.jaaga.ai" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">JaaGa.ai</a></strong> and log in or create an account.</li>
+          <li>✔ Select <strong>Property Documents</strong> and choose <strong>Telangana</strong> from the dropdown.</li>
+          <li>✔ Tap on <strong>Encumbrance Certificate (EC)</strong> or <strong>Certified EC</strong>.</li>
+          <li>✔ Select one of the search options:
             <ul class="list-disc list-inside ml-4">
               <li><strong>EC by Document Number</strong> – Enter SRO, Document No, Registration Year</li>
               <li><strong>EC by Property Details</strong> – Enter District, Mandal, Village, Survey/Door/Flat No</li>
             </ul>
           </li>
-          <li>Verify property details shown on screen and pay the applicable fee.</li>
-          <li>Once processed by the SRO, click <strong>“View Document”</strong> to download the signed Certified EC in PDF format. This is how you can download encumbrance certificate telangana.</li>
+          <li>✔ Verify property details shown on screen and pay the applicable fee.</li>
+          <li>✔ Once processed by the SRO, click <strong>“View Document”</strong> to download the signed Certified EC in PDF format. This is how you can download encumbrance certificate telangana.</li>
         </ol>
 
         <p>The entire process is online — no broker, no physical visit, no manual forms.</p>
 
         <h2 class="font-headline text-2xl font-bold">Details You Will Find in a Certified Encumbrance Certificate</h2>
         <ul class="list-disc list-inside space-y-2">
-          <li>Current and previous owner names</li>
-          <li>Survey number, subdivision, or municipal door/flat number from telangana land records</li>
-          <li>All registered transactions: sale deed, gift deed, mortgage, release, partition, etc.</li>
-          <li>Encumbrance period (10/20/30 years or custom range)</li>
-          <li>Nil EC – issued if no transactions exist</li>
-          <li>Jurisdictional SRO name and code</li>
-          <li>Registrar’s seal, digital signature, and reference number</li>
+          <li>✔ Current and previous owner names</li>
+          <li>✔ Survey number, subdivision, or municipal door/flat number from telangana land records</li>
+          <li>✔ All registered transactions: sale deed, gift deed, mortgage, release, partition, etc.</li>
+          <li>✔ Encumbrance period (10/20/30 years or custom range)</li>
+          <li>✔ Nil EC – issued if no transactions exist</li>
+          <li>✔ Jurisdictional SRO name and code</li>
+          <li>✔ Registrar’s seal, digital signature, and reference number</li>
         </ul>
 
         <h2 class="font-headline text-2xl font-bold">Why Do You Need a Certified EC in Telangana?</h2>
         <ul class="list-disc list-inside space-y-2">
-          <li><strong>Home Loans:</strong> Banks require a Certified EC before sanctioning property loans.</li>
-          <li><strong>Property Sale/Resale:</strong> Buyers demand EC to verify clean title.</li>
-          <li><strong>Court &amp; Legal Cases:</strong> Only signed Certified EC is accepted as evidence.</li>
-          <li><strong>Inheritance &amp; Family Settlement:</strong> Used during mutation and succession.</li>
-          <li><strong>Government Permissions:</strong> Required for building permits, layout approvals, etc.</li>
+          <li>✔ <strong>Home Loans:</strong> Banks require a Certified EC before sanctioning property loans.</li>
+          <li>✔ <strong>Property Sale/Resale:</strong> Buyers demand EC to verify clean title.</li>
+          <li>✔ <strong>Court &amp; Legal Cases:</strong> Only signed Certified EC is accepted as evidence.</li>
+          <li>✔ <strong>Inheritance &amp; Family Settlement:</strong> Used during mutation and succession.</li>
+          <li>✔ <strong>Government Permissions:</strong> Required for building permits, layout approvals, etc.</li>
         </ul>
 
         <h2 class="font-headline text-2xl font-bold">Difference Between Online EC and Certified EC</h2>
@@ -1169,10 +1326,10 @@ With the <a href="https://www.jaaga.ai" class="text-primary hover:underline" tar
 
         <h2 class="font-headline text-2xl font-bold">Common Mistakes to Avoid</h2>
         <ul class="list-disc list-inside space-y-2">
-          <li>Entering the wrong SRO or survey number</li>
-          <li>Applying for wrong year range (example: 10 years instead of 30)</li>
-          <li>Using online EC instead of certified EC for bank/legal use</li>
-          <li>Not verifying spelling of owner names</li>
+          <li>✔ Entering the wrong SRO or survey number</li>
+          <li>✔ Applying for wrong year range (example: 10 years instead of 30)</li>
+          <li>✔ Using online EC instead of certified EC for bank/legal use</li>
+          <li>✔ Not verifying spelling of owner names</li>
         </ul>
 
         <h2 class="font-headline text-2xl font-bold">Frequently Asked Questions (FAQ)</h2>
@@ -1210,7 +1367,7 @@ With the <a href="https://www.jaaga.ai" class="text-primary hover:underline" tar
     metaDescription:
       "Step-by-step guide on how to download a certified Encumbrance Certificate (EC) in Telangana using JaaGa.ai. Legally valid for home loans, property sales, and court cases.",
     keywords:
-      "certified ec telangana, download encumbrance certificate telangana, telangana ec online, jaaga.ai ec service, property documents telangana, encumbrance certificate telangana, ec telangana, igrs telangana, telangana ec search, dharani telangana, telangana registration, ec download telangana",
+      "certified ec telangana, download encumbrance certificate telangana, telangana ec online, jaaga.ai ec service, property documents telangana, encumbrance certificate telangana, ec telangana, igrs telangana, telangana ec search, dharani telangana, telangana registration, ec download telangana, telangana land records",
   },
   {
     id: 17,
@@ -1226,58 +1383,58 @@ With the <a href="https://www.jaaga.ai" class="text-primary hover:underline" tar
         
         <h3 class="font-headline text-xl font-bold">💡 Why is Mutation Important?</h3>
         <ul class="list-disc list-inside space-y-2">
-            <li>Updating government records (like dharani telangana) with your ownership</li>
-            <li>Selling or transferring property in the future</li>
-            <li>Applying for home loans or land development</li>
-            <li>Avoiding property disputes or double registrations</li>
-            <li>Getting property tax in your name</li>
+            <li>✔ Updating government records (like dharani telangana) with your ownership</li>
+            <li>✔ Selling or transferring property in the future</li>
+            <li>✔ Applying for home loans or land development</li>
+            <li>✔ Avoiding property disputes or double registrations</li>
+            <li>✔ Getting property tax in your name</li>
         </ul>
         <p>⚠️ Note: Even if you have a registered sale deed, if mutation is not done, government still shows the old owner’s name!</p>
 
         <h3 class="font-headline text-xl font-bold">Mutation Certificate Includes:</h3>
         <ul class="list-disc list-inside space-y-2">
-            <li>Owner name</li>
-            <li>Survey number / Plot number</li>
-            <li>Extent of land (area)</li>
-            <li>Village / Mandal / District</li>
-            <li>Nature of transaction (sale/gift/inheritance)</li>
-            <li>Date of mutation</li>
-            <li>Mutation reference number</li>
+            <li>✔ Owner name</li>
+            <li>✔ Survey number / Plot number</li>
+            <li>✔ Extent of land (area)</li>
+            <li>✔ Village / Mandal / District</li>
+            <li>✔ Nature of transaction (sale/gift/inheritance)</li>
+            <li>✔ Date of mutation</li>
+            <li>✔ Mutation reference number</li>
         </ul>
 
         <h2 class="font-headline text-2xl font-bold">Steps to Apply Mutation in Telangana Using the <a href="https://www.jaaga.ai" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">JaaGa</a> App (2025)</h2>
         <h3 class="font-headline text-xl font-bold">Step 1: Install the <a href="https://www.jaaga.ai" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">JaaGa</a> App</h3>
         <ul class="list-disc list-inside space-y-2">
-            <li>Go to the Google Play Store or Apple App Store</li>
-            <li>Search for “JaaGa: Digital Property Docs”</li>
-            <li>Tap Install and open the app</li>
-            <li>Or Visit <a href="https://www.jaaga.ai" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">JaaGa</a> Website: <a href="https://www.jaaga.ai/services/property-services/mutation-creation" target="_blank" rel="noopener noreferrer" class="text-primary hover:underline">https://www.jaaga.ai/services/property-services/mutation-creation</a></li>
-            <li>Log in or register as a new user.</li>
+            <li>✔ Go to the Google Play Store or Apple App Store</li>
+            <li>✔ Search for “JaaGa: Digital Property Docs”</li>
+            <li>✔ Tap Install and open the app</li>
+            <li>✔ Or Visit <a href="https://www.jaaga.ai" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">JaaGa</a> Website: <a href="https://www.jaaga.ai/services/property-services/mutation-creation" target="_blank" rel="noopener noreferrer" class="text-primary hover:underline">https://www.jaaga.ai/services/property-services/mutation-creation</a></li>
+            <li>✔ Log in or register as a new user.</li>
         </ul>
 
         <h3 class="font-headline text-xl font-bold">Step 2: Enter Required Property Details</h3>
         <p>Enter your:</p>
         <ul class="list-disc list-inside space-y-2">
-            <li>Owner Name</li>
-            <li>Village/Division</li>
-            <li>SRO (sro telangana)</li>
+            <li>✔ Owner Name</li>
+            <li>✔ Village/Division</li>
+            <li>✔ SRO (sro telangana)</li>
         </ul>
 
         <h3 class="font-headline text-xl font-bold">Step 3: Upload Supporting Documents</h3>
         <p>Usually required for telangana land registration:</p>
         <ul class="list-disc list-inside space-y-2">
-            <li>Registered Sale Deed / Gift Deed / Partition Deed Party 1</li>
-            <li>Registered Sale Deed / Gift Deed / Partition Deed Party 2</li>
-            <li>Id &amp; Address Proof</li>
-            <li>Property Tax Receipt</li>
-            <li>Latest Encumbrance Certificate (EC)</li>
+            <li>✔ Registered Sale Deed / Gift Deed / Partition Deed Party 1</li>
+            <li>✔ Registered Sale Deed / Gift Deed / Partition Deed Party 2</li>
+            <li>✔ Id &amp; Address Proof</li>
+            <li>✔ Property Tax Receipt</li>
+            <li>✔ Latest Encumbrance Certificate (EC)</li>
         </ul>
         <p>📌 Don’t worry — the app guides you step-by-step on what documents are needed based on your case.</p>
 
         <h3 class="font-headline text-xl font-bold">Step 4: Pay the Service Fee</h3>
         <ul class="list-disc list-inside space-y-2">
-            <li>Fees vary by property type &amp; location (service fee - ₹1,999 )</li>
-            <li>Make the payment to proceed with further steps</li>
+            <li>✔ Fees vary by property type &amp; location (service fee - ₹1,999 )</li>
+            <li>✔ Make the payment to proceed with further steps</li>
         </ul>
 
         <h3 class="font-headline text-xl font-bold">Step 6: Support Team Contact</h3>
@@ -1286,20 +1443,20 @@ With the <a href="https://www.jaaga.ai" class="text-primary hover:underline" tar
         <h2 class="font-headline text-2xl font-bold">Districts & Municipalities Supported</h2>
         <p><a href="https://www.jaaga.ai" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">JaaGa</a> supports mutation filing for all districts and mandals in Telangana, including:</p>
         <ul class="list-disc list-inside space-y-2">
-            <li>Hyderabad, Rangareddy, Medchal</li>
-            <li>Warangal, Karimnagar, Nizamabad, Khammam</li>
-            <li>Mahbubnagar, Nalgonda, Siddipet, Suryapet</li>
-            <li>All revenue villages under the Dharani portal</li>
+            <li>✔ Hyderabad, Rangareddy, Medchal</li>
+            <li>✔ Warangal, Karimnagar, Nizamabad, Khammam</li>
+            <li>✔ Mahbubnagar, Nalgonda, Siddipet, Suryapet</li>
+            <li>✔ All revenue villages under the Dharani portal</li>
         </ul>
         <p>✅ Whether your property is agricultural or non-agricultural, <a href="https://www.jaaga.ai" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">JaaGa</a> supports both.</p>
 
         <h2 class="font-headline text-2xl font-bold">🔐 Is <a href="https://www.jaaga.ai" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">JaaGa</a> Safe?</h2>
         <p>Yes! The <a href="https://www.jaaga.ai" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">JaaGa</a> App:</p>
         <ul class="list-disc list-inside space-y-2">
-            <li>Uses government APIs (Dharani, Registration Dept., CDMA)</li>
-            <li>Fetches official data directly from telangana land records</li>
-            <li>Uses encrypted &amp; secure storage</li>
-            <li>Is trusted by 1000s of Telangana property owners</li>
+            <li>✔ Uses government APIs (Dharani, Registration Dept., CDMA)</li>
+            <li>✔ Fetches official data directly from telangana land records</li>
+            <li>✔ Uses encrypted &amp; secure storage</li>
+            <li>✔ Is trusted by 1000s of Telangana property owners</li>
         </ul>
 
         <h2 class="font-headline text-2xl font-bold">🤔 What If I Don’t Know My Survey Number or SRO?</h2>
@@ -1346,7 +1503,7 @@ With the <a href="https://www.jaaga.ai" class="text-primary hover:underline" tar
     metaDescription:
       "Easily apply for mutation in Telangana online using the JaaGa App. Step-by-step guide to update land ownership records, check mutation status, and download your mutation certificate securely in 2025.",
     keywords:
-      "mutation Telangana, apply mutation online Telangana, Telangana land mutation certificate, how to apply mutation in Telangana 2025, JaaGa mutation service Telangana, Dharani mutation application, mutation status Telangana online, mutation certificate download Telangana, JaaGa app mutation guide, dharani telangana, telangana land records, mutation certificate telangana",
+      "mutation Telangana, apply mutation online Telangana, Telangana land mutation certificate, how to apply mutation in Telangana 2025, JaaGa mutation service Telangana, Dharani mutation application, mutation status Telangana online, mutation certificate download Telangana, JaaGa app mutation guide, dharani telangana, telangana land records, mutation certificate telangana, telangana land registration, sro telangana, igrs telangana",
   },
   {
     id: 16,
@@ -1364,12 +1521,12 @@ With the <a href="https://www.jaaga.ai" class="text-primary hover:underline" tar
         
         <h3 class="font-headline text-xl font-bold">Key Details Mentioned in Patta:</h3>
         <ul class="list-disc list-inside space-y-2">
-            <li>Owner’s name</li>
-            <li>Survey number and sub-division</li>
-            <li>Land area</li>
-            <li>Village/Town and District</li>
-            <li>Land type (agricultural, non-agricultural)</li>
-            <li>Patta number and date of issue</li>
+            <li>✔ Owner’s name</li>
+            <li>✔ Survey number and sub-division</li>
+            <li>✔ Land area</li>
+            <li>✔ Village/Town and District</li>
+            <li>✔ Land type (agricultural, non-agricultural)</li>
+            <li>✔ Patta number and date of issue</li>
         </ul>
 
         <h2 class="font-headline text-2xl font-bold">What is a Chitta?</h2>
@@ -1377,11 +1534,11 @@ With the <a href="https://www.jaaga.ai" class="text-primary hover:underline" tar
 
         <h3 class="font-headline text-xl font-bold">Key Details Mentioned in Chitta:</h3>
         <ul class="list-disc list-inside space-y-2">
-            <li>Owner’s name</li>
-            <li>Survey number</li>
-            <li>Land area</li>
-            <li>Classification (e.g., wetland, dry land)</li>
-            <li>Usage type (residential, agricultural, commercial)</li>
+            <li>✔ Owner’s name</li>
+            <li>✔ Survey number</li>
+            <li>✔ Land area</li>
+            <li>✔ Classification (e.g., wetland, dry land)</li>
+            <li>✔ Usage type (residential, agricultural, commercial)</li>
         </ul>
 
         <h2 class="font-headline text-2xl font-bold">Difference Between Patta and Chitta</h2>
@@ -1424,37 +1581,37 @@ With the <a href="https://www.jaaga.ai" class="text-primary hover:underline" tar
 
         <h3 class="font-headline text-xl font-bold">Online Process:</h3>
         <ol class="list-decimal list-inside space-y-2">
-            <li>Visit the Tamil Nadu e-Services Portal or use a service like <a href="https://www.jaaga.ai" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">JaaGa</a>.</li>
-            <li>Navigate to the “Land Records” section.</li>
-            <li>Select “Patta/Chitta” application.</li>
-            <li>Enter details like survey number, district, taluk, and village.</li>
-            <li>Submit the required documents (previous patta, tax receipts, ID proof).</li>
-            <li>Pay applicable fees online.</li>
-            <li>Track your application status on the portal.</li>
+            <li>✔ Visit the Tamil Nadu e-Services Portal or use a service like <a href="https://www.jaaga.ai" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">JaaGa</a>.</li>
+            <li>✔ Navigate to the “Land Records” section.</li>
+            <li>✔ Select “Patta/Chitta” application.</li>
+            <li>✔ Enter details like survey number, district, taluk, and village.</li>
+            <li>✔ Submit the required documents (previous patta, tax receipts, ID proof).</li>
+            <li>✔ Pay applicable fees online.</li>
+            <li>✔ Track your application status on the portal.</li>
         </ol>
 
         <h3 class="font-headline text-xl font-bold">Offline Process:</h3>
         <ol class="list-decimal list-inside space-y-2">
-            <li>Visit the local Taluk or Revenue Office.</li>
-            <li>Fill out the Patta/Chitta application form.</li>
-            <li>Submit supporting documents:
+            <li>✔ Visit the local Taluk or Revenue Office.</li>
+            <li>✔ Fill out the Patta/Chitta application form.</li>
+            <li>✔ Submit supporting documents:
                 <ul class="list-disc list-inside ml-4">
                     <li>Previous patta or sale deed</li>
                     <li>ID proof of applicant</li>
                     <li>Land tax receipts</li>
                 </ul>
             </li>
-            <li>Pay the prescribed fees.</li>
-            <li>Collect the document once approved.</li>
+            <li>✔ Pay the prescribed fees.</li>
+            <li>✔ Collect the document once approved.</li>
         </ol>
 
         <h2 class="font-headline text-2xl font-bold">Importance of Patta/Chitta Documents</h2>
         <ul class="list-disc list-inside space-y-2">
-            <li><strong>Legal Proof:</strong> Establishes ownership in court or legal matters.</li>
-            <li><strong>Property Transactions:</strong> Required for selling or buying land.</li>
-            <li><strong>Loans and Mortgages:</strong> Banks require Patta as a primary document for property-backed loans.</li>
-            <li><strong>Dispute Resolution:</strong> Helps in resolving land disputes and ownership claims.</li>
-            <li><strong>Government Schemes:</strong> Necessary for applying to government land-related schemes.</li>
+            <li>✔ <strong>Legal Proof:</strong> Establishes ownership in court or legal matters.</li>
+            <li>✔ <strong>Property Transactions:</strong> Required for selling or buying land.</li>
+            <li>✔ <strong>Loans and Mortgages:</strong> Banks require Patta as a primary document for property-backed loans.</li>
+            <li>✔ <strong>Dispute Resolution:</strong> Helps in resolving land disputes and ownership claims.</li>
+            <li>✔ <strong>Government Schemes:</strong> Necessary for applying to government land-related schemes.</li>
         </ul>
 
         <h2 class="font-headline text-2xl font-bold">How to Verify Patta/Chitta Online</h2>
@@ -1462,10 +1619,10 @@ With the <a href="https://www.jaaga.ai" class="text-primary hover:underline" tar
         
         <h3 class="font-headline text-xl font-bold">Steps:</h3>
         <ol class="list-decimal list-inside space-y-2">
-            <li>Go to the “View Patta/Chitta” section on the official portal or <a href="https://www.jaaga.ai" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">JaaGa</a>.</li>
-            <li>Enter district, taluk, village, and survey number.</li>
-            <li>Click “Search” to view the land records.</li>
-            <li>Download or print the document for future reference.</li>
+            <li>✔ Go to the “View Patta/Chitta” section on the official portal or <a href="https://www.jaaga.ai" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">JaaGa</a>.</li>
+            <li>✔ Enter district, taluk, village, and survey number.</li>
+            <li>✔ Click “Search” to view the land records.</li>
+            <li>✔ Download or print the document for future reference.</li>
         </ol>
 
         <h2 class="font-headline text-2xl font-bold">Conclusion</h2>
@@ -1504,11 +1661,11 @@ With the <a href="https://www.jaaga.ai" class="text-primary hover:underline" tar
         
         <h2 class="font-headline text-2xl font-bold">Why Proving Property Ownership Matters</h2>
         <ul class="list-disc space-y-2 pl-6">
-            <li><strong>Selling property:</strong> Buyers will demand clear documents before purchase.</li>
-            <li><strong>Property disputes:</strong> Courts rely on ownership documents to decide cases.</li>
-            <li><strong>Bank loans:</strong> Financial institutions require proof before approving home loans.</li>
-            <li><strong>Inheritance and transfer:</strong> Heirs need proper documents to update records.</li>
-            <li><strong>Government schemes:</strong> Subsidies, compensation, or regularization require ownership proof.</li>
+            <li>✔ <strong>Selling property:</strong> Buyers will demand clear documents before purchase.</li>
+            <li>✔ <strong>Property disputes:</strong> Courts rely on ownership documents to decide cases.</li>
+            <li>✔ <strong>Bank loans:</strong> Financial institutions require proof before approving home loans.</li>
+            <li>✔ <strong>Inheritance and transfer:</strong> Heirs need proper documents to update records.</li>
+            <li>✔ <strong>Government schemes:</strong> Subsidies, compensation, or regularization require ownership proof.</li>
         </ul>
 
         <h2 class="font-headline text-2xl font-bold">Key Documents That Prove Property Ownership in India</h2>
@@ -1533,29 +1690,29 @@ With the <a href="https://www.jaaga.ai" class="text-primary hover:underline" tar
         
         <h2 class="font-headline text-2xl font-bold">How to Verify Property Ownership Step by Step</h2>
         <ol class="list-decimal list-inside space-y-2">
-            <li><strong>Check Sub-Registrar Records:</strong> Verify registered Sale Deeds and request certified copies if originals are missing.</li>
-            <li><strong>Download EC Online:</strong> Use IGRS Telangana EC Search, the IGRS AP Portal, or a simplified platform like <a href="https://www.jaaga.ai" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">JaaGa</a> for your ec search telangana.</li>
-            <li><strong>Verify Mutation / RoR Records:</strong> Check the Dharani Portal (Telangana) or MeeBhoomi AP (Andhra Pradesh).</li>
-            <li><strong>Cross-check Tax and Utility Bills:</strong> Ensure property tax payments match ownership records.</li>
-            <li><strong>Use Legal Verification Services:</strong> Platforms like <a href="https://www.jaaga.ai" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">JaaGa</a> simplify retrieval and verification and provide a digital locker for long-term safety.</li>
+            <li>✔ <strong>Check Sub-Registrar Records:</strong> Verify registered Sale Deeds and request certified copies if originals are missing.</li>
+            <li>✔ <strong>Download EC Online:</strong> Use IGRS Telangana EC Search, the IGRS AP Portal, or a simplified platform like <a href="https://www.jaaga.ai" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">JaaGa</a> for your ec search telangana.</li>
+            <li>✔ <strong>Verify Mutation / RoR Records:</strong> Check the Dharani Portal (Telangana) or MeeBhoomi AP (Andhra Pradesh).</li>
+            <li>✔ <strong>Cross-check Tax and Utility Bills:</strong> Ensure property tax payments match ownership records.</li>
+            <li>✔ <strong>Use Legal Verification Services:</strong> Platforms like <a href="https://www.jaaga.ai" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">JaaGa</a> simplify retrieval and verification and provide a digital locker for long-term safety.</li>
         </ol>
 
         <h2 class="font-headline text-2xl font-bold">Common Legal Issues in Property Ownership</h2>
         <ul class="list-disc space-y-2 pl-6">
-            <li><strong>Disputed Titles:</strong> Multiple claims on the same property due to missing records.</li>
-            <li><strong>Fake Documents or Forgery:</strong> Illegal Sale Deeds, fake ECs, or forged signatures.</li>
-            <li><strong>Encroachments:</strong> Illegal occupation of property boundaries.</li>
-            <li><strong>Inheritance Conflicts:</strong> Disputes among legal heirs when ownership transfer is unclear.</li>
-            <li><strong>Unpaid Taxes and Loans:</strong> Mortgaged properties or pending tax dues can affect ownership rights.</li>
+            <li>✔ <strong>Disputed Titles:</strong> Multiple claims on the same property due to missing records.</li>
+            <li>✔ <strong>Fake Documents or Forgery:</strong> Illegal Sale Deeds, fake ECs, or forged signatures.</li>
+            <li>✔ <strong>Encroachments:</strong> Illegal occupation of property boundaries.</li>
+            <li>✔ <strong>Inheritance Conflicts:</strong> Disputes among legal heirs when ownership transfer is unclear.</li>
+            <li>✔ <strong>Unpaid Taxes and Loans:</strong> Mortgaged properties or pending tax dues can affect ownership rights.</li>
         </ul>
         
         <h2 class="font-headline text-2xl font-bold">How <a href="https://www.jaaga.ai" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">JaaGa</a> Helps Prove Property Ownership</h2>
         <ul class="list-disc space-y-2 pl-6">
-            <li>Retrieve Sale Deeds, ECs, Tax Receipts online.</li>
-            <li>Verified documents directly from government portals.</li>
-            <li>Secure digital locker for safe storage.</li>
-            <li>Legal verification of ownership and encumbrance.</li>
-            <li>Saves time, no need for middlemen or multiple office visits.</li>
+            <li>✔ Retrieve Sale Deeds, ECs, Tax Receipts online.</li>
+            <li>✔ Verified documents directly from government portals.</li>
+            <li>✔ Secure digital locker for safe storage.</li>
+            <li>✔ Legal verification of ownership and encumbrance.</li>
+            <li>✔ Saves time, no need for middlemen or multiple office visits.</li>
         </ul>
         <p>👉 Visit <a href="https://www.jaaga.ai" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">www.jaaga.ai</a> to prove your property ownership in a few clicks.</p>
 
@@ -1680,5 +1837,7 @@ With the <a href="https://www.jaaga.ai" class="text-primary hover:underline" tar
 ]
     
 
+
+    
 
     
