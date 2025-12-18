@@ -273,7 +273,7 @@ export let posts: Post[] = [
     `,
     category: "legal-verification",
     tags: ["property registration online", "digital registration service", "document verification", "secure property registration", "real estate documentation", "online land registration", "property registration portal"],
-    featuredImage: "https://picsum.photos/seed/jaaga-reg/800/600",
+    featuredImage: "https://ik.imagekit.io/jaaga/blog%20banners.png",
     metaTitle: "JaaGa Property Registration Services: The Ultimate One-Stop Solution for Hassle-Free Property Registration in India",
     metaDescription: "Discover how JaaGa Property Registration Services simplifies property registration with a user-friendly online portal, secure payments, and expert guidance from start to finish. Get your property registered seamlessly today!",
     keywords: "JaaGa Property Registration Services, property registration online, digital registration service, document verification, secure property registration, real estate documentation, online land registration, property registration portal",
@@ -1837,6 +1837,8 @@ With the <a href="https://www.jaaga.ai" class="text-primary hover:underline" tar
 ]
     
 
+
+    
 
     
 
