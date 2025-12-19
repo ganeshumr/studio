@@ -194,8 +194,8 @@ export let posts: Post[] = [
         <h2 class="font-headline text-2xl font-bold">How to Download Tamil Nadu FMB Sketch Using JaaGa</h2>
         <p>Here’s a step-by-step walkthrough on how you can download your FMB Sketch directly from the JaaGa platform:</p>
         <h3 class="font-headline text-xl font-bold">Step 1: Visit the JaaGa Website</h3>
-        <p>Open your browser and go to the official JaaGa portal (usually accessible via your district or local land services website).</p>
-        <p>On the homepage, look for “Land Record Services” or “FMB Sketch Download”.</p>
+        <p>Open your browser and go to the official JaaGa FMB Sketch page at <a href="https://www.jaaga.ai/tamil-nadu/fmb-sketch" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">https://www.jaaga.ai/tamil-nadu/fmb-sketch</a>.</p>
+        <p>This will take you directly to the FMB sketch download service.</p>
 
         <h3 class="font-headline text-xl font-bold">Step 2: Choose “Tamil Nadu FMB Sketch”</h3>
         <p>Click on the FMB Sketch option from the list of available services.</p>
@@ -366,7 +366,7 @@ export let posts: Post[] = [
     content: `
       <div class="space-y-6">
         <h2 class="font-headline text-2xl font-bold">Introduction to JaaGa Property Registration Services</h2>
-        <p>Buying property is one of the most significant investments in a person’s life. Yet, the registration process can often feel like a maze of paperwork, legal jargon, and endless waiting. This is where JaaGa Property Registration Services steps in — providing a one-stop, online registration solution designed to simplify and streamline the entire process.</p>
+        <p>Buying property is one of the most significant investments in a person’s life. Yet, the registration process can often feel like a maze of paperwork, legal jargon, and endless waiting. This is where JaaGa Property Registration Services steps in — providing a one-stop, online registration solution designed to simplify and streamline the entire process. For more details, visit <a href="https://www.jaaga.ai" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">www.jaaga.ai</a>.</p>
         <p>JaaGa’s platform enables property buyers, sellers, and agents to initiate, track, and complete their registration process digitally. With its secure payment integration, real-time tracking, and expert backend support, JaaGa eliminates delays and manual hassles, making property registration more efficient and transparent than ever before.</p>
 
         <h2 class="font-headline text-2xl font-bold">The Vision Behind JaaGa Property Registration</h2>
