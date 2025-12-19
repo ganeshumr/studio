@@ -349,6 +349,7 @@ export let posts: Post[] = [
         <p>The Tamil Nadu FMB Sketch is an essential land record for verifying your property’s exact dimensions and boundaries. With platforms like JaaGa, you can now download it instantly by simply entering your Village/Division, Land Type, Survey Number, and Sub Division Number — without visiting any government office.</p>
         <p>Both JaaGa and TN e-Services portals make land record access simpler, faster, and more transparent for everyone in Tamil Nadu.</p>
         <p>So, whether you’re verifying a plot before purchase or preparing documentation for a building plan, always keep your FMB Sketch PDF handy — it’s your most reliable proof of property boundaries.</p>
+        <p>To get started, <a href="https://www.jaaga.ai/tamil-nadu/fmb-sketch" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">Visit Website</a>.</p>
       </div>
     `,
     category: "property-documents",
@@ -2082,3 +2083,4 @@ With the <a href="https://www.jaaga.ai" class="text-primary hover:underline" tar
     
 
     
+
