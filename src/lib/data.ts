@@ -122,6 +122,243 @@ export const services: Service[] = [
 
 export let posts: Post[] = [
   {
+    id: 26,
+    slug: "tamil-nadu-fmb-sketch-guide",
+    title: "Tamil Nadu FMB Sketch: Complete Guide to Download via JaaGa & TN e-Services (2025)",
+    excerpt: "Learn how to download the Tamil Nadu FMB Sketch online through the JaaGa platform or the TN e-Services portal. Step-by-step guide with full details on Village/Division, Land Type, Survey Number, and Sub Division Number.",
+    content: `
+      <div class="space-y-6">
+        <h2 class="font-headline text-2xl font-bold">What is a Tamil Nadu FMB Sketch?</h2>
+        <p>A Tamil Nadu FMB Sketch (Field Measurement Book Sketch) is an official land survey document issued by the Revenue Department. It provides the exact dimensions, boundaries, and layout of your land parcel, along with adjoining plots.</p>
+        <p>It is the most accurate and trusted document for identifying the physical extent of your land, especially when verifying your Patta, Chitta, or property boundaries.</p>
+
+        <h2 class="font-headline text-2xl font-bold">Why the FMB Sketch is So Important</h2>
+        <p>The FMB Sketch is not just a map — it’s a legal land record. It is used for:</p>
+        <ul class="list-disc list-inside space-y-2">
+            <li>✔ Verifying land dimensions and boundaries.</li>
+            <li>✔ Property registration and resale.</li>
+            <li>✔ Building approval and bank loan applications.</li>
+            <li>✔ Resolving land and boundary disputes.</li>
+            <li>✔ Comparing with Patta/Chitta for accuracy.</li>
+        </ul>
+        <p>If you’re buying or selling property in Tamil Nadu, having your FMB Sketch ready is essential.</p>
+
+        <h2 class="font-headline text-2xl font-bold">What is JaaGa?</h2>
+        <p>JaaGa is a digital property information platform that simplifies land record access in Tamil Nadu. It integrates with the official e-Services and land record systems to help users view and download land documents, including Patta, Chitta, and FMB Sketches, in just a few clicks.</p>
+
+        <h3 class="font-headline text-xl font-bold">Key Features of JaaGa:</h3>
+        <ul class="list-disc list-inside space-y-2">
+            <li>✔ Easy access to Tamil Nadu land records for both urban and rural areas.</li>
+            <li>✔ Simple interface for entering Survey Number, Village/Division, and Land Type.</li>
+            <li>✔ Fast document retrieval — no need to navigate multiple government portals.</li>
+            <li>✔ Option to view or download the FMB Sketch instantly.</li>
+            <li>✔ Mobile-friendly and available across all devices.</li>
+        </ul>
+
+        <h2 class="font-headline text-2xl font-bold">Details Required to Download FMB Sketch (via JaaGa or TN e-Services)</h2>
+        <p>To get your FMB Sketch, make sure you have the following details:</p>
+        <div class="overflow-x-auto">
+            <table class="min-w-full border-collapse border border-border">
+                <thead>
+                    <tr class="bg-muted">
+                        <th class="border border-border p-2 text-left">Field Name</th>
+                        <th class="border border-border p-2 text-left">Description</th>
+                        <th class="border border-border p-2 text-left">Example</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="border border-border p-2">Village / Division</td>
+                        <td class="border border-border p-2">The administrative area where your land is located.</td>
+                        <td class="border border-border p-2">Eg: “Velachery Village”</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-border p-2">Land Type</td>
+                        <td class="border border-border p-2">Choose between Village Land (Rural) or Natham Land (Urban).</td>
+                        <td class="border border-border p-2">Eg: “Natham”</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-border p-2">Survey Number</td>
+                        <td class="border border-border p-2">Unique identification number of your land.</td>
+                        <td class="border border-border p-2">Eg: “120/4A”</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-border p-2">Sub Division Number</td>
+                        <td class="border border-border p-2">Specific division if your land is part of a larger survey number.</td>
+                        <td class="border border-border p-2">Eg: “4B”</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <h2 class="font-headline text-2xl font-bold">How to Download Tamil Nadu FMB Sketch Using JaaGa</h2>
+        <p>Here’s a step-by-step walkthrough on how you can download your FMB Sketch directly from the JaaGa platform:</p>
+        <h3 class="font-headline text-xl font-bold">Step 1: Visit the JaaGa Website</h3>
+        <p>Open your browser and go to the official JaaGa portal (usually accessible via your district or local land services website).</p>
+        <p>On the homepage, look for “Land Record Services” or “FMB Sketch Download”.</p>
+
+        <h3 class="font-headline text-xl font-bold">Step 2: Choose “Tamil Nadu FMB Sketch”</h3>
+        <p>Click on the FMB Sketch option from the list of available services.</p>
+        <p>You’ll be directed to the FMB search page where you can enter your property details.</p>
+
+        <h3 class="font-headline text-xl font-bold">Step 3: Enter Your Land Details</h3>
+        <p>You’ll see several input fields. Fill them carefully:</p>
+        <ul class="list-disc list-inside space-y-2">
+            <li><strong>Village/Division:</strong> Select your village or division name from the dropdown.</li>
+            <li><strong>Land Type:</strong> Choose “Village” for rural or “Natham” for urban areas.</li>
+            <li><strong>Survey Number:</strong> Enter your unique survey number.</li>
+            <li><strong>Sub Division Number:</strong> Add if applicable.</li>
+        </ul>
+        <p>Ensure every entry is accurate — even minor errors may prevent the system from locating your record.</p>
+
+        <h3 class="font-headline text-xl font-bold">Step 4: Verify and Submit</h3>
+        <p>Double-check all details you entered.</p>
+        <p>Enter the Captcha Code for verification.</p>
+        <p>Click on the “Submit” or “Fetch FMB Sketch” button.</p>
+        <p>The system will now retrieve your FMB Sketch record directly from the Tamil Nadu Survey Department database.</p>
+
+        <h3 class="font-headline text-xl font-bold">Step 5: View or Download Your FMB Sketch</h3>
+        <p>After submission:</p>
+        <ul class="list-disc list-inside space-y-2">
+            <li>The FMB Sketch will appear on your screen.</li>
+            <li>You’ll see boundaries, survey numbers, and neighboring plot layouts.</li>
+            <li>Click “Download PDF” to save it to your device.</li>
+            <li>You can also print it directly using the “Print” option.</li>
+        </ul>
+        
+        <h3 class="font-headline text-xl font-bold">Step 6: Save for Future Use</h3>
+        <p>Once downloaded, keep your FMB Sketch safely stored. It’s useful for:</p>
+        <ul class="list-disc list-inside space-y-2">
+            <li>Property registration</li>
+            <li>Legal boundary confirmation</li>
+            <li>Development or construction projects</li>
+            <li>Loan processing</li>
+        </ul>
+        <p>You can also share the PDF directly with property buyers, architects, or bank officials.</p>
+        
+        <h2 class="font-headline text-2xl font-bold">How to Download FMB Sketch Using TN e-Services (Alternative Method)</h2>
+        <p>If you prefer using the official Tamil Nadu e-Services portal, follow these quick steps:</p>
+        <ol class="list-decimal list-inside space-y-2">
+            <li>Visit https://eservices.tn.gov.in</li>
+            <li>Select “View Patta & FMB / Chitta / TSLR Extract”.</li>
+            <li>Choose District, Taluk, and Village.</li>
+            <li>Select “FMB Sketch” as record type.</li>
+            <li>Enter Survey Number and Sub Division Number.</li>
+            <li>Click Submit to view your record.</li>
+            <li>Download or print the FMB Sketch PDF.</li>
+        </ol>
+
+        <h2 class="font-headline text-2xl font-bold">Benefits of Using JaaGa for FMB Sketch Download</h2>
+        <div class="overflow-x-auto">
+            <table class="min-w-full border-collapse border border-border">
+                <thead>
+                    <tr class="bg-muted">
+                        <th class="border border-border p-2 text-left">Benefit</th>
+                        <th class="border border-border p-2 text-left">Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="border border-border p-2">Faster Access</td>
+                        <td class="border border-border p-2">Quick retrieval of FMB records without navigating complex government sites.</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-border p-2">All-in-One Portal</td>
+                        <td class="border border-border p-2">Access Patta, Chitta, EC, and FMB from a single platform.</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-border p-2">Mobile-Friendly</td>
+                        <td class="border border-border p-2">Easily accessible via smartphone or tablet.</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-border p-2">User-Friendly Interface</td>
+                        <td class="border border-border p-2">Simplified steps for entering land details.</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-border p-2">Free or Low-Cost Access</td>
+                        <td class="border border-border p-2">Most JaaGa-based services are free or charge minimal fees.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <h2 class="font-headline text-2xl font-bold">Common Issues and Solutions</h2>
+        <div class="overflow-x-auto">
+            <table class="min-w-full border-collapse border border-border">
+                <thead>
+                    <tr class="bg-muted">
+                        <th class="border border-border p-2 text-left">Problem</th>
+                        <th class="border border-border p-2 text-left">Reason</th>
+                        <th class="border border-border p-2 text-left">Solution</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="border border-border p-2">FMB not loading</td>
+                        <td class="border border-border p-2">Server issue or heavy traffic</td>
+                        <td class="border border-border p-2">Try again after a few minutes</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-border p-2">No record found</td>
+                        <td class="border border-border p-2">Incorrect survey or sub-division number</td>
+                        <td class="border border-border p-2">Verify details from your Patta</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-border p-2">Download button not visible</td>
+                        <td class="border border-border p-2">Browser compatibility issue</td>
+                        <td class="border border-border p-2">Try using Chrome or Edge</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-border p-2">Blank PDF</td>
+                        <td class="border border-border p-2">Cache error</td>
+                        <td class="border border-border p-2">Clear browser cache and retry</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <h2 class="font-headline text-2xl font-bold">FAQs about Tamil Nadu FMB Sketch & JaaGa</h2>
+        <div class="space-y-4">
+            <div>
+                <h4 class="font-bold">1. What is JaaGa used for?</h4>
+                <p>JaaGa helps citizens quickly access land records like Patta, Chitta, and FMB Sketch in Tamil Nadu through a user-friendly interface.</p>
+            </div>
+            <div>
+                <h4 class="font-bold">2. Is JaaGa an official government site?</h4>
+                <p>JaaGa works in association with government databases and e-Services, providing a streamlined interface for users.</p>
+            </div>
+            <div>
+                <h4 class="font-bold">3. Can I trust the FMB Sketch downloaded from JaaGa?</h4>
+                <p>Yes. The data is fetched directly from Tamil Nadu’s official land record servers.</p>
+            </div>
+            <div>
+                <h4 class="font-bold">4. Can I download multiple FMB Sketches from JaaGa?</h4>
+                <p>Yes. You can download as many as you need, as long as you have the correct survey details.</p>
+            </div>
+            <div>
+                <h4 class="font-bold">5. What format is the downloaded FMB Sketch available in?</h4>
+                <p>Usually in PDF format, suitable for printing and sharing.</p>
+            </div>
+            <div>
+                <h4 class="font-bold">6. Do I need to log in to JaaGa?</h4>
+                <p>Some districts may require OTP-based login; others allow open access for quick document retrieval.</p>
+            </div>
+        </div>
+
+        <h2 class="font-headline text-2xl font-bold">Conclusion</h2>
+        <p>The Tamil Nadu FMB Sketch is an essential land record for verifying your property’s exact dimensions and boundaries. With platforms like JaaGa, you can now download it instantly by simply entering your Village/Division, Land Type, Survey Number, and Sub Division Number — without visiting any government office.</p>
+        <p>Both JaaGa and TN e-Services portals make land record access simpler, faster, and more transparent for everyone in Tamil Nadu.</p>
+        <p>So, whether you’re verifying a plot before purchase or preparing documentation for a building plan, always keep your FMB Sketch PDF handy — it’s your most reliable proof of property boundaries.</p>
+      </div>
+    `,
+    category: "property-documents",
+    tags: ["FMB Sketch", "FMB Map", "FMB Online", "FMB Download", "Tamil Nadu FMB", "TN FMB", "Patta Chitta FMB", "FMB Full Form", "FMB Sketch Online", "FMB Map Download", "FMB Sketch Tamil Nadu", "FMB Meaning in Land", "Land FMB Sketch", "Tamil Nadu FMB Online", "FMB Sketch Download", "TN eServices FMB", "Village FMB Map", "Patta Chitta FMB Map", "FMB Sketch Full Form", "Tamil Nadu FMB Map"],
+    featuredImage: "https://ik.imagekit.io/jaaga/blog%20banners%20(3).jpg",
+    metaTitle: "Tamil Nadu FMB Sketch: Complete Guide to Download via JaaGa & TN e-Services (2025)",
+    metaDescription: "Learn how to download the Tamil Nadu FMB Sketch online through the JaaGa platform or the TN e-Services portal. Step-by-step guide with full details on Village/Division, Land Type, Survey Number, and Sub Division Number.",
+    keywords: "FMB Sketch, FMB Map, FMB Online, FMB Download, Tamil Nadu FMB, TN FMB, Patta Chitta FMB, FMB Full Form, FMB Sketch Online, FMB Map Download, FMB Sketch Tamil Nadu, FMB Meaning in Land, Land FMB Sketch, Tamil Nadu FMB Online, FMB Sketch Download, TN eServices FMB, Village FMB Map, Patta Chitta FMB Map, FMB Sketch Full Form, Tamil Nadu FMB Map",
+  },
+  {
     id: 25,
     slug: "jaaga-property-registration-services-one-stop-solution",
     title: "JaaGa Property Registration Services: A Complete One-Stop Solution for Hassle-Free Property Registration",
@@ -292,105 +529,105 @@ export let posts: Post[] = [
         <h2 class="font-headline text-2xl font-bold">What is 7/12 in Maharashtra? (Satbara Utara Explained)</h2>
         <p>The 7/12 Maharashtra document is a land revenue record maintained by the Maharashtra Revenue Department. It is a combination of two village forms:</p>
         <ul class="list-disc list-inside space-y-1">
-          <li>Form 7 (Village Form VII): Ownership and rights</li>
-          <li>Form 12 (Village Form XII): Agricultural usage details</li>
+          <li>✔ Form 7 (Village Form VII): Ownership and rights</li>
+          <li>✔ Form 12 (Village Form XII): Agricultural usage details</li>
         </ul>
         <p>Together, they form the 7 12 Utara Maharashtra, which acts as proof of land ownership and land usage history.</p>
 
         <h2 class="font-headline text-2xl font-bold">Key Information Found in 7/12 Extract Maharashtra</h2>
         <h3 class="font-headline text-xl font-bold">1. Landowner Details</h3>
         <ul class="list-disc list-inside space-y-1">
-          <li>Name(s) of owner</li>
-          <li>Shareholding pattern</li>
-          <li>Rights and liabilities</li>
+          <li>✔ Name(s) of owner</li>
+          <li>✔ Shareholding pattern</li>
+          <li>✔ Rights and liabilities</li>
         </ul>
 
         <h3 class="font-headline text-xl font-bold">2. Survey Number & Area</h3>
         <ul class="list-disc list-inside space-y-1">
-          <li>Survey / Gat number</li>
-          <li>Total land area (Guntha, Hectare)</li>
-          <li>Useful to check survey number online Maharashtra</li>
+          <li>✔ Survey / Gat number</li>
+          <li>✔ Total land area (Guntha, Hectare)</li>
+          <li>✔ Useful to check survey number online Maharashtra</li>
         </ul>
 
         <h3 class="font-headline text-xl font-bold">3. Agricultural Details</h3>
         <ul class="list-disc list-inside space-y-1">
-          <li>Type of land (irrigated, dry)</li>
-          <li>Crops grown</li>
-          <li>Agricultural classification</li>
+          <li>✔ Type of land (irrigated, dry)</li>
+          <li>✔ Crops grown</li>
+          <li>✔ Agricultural classification</li>
         </ul>
 
         <h3 class="font-headline text-xl font-bold">4. Loan & Encumbrance Information</h3>
         <ul class="list-disc list-inside space-y-1">
-          <li>Government loans</li>
-          <li>Subsidies</li>
-          <li>Legal remarks</li>
+          <li>✔ Government loans</li>
+          <li>✔ Subsidies</li>
+          <li>✔ Legal remarks</li>
         </ul>
         
         <h3 class="font-headline text-xl font-bold">5. Tax & Revenue Status</h3>
         <ul class="list-disc list-inside space-y-1">
-          <li>Land revenue paid</li>
-          <li>Arrears if any</li>
+          <li>✔ Land revenue paid</li>
+          <li>✔ Arrears if any</li>
         </ul>
         <p>This makes the satbara Maharashtra document vital for legal clarity.</p>
 
         <h2 class="font-headline text-2xl font-bold">Why is Digital 7/12 Maharashtra Important Today?</h2>
         <p>Accessing digital 7 12 Maharashtra has transformed land transactions. Here’s why it matters:</p>
         <ul class="list-disc list-inside space-y-1">
-          <li>Ownership Verification: Primary land ownership proof</li>
-          <li>Legal Transactions: Required for sale deeds, registrations</li>
-          <li>Bank Loans: Used as collateral verification</li>
-          <li>Agricultural Planning: Helps in crop and land assessment</li>
-          <li>Dispute Prevention: Reduces fraud and errors</li>
+          <li>✔ Ownership Verification: Primary land ownership proof</li>
+          <li>✔ Legal Transactions: Required for sale deeds, registrations</li>
+          <li>✔ Bank Loans: Used as collateral verification</li>
+          <li>✔ Agricultural Planning: Helps in crop and land assessment</li>
+          <li>✔ Dispute Prevention: Reduces fraud and errors</li>
         </ul>
         <p>Today, 7 12 Maharashtra online access ensures transparency and speed.</p>
         
         <h2 class="font-headline text-2xl font-bold">How to Check 7/12 Online Maharashtra</h2>
         <p>You can check 712 utara Maharashtra online using:</p>
         <ul class="list-disc list-inside space-y-1">
-          <li>Mahabhulekh Maharashtra gov in</li>
-          <li>Satbara Maharashtra app</li>
-          <li>Authorized property platforms like <a href="https://www.jaaga.ai" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">JaaGa</a></li>
+          <li>✔ Mahabhulekh Maharashtra gov in</li>
+          <li>✔ Satbara Maharashtra app</li>
+          <li>✔ Authorized property platforms like <a href="https://www.jaaga.ai" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">JaaGa</a></li>
         </ul>
         <p>Steps typically include:</p>
         <ol class="list-decimal list-inside space-y-1">
-          <li>Select district and taluka</li>
-          <li>Choose village name</li>
-          <li>Enter survey or gat number</li>
-          <li>View or download 7 12 Maharashtra</li>
+          <li>✔ Select district and taluka</li>
+          <li>✔ Choose village name</li>
+          <li>✔ Enter survey or gat number</li>
+          <li>✔ View or download 7 12 Maharashtra</li>
         </ol>
 
         <h2 class="font-headline text-2xl font-bold">What is Bhunaksha Maharashtra? (Land Map Maharashtra Explained)</h2>
         <p>Bhunaksha Maharashtra is the official digital cadastral mapping system showing land boundaries.</p>
         <h3 class="font-headline text-xl font-bold">Uses of Bhunaksha Maharashtra Online</h3>
         <ul class="list-disc list-inside space-y-1">
-          <li>View land map Maharashtra</li>
-          <li>Access gaon nakasha Maharashtra</li>
-          <li>Match survey number with physical land</li>
-          <li>Prevent boundary disputes</li>
+          <li>✔ View land map Maharashtra</li>
+          <li>✔ Access gaon nakasha Maharashtra</li>
+          <li>✔ Match survey number with physical land</li>
+          <li>✔ Prevent boundary disputes</li>
         </ul>
         <p>You can also access: bhunaksha Maharashtra app, village maps online Maharashtra, and sslr map Maharashtra.</p>
 
         <h2 class="font-headline text-2xl font-bold">Difference Between 7/12 and Ferfar Maharashtra</h2>
         <h3 class="font-headline text-xl font-bold">Ferfar Maharashtra (Mutation Record)</h3>
         <ul class="list-disc list-inside space-y-1">
-          <li>Records ownership changes</li>
-          <li>Updated after sale, inheritance, or gift</li>
-          <li>Known as e ferfar Maharashtra when done digitally</li>
+          <li>✔ Records ownership changes</li>
+          <li>✔ Updated after sale, inheritance, or gift</li>
+          <li>✔ Known as e ferfar Maharashtra when done digitally</li>
         </ul>
         <h3 class="font-headline text-xl font-bold">Why Ferfar Matters</h3>
         <ul class="list-disc list-inside space-y-1">
-          <li>Ensures 7/12 extract is updated</li>
-          <li>Mandatory after registration</li>
-          <li>Prevents future disputes</li>
+          <li>✔ Ensures 7/12 extract is updated</li>
+          <li>✔ Mandatory after registration</li>
+          <li>✔ Prevents future disputes</li>
         </ul>
         <p>You can now check online ferfar Maharashtra status easily.</p>
 
         <h2 class="font-headline text-2xl font-bold">What is 8A Extract Maharashtra?</h2>
         <p>The 8A Maharashtra (Khate Pustika) focuses on financial details:</p>
         <ul class="list-disc list-inside space-y-1">
-          <li>Land revenue assessment</li>
-          <li>Tax liabilities</li>
-          <li>Owner name verification</li>
+          <li>✔ Land revenue assessment</li>
+          <li>✔ Tax liabilities</li>
+          <li>✔ Owner name verification</li>
         </ul>
         <p>Together, 7 12 8A Utara Maharashtra gives a complete legal and financial picture of land ownership.</p>
 
@@ -464,13 +701,13 @@ export let posts: Post[] = [
         <h3 class="font-headline text-xl font-bold">1. Manual Multi-Portal Verification</h3>
         <p>Teams must verify data across:</p>
         <ul class="list-disc list-inside space-y-1">
-          <li>IGRS systems (like IGRS Telangana)</li>
-          <li>Revenue records (like dharani telangana for telangana land records)</li>
-          <li>Municipal portals</li>
-          <li>RERA databases</li>
-          <li>CERSAI</li>
-          <li>Court and litigation databases</li>
-          <li>Utility systems (PTIN, electricity, water)</li>
+          <li>✔ IGRS systems (like IGRS Telangana)</li>
+          <li>✔ Revenue records (like dharani telangana for telangana land records)</li>
+          <li>✔ Municipal portals</li>
+          <li>✔ RERA databases</li>
+          <li>✔ CERSAI</li>
+          <li>✔ Court and litigation databases</li>
+          <li>✔ Utility systems (PTIN, electricity, water)</li>
         </ul>
         <p>This manual cross-checking increases turnaround time and risk.</p>
         
@@ -493,13 +730,13 @@ export let posts: Post[] = [
         <h2 class="font-headline text-2xl font-bold">The <a href="https://www.jaaga.ai" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">JaaGa</a> Breakthrough: One Digital Window for All Due Diligence</h2>
         <p><a href="https://www.jaaga.ai" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">JaaGa</a> integrates the entire property verification lifecycle into a single digital system:</p>
         <ul class="list-disc list-inside space-y-1">
-          <li>Title & Compliance Audit</li>
-          <li>Automated Document Retrieval from all government sources</li>
-          <li>Physical & Site Verification with geo-tagged evidence</li>
-          <li>Regulatory and Zoning Checks</li>
-          <li>Litigation & Encumbrance Screening</li>
-          <li>Valuation (market, rental, construction)</li>
-          <li>Legal Issue Resolution such as correcting names, fixing mutation gaps, and retrieving missing link documents</li>
+          <li>✔ Title & Compliance Audit</li>
+          <li>✔ Automated Document Retrieval from all government sources</li>
+          <li>✔ Physical & Site Verification with geo-tagged evidence</li>
+          <li>✔ Regulatory and Zoning Checks</li>
+          <li>✔ Litigation & Encumbrance Screening</li>
+          <li>✔ Valuation (market, rental, construction)</li>
+          <li>✔ Legal Issue Resolution such as correcting names, fixing mutation gaps, and retrieving missing link documents</li>
         </ul>
         <p>Every function that banks traditionally manage through multiple vendors and internal teams is now executed automatically through <a href="https://www.jaaga.ai" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">JaaGa</a>.</p>
         
@@ -665,7 +902,7 @@ export let posts: Post[] = [
       </div>
     `,
     category: "legal-verification",
-    tags: ["due diligence", "home loan", "banking solution", "b2b", "audit reports", "title report"],
+    tags: ["due diligence", "home loan", "banking solution", "b2b", "audit reports", "title report", "ec telangana", "igrs telangana", "dharani telangana", "telangana land records"],
     featuredImage: "https://ik.imagekit.io/jaaga/blog%20banners%20(1).jpg",
     metaTitle: "Transforming Banking Due Diligence: How JaaGa Ends Manual Verification for Home Loans",
     metaDescription: "Discover how JaaGa automates banking due diligence, eliminates manual verification, accelerates APF and mortgage checks, and delivers fast, accurate property intelligence.",
@@ -682,7 +919,6 @@ export let posts: Post[] = [
         <p>Property valuation is one of the most crucial steps in buying, selling, or securing a loan against your real estate. In a fast-growing city like Hyderabad, understanding the true market value of your property ensures financial clarity, prevents losses, and helps you make well-informed decisions. Our Hyderabad Property Valuers offer accurate, RERA-compliant, bank-approved valuation services for residential, commercial, land, and industrial properties. For more details, visit <a href="https://www.jaaga.ai" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">www.jaaga.ai</a>.</p>
         
         <h2 class="font-headline text-2xl font-bold">Why Property Valuation Is Important</h2>
-        <p>A professional valuation helps you:</p>
         <ul class="list-disc list-inside space-y-2">
           <li>✔ Determine the fair market price before sale or purchase</li>
           <li>✔ Apply for bank loans, mortgages, balance transfer</li>
@@ -797,6 +1033,7 @@ export let posts: Post[] = [
       "Online property valuation Hyderabad",
       "Market value of property in Hyderabad",
       "Property valuation for loan",
+      "telangana land records", "telangana market value", "dharani telangana", "market value certificate telangana",
     ],
     featuredImage: "https://ik.imagekit.io/jaaga/blog%20banners.jpg",
     metaTitle: "Professional Property Valuation Services in Hyderabad – Complete Guide",
@@ -1052,7 +1289,7 @@ export let posts: Post[] = [
       "Download Pahani Online Telangana",
       "Telangana Land Records",
       "Dharani Portal Pahani",
-      "Telangana Property Documents",
+      "Telangana Property Documents", "pahani telangana", "ror 1b telangana", "dharani telangana", "telangana land records", "telangana pahani", "encumbrance certificate telangana", "telangana registration",
     ],
     featuredImage:
       "https://ik.imagekit.io/jaaga/Update%20Your%20Name,%20Secure%20Your%20Property%20(7).png?updatedAt=1762419002612",
@@ -1110,7 +1347,7 @@ export let posts: Post[] = [
         <p>You can now get your GHMC mutation certificate instantly using the <a href="https://www.jaaga.ai" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">JaaGa</a> App, without visiting any municipal office.</p>
         
         <h3 class="font-headline text-xl font-bold">📲 Step-by-Step Process</h3>
-        <ol class="list-decimal list-inside space-y-2">
+        <ul class="list-disc list-inside space-y-2">
             <li>✔ Open the <a href="https://www.jaaga.ai" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">JaaGa</a> App (Android / iOS) or visit <a href="https://www.jaaga.ai" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">jaaga.ai</a></li>
             <li>✔ Log in or create a free account</li>
             <li>✔ Select "Telangana" as the state</li>
@@ -1125,7 +1362,7 @@ export let posts: Post[] = [
             <li>✔ Tap Search</li>
             <li>✔ Once your mutation record is found, tap “View Certificate”</li>
             <li>✔ Download, save, or share the PDF copy instantly</li>
-        </ol>
+        </ul>
         <p>✅ No physical visit<br/>✅ No file number required<br/>✅ Works for GHMC &amp; other municipalities in Telangana</p>
         
         <h2 class="font-headline text-2xl font-bold">📄 What Details Are Shown in a GHMC Mutation Certificate?</h2>
@@ -1226,7 +1463,7 @@ With the <a href="https://www.jaaga.ai" class="text-primary hover:underline" tar
       "GHMC PTIN Mutation Status",
       "Property Mutation Certificate Telangana",
       "Online Mutation Certificate GHMC",
-      "JaaGa Telangana Property Documents",
+      "JaaGa Telangana Property Documents", "mutation certificate telangana", "telangana land records", "dharani telangana", "telangana registration", "ec telangana", "sro telangana",
     ],
     featuredImage:
       "https://ik.imagekit.io/jaaga/Update%20Your%20Name,%20Secure%20Your%20Property%20(6).png?updatedAt=1762411393121",
@@ -1359,7 +1596,7 @@ With the <a href="https://www.jaaga.ai" class="text-primary hover:underline" tar
       </div>
     `,
     category: "property-documents",
-    tags: ["encumbrance certificate", "telangana", "certified ec", "jaaga"],
+    tags: ["encumbrance certificate", "telangana", "certified ec", "jaaga", "ec telangana", "igrs telangana", "telangana ec search", "dharani telangana", "telangana registration", "ec download telangana", "telangana land records"],
     featuredImage:
       "https://ik.imagekit.io/jaaga/Update%20Your%20Name,%20Secure%20Your%20Property.jpg?updatedAt=1762335309956",
     metaTitle:
@@ -1495,7 +1732,7 @@ With the <a href="https://www.jaaga.ai" class="text-primary hover:underline" tar
       </div>
     `,
     category: "mutation-creation",
-    tags: ["mutation", "telangana", "jaaga", "dharani"],
+    tags: ["mutation", "telangana", "jaaga", "dharani", "dharani telangana", "telangana land records", "mutation certificate telangana", "telangana land registration", "sro telangana", "igrs telangana"],
     featuredImage:
       "https://ik.imagekit.io/jaaga/Update%20Your%20Name,%20Secure%20Your%20Property%20(4).png?updatedAt=1761916011550",
     metaTitle:
@@ -1637,7 +1874,7 @@ With the <a href="https://www.jaaga.ai" class="text-primary hover:underline" tar
       "Patta/Chitta download online",
       "Tamil Nadu property documents",
       "TN land records",
-      "Tamil Nadu land ownership",
+      "Tamil Nadu land ownership", "patta chitta tamil nadu",
     ],
     featuredImage:
       "https://ik.imagekit.io/sravanth/Update%20Your%20Name,%20Secure%20Your%20Property%20(1).png?updatedAt=1758881580977",
@@ -1660,7 +1897,7 @@ With the <a href="https://www.jaaga.ai" class="text-primary hover:underline" tar
         <p>In this blog, we’ll explain how to prove ownership of property in India, the essential documents you need, the verification process in Telangana and Andhra Pradesh, common legal challenges, and how digital platforms like <a href="https://www.jaaga.ai" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">JaaGa</a> make it simple to retrieve and safeguard your records.</p>
         
         <h2 class="font-headline text-2xl font-bold">Why Proving Property Ownership Matters</h2>
-        <ul class="list-disc space-y-2 pl-6">
+        <ul class="list-disc list-inside space-y-2">
             <li>✔ <strong>Selling property:</strong> Buyers will demand clear documents before purchase.</li>
             <li>✔ <strong>Property disputes:</strong> Courts rely on ownership documents to decide cases.</li>
             <li>✔ <strong>Bank loans:</strong> Financial institutions require proof before approving home loans.</li>
@@ -1698,7 +1935,7 @@ With the <a href="https://www.jaaga.ai" class="text-primary hover:underline" tar
         </ol>
 
         <h2 class="font-headline text-2xl font-bold">Common Legal Issues in Property Ownership</h2>
-        <ul class="list-disc space-y-2 pl-6">
+        <ul class="list-disc list-inside space-y-2">
             <li>✔ <strong>Disputed Titles:</strong> Multiple claims on the same property due to missing records.</li>
             <li>✔ <strong>Fake Documents or Forgery:</strong> Illegal Sale Deeds, fake ECs, or forged signatures.</li>
             <li>✔ <strong>Encroachments:</strong> Illegal occupation of property boundaries.</li>
@@ -1707,7 +1944,7 @@ With the <a href="https://www.jaaga.ai" class="text-primary hover:underline" tar
         </ul>
         
         <h2 class="font-headline text-2xl font-bold">How <a href="https://www.jaaga.ai" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">JaaGa</a> Helps Prove Property Ownership</h2>
-        <ul class="list-disc space-y-2 pl-6">
+        <ul class="list-disc list-inside space-y-2">
             <li>✔ Retrieve Sale Deeds, ECs, Tax Receipts online.</li>
             <li>✔ Verified documents directly from government portals.</li>
             <li>✔ Secure digital locker for safe storage.</li>
@@ -1823,7 +2060,7 @@ With the <a href="https://www.jaaga.ai" class="text-primary hover:underline" tar
       "how to solve land disputes",
       "retrieve property documents online",
       "JaaGa property services",
-      "digital property locker India",
+      "digital property locker India", "ec telangana", "igrs telangana", "dharani telangana", "telangana land records",
     ],
     featuredImage:
       "https://ik.imagekit.io/jaaga/Update%20Your%20Name,%20Secure%20Your%20Property%20(2).png?updatedAt=1758529773318",
@@ -1837,6 +2074,8 @@ With the <a href="https://www.jaaga.ai" class="text-primary hover:underline" tar
 ]
     
 
+
+    
 
     
 
