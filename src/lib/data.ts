@@ -122,6 +122,144 @@ export const services: Service[] = [
 
 export let posts: Post[] = [
   {
+    id: 27,
+    slug: "how-to-download-andhra-pradesh-certified-copy-online-using-jaaga",
+    title: "How to Download Andhra Pradesh Certified Copy Online Using JaaGa – Step-by-Step Guide (2025)",
+    excerpt: "Download Andhra Pradesh Certified Copy online using SRO, document number, and registration year. Legally valid, digitally signed property records via JaaGa.",
+    content: `
+      <div class="space-y-6">
+        <h2 class="font-headline text-2xl font-bold">What Is a Certified Copy (Nakal) in Andhra Pradesh?</h2>
+        <p>A Certified Copy (also called Nakal) in Andhra Pradesh is a digitally signed, legally valid duplicate of a registered property document. It is issued by the Andhra Pradesh Registration & Stamps Department and carries the same legal standing as the original registered deed.</p>
+        <p>Certified Copies are commonly required when:</p>
+        <ul class="list-disc list-inside space-y-2">
+            <li>✔ Original documents are lost or damaged</li>
+            <li>✔ Banks request document verification</li>
+            <li>✔ Registration, mutation, or legal due diligence is in progress</li>
+            <li>✔ Property ownership needs to be validated</li>
+        </ul>
+        <h2 class="font-headline text-2xl font-bold">Why You May Need an Andhra Pradesh Certified Copy</h2>
+        <ul class="list-disc list-inside space-y-2">
+          <li>✔ Sub-Registrar verification during registration</li>
+          <li>✔ Home loan or mortgage processing</li>
+          <li>✔ Legal disputes or court submissions</li>
+          <li>✔ Title verification and property audits</li>
+          <li>✔ Builder or resale transactions</li>
+        </ul>
+        <p>A Certified Copy ensures that official registration data is preserved and legally admissible, even if the original deed is unavailable.</p>
+        <h2 class="font-headline text-2xl font-bold">What Documents Can Be Downloaded as a Certified Copy</h2>
+        <p>You can obtain Certified Copies for:</p>
+        <ul class="list-disc list-inside space-y-2">
+            <li>✔ Sale Deed</li>
+            <li>✔ Gift Deed</li>
+            <li>✔ Partition Deed</li>
+            <li>✔ Mortgage Deed</li>
+            <li>✔ Settlement Deed</li>
+            <li>✔ Lease Deed</li>
+        </ul>
+        <h2 class="font-headline text-2xl font-bold">How to Download Andhra Pradesh Certified Copy Online Using JaaGa</h2>
+        <p>JaaGa simplifies the Certified Copy download process into three essential inputs, avoiding complex government portals.</p>
+        <h3 class="font-headline text-xl font-bold">Required Details</h3>
+        <p>You only need:</p>
+        <ul class="list-disc list-inside space-y-2">
+          <li>✔ Sub-Registrar Office (SRO)</li>
+          <li>✔ Document Number</li>
+          <li>✔ Registration Year (YYYY)</li>
+        </ul>
+        <h3 class="font-headline text-xl font-bold">Step-by-Step Download Process</h3>
+        <h4 class="font-semibold">Step 1: Open JaaGa</h4>
+        <p>Visit the JaaGa platform or app and select Certified Copy – Andhra Pradesh.</p>
+        <h4 class="font-semibold">Step 2: Enter Sub-Registrar Office (SRO)</h4>
+        <p>Choose the SRO where the property document was originally registered.</p>
+        <h4 class="font-semibold">Step 3: Enter Document Number</h4>
+        <p>Provide the exact document number mentioned in the registered deed.</p>
+        <h4 class="font-semibold">Step 4: Enter Registration Year</h4>
+        <p>Enter the four-digit registration year (YYYY).</p>
+        <h4 class="font-semibold">Step 5: Submit & Download</h4>
+        <p>Once the Certified Copy is retrieved, you can download, save, or share the digitally signed document.</p>
+        <h2 class="font-headline text-2xl font-bold">What Information Is Available in an Andhra Pradesh Certified Copy</h2>
+        <p>A Certified Copy typically includes:</p>
+        <ul class="list-disc list-inside space-y-2">
+            <li>✔ Document Number & Registration Year</li>
+            <li>✔ Sub-Registrar Office (SRO) details</li>
+            <li>✔ Names of buyer(s) and seller(s)</li>
+            <li>✔ Property survey number, extent, village, and boundaries</li>
+            <li>✔ Nature of transaction (sale, gift, mortgage, etc.)</li>
+            <li>✔ Official registration date</li>
+            <li>✔ Digital signature and authentication</li>
+        </ul>
+        <h2 class="font-headline text-2xl font-bold">Is an Andhra Pradesh Certified Copy Legally Valid?</h2>
+        <p>Yes. A Certified Copy:</p>
+        <ul class="list-disc list-inside space-y-2">
+          <li>✔ Is digitally signed by the Registration Department</li>
+          <li>✔ Is legally admissible in courts</li>
+          <li>✔ Is accepted by banks, registrars, and government offices</li>
+          <li>✔ Acts as supporting proof of ownership</li>
+        </ul>
+        <h2 class="font-headline text-2xl font-bold">Who Can Apply for a Certified Copy?</h2>
+        <p>Certified Copies are public records, meaning:</p>
+        <ul class="list-disc list-inside space-y-2">
+            <li>✔ Property owners</li>
+            <li>✔ Buyers</li>
+            <li>✔ Lawyers</li>
+            <li>✔ Banks</li>
+            <li>✔ Third parties</li>
+        </ul>
+        <p>can apply, provided the correct document details are available.</p>
+        <h2 class="font-headline text-2xl font-bold">Common Mistakes to Avoid</h2>
+        <ul class="list-disc list-inside space-y-2">
+          <li>✔ Entering the wrong SRO</li>
+          <li>✔ Using incorrect document numbers</li>
+          <li>✔ Entering an incorrect registration year</li>
+          <li>✔ Assuming EC alone replaces a Certified Copy</li>
+        </ul>
+        <h2 class="font-headline text-2xl font-bold">Why Use JaaGa for Andhra Pradesh Certified Copy</h2>
+        <ul class="list-disc list-inside space-y-2">
+          <li>✔ Simple 3-field input (SRO, Document No, Year)</li>
+          <li>✔ No physical visits to Sub-Registrar Offices</li>
+          <li>✔ Digitally signed, legally valid documents</li>
+          <li>✔ Suitable for registration, banking, and legal use</li>
+        </ul>
+        
+        <h2 class="font-headline text-2xl font-bold">Frequently Asked Questions (FAQs)</h2>
+        <div class="space-y-4">
+            <div>
+                <h4 class="font-bold">1) Can I download old Certified Copies in Andhra Pradesh?</h4>
+                <p>Yes, subject to availability of digitized records in the registration database.</p>
+            </div>
+            <div>
+                <h4 class="font-bold">2) Is a Certified Copy the same as the original deed?</h4>
+                <p>It has the same legal value for verification and legal purposes, but the original deed remains the primary document.</p>
+            </div>
+            <div>
+                <h4 class="font-bold">3) Can banks accept a Certified Copy for loan processing?</h4>
+                <p>Yes. Banks routinely accept Certified Copies for title verification.</p>
+            </div>
+            <div>
+                <h4 class="font-bold">4) Can I download a Certified Copy for someone else’s property?</h4>
+                <p>Yes. Certified Copies are public documents.</p>
+            </div>
+        </div>
+
+        <h2 class="font-headline text-2xl font-bold">Key Takeaways</h2>
+        <ul class="list-disc list-inside space-y-2">
+            <li>✔ Certified Copies (Nakal) are legally valid duplicates of registered deeds</li>
+            <li>✔ Required for registration, banking, and legal verification</li>
+            <li>✔ Can be downloaded online using SRO, Document Number, and Registration Year</li>
+            <li>✔ Accepted by courts, banks, and government authorities</li>
+        </ul>
+
+        <h2 class="font-headline text-2xl font-bold">Conclusion</h2>
+        <p>A Certified Copy (Nakal) in Andhra Pradesh is an essential document for property registration, verification, and legal compliance. When original deeds are unavailable or damaged, Certified Copies ensure transactions continue without delays. With JaaGa, downloading an Andhra Pradesh Certified Copy becomes simple, secure, and fully online.</p>
+      </div>
+    `,
+    category: "property-documents",
+    tags: ["certified copy", "sale deed", "andhra pradesh", "jaaga"],
+    featuredImage: "https://ik.imagekit.io/jaaga/Update%20Your%20Name,%20Secure%20Your%20Property%20(5).png?updatedAt=1762335198003",
+    metaTitle: "How to Download Andhra Pradesh Certified Copy Online",
+    metaDescription: "Download Andhra Pradesh Certified Copy online using SRO, document number, and registration year. Legally valid, digitally signed property records via JaaGa.",
+    keywords: "sale deed, certified copy of sale deed, what is sale deed, sale deed copy, sale deed certificate, registered sale deed, original sale deed, sale deed pdf, sale deed document, certified copy of sale deed, certified copy ap, certified copy download, certified copy of title deed",
+  },
+  {
     id: 26,
     slug: "tamil-nadu-fmb-sketch-guide",
     title: "Tamil Nadu FMB Sketch: Complete Guide to Download via JaaGa & TN e-Services (2025)",
@@ -346,7 +484,8 @@ export let posts: Post[] = [
         </div>
 
         <h2 class="font-headline text-2xl font-bold">Conclusion</h2>
-        <p>The Tamil Nadu FMB Sketch is an essential land record for verifying your property’s exact dimensions and boundaries. With platforms like JaaGa, you can now download it instantly by simply entering your Village/Division, Land Type, Survey Number, and Sub Division Number — without visiting any government office.</p>
+        <p>The Tamil Nadu FMB Sketch is an essential land record for verifying your property’s exact dimensions and boundaries.
+With platforms like JaaGa, you can now download it instantly by simply entering your Village/Division, Land Type, Survey Number, and Sub Division Number — without visiting any government office.</p>
         <p>Both JaaGa and TN e-Services portals make land record access simpler, faster, and more transparent for everyone in Tamil Nadu.</p>
         <p>So, whether you’re verifying a plot before purchase or preparing documentation for a building plan, always keep your FMB Sketch PDF handy — it’s your most reliable proof of property boundaries.</p>
         <p>To get started, <a href="https://www.jaaga.ai/tamil-nadu/fmb-sketch" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">Visit Website</a>.</p>
@@ -680,7 +819,7 @@ export let posts: Post[] = [
     featuredImage: "https://ik.imagekit.io/jaaga/blog%20banners%20(2).jpg",
     metaTitle: "Understanding the Satbara 7/12 (Utara) Land Records of Maharashtra",
     metaDescription: "Learn what 7 12 Maharashtra land records are, how to check 7 12 online Maharashtra, understand satbara utara Maharashtra, Bhunaksha maps, Ferfar, 8A extract, and how Maharashtra land records work together for safe property transactions.",
-    keywords: "7 12 maharashtra, satbara utara maharashtra, 7 12 extract maharashtra, what is 7 12 in maharashtra, 7 12 online maharashtra, digital 7 12 maharashtra, mahabhulekh maharashtra gov in, satbara maharashtra, 7 12 utara online maharashtra, old 7 12 maharashtra, download 7 12 maharashtra, 7 12 maharashtra app, 712 utara maharashtra online, bhu naksha maharashtra, bhunaksha maharashtra online, bhunaksha maharashtra app, land map maharashtra, maharashtra village map, gaon nakasha maharashtra, sslr map maharashtra, 7 12 map maharashtra, ferfar maharashtra, e ferfar maharashtra, ferfar online maharashtra, online mutation maharashtra, old mutation maharashtra, 8a maharashtra, 8a extract maharashtra, 8a utara maharashtra, 7 12 8a utara maharashtra, property card maharashtra, property card online maharashtra, index 2 maharashtra, index 2 property document online maharashtra, download index 2 maharashtra, how to check land records in maharashtra online, how to check property ownership online in maharashtra, maharashtra land records online, maharashtra online property paper search, maharashtra property details, maharashtra bhu naksha, bhunaksha maharashtra 7 12, satbara utara maharashtra app, 7 12 maharashtra download, 7 12 utara maharashtra pune"
+    keywords: "7 12 maharashtra, satbara utara maharashtra, 7 12 extract maharashtra, what is 7 12 in maharashtra, 7 12 online maharashtra, digital 7 12 maharashtra, mahabhulekh maharashtra gov in, satbara maharashtra, 7 12 utara online maharashtra, old 7 12 maharashtra, download 7 12 maharashtra, 7 12 maharashtra app, 712 utara maharashtra online, bhu naksha maharashtra, bhunaksha maharashtra online, bhunaksha maharashtra app, land map maharashtra, maharashtra village map, gaon nakasha maharashtra, sslr map maharashtra, 7 12 map maharashtra, ferfar maharashtra, e ferfar maharashtra, ferfar online maharashtra, online mutation maharashtra, old mutation maharashtra, 8a maharashtra, 8a extract maharashtra, 8a utara maharashtra, 7 12 8a utara maharashtra, property card maharashtra, property card online maharashtra, index 2 maharashtra, index 2 property document online maharashtra, download index 2 maharashtra, how to check land records in maharashtra online, how to check property ownership online in maharashtra, maharashtra land records online, maharashtra online property paper search, maharashtra property details, supporting long-tail keywords, maharashtra bhu naksha, bhunaksha maharashtra 7 12, satbara utara maharashtra app, 7 12 maharashtra download, 7 12 utara maharashtra pune"
   },
   {
     id: 23,
@@ -1033,8 +1172,7 @@ export let posts: Post[] = [
       "Property inspection Hyderabad",
       "Online property valuation Hyderabad",
       "Market value of property in Hyderabad",
-      "Property valuation for loan",
-      "telangana land records", "telangana market value", "dharani telangana", "market value certificate telangana",
+      "Property valuation for loan", "telangana land records", "telangana market value", "dharani telangana", "market value certificate telangana",
     ],
     featuredImage: "https://ik.imagekit.io/jaaga/blog%20banners.jpg",
     metaTitle: "Professional Property Valuation Services in Hyderabad – Complete Guide",
@@ -1684,7 +1822,6 @@ With the <a href="https://www.jaaga.ai" class="text-primary hover:underline" tar
             <li>✔ Hyderabad, Rangareddy, Medchal</li>
             <li>✔ Warangal, Karimnagar, Nizamabad, Khammam</li>
             <li>✔ Mahbubnagar, Nalgonda, Siddipet, Suryapet</li>
-            <li>✔ All revenue villages under the Dharani portal</li>
         </ul>
         <p>✅ Whether your property is agricultural or non-agricultural, <a href="https://www.jaaga.ai" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">JaaGa</a> supports both.</p>
 
@@ -1952,7 +2089,7 @@ With the <a href="https://www.jaaga.ai" class="text-primary hover:underline" tar
             <li>✔ Legal verification of ownership and encumbrance.</li>
             <li>✔ Saves time, no need for middlemen or multiple office visits.</li>
         </ul>
-        <p>👉 Visit <a href="https://www.jaaga.ai" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">www.jaaga.ai</a> to prove your property ownership in a few clicks.</p>
+        <p>👉 Visit <a href="https://wwwLAGGA.ai" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">www.jaaga.ai</a> to prove your property ownership in a few clicks.</p>
 
         <h2 class="font-headline text-2xl font-bold">State Focus – Telangana and Andhra Pradesh</h2>
         <p><strong>Telangana:</strong> Use Dharani Portal for land records, IGRS Telangana for Sale Deed and EC, and municipal websites for property tax receipts.</p>
@@ -2014,7 +2151,7 @@ With the <a href="https://www.jaaga.ai" class="text-primary hover:underline" tar
             </div>
             <div>
                 <h4 class="font-bold">Q3. How do I check if property is in my name in Telangana or AP?</h4>
-                <p>By searching Dharani (Telangana) or MeeBhoomi (AP) portals, or using the simple search on <a href="https://www.jaaga.ai" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">JaaGa</a>.</p>
+                <p>By searching Dharani (Telangana) or MeeBhoomi (AP) portals, or using the simple search on <a href="https://wwwLAGGA.ai" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">JaaGa</a>.</p>
             </div>
             <div>
                 <h4 class="font-bold">Q4. What if property is under dispute?</h4>
@@ -2075,7 +2212,6 @@ With the <a href="https://www.jaaga.ai" class="text-primary hover:underline" tar
 ]
     
 
-
     
 
     
@@ -2083,4 +2219,7 @@ With the <a href="https://www.jaaga.ai" class="text-primary hover:underline" tar
     
 
     
+
+
+
 
