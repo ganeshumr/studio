@@ -157,7 +157,7 @@ export let posts: Post[] = [
             <li>✔ Lease Deed</li>
         </ul>
         <h2 class="font-headline text-2xl font-bold">How to Download Andhra Pradesh Certified Copy Online Using JaaGa</h2>
-        <p>JaaGa simplifies the Certified Copy download process into three essential inputs, avoiding complex government portals.</p>
+        <p>JaaGa simplifies the Certified Copy download process into three essential inputs, avoiding complex government portals. Get started at <a href="https://www.jaaga.ai/andhra-pradesh/sale-deed" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">JaaGa's AP Sale Deed Service</a>.</p>
         <h3 class="font-headline text-xl font-bold">Required Details</h3>
         <p>You only need:</p>
         <ul class="list-disc list-inside space-y-2">
@@ -249,7 +249,7 @@ export let posts: Post[] = [
         </ul>
 
         <h2 class="font-headline text-2xl font-bold">Conclusion</h2>
-        <p>A Certified Copy (Nakal) in Andhra Pradesh is an essential document for property registration, verification, and legal compliance. When original deeds are unavailable or damaged, Certified Copies ensure transactions continue without delays. With JaaGa, downloading an Andhra Pradesh Certified Copy becomes simple, secure, and fully online.</p>
+        <p>A Certified Copy (Nakal) in Andhra Pradesh is an essential document for property registration, verification, and legal compliance. When original deeds are unavailable or damaged, Certified Copies ensure transactions continue without delays. With JaaGa, downloading an Andhra Pradesh Certified Copy becomes simple, secure, and fully online. To get started, <a href="https://www.jaaga.ai/andhra-pradesh/sale-deed" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">Visit Website</a>.</p>
       </div>
     `,
     category: "property-documents",
@@ -1889,7 +1889,7 @@ With the <a href="https://www.jaaga.ai" class="text-primary hover:underline" tar
     content: `
       <div class="space-y-6">
         <h1 class="font-headline text-2xl font-bold">Your Guide to Patta Chitta Tamil Nadu Documents</h1>
-        <p>When it comes to property ownership in Tamil Nadu, understanding Patta and Chitta documents is crucial. These documents serve as legal proof of land ownership and are essential for property transactions, applying for loans, or transferring property rights. You can manage these documents easily with <a href="https://www.jaaga.ai" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">JaaGa</a>.</p>
+        <p>When it comes to property ownership in Tamil Nadu, understanding Patta and Chitta documents is crucial. These documents serve as legal proof of land ownership and are essential for property transactions, applying for loans, or transferring property rights. You can manage these documents easily with <a href="https://www="jaaga.ai" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">JaaGa</a>.</p>
         
         <h2 class="font-headline text-2xl font-bold">What is a Patta?</h2>
         <p>A Patta is an official document issued by the Revenue Department of Tamil Nadu that certifies the ownership of a land parcel. It contains details like the owner’s name, survey number, extent of the land, and the village or town where the property is located. Patta is required for land registration and is proof that the land revenue has been paid.</p>
@@ -2219,6 +2219,7 @@ With the <a href="https://www.jaaga.ai" class="text-primary hover:underline" tar
     
 
     
+
 
 
 
