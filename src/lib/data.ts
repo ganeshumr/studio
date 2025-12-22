@@ -254,7 +254,7 @@ export let posts: Post[] = [
     `,
     category: "property-documents",
     tags: ["certified copy", "sale deed", "andhra pradesh", "jaaga"],
-    featuredImage: "https://ik.imagekit.io/jaaga/Update%20Your%20Name,%20Secure%20Your%20Property%20(5).png?updatedAt=1762335198003",
+    featuredImage: "https://ik.imagekit.io/jaaga/Download%20Certified%20Copy%20Andhra%20Pradesh%20(1).jpg",
     metaTitle: "How to Download Andhra Pradesh Certified Copy Online",
     metaDescription: "Download Andhra Pradesh Certified Copy online using SRO, document number, and registration year. Legally valid, digitally signed property records via JaaGa.",
     keywords: "sale deed, certified copy of sale deed, what is sale deed, sale deed copy, sale deed certificate, registered sale deed, original sale deed, sale deed pdf, sale deed document, certified copy of sale deed, certified copy ap, certified copy download, certified copy of title deed",
@@ -634,7 +634,7 @@ With platforms like JaaGa, you can now download it instantly by simply entering 
                 <p>In most cases, no. JaaGa manages the entire process digitally, but certain cases may require minimal physical verification.</p>
             </div>
             <div>
-                <h4 class="font-bold">5. Can NRIs use JaaGa Property Registration Services?</h4>
+                <h4 class="font-bold">5. Can NRIs use Jaaga Property Registration Services?</h4>
                 <p>Yes, the platform is designed for Indian and overseas clients alike.</p>
             </div>
             <div>
@@ -2219,6 +2219,7 @@ With the <a href="https://www.jaaga.ai" class="text-primary hover:underline" tar
     
 
     
+
 
 
 
