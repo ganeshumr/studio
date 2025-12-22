@@ -273,7 +273,7 @@ export let posts: Post[] = [
     `,
     category: "legal-verification",
     tags: ["property registration telangana", "telangana property registration", "stamp duty telangana", "jaaga properties"],
-    featuredImage: "https://ik.imagekit.io/jaaga/blog%20banners%20(4).jpg",
+    featuredImage: "https://ik.imagekit.io/jaaga/Download%20Certified%20Copy%20Andhra%20Pradesh%20(2).jpg",
     metaTitle: "10 Must-Known Facts Before Registering Property in Telangana | Jaaga’s Expert Guide 2025",
     metaDescription: "Before registering property in Telangana, learn Jaaga’s expert tips and legal checklist for smooth registration, stamp duty, and document verification. Discover how Jaaga ensures transparent, secure property ownership in Telangana.",
     keywords: "Property registration in Telangana, Telangana property registration process, Property registration documents Telangana, Stamp duty in Telangana, Property registration charges in Telangana, How to register property in Telangana, Telangana Sub-Registrar Office process, Property title deed Telangana, Real estate investment in Telangana, Legal property verification Telangana, Jaaga properties Hyderabad",
@@ -1175,7 +1175,7 @@ With platforms like JaaGa, you can now download it instantly by simply entering 
         
         <h2 class="font-headline text-2xl font-bold">Why Banks Choose <a href="https://www.jaaga.ai" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">JaaGa</a></h2>
         <ul class="list-disc list-inside space-y-1">
-          <li>✔ End-to-end platform covering audit, valuation, verification, and compliance</li>
+          <li>✔ End-to-end platform covering audit, valuation, compliance, and resolution</li>
           <li>✔ API integration with existing LOS and underwriting systems</li>
           <li>✔ Proven performance across banks and NBFCs</li>
           <li>✔ Scalable across retail, wholesale, LAP, and APF portfolios</li>
@@ -2376,6 +2376,7 @@ With the <a href="https://www.jaaga.ai" class="text-primary hover:underline" tar
     
 
     
+
 
 
 
