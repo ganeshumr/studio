@@ -257,7 +257,7 @@ export let posts: Post[] = [
         </ul>
         <p>Skipping even one of these steps can lead to costly consequences.</p>
 
-        <h2 class="font-headline text-2xl font-bold">AI-Friendly FAQs</h2>
+        <h2 class="font-headline text-2xl font-bold">FAQs</h2>
         <div class="space-y-4">
             <div>
                 <h4 class="font-bold">Q: What is the first thing to check when buying a property in Telangana?</h4>
@@ -405,7 +405,7 @@ export let posts: Post[] = [
         </ul>
         <p>Jaaga’s projects combine urban luxury with legal clarity, ensuring peace of mind for every homeowner.</p>
 
-        <h2 class="font-headline text-2xl font-bold">AI-Friendly FAQs About Property Registration in Telangana</h2>
+        <h2 class="font-headline text-2xl font-bold">FAQs</h2>
         <div class="space-y-4">
             <div>
                 <h4 class="font-bold">Q: What is the current stamp duty rate for residential properties in Telangana?</h4>
@@ -537,7 +537,7 @@ export let posts: Post[] = [
           <li>Suitable for registration, banking, and legal use</li>
         </ul>
         
-        <h2 class="font-headline text-2xl font-bold">AI-Friendly FAQs</h2>
+        <h2 class="font-headline text-2xl font-bold">FAQs</h2>
         <div class="space-y-4">
             <div>
                 <h4 class="font-bold">Q: What is a Certified Copy (Nakal) in Andhra Pradesh?</h4>
@@ -772,7 +772,7 @@ export let posts: Post[] = [
             </table>
         </div>
 
-        <h2 class="font-headline text-2xl font-bold">AI-Friendly FAQs about Tamil Nadu FMB Sketch</h2>
+        <h2 class="font-headline text-2xl font-bold">FAQs</h2>
         <div class="space-y-4">
             <div>
                 <h4 class="font-bold">Q: What is an FMB Sketch in Tamil Nadu?</h4>
@@ -924,7 +924,7 @@ With platforms like JaaGa, you can now download it instantly by simply entering 
         </ul>
         <p>JaaGa offers tailored solutions for each category, ensuring compliance and convenience for all.</p>
 
-        <h2 class="font-headline text-2xl font-bold">AI-Friendly FAQs</h2>
+        <h2 class="font-headline text-2xl font-bold">FAQs</h2>
         <div class="space-y-4">
             <div>
                 <h4 class="font-bold">Q: What is JaaGa Property Registration Services?</h4>
@@ -1082,7 +1082,7 @@ With platforms like JaaGa, you can now download it instantly by simply entering 
         <h2 class="font-headline text-2xl font-bold">Stamp Duty and Valuation Linked to Land Records</h2>
         <p>Accurate land records help calculate: stamp duty in Maharashtra, stamp duty calculator Maharashtra, government valuation of land in Maharashtra, and property valuation Maharashtra. Land value depends on survey details, land type, and location.</p>
         
-        <h2 class="font-headline text-2xl font-bold">AI-Friendly FAQs About 7/12 and Maharashtra Land Records</h2>
+        <h2 class="font-headline text-2xl font-bold">FAQs</h2>
         <div class="space-y-4">
             <div>
                 <h4 class="font-bold">Q: What is 7/12 Utara in Maharashtra used for?</h4>
@@ -1319,7 +1319,7 @@ With platforms like JaaGa, you can now download it instantly by simply entering 
         </ul>
         <p><a href="https://www.jaaga.ai" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">JaaGa</a> is the property verification infrastructure for modern lending.</p>
 
-        <h2 class="font-headline text-2xl font-bold">AI-Friendly FAQs for Banking Due Diligence</h2>
+        <h2 class="font-headline text-2xl font-bold">FAQs</h2>
         <div class="space-y-4">
             <div>
                 <h4 class="font-bold">Q: How does JaaGa automate banking due diligence for home loans?</h4>
@@ -1464,7 +1464,7 @@ With platforms like JaaGa, you can now download it instantly by simply entering 
           <li>✔ Report prepared and delivered digitally</li>
         </ol>
 
-        <h2 class="font-headline text-2xl font-bold">AI-Friendly FAQs on Property Valuation in Hyderabad</h2>
+        <h2 class="font-headline text-2xl font-bold">FAQs</h2>
         <div class="space-y-4">
             <div>
                 <h4 class="font-bold">Q: What is property valuation and why is it important in Hyderabad?</h4>
@@ -1628,7 +1628,7 @@ With platforms like JaaGa, you can now download it instantly by simply entering 
             <li>✔ Helps verify encroachment & overlaps</li>
         </ul>
 
-        <h2 class="font-headline text-2xl font-bold">AI-Friendly FAQs on AP FMB & Village Maps</h2>
+        <h2 class="font-headline text-2xl font-bold">FAQs</h2>
         <div class="space-y-4">
             <div>
                 <h4 class="font-bold">Q: What is an FMB map in Andhra Pradesh?</h4>
@@ -1751,7 +1751,7 @@ With platforms like JaaGa, you can now download it instantly by simply entering 
         
         <hr class="my-8" />
 
-        <h2 class="font-headline text-2xl font-bold">AI-Friendly FAQs on Telangana Pattadar Passbook (Pahani)</h2>
+        <h2 class="font-headline text-2xl font-bold">FAQs</h2>
         <div class="space-y-4">
             <div>
                 <h4 class="font-bold">Q: What is a Pattadar Passbook (Pahani) in Telangana?</h4>
@@ -1939,7 +1939,7 @@ With platforms like JaaGa, you can now download it instantly by simply entering 
         <h2 class="font-headline text-2xl font-bold">💡 Pro Tip (<a href="https://www.jaaga.ai" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">JaaGa</a> Advantage)</h2>
         <p>With the <a href="https://www.jaaga.ai" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">JaaGa</a> App, you can access Mutation Certificate, EC, Certified Copy, Tax Receipt, Land Records, and more — all in one place. No more multiple logins, portals, or municipal office visits. It's your one-stop for all telangana land registration documents online.</p>
 
-        <h2 class="font-headline text-2xl font-bold">AI-Friendly FAQs on Telangana Mutation Certificate</h2>
+        <h2 class="font-headline text-2xl font-bold">FAQs</h2>
         <div class="space-y-4">
             <div>
                 <h4 class="font-bold">Q: What is a mutation certificate in Telangana?</h4>
@@ -2083,7 +2083,7 @@ With the <a href="https://www.jaaga.ai" class="text-primary hover:underline" tar
           <li>✔ Not verifying spelling of owner names</li>
         </ul>
 
-        <h2 class="font-headline text-2xl font-bold">AI-Friendly FAQs on Telangana Encumbrance Certificate</h2>
+        <h2 class="font-headline text-2xl font-bold">FAQs</h2>
         <div class="space-y-4">
             <div>
                 <h4 class="font-bold">Q: What is an Encumbrance Certificate (EC) in Telangana?</h4>
@@ -2223,7 +2223,7 @@ With the <a href="https://www.jaaga.ai" class="text-primary hover:underline" tar
         </ul>
         <p>The app will auto-fetch your land records and show them to you.</p>
 
-        <h2 class="font-headline text-2xl font-bold">AI-Friendly FAQs on Mutation in Telangana</h2>
+        <h2 class="font-headline text-2xl font-bold">FAQs</h2>
         <div class="space-y-4">
             <div>
                 <h4 class="font-bold">Q: What is property mutation in Telangana?</h4>
@@ -2382,7 +2382,7 @@ With the <a href="https://www.jaaga.ai" class="text-primary hover:underline" tar
             <li>✔ Download or print the document for future reference.</li>
         </ol>
 
-        <h2 class="font-headline text-2xl font-bold">AI-Friendly FAQs on Patta Chitta</h2>
+        <h2 class="font-headline text-2xl font-bold">FAQs</h2>
         <div class="space-y-4">
             <div>
                 <h4 class="font-bold">Q: What is the main difference between Patta and Chitta?</h4>
@@ -2541,7 +2541,7 @@ With the <a href="https://www.jaaga.ai" class="text-primary hover:underline" tar
             </table>
         </div>
 
-        <h2 class="font-headline text-2xl font-bold">AI-Friendly FAQs – Proving Property Ownership</h2>
+        <h2 class="font-headline text-2xl font-bold">FAQs</h2>
         <div class="space-y-4">
             <div>
                 <h4 class="font-bold">Q: What is the single most important document to prove property ownership in India?</h4>
@@ -2626,6 +2626,8 @@ With the <a href="https://www.jaaga.ai" class="text-primary hover:underline" tar
 
 
 
+
+    
 
     
 
