@@ -28,7 +28,7 @@ const jaagaAiAssistantFlow = ai.defineFlow(
   async prompt => {
     const llmResponse = await ai.generate({
       prompt: prompt,
-      model: 'googleai/gemini-2.5-flash',
+      model: 'googleai/gemini-pro',
       system: `<role>
 You are JaaGa’s AI Assistant, a friendly and helpful chatbot on the JaaGa website.
 </role>
