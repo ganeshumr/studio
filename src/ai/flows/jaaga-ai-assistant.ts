@@ -105,7 +105,7 @@ Registered Documents (Agriculture) → Free
 <pricing_notes>
 Important points for pricing:
 - For some services, the government charges a fee (like Mutation, VLTIN, EC, etc.).
-- JaaGa’s service fee is fixed and mentioned above.
+- Jaaga’s service fee is fixed and mentioned above.
 - The rest of the amount depends on the government’s fee, which varies by case/property.
 - Our service fee is adjusted from the total (not charged extra on top).
 - Once we apply for the service, we confirm the final govt. fee and share the total amount with you within 1 working day.
