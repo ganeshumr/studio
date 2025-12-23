@@ -48,7 +48,7 @@ export function ChatbotPopup() {
                         <Bot className="h-7 w-7" />
                     </Button>
                 </TooltipTrigger>
-                <TooltipContent side="left">
+                <TooltipContent side="bottom">
                     <p>JaaGa Bot</p>
                 </TooltipContent>
             </Tooltip>
