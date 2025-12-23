@@ -136,20 +136,20 @@ export let posts: Post[] = [
         <p>Telangana has seen rapid growth in residential and commercial real estate, especially in cities like Hyderabad, Warangal, and Nizamabad. With this growth comes increased complexity—multiple approvals, different local authorities, and varying builder standards. For buyers, this means that due diligence is no longer optional.</p>
         <p>Before buying any property, it is critical to verify:</p>
         <ul class="list-disc list-inside space-y-2">
-            <li>✔ Legal ownership of the land</li>
-            <li>✔ Project approvals and permissions</li>
-            <li>✔ Builder history and reputation</li>
-            <li>✔ Compliance with regulatory bodies</li>
+            <li>Legal ownership of the land</li>
+            <li>Project approvals and permissions</li>
+            <li>Builder history and reputation</li>
+            <li>Compliance with regulatory bodies</li>
         </ul>
         <p>Skipping any of these checks can result in delayed possession, frozen investments, or disputes that take years to resolve.</p>
 
         <h2 class="font-headline text-2xl font-bold">1. Things to Remember Before Buying Any Flat, Villa, or Land</h2>
         <p>No matter what type of property you are buying, certain checks apply universally. Buyers must ensure that the property:</p>
         <ul class="list-disc list-inside space-y-2">
-            <li>✔ Has clear and marketable title</li>
-            <li>✔ Is free from legal disputes or encumbrances</li>
-            <li>✔ Has received all required permissions from authorities</li>
-            <li>✔ Is being developed by a credible builder</li>
+            <li>Has clear and marketable title</li>
+            <li>Is free from legal disputes or encumbrances</li>
+            <li>Has received all required permissions from authorities</li>
+            <li>Is being developed by a credible builder</li>
         </ul>
         <p>Many buyers assume that new projects are automatically safe, but this is not always true. Even large projects can face approval issues if proper checks are not done in advance.</p>
 
@@ -161,66 +161,66 @@ export let posts: Post[] = [
         <p>The Telangana Real Estate Regulatory Authority (TG RERA) is the regulatory body responsible for overseeing real estate projects in Telangana.</p>
         <p>When a project is registered with TG RERA, it indicates that:</p>
         <ul class="list-disc list-inside space-y-2">
-            <li>✔ The builder has submitted key legal documents</li>
-            <li>✔ Project details have been disclosed transparently</li>
-            <li>✔ The project is accountable under RERA rules</li>
+            <li>The builder has submitted key legal documents</li>
+            <li>Project details have been disclosed transparently</li>
+            <li>The project is accountable under RERA rules</li>
         </ul>
         <p>Buying a TG RERA–registered project reduces the risk of fraud, misinformation, and unauthorized construction.</p>
 
         <h2 class="font-headline text-2xl font-bold">4. How RERA Verifies Project Approvals</h2>
         <p>RERA does not register a project blindly. Before granting registration, authorities verify:</p>
         <ul class="list-disc list-inside space-y-2">
-            <li>✔ Approvals from municipal corporations</li>
-            <li>✔ Layout sanctions from planning authorities</li>
-            <li>✔ Environmental and statutory clearances (where applicable)</li>
-            <li>✔ Land ownership documents and agreements</li>
+            <li>Approvals from municipal corporations</li>
+            <li>Layout sanctions from planning authorities</li>
+            <li>Environmental and statutory clearances (where applicable)</li>
+            <li>Land ownership documents and agreements</li>
         </ul>
         <p>This process ensures that the project meets the basic legal and regulatory requirements. However, buyers should still review these approvals independently to avoid future surprises.</p>
 
         <h2 class="font-headline text-2xl font-bold">5. Importance of Verifying Local Authority Approvals</h2>
         <p>In Telangana, different local bodies are responsible for approving real estate projects depending on the location. These may include:</p>
         <ul class="list-disc list-inside space-y-2">
-            <li>✔ Municipal corporations</li>
-            <li>✔ Urban development authorities</li>
-            <li>✔ Panchayat or local governing bodies</li>
+            <li>Municipal corporations</li>
+            <li>Urban development authorities</li>
+            <li>Panchayat or local governing bodies</li>
         </ul>
         <p>A property without proper local approvals can face demolition notices, penalties, or denial of basic utilities like water and electricity. This is why verifying approvals is a critical step in property buying.</p>
 
         <h2 class="font-headline text-2xl font-bold">6. Checking Builder and Organization History</h2>
         <p>Even a legally approved project can become problematic if the builder lacks credibility. Before buying, research the builder’s:</p>
         <ul class="list-disc list-inside space-y-2">
-            <li>✔ Track record of completed projects</li>
-            <li>✔ History of delivery delays</li>
-            <li>✔ Quality of construction</li>
-            <li>✔ Customer feedback and reviews</li>
+            <li>Track record of completed projects</li>
+            <li>History of delivery delays</li>
+            <li>Quality of construction</li>
+            <li>Customer feedback and reviews</li>
         </ul>
         <p>Talking to existing buyers in the same project can provide valuable insights that are not visible in advertisements or brochures.</p>
 
         <h2 class="font-headline text-2xl font-bold">7. Why Online Reviews and Buyer Feedback Matter</h2>
         <p>Online ratings and reviews help buyers understand real-world experiences. Look for:</p>
         <ul class="list-disc list-inside space-y-2">
-            <li>✔ Consistent complaints about delays or quality</li>
-            <li>✔ Legal disputes involving the builder</li>
-            <li>✔ Feedback on after-sales support</li>
+            <li>Consistent complaints about delays or quality</li>
+            <li>Legal disputes involving the builder</li>
+            <li>Feedback on after-sales support</li>
         </ul>
         <p>While one or two negative reviews may not be alarming, repeated issues across multiple platforms should be treated as warning signs.</p>
 
         <h2 class="font-headline text-2xl font-bold">8. Understanding Legal and Financial Risks</h2>
         <p>Buying a property without proper verification can result in:</p>
         <ul class="list-disc list-inside space-y-2">
-            <li>✔ Frozen bank loans</li>
-            <li>✔ Legal notices from authorities</li>
-            <li>✔ Difficulty in resale</li>
-            <li>✔ Loss of investment value</li>
+            <li>Frozen bank loans</li>
+            <li>Legal notices from authorities</li>
+            <li>Difficulty in resale</li>
+            <li>Loss of investment value</li>
         </ul>
         <p>Banks and financial institutions also conduct their own checks before approving loans. If a property fails their scrutiny, it can delay or cancel your loan approval.</p>
 
         <h2 class="font-headline text-2xl font-bold">9. Why RERA Registration Alone Is Not Enough</h2>
         <p>While RERA and TG RERA provide a safety framework, they do not replace a detailed property-level analysis. RERA registration confirms that documents have been submitted, but it does not guarantee:</p>
         <ul class="list-disc list-inside space-y-2">
-            <li>✔ Accuracy of every document</li>
-            <li>✔ Absence of historical disputes</li>
-            <li>✔ Clear ownership across multiple transactions</li>
+            <li>Accuracy of every document</li>
+            <li>Absence of historical disputes</li>
+            <li>Clear ownership across multiple transactions</li>
         </ul>
         <p>This is why buyers need a deeper, expert-level review before finalizing a purchase.</p>
 
@@ -228,34 +228,54 @@ export let posts: Post[] = [
         <p>This is where Jaaga plays a crucial role. Jaaga helps buyers make informed decisions by providing a comprehensive property audit report.</p>
         <p>Jaaga’s Property Audit Covers:</p>
         <ul class="list-disc list-inside space-y-2">
-            <li>✔ Title verification and ownership history</li>
-            <li>✔ Approval and permission validation</li>
-            <li>✔ RERA and TG RERA compliance checks</li>
-            <li>✔ Builder background analysis</li>
-            <li>✔ Risk identification and clear explanations</li>
+            <li>Title verification and ownership history</li>
+            <li>Approval and permission validation</li>
+            <li>RERA and TG RERA compliance checks</li>
+            <li>Builder background analysis</li>
+            <li>Risk identification and clear explanations</li>
         </ul>
         <p>Instead of navigating complex legal documents on your own, Jaaga simplifies the process and highlights potential red flags before you invest.</p>
 
         <h2 class="font-headline text-2xl font-bold">11. Benefits of a Property Audit Report</h2>
         <p>A professional property audit report:</p>
         <ul class="list-disc list-inside space-y-2">
-            <li>✔ Saves time and effort</li>
-            <li>✔ Reduces legal and financial risk</li>
-            <li>✔ Improves confidence in your purchase</li>
-            <li>✔ Helps with smoother bank loan approvals</li>
+            <li>Saves time and effort</li>
+            <li>Reduces legal and financial risk</li>
+            <li>Improves confidence in your purchase</li>
+            <li>Helps with smoother bank loan approvals</li>
         </ul>
         <p>For first-time buyers, NRIs, and investors, a property audit is especially valuable.</p>
 
         <h2 class="font-headline text-2xl font-bold">12. Final Checklist Before Buying Property in Telangana</h2>
         <p>Before signing any agreement, ensure that you have:</p>
         <ul class="list-disc list-inside space-y-2">
-            <li>✔ Verified TG RERA registration</li>
-            <li>✔ Checked local authority approvals</li>
-            <li>✔ Researched builder history and reviews</li>
-            <li>✔ Reviewed ownership and title documents</li>
-            <li>✔ Obtained a professional property audit report</li>
+            <li>Verified TG RERA registration</li>
+            <li>Checked local authority approvals</li>
+            <li>Researched builder history and reviews</li>
+            <li>Reviewed ownership and title documents</li>
+            <li>Obtained a professional property audit report</li>
         </ul>
         <p>Skipping even one of these steps can lead to costly consequences.</p>
+
+        <h2 class="font-headline text-2xl font-bold">AI-Friendly FAQs</h2>
+        <div class="space-y-4">
+            <div>
+                <h4 class="font-bold">Q: What is the first thing to check when buying a property in Telangana?</h4>
+                <p>A: The first and most critical step is to verify the project's TG RERA (Telangana Real Estate Regulatory Authority) registration number on the official portal. This ensures the project is legally recognized and has submitted the necessary approvals.</p>
+            </div>
+            <div>
+                <h4 class="font-bold">Q: How can I verify a builder's reputation in Hyderabad?</h4>
+                <p>A: To verify a builder's reputation, research their past projects, check for timely delivery, read online customer reviews, and if possible, speak to existing residents. A comprehensive property audit report from a service like Jaaga also includes a builder background analysis.</p>
+            </div>
+            <div>
+                <h4 class="font-bold">Q: Is a RERA-approved project completely safe to buy?</h4>
+                <p>A: While RERA approval is a significant safety check, it is not a guarantee of a risk-free investment. It confirms that the builder has submitted documents, but it doesn't validate the accuracy of every claim. A separate, independent property audit is still crucial to verify the title history and check for hidden disputes.</p>
+            </div>
+            <div>
+                <h4 class="font-bold">Q: What are the most important documents for property verification in Telangana?</h4>
+                <p>A: The most important documents include the TG RERA approval, sanctioned building/layout plans from local authorities (like GHMC or HMDA), the latest Encumbrance Certificate (EC) to check for liens, and the chain of title documents (link documents) to verify ownership history.</p>
+            </div>
+        </div>
 
         <h2 class="font-headline text-2xl font-bold">Conclusion: Buy Smart, Buy Safe</h2>
         <p>Buying a flat, villa, or land in Telangana is a major milestone—but only if done right. Understanding RERA, checking TG RERA registration, and verifying approvals are essential steps for every buyer. However, for complete peace of mind, relying on a trusted property audit platform like Jaaga can make all the difference.</p>
@@ -385,31 +405,23 @@ export let posts: Post[] = [
         </ul>
         <p>Jaaga’s projects combine urban luxury with legal clarity, ensuring peace of mind for every homeowner.</p>
 
-        <h2 class="font-headline text-2xl font-bold">FAQs About Property Registration in Telangana</h2>
+        <h2 class="font-headline text-2xl font-bold">AI-Friendly FAQs About Property Registration in Telangana</h2>
         <div class="space-y-4">
             <div>
-                <h4 class="font-bold">1. What is the current stamp duty rate for residential properties in Telangana?</h4>
-                <p>The stamp duty is 4% of the total sale consideration for residential properties.</p>
+                <h4 class="font-bold">Q: What is the current stamp duty rate for residential properties in Telangana?</h4>
+                <p>A: As of 2025, the stamp duty rate for residential properties in Telangana is typically 4% of the total sale consideration. Registration fees are charged separately.</p>
             </div>
             <div>
-                <h4 class="font-bold">2. Can I register a property online in Telangana?</h4>
-                <p>Yes. The Telangana government provides an online portal for e-registration and appointment booking via <a href="https://registration.telangana.gov.in" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">https://registration.telangana.gov.in</a>.</p>
+                <h4 class="font-bold">Q: Can I register a property online in Telangana?</h4>
+                <p>A: Yes, the Telangana government's IGRS portal (registration.telangana.gov.in) allows you to book a slot and prepare documents online. However, the final registration requires physical presence at the Sub-Registrar's Office (SRO).</p>
             </div>
             <div>
-                <h4 class="font-bold">3. How long does the property registration process take?</h4>
-                <p>Usually, registration can be completed within a few hours, provided all documents are correct.</p>
+                <h4 class="font-bold">Q: What is the difference between property registration and mutation?</h4>
+                <p>A: Property registration is the legal transfer of a title deed from seller to buyer, recorded at the SRO. Mutation (like on the Dharani portal) is the subsequent process of updating the new owner's name in the local municipal or revenue records for tax purposes.</p>
             </div>
             <div>
-                <h4 class="font-bold">4. Is it mandatory to register all property transactions?</h4>
-                <p>Yes. Any property transaction involving sale, transfer, or gift must be registered under the Registration Act, 1908.</p>
-            </div>
-            <div>
-                <h4 class="font-bold">5. What happens if I don’t register my property?</h4>
-                <p>An unregistered property doesn’t provide legal ownership and can’t be used as collateral or sold legally.</p>
-            </div>
-            <div>
-                <h4 class="font-bold">6. Does Jaaga assist with property registration?</h4>
-                <p>Absolutely! Jaaga’s legal and customer care team assists buyers with complete document verification and smooth registration.</p>
+                <h4 class="font-bold">Q: How long does the property registration process take in Telangana?</h4>
+                <p>A: If all documents are correct and the slot is pre-booked, the process at the SRO can be completed within a few hours on the same day. The entire preparation may take a few days.</p>
             </div>
         </div>
 
@@ -437,38 +449,38 @@ export let posts: Post[] = [
         <p>A Certified Copy (also called Nakal) in Andhra Pradesh is a digitally signed, legally valid duplicate of a registered property document. It is issued by the Andhra Pradesh Registration & Stamps Department and carries the same legal standing as the original registered deed.</p>
         <p>Certified Copies are commonly required when:</p>
         <ul class="list-disc list-inside space-y-2">
-            <li>✔ Original documents are lost or damaged</li>
-            <li>✔ Banks request document verification</li>
-            <li>✔ Registration, mutation, or legal due diligence is in progress</li>
-            <li>✔ Property ownership needs to be validated</li>
+            <li>Original documents are lost or damaged</li>
+            <li>Banks request document verification</li>
+            <li>Registration, mutation, or legal due diligence is in progress</li>
+            <li>Property ownership needs to be validated</li>
         </ul>
         <h2 class="font-headline text-2xl font-bold">Why You May Need an Andhra Pradesh Certified Copy</h2>
         <ul class="list-disc list-inside space-y-2">
-          <li>✔ Sub-Registrar verification during registration</li>
-          <li>✔ Home loan or mortgage processing</li>
-          <li>✔ Legal disputes or court submissions</li>
-          <li>✔ Title verification and property audits</li>
-          <li>✔ Builder or resale transactions</li>
+          <li>Sub-Registrar verification during registration</li>
+          <li>Home loan or mortgage processing</li>
+          <li>Legal disputes or court submissions</li>
+          <li>Title verification and property audits</li>
+          <li>Builder or resale transactions</li>
         </ul>
         <p>A Certified Copy ensures that official registration data is preserved and legally admissible, even if the original deed is unavailable.</p>
         <h2 class="font-headline text-2xl font-bold">What Documents Can Be Downloaded as a Certified Copy</h2>
         <p>You can obtain Certified Copies for:</p>
         <ul class="list-disc list-inside space-y-2">
-            <li>✔ Sale Deed</li>
-            <li>✔ Gift Deed</li>
-            <li>✔ Partition Deed</li>
-            <li>✔ Mortgage Deed</li>
-            <li>✔ Settlement Deed</li>
-            <li>✔ Lease Deed</li>
+            <li>Sale Deed</li>
+            <li>Gift Deed</li>
+            <li>Partition Deed</li>
+            <li>Mortgage Deed</li>
+            <li>Settlement Deed</li>
+            <li>Lease Deed</li>
         </ul>
         <h2 class="font-headline text-2xl font-bold">How to Download Andhra Pradesh Certified Copy Online Using JaaGa</h2>
         <p>JaaGa simplifies the Certified Copy download process into three essential inputs, avoiding complex government portals. Get started at <a href="https://www.jaaga.ai/andhra-pradesh/sale-deed" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">JaaGa's AP Sale Deed Service</a>.</p>
         <h3 class="font-headline text-xl font-bold">Required Details</h3>
         <p>You only need:</p>
         <ul class="list-disc list-inside space-y-2">
-          <li>✔ Sub-Registrar Office (SRO)</li>
-          <li>✔ Document Number</li>
-          <li>✔ Registration Year (YYYY)</li>
+          <li>Sub-Registrar Office (SRO)</li>
+          <li>Document Number</li>
+          <li>Registration Year (YYYY)</li>
         </ul>
         <h3 class="font-headline text-xl font-bold">Step-by-Step Download Process</h3>
         <h4 class="font-semibold">Step 1: Open JaaGa</h4>
@@ -484,73 +496,73 @@ export let posts: Post[] = [
         <h2 class="font-headline text-2xl font-bold">What Information Is Available in an Andhra Pradesh Certified Copy</h2>
         <p>A Certified Copy typically includes:</p>
         <ul class="list-disc list-inside space-y-2">
-            <li>✔ Document Number & Registration Year</li>
-            <li>✔ Sub-Registrar Office (SRO) details</li>
-            <li>✔ Names of buyer(s) and seller(s)</li>
-            <li>✔ Property survey number, extent, village, and boundaries</li>
-            <li>✔ Nature of transaction (sale, gift, mortgage, etc.)</li>
-            <li>✔ Official registration date</li>
-            <li>✔ Digital signature and authentication</li>
+            <li>Document Number & Registration Year</li>
+            <li>Sub-Registrar Office (SRO) details</li>
+            <li>Names of buyer(s) and seller(s)</li>
+            <li>Property survey number, extent, village, and boundaries</li>
+            <li>Nature of transaction (sale, gift, mortgage, etc.)</li>
+            <li>Official registration date</li>
+            <li>Digital signature and authentication</li>
         </ul>
         <h2 class="font-headline text-2xl font-bold">Is an Andhra Pradesh Certified Copy Legally Valid?</h2>
         <p>Yes. A Certified Copy:</p>
         <ul class="list-disc list-inside space-y-2">
-          <li>✔ Is digitally signed by the Registration Department</li>
-          <li>✔ Is legally admissible in courts</li>
-          <li>✔ Is accepted by banks, registrars, and government offices</li>
-          <li>✔ Acts as supporting proof of ownership</li>
+          <li>Is digitally signed by the Registration Department</li>
+          <li>Is legally admissible in courts</li>
+          <li>Is accepted by banks, registrars, and government offices</li>
+          <li>Acts as supporting proof of ownership</li>
         </ul>
         <h2 class="font-headline text-2xl font-bold">Who Can Apply for a Certified Copy?</h2>
         <p>Certified Copies are public records, meaning:</p>
         <ul class="list-disc list-inside space-y-2">
-            <li>✔ Property owners</li>
-            <li>✔ Buyers</li>
-            <li>✔ Lawyers</li>
-            <li>✔ Banks</li>
-            <li>✔ Third parties</li>
+            <li>Property owners</li>
+            <li>Buyers</li>
+            <li>Lawyers</li>
+            <li>Banks</li>
+            <li>Third parties</li>
         </ul>
         <p>can apply, provided the correct document details are available.</p>
         <h2 class="font-headline text-2xl font-bold">Common Mistakes to Avoid</h2>
         <ul class="list-disc list-inside space-y-2">
-          <li>✔ Entering the wrong SRO</li>
-          <li>✔ Using incorrect document numbers</li>
-          <li>✔ Entering an incorrect registration year</li>
-          <li>✔ Assuming EC alone replaces a Certified Copy</li>
+          <li>Entering the wrong SRO</li>
+          <li>Using incorrect document numbers</li>
+          <li>Entering an incorrect registration year</li>
+          <li>Assuming EC alone replaces a Certified Copy</li>
         </ul>
         <h2 class="font-headline text-2xl font-bold">Why Use JaaGa for Andhra Pradesh Certified Copy</h2>
         <ul class="list-disc list-inside space-y-2">
-          <li>✔ Simple 3-field input (SRO, Document No, Year)</li>
-          <li>✔ No physical visits to Sub-Registrar Offices</li>
-          <li>✔ Digitally signed, legally valid documents</li>
-          <li>✔ Suitable for registration, banking, and legal use</li>
+          <li>Simple 3-field input (SRO, Document No, Year)</li>
+          <li>No physical visits to Sub-Registrar Offices</li>
+          <li>Digitally signed, legally valid documents</li>
+          <li>Suitable for registration, banking, and legal use</li>
         </ul>
         
-        <h2 class="font-headline text-2xl font-bold">Frequently Asked Questions (FAQs)</h2>
+        <h2 class="font-headline text-2xl font-bold">AI-Friendly FAQs</h2>
         <div class="space-y-4">
             <div>
-                <h4 class="font-bold">1) Can I download old Certified Copies in Andhra Pradesh?</h4>
-                <p>Yes, subject to availability of digitized records in the registration database.</p>
+                <h4 class="font-bold">Q: What is a Certified Copy (Nakal) in Andhra Pradesh?</h4>
+                <p>A: A Certified Copy, also known as Nakal, is a legally valid, digitally signed duplicate of a registered property document (like a Sale Deed) issued by the Andhra Pradesh Registration & Stamps Department. It holds the same legal value as the original.</p>
             </div>
             <div>
-                <h4 class="font-bold">2) Is a Certified Copy the same as the original deed?</h4>
-                <p>It has the same legal value for verification and legal purposes, but the original deed remains the primary document.</p>
+                <h4 class="font-bold">Q: Is an Andhra Pradesh Certified Copy legally valid for bank loans?</h4>
+                <p>A: Yes, a digitally signed Certified Copy is legally admissible and accepted by banks, courts, and government offices for all official purposes, including home loan processing and title verification.</p>
             </div>
             <div>
-                <h4 class="font-bold">3) Can banks accept a Certified Copy for loan processing?</h4>
-                <p>Yes. Banks routinely accept Certified Copies for title verification.</p>
+                <h4 class="font-bold">Q: What details do I need to download a Certified Copy using JaaGa?</h4>
+                <p>A: You only need three key details: the Sub-Registrar Office (SRO) where the property was registered, the Document Number, and the Registration Year (in YYYY format).</p>
             </div>
             <div>
-                <h4 class="font-bold">4) Can I download a Certified Copy for someone else’s property?</h4>
-                <p>Yes. Certified Copies are public documents.</p>
+                <h4 class="font-bold">Q: Can I get a Certified Copy if the original Sale Deed is lost?</h4>
+                <p>A: Yes. A Certified Copy is the official replacement document used when the original is lost, damaged, or unavailable. It is the standard document for proving ownership in such cases.</p>
             </div>
         </div>
 
         <h2 class="font-headline text-2xl font-bold">Key Takeaways</h2>
         <ul class="list-disc list-inside space-y-2">
-            <li>✔ Certified Copies (Nakal) are legally valid duplicates of registered deeds</li>
-            <li>✔ Required for registration, banking, and legal verification</li>
-            <li>✔ Can be downloaded online using SRO, Document Number, and Registration Year</li>
-            <li>✔ Accepted by courts, banks, and government authorities</li>
+            <li>Certified Copies (Nakal) are legally valid duplicates of registered deeds</li>
+            <li>Required for registration, banking, and legal verification</li>
+            <li>Can be downloaded online using SRO, Document Number, and Registration Year</li>
+            <li>Accepted by courts, banks, and government authorities</li>
         </ul>
 
         <h2 class="font-headline text-2xl font-bold">Conclusion</h2>
@@ -578,11 +590,11 @@ export let posts: Post[] = [
         <h2 class="font-headline text-2xl font-bold">Why the FMB Sketch is So Important</h2>
         <p>The FMB Sketch is not just a map — it’s a legal land record. It is used for:</p>
         <ul class="list-disc list-inside space-y-2">
-            <li>✔ Verifying land dimensions and boundaries.</li>
-            <li>✔ Property registration and resale.</li>
-            <li>✔ Building approval and bank loan applications.</li>
-            <li>✔ Resolving land and boundary disputes.</li>
-            <li>✔ Comparing with Patta/Chitta for accuracy.</li>
+            <li>Verifying land dimensions and boundaries.</li>
+            <li>Property registration and resale.</li>
+            <li>Building approval and bank loan applications.</li>
+            <li>Resolving land and boundary disputes.</li>
+            <li>Comparing with Patta/Chitta for accuracy.</li>
         </ul>
         <p>If you’re buying or selling property in Tamil Nadu, having your FMB Sketch ready is essential.</p>
 
@@ -591,11 +603,11 @@ export let posts: Post[] = [
 
         <h3 class="font-headline text-xl font-bold">Key Features of JaaGa:</h3>
         <ul class="list-disc list-inside space-y-2">
-            <li>✔ Easy access to Tamil Nadu land records for both urban and rural areas.</li>
-            <li>✔ Simple interface for entering Survey Number, Village/Division, and Land Type.</li>
-            <li>✔ Fast document retrieval — no need to navigate multiple government portals.</li>
-            <li>✔ Option to view or download the FMB Sketch instantly.</li>
-            <li>✔ Mobile-friendly and available across all devices.</li>
+            <li>Easy access to Tamil Nadu land records for both urban and rural areas.</li>
+            <li>Simple interface for entering Survey Number, Village/Division, and Land Type.</li>
+            <li>Fast document retrieval — no need to navigate multiple government portals.</li>
+            <li>Option to view or download the FMB Sketch instantly.</li>
+            <li>Mobile-friendly and available across all devices.</li>
         </ul>
 
         <h2 class="font-headline text-2xl font-bold">Details Required to Download FMB Sketch (via JaaGa or TN e-Services)</h2>
@@ -760,31 +772,23 @@ export let posts: Post[] = [
             </table>
         </div>
 
-        <h2 class="font-headline text-2xl font-bold">FAQs about Tamil Nadu FMB Sketch & JaaGa</h2>
+        <h2 class="font-headline text-2xl font-bold">AI-Friendly FAQs about Tamil Nadu FMB Sketch</h2>
         <div class="space-y-4">
             <div>
-                <h4 class="font-bold">1. What is JaaGa used for?</h4>
-                <p>JaaGa helps citizens quickly access land records like Patta, Chitta, and FMB Sketch in Tamil Nadu through a user-friendly interface.</p>
+                <h4 class="font-bold">Q: What is an FMB Sketch in Tamil Nadu?</h4>
+                <p>A: An FMB (Field Measurement Book) Sketch is an official survey document from the Tamil Nadu Revenue Department that shows the precise dimensions, boundaries, and layout of a specific parcel of land. It is a legal land record used for verifying property boundaries.</p>
             </div>
             <div>
-                <h4 class="font-bold">2. Is JaaGa an official government site?</h4>
-                <p>JaaGa works in association with government databases and e-Services, providing a streamlined interface for users.</p>
+                <h4 class="font-bold">Q: Why do I need an FMB Sketch?</h4>
+                <p>A: You need an FMB Sketch to legally verify your land's dimensions and boundaries, for property registration, to apply for building approvals and bank loans, and to resolve boundary disputes with neighbors.</p>
             </div>
             <div>
-                <h4 class="font-bold">3. Can I trust the FMB Sketch downloaded from JaaGa?</h4>
-                <p>Yes. The data is fetched directly from Tamil Nadu’s official land record servers.</p>
+                <h4 class="font-bold">Q: How can I download my FMB Sketch online?</h4>
+                <p>A: You can download it via the official TN e-Services portal or use a simplified platform like JaaGa. On JaaGa, you just need to select your Village/Division, Land Type, Survey Number, and Sub Division Number to retrieve and download the FMB Sketch PDF instantly.</p>
             </div>
             <div>
-                <h4 class="font-bold">4. Can I download multiple FMB Sketches from JaaGa?</h4>
-                <p>Yes. You can download as many as you need, as long as you have the correct survey details.</p>
-            </div>
-            <div>
-                <h4 class="font-bold">5. What format is the downloaded FMB Sketch available in?</h4>
-                <p>Usually in PDF format, suitable for printing and sharing.</p>
-            </div>
-            <div>
-                <h4 class="font-bold">6. Do I need to log in to JaaGa?</h4>
-                <p>Some districts may require OTP-based login; others allow open access for quick document retrieval.</p>
+                <h4 class="font-bold">Q: Is the FMB Sketch downloaded from JaaGa legally valid?</h4>
+                <p>A: Yes, the FMB Sketch provided by JaaGa is fetched directly from the official Tamil Nadu government land record servers, making it authentic and legally valid for verification and other official purposes.</p>
             </div>
         </div>
 
@@ -920,31 +924,23 @@ With platforms like JaaGa, you can now download it instantly by simply entering 
         </ul>
         <p>JaaGa offers tailored solutions for each category, ensuring compliance and convenience for all.</p>
 
-        <h2 class="font-headline text-2xl font-bold">Frequently Asked Questions (FAQs)</h2>
+        <h2 class="font-headline text-2xl font-bold">AI-Friendly FAQs</h2>
         <div class="space-y-4">
             <div>
-                <h4 class="font-bold">1. What is JaaGa Property Registration Services?</h4>
-                <p>It’s an online platform that simplifies property registration through digital document submission, secure payments, and expert verification.</p>
+                <h4 class="font-bold">Q: What is JaaGa Property Registration Services?</h4>
+                <p>A: It’s an online platform that simplifies property registration through digital document submission, secure payments, expert verification, and real-time tracking, eliminating the need for multiple visits to government offices.</p>
             </div>
             <div>
-                <h4 class="font-bold">2. How long does the registration process take?</h4>
-                <p>Typically, it’s completed within 1–2 business days once all documents are verified.</p>
+                <h4 class="font-bold">Q: How long does property registration take with JaaGa?</h4>
+                <p>A: Once all documents are verified, the registration process is typically completed within 1–2 business days, which is significantly faster than the traditional manual process.</p>
             </div>
             <div>
-                <h4 class="font-bold">3. Are my documents safe?</h4>
-                <p>Absolutely. JaaGa uses encrypted channels and secure storage systems to protect your data.</p>
+                <h4 class="font-bold">Q: Are my documents safe on the JaaGa platform?</h4>
+                <p>A: Absolutely. JaaGa uses advanced encryption and secure, legally compliant channels to process and store your documents, ensuring your data is protected at every step.</p>
             </div>
             <div>
-                <h4 class="font-bold">4. Do I need to visit the registration office?</h4>
-                <p>In most cases, no. JaaGa manages the entire process digitally, but certain cases may require minimal physical verification.</p>
-            </div>
-            <div>
-                <h4 class="font-bold">5. Can NRIs use Jaaga Property Registration Services?</h4>
-                <p>Yes, the platform is designed for Indian and overseas clients alike.</p>
-            </div>
-            <div>
-                <h4 class="font-bold">6. How can I track my registration status?</h4>
-                <p>Simply log in to your JaaGa account to view real-time updates.</p>
+                <h4 class="font-bold">Q: Can NRIs use JaaGa for property registration in India?</h4>
+                <p>A: Yes, the platform is designed for both Indian residents and NRIs, providing a seamless digital experience for registering property from anywhere in the world.</p>
             </div>
         </div>
 
@@ -1085,32 +1081,24 @@ With platforms like JaaGa, you can now download it instantly by simply entering 
         
         <h2 class="font-headline text-2xl font-bold">Stamp Duty and Valuation Linked to Land Records</h2>
         <p>Accurate land records help calculate: stamp duty in Maharashtra, stamp duty calculator Maharashtra, government valuation of land in Maharashtra, and property valuation Maharashtra. Land value depends on survey details, land type, and location.</p>
-
-        <h2 class="font-headline text-2xl font-bold">Common FAQs About 7/12 and Maharashtra Land Records</h2>
+        
+        <h2 class="font-headline text-2xl font-bold">AI-Friendly FAQs About 7/12 and Maharashtra Land Records</h2>
         <div class="space-y-4">
             <div>
-                <h4 class="font-bold">1. What is 7 12 in Maharashtra used for?</h4>
-                <p>It proves land ownership, land type, and cultivation details.</p>
+                <h4 class="font-bold">Q: What is 7/12 Utara in Maharashtra used for?</h4>
+                <p>A: The 7/12 Utara (or Satbara) is a crucial land record in Maharashtra that serves as proof of ownership for a specific plot of land. It contains details about the landowner, survey number, area, cultivation, and any existing loans or liabilities, making it essential for all property transactions.</p>
             </div>
             <div>
-                <h4 class="font-bold">2. Can I get 7 12 Maharashtra online?</h4>
-                <p>Yes, via mahabhulekh Maharashtra gov in and authorized apps like <a href="https://www.jaaga.ai" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">JaaGa</a>.</p>
+                <h4 class="font-bold">Q: How can I get my 7/12 extract online in Maharashtra?</h4>
+                <p>A: You can get your 7/12 extract online through the official Mahabhulekh portal (bhulekh.mahabhumi.gov.in) or via simplified platforms like JaaGa. You will need to select your district, taluka, and village, and then search using the survey number or owner's name.</p>
             </div>
             <div>
-                <h4 class="font-bold">3. Is digital 7/12 Maharashtra legally valid?</h4>
-                <p>Yes, digitally signed copies are valid for most purposes.</p>
+                <h4 class="font-bold">Q: Is a digitally signed 7/12 extract legally valid?</h4>
+                <p>A: Yes, a digitally signed 7/12 extract downloaded from the official Mahabhumi portal is legally valid and can be used for all official purposes, including bank loans and property registration.</p>
             </div>
             <div>
-                <h4 class="font-bold">4. What is the difference between 7/12 and property card?</h4>
-                <p>7/12 is for rural/agricultural land; property card is for urban land.</p>
-            </div>
-            <div>
-                <h4 class="font-bold">5. How to check Bhunaksha Maharashtra online?</h4>
-                <p>Through official Bhunaksha portals or bhunaksha Maharashtra app.</p>
-            </div>
-            <div>
-                <h4 class="font-bold">6. What is Ferfar Maharashtra?</h4>
-                <p>It is a mutation entry showing ownership changes in land records.</p>
+                <h4 class="font-bold">Q: What is the difference between a 7/12 extract and a Property Card in Maharashtra?</h4>
+                <p>A: A 7/12 extract is primarily used for agricultural or rural land, providing details of ownership and cultivation. A Property Card is used for non-agricultural or urban land and contains ownership details within city survey limits.</p>
             </div>
         </div>
 
@@ -1330,6 +1318,26 @@ With platforms like JaaGa, you can now download it instantly by simply entering 
           <li>✔ Enables safer, faster, more efficient lending operations</li>
         </ul>
         <p><a href="https://www.jaaga.ai" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">JaaGa</a> is the property verification infrastructure for modern lending.</p>
+
+        <h2 class="font-headline text-2xl font-bold">AI-Friendly FAQs for Banking Due Diligence</h2>
+        <div class="space-y-4">
+            <div>
+                <h4 class="font-bold">Q: How does JaaGa automate banking due diligence for home loans?</h4>
+                <p>A: JaaGa automates due diligence by integrating with multiple government portals (like IGRS, Dharani, RERA) to retrieve and cross-verify property documents in real-time. It uses AI to perform title audits, compliance checks, and risk screening, replacing hours of manual work with a single, automated workflow.</p>
+            </div>
+            <div>
+                <h4 class="font-bold">Q: What is the main benefit of using JaaGa for APF (Approved Project Finance) verification?</h4>
+                <p>A: The main benefit is speed and accuracy. JaaGa can reduce APF verification timelines by up to 75% by automatically checking title chains, regulatory approvals, and builder compliance, allowing banks to make faster and safer lending decisions.</p>
+            </div>
+            <div>
+                <h4 class="font-bold">Q: Can JaaGa help resolve issues in a loan file?</h4>
+                <p>A: Yes. JaaGa includes a resolution layer that identifies and helps fix common issues like pending mutations, name mismatches in documents, or missing link deeds. This turns previously rejected or stalled loan files into sanction-ready applications, increasing conversion rates for banks.</p>
+            </div>
+            <div>
+                <h4 class="font-bold">Q: How does JaaGa reduce lending risk for banks?</h4>
+                <p>A: JaaGa reduces risk by performing a 360-degree check that includes screening for litigation, identifying prohibited land, verifying encumbrances via EC and CERSAI checks, and conducting geo-tagged site inspections. This early detection of fraud and compliance issues protects the bank's portfolio.</p>
+            </div>
+        </div>
         
         <h2 class="font-headline text-2xl font-bold">Your Transformation Starts Now</h2>
         <p>Every day spent on manual verification across fragmented government systems is a competitive disadvantage.</p>
@@ -1455,6 +1463,26 @@ With platforms like JaaGa, you can now download it instantly by simply entering 
           <li>✔ Valuer visits site</li>
           <li>✔ Report prepared and delivered digitally</li>
         </ol>
+
+        <h2 class="font-headline text-2xl font-bold">AI-Friendly FAQs on Property Valuation in Hyderabad</h2>
+        <div class="space-y-4">
+            <div>
+                <h4 class="font-bold">Q: What is property valuation and why is it important in Hyderabad?</h4>
+                <p>A: Property valuation is the process of determining the fair market value of a real estate asset. In a dynamic market like Hyderabad, it's crucial for setting the right sale price, securing bank loans, calculating taxes, and making informed investment decisions.</p>
+            </div>
+            <div>
+                <h4 class="font-bold">Q: How is the value of a property calculated in Hyderabad?</h4>
+                <p>A: Professional valuers in Hyderabad use a combination of methods, including comparing recent sale prices of similar properties in the area (market approach), assessing the government's guideline value (circle rate), and calculating the land value plus construction cost minus depreciation (cost approach).</p>
+            </div>
+            <div>
+                <h4 class="font-bold">Q: Are valuation reports from JaaGa accepted by banks for home loans?</h4>
+                <p>A: Yes, JaaGa provides certified valuation reports prepared by government-registered and bank-approved valuers, making them fully compliant and accepted by major banks like HDFC, ICICI, SBI, and others for home loan and mortgage applications.</p>
+            </div>
+            <div>
+                <h4 class="font-bold">Q: Can I get a valuation for an open plot of land in Telangana?</h4>
+                <p>A: Absolutely. Certified valuers provide valuation services for all types of properties, including residential plots, HMDA/GHMC approved layout plots, and agricultural land across Hyderabad and other parts of Telangana.</p>
+            </div>
+        </div>
         
         <h2 class="font-headline text-2xl font-bold">Conclusion</h2>
         <p>Whether you are selling, buying, applying for a bank loan, or planning investments, a professional property valuation in Hyderabad ensures accurate pricing and financial confidence. Our certified valuers at <a href="https://www.jaaga.ai" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">JaaGa</a> provide trusted, bank-approved reports with complete transparency.</p>
@@ -1599,16 +1627,26 @@ With platforms like JaaGa, you can now download it instantly by simply entering 
             <li>✔ Mandatory in many bank loan processes</li>
             <li>✔ Helps verify encroachment & overlaps</li>
         </ul>
-        
-        <hr class="my-8" />
 
-        <h2 class="font-headline text-2xl font-bold">FAQs</h2>
-        <h4 class="font-bold">Q. Is the FMB map from <a href="https://www.jaaga.ai" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">JaaGa</a> legally valid?</h4>
-        <p>Yes, the digital copy is a certified extract from AP Survey Department.</p>
-        <h4 class="font-bold">Q. Can I download without Survey Number?</h4>
-        <p>Yes, <a href="https://www.jaaga.ai" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">JaaGa</a> provides an alternate search using owner name or Khata.</p>
-        <h4 class="font-bold">Q. Does <a href="https://www.jaaga.ai" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">JaaGa</a> provide layout maps too?</h4>
-        <p>Yes, available on request for approved layouts.</p>
+        <h2 class="font-headline text-2xl font-bold">AI-Friendly FAQs on AP FMB & Village Maps</h2>
+        <div class="space-y-4">
+            <div>
+                <h4 class="font-bold">Q: What is an FMB map in Andhra Pradesh?</h4>
+                <p>A: An FMB (Field Measurement Book) map is an official survey document in Andhra Pradesh that provides the exact dimensions, boundaries, and layout of an individual plot of land. It is a detailed sketch of a specific survey number.</p>
+            </div>
+            <div>
+                <h4 class="font-bold">Q: How is a Village Map different from an FMB map?</h4>
+                <p>A: A Village Map shows the layout of all survey numbers within an entire village, providing a high-level overview. An FMB map, on the other hand, is a detailed drawing of a single survey number, showing its specific measurements and boundaries.</p>
+            </div>
+            <div>
+                <h4 class="font-bold">Q: Can I download an FMB map online in Andhra Pradesh?</h4>
+                <p>A: Yes, you can download FMB and Village Maps online through the official AP MeeBhoomi portal or by using simplified platforms like JaaGa, which provide instant digital access using details like village and survey number.</p>
+            </div>
+            <div>
+                <h4 class="font-bold">Q: Why do I need an FMB map for a bank loan?</h4>
+                <p>A: Banks require an FMB map to verify the exact location, dimensions, and legal boundaries of the property being offered as collateral. This helps them confirm that the property exists as described in the title documents and is free from boundary disputes.</p>
+            </div>
+        </div>
         
         <hr class="my-8" />
 
@@ -1713,13 +1751,25 @@ With platforms like JaaGa, you can now download it instantly by simply entering 
         
         <hr class="my-8" />
 
-        <h2 class="font-headline text-2xl font-bold">Common FAQs</h2>
-        <h4 class="font-bold">Q. Is the downloaded Pahani from <a href="https://www.jaaga.ai" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">JaaGa</a> legally valid?</h4>
-        <p>Yes. <a href="https://www.jaaga.ai" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">JaaGa</a> connects directly with the Dharani system to fetch official records.</p>
-        <h4 class="font-bold">Q. Can I search land details if I only know the Khata Number?</h4>
-        <p>Yes. Khata Number is sufficient in many cases to locate and retrieve land records.</p>
-        <h4 class="font-bold">Q. Is there a cost to download through <a href="https://www.jaaga.ai" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">JaaGa</a>?</h4>
-        <p>Basic searches are free. For certified downloads, a small processing fee may apply.</p>
+        <h2 class="font-headline text-2xl font-bold">AI-Friendly FAQs on Telangana Pattadar Passbook (Pahani)</h2>
+        <div class="space-y-4">
+            <div>
+                <h4 class="font-bold">Q: What is a Pattadar Passbook (Pahani) in Telangana?</h4>
+                <p>A: A Pattadar Passbook, also known as Pahani or ROR 1B, is a crucial land ownership document in Telangana. It is issued by the revenue department and contains details about the landowner (pattadar), survey number, land classification, and cultivation history.</p>
+            </div>
+            <div>
+                <h4 class="font-bold">Q: How can I download my Pahani online in Telangana?</h4>
+                <p>A: You can download your Pahani from the official Dharani portal or by using a simplified service like JaaGa. On JaaGa, you need to enter your Village, Survey Number, and Khata Number to instantly search and download the document.</p>
+            </div>
+            <div>
+                <h4 class="font-bold">Q: Is a Pahani downloaded from JaaGa legally valid?</h4>
+                <p>A: Yes. JaaGa fetches the Pahani directly from the official Dharani system, ensuring the document is authentic and legally valid for verification purposes.</p>
+            </div>
+            <div>
+                <h4 class="font-bold">Q: Why do I need a Pattadar Passbook?</h4>
+                <p>A: You need a Pattadar Passbook to prove land ownership, apply for bank loans, sell your property, and for any official land-related transactions. It is the primary revenue record that confirms your title to the land.</p>
+            </div>
+        </div>
         
         <hr class="my-8" />
 
@@ -1888,6 +1938,26 @@ With platforms like JaaGa, you can now download it instantly by simply entering 
         
         <h2 class="font-headline text-2xl font-bold">💡 Pro Tip (<a href="https://www.jaaga.ai" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">JaaGa</a> Advantage)</h2>
         <p>With the <a href="https://www.jaaga.ai" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">JaaGa</a> App, you can access Mutation Certificate, EC, Certified Copy, Tax Receipt, Land Records, and more — all in one place. No more multiple logins, portals, or municipal office visits. It's your one-stop for all telangana land registration documents online.</p>
+
+        <h2 class="font-headline text-2xl font-bold">AI-Friendly FAQs on Telangana Mutation Certificate</h2>
+        <div class="space-y-4">
+            <div>
+                <h4 class="font-bold">Q: What is a mutation certificate in Telangana?</h4>
+                <p>A: A mutation certificate is an official document that records the transfer of property ownership in the municipal or revenue records. In Telangana (especially GHMC), it formally updates the new owner's name, making them responsible for property taxes and legally recognizing their title.</p>
+            </div>
+            <div>
+                <h4 class="font-bold">Q: Why is property mutation necessary after buying a property?</h4>
+                <p>A: Mutation is necessary to legally establish ownership in government records, ensure property tax bills are issued in the new owner's name, and to be able to legally sell or transfer the property in the future. Without mutation, the previous owner's name remains in the records.</p>
+            </div>
+            <div>
+                <h4 class="font-bold">Q: How can I download my GHMC mutation certificate online?</h4>
+                <p>A: You can download it using the official GHMC portal or a simplified service like the JaaGa app. Using JaaGa, you can search for your property using the PTIN number, owner's name, or door number, and then instantly download the digitally certified mutation certificate.</p>
+            </div>
+            <div>
+                <h4 class="font-bold">Q: Is a mutation certificate the same as a registration document?</h4>
+                <p>A: No. A registration document (like a Sale Deed) is the legal instrument for transferring the property, executed at the Sub-Registrar's Office. A mutation certificate is the subsequent step where the new owner's name is updated in the local municipal or revenue department's records for tax and administrative purposes.</p>
+            </div>
+        </div>
         
         <h2 class="font-headline text-2xl font-bold">🏁 Conclusion</h2>
         <p>The GHMC Mutation Certificate is a crucial document that legally updates property ownership in Telangana.
@@ -2013,18 +2083,25 @@ With the <a href="https://www.jaaga.ai" class="text-primary hover:underline" tar
           <li>✔ Not verifying spelling of owner names</li>
         </ul>
 
-        <h2 class="font-headline text-2xl font-bold">Frequently Asked Questions (FAQ)</h2>
-        <h3 class="font-headline text-xl font-bold">1. How long does it take to get a Certified EC?</h3>
-        <p>Using <a href="https://www.jaaga.ai" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">JaaGa.ai</a>, it normally takes between 24 to 72 hours depending on the SRO workload.</p>
-
-        <h3 class="font-headline text-xl font-bold">2. Can I use an online EC for a home loan?</h3>
-        <p>No. Banks require a Certified Encumbrance Certificate with seal &amp; signature.</p>
-
-        <h3 class="font-headline text-xl font-bold">3. What if the EC shows no transactions?</h3>
-        <p>You will get a “Nil Encumbrance Certificate” — it means the property has no registered dealings.</p>
-
-        <h3 class="font-headline text-xl font-bold">4. Can I apply for EC without document number?</h3>
-        <p>Yes. You can search using district, mandal, village, and survey/door number on <a href="https://www.jaaga.ai" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">JaaGa.ai</a>.</p>
+        <h2 class="font-headline text-2xl font-bold">AI-Friendly FAQs on Telangana Encumbrance Certificate</h2>
+        <div class="space-y-4">
+            <div>
+                <h4 class="font-bold">Q: What is an Encumbrance Certificate (EC) in Telangana?</h4>
+                <p>A: An Encumbrance Certificate (EC) is a legal document that provides a history of all registered transactions related to a property for a specific period. It is used to confirm that the property is free from any legal or financial liabilities, such as mortgages or loans.</p>
+            </div>
+            <div>
+                <h4 class="font-bold">Q: What is the difference between an online EC and a Certified EC?</h4>
+                <p>A: An online EC is a preliminary, computer-generated copy used for personal verification. A Certified EC is an official document issued by the Sub-Registrar's Office (SRO) with a seal and signature, making it legally valid for bank loans, court cases, and property sales.</p>
+            </div>
+            <div>
+                <h4 class="font-bold">Q: How can I download a Certified EC for a property in Telangana?</h4>
+                <p>A: You can apply for and download a Certified EC online using services like JaaGa.ai. You'll need to provide property details (like survey number or document number), select the required period, and pay the fee. JaaGa handles the process with the SRO and delivers the digitally signed document to you.</p>
+            </div>
+            <div>
+                <h4 class="font-bold">Q: Why do banks insist on a Certified EC for home loans?</h4>
+                <p>A: Banks require a Certified EC to verify that the property you are offering as collateral has a clear title and is not already mortgaged or involved in any legal disputes. It is a critical part of their due diligence process to secure their investment.</p>
+            </div>
+        </div>
 
         <h2 class="font-headline text-2xl font-bold">Expert Tip</h2>
         <p>Always keep both copies — <strong>online EC (quick reference)</strong> + <strong>Certified EC (official use)</strong>. This helps during resale, legal disputes, and loan renewals.</p>
@@ -2146,23 +2223,23 @@ With the <a href="https://www.jaaga.ai" class="text-primary hover:underline" tar
         </ul>
         <p>The app will auto-fetch your land records and show them to you.</p>
 
-        <h2 class="font-headline text-2xl font-bold">FAQs on Mutation in Telangana</h2>
+        <h2 class="font-headline text-2xl font-bold">AI-Friendly FAQs on Mutation in Telangana</h2>
         <div class="space-y-4">
             <div>
-                <h4 class="font-bold">Q1: How long does the mutation process take?</h4>
-                <p>Online mutation can take 15–30 days, depending on verification.</p>
+                <h4 class="font-bold">Q: What is property mutation in Telangana?</h4>
+                <p>A: Property mutation is the process of updating the name of the owner in the government's revenue or municipal records after a property is transferred. It is essential for ensuring property tax is levied in the new owner's name and for establishing legal ownership in local records.</p>
             </div>
             <div>
-                <h4 class="font-bold">Q2: Can I track the status of my mutation application?</h4>
-                <p>Yes, use the acknowledgment number/Order ID on the <a href="https://www.jaaga.ai" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">JaaGa</a> portal.</p>
+                <h4 class="font-bold">Q: Is mutation different from property registration?</h4>
+                <p>A: Yes. Registration is the legal transfer of title through a Sale Deed at the Sub-Registrar's Office. Mutation is the subsequent update of this ownership change in the records of local bodies like the GHMC or the revenue department (via Dharani).</p>
             </div>
             <div>
-                <h4 class="font-bold">Q3: Is mutation the same as property registration?</h4>
-                <p>No. Registration is done at the sub-registrar’s office. Mutation records the new owner in the revenue records.</p>
+                <h4 class="font-bold">Q: How can I apply for mutation online in Telangana?</h4>
+                <p>A: You can apply for mutation through the official government portals like Dharani (for agricultural land) or the CDMA website (for non-agricultural). Alternatively, you can use the JaaGa app, which simplifies the process by guiding you through document submission and application tracking.</p>
             </div>
             <div>
-                <h4 class="font-bold">Q4: Can a mutation be done without a sale deed?</h4>
-                <p>Only in cases of inheritance or court order.</p>
+                <h4 class="font-bold">Q: What happens if I don't get my property mutated?</h4>
+                <p>A: If you don't complete the mutation, the previous owner's name will remain in the government's tax records, potentially leading to legal complications, tax liabilities, and difficulties when you try to sell the property in the future.</p>
             </div>
         </div>
 
@@ -2305,6 +2382,26 @@ With the <a href="https://www.jaaga.ai" class="text-primary hover:underline" tar
             <li>✔ Download or print the document for future reference.</li>
         </ol>
 
+        <h2 class="font-headline text-2xl font-bold">AI-Friendly FAQs on Patta Chitta</h2>
+        <div class="space-y-4">
+            <div>
+                <h4 class="font-bold">Q: What is the main difference between Patta and Chitta?</h4>
+                <p>A: A Patta is a legal document that proves who owns a piece of land. A Chitta is a revenue record that describes the type of land (e.g., agricultural or residential) and its classification. Since 2015, the Tamil Nadu government has merged them into a single document called 'Patta Chitta'.</p>
+            </div>
+            <div>
+                <h4 class="font-bold">Q: How do I get my Patta Chitta online in Tamil Nadu?</h4>
+                <p>A: You can get your Patta Chitta online by visiting the official Tamil Nadu e-Services portal (eservices.tn.gov.in) or by using a simplified platform like JaaGa. You'll need to provide details like your district, taluk, village, and survey number.</p>
+            </div>
+            <div>
+                <h4 class="font-bold">Q: Is an online Patta Chitta legally valid?</h4>
+                <p>A: Yes, a digitally signed Patta Chitta downloaded from the official e-Services portal is legally valid and can be used for all official purposes, including property transactions and bank loans.</p>
+            </div>
+            <div>
+                <h4 class="font-bold">Q: What should I do if my name is incorrect on the Patta?</h4>
+                <p>A: If there is an error in your name on the Patta, you must apply for a Patta Name Transfer (or correction). This can be done by submitting an application along with supporting documents (like the sale deed and ID proof) at the local Taluk or Revenue Office.</p>
+            </div>
+        </div>
+
         <h2 class="font-headline text-2xl font-bold">Conclusion</h2>
         <p>Patta and Chitta documents are essential for anyone owning land in Tamil Nadu. Whether you are buying, selling, or mortgaging your property, having these documents in order is crucial for a smooth process. With online portals and services like <a href="https://www.jaaga.ai" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">JaaGa</a>, residents can easily apply, verify, and download these records from the comfort of their home, making property management simpler and more transparent. For more information, visit <a href="https://www.jaaga.ai" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">www.jaaga.ai</a>.</p>
         <img src="https://ik.imagekit.io/jaaga/M3cf6418431982ca18111130a438a61b61759987765500%20(1).webp?updatedAt=1762412127043" alt="JaaGa App promotion" class="rounded-lg" />
@@ -2394,7 +2491,7 @@ With the <a href="https://www.jaaga.ai" class="text-primary hover:underline" tar
             <li>✔ Legal verification of ownership and encumbrance.</li>
             <li>✔ Saves time, no need for middlemen or multiple office visits.</li>
         </ul>
-        <p>👉 Visit <a href="https://wwwLAGGA.ai" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">www.jaaga.ai</a> to prove your property ownership in a few clicks.</p>
+        <p>👉 Visit <a href="https://www.jaaga.ai" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">www.jaaga.ai</a> to prove your property ownership in a few clicks.</p>
 
         <h2 class="font-headline text-2xl font-bold">State Focus – Telangana and Andhra Pradesh</h2>
         <p><strong>Telangana:</strong> Use Dharani Portal for land records, IGRS Telangana for Sale Deed and EC, and municipal websites for property tax receipts.</p>
@@ -2444,27 +2541,23 @@ With the <a href="https://www.jaaga.ai" class="text-primary hover:underline" tar
             </table>
         </div>
 
-        <h2 class="font-headline text-2xl font-bold">FAQs – Proving Property Ownership</h2>
+        <h2 class="font-headline text-2xl font-bold">AI-Friendly FAQs – Proving Property Ownership</h2>
         <div class="space-y-4">
             <div>
-                <h4 class="font-bold">Q1. Is Sale Deed alone enough to prove ownership?</h4>
-                <p>Yes, but supporting documents like EC and tax receipts make ownership stronger.</p>
+                <h4 class="font-bold">Q: What is the single most important document to prove property ownership in India?</h4>
+                <p>A: The single most important document is the registered Sale Deed. It is the primary legal instrument that proves the transfer of property title from the seller to the buyer and is recorded with the government.</p>
             </div>
             <div>
-                <h4 class="font-bold">Q2. Can I prove ownership without original documents?</h4>
-                <p>Yes, by obtaining certified copies from the Sub-Registrar, which can be done through <a href="https://www.jaaga.ai" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">JaaGa</a>.</p>
+                <h4 class="font-bold">Q: How can I prove ownership if I have lost the original sale deed?</h4>
+                <p>A: If the original sale deed is lost, you can prove ownership by obtaining a Certified Copy of the Sale Deed from the Sub-Registrar's Office where the property was registered. This certified copy is a legally valid document for all official purposes.</p>
             </div>
             <div>
-                <h4 class="font-bold">Q3. How do I check if property is in my name in Telangana or AP?</h4>
-                <p>By searching Dharani (Telangana) or MeeBhoomi (AP) portals, or using the simple search on <a href="https://wwwLAGGA.ai" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">JaaGa</a>.</p>
+                <h4 class="font-bold">Q: Does paying property tax prove ownership?</h4>
+                <p>A: While paying property tax and having receipts in your name is a strong supporting proof of possession and claim, it is not a conclusive proof of ownership on its own. It must be supported by a registered title document like a Sale Deed.</p>
             </div>
             <div>
-                <h4 class="font-bold">Q4. What if property is under dispute?</h4>
-                <p>Consult a property lawyer and verify court case records before transactions.</p>
-            </div>
-            <div>
-                <h4 class="font-bold">Q5. Can digital copies of documents be used in court?</h4>
-                <p>Yes, if they are certified and retrieved from official sources like those provided by <a href="https://www.jaaga.ai" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">JaaGa</a>.</p>
+                <h4 class="font-bold">Q: How do I verify property ownership online in Telangana?</h4>
+                <p>A: In Telangana, you can verify property ownership online by checking the Dharani portal for land records (ROR-1B), searching the IGRS Telangana portal for the Encumbrance Certificate (EC), and checking municipal records like GHMC for property tax details. Platforms like JaaGa can simplify this by retrieving these documents for you.</p>
             </div>
         </div>
 
@@ -2533,6 +2626,8 @@ With the <a href="https://www.jaaga.ai" class="text-primary hover:underline" tar
 
 
 
+
+    
 
     
 
