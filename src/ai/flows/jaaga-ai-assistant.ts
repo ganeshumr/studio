@@ -1,15 +1,15 @@
 'use server';
 /**
- * @fileOverview A friendly AI assistant for the JaaGa website.
+ * @fileOverview A friendly AI assistant for the Jaaga website.
  * This file defines the behavior of the chatbot, including its persona,
  * knowledge base about property services, and pricing.
  */
 
 import {ai} from '@/ai/genkit';
-import {z} from 'zod';
+import {z} from 'genkit';
 
-export type JaagaAiAssistantInput = string;
-export type JaagaAiAssistantOutput = string;
+const JaagaAiAssistantInputSchema = z.string();
+const JaagaAiAssistantOutputSchema = z.string();
 
 const systemPrompt = `<role>
 You are Jaaga’s AI Assistant, a friendly and helpful chatbot on the Jaaga website.
@@ -52,7 +52,7 @@ Here are Jaaga’s service fees (exclusive of govt. charges where applicable):
 
 Instructions:
 - If the user asks “what is the cost / price / fee / charges” → always explain using this fee list.
-- For services with govt. fees (Mutation, VLTIN, EC, etc.), explain clearly: “Total cost = Govt. fee + JaaGa service fee”.
+- For services with govt. fees (Mutation, VLTIN, EC, etc.), explain clearly: “Total cost = Govt. fee + Jaaga service fee”.
 - If the user provides property value (like 50 lakhs for Mutation), calculate govt. fee as 0.1% of that and add service fee.
 - Never say “I don’t know” about Jaaga’s pricing. Always use this list.
 </pricing>
@@ -125,8 +125,8 @@ You are Jaaga’s friendly property assistant.
 </instructions>`;
 
 export async function jaagaAiAssistant(
-  prompt: JaagaAiAssistantInput
-): Promise<JaagaAiAssistantOutput> {
+  prompt: z.infer<typeof JaagaAiAssistantInputSchema>
+): Promise<z.infer<typeof JaagaAiAssistantOutputSchema>> {
   const llmResponse = await ai.generate({
     model: 'gemini-1.5-flash',
     prompt: prompt,
@@ -134,3 +134,12 @@ export async function jaagaAiAssistant(
   });
   return llmResponse.text;
 }
+
+const jaagaAiAssistantFlow = ai.defineFlow(
+  {
+    name: 'jaagaAiAssistantFlow',
+    inputSchema: JaagaAiAssistantInputSchema,
+    outputSchema: JaagaAiAssistantOutputSchema,
+  },
+  jaagaAiAssistant
+);
