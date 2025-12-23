@@ -111,7 +111,7 @@ export function ChatbotPopup() {
 
         <Card
           className={cn(
-            'w-[350px] h-[500px] flex flex-col transition-all duration-300 shadow-xl',
+            'w-[380px] h-[600px] md:w-[400px] md:h-[600px] flex flex-col transition-all duration-300 shadow-xl',
             isOpen
               ? 'scale-100 opacity-100 translate-y-0'
               : 'scale-95 opacity-0 translate-y-4 pointer-events-none'
