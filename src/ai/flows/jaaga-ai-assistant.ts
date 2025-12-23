@@ -6,13 +6,10 @@
  */
 
 import {ai} from '@/ai/genkit';
-import {z} from 'genkit';
+import {z} from 'zod';
 
-const JaagaAiAssistantInputSchema = z.string();
-export type JaagaAiAssistantInput = z.infer<typeof JaagaAiAssistantInputSchema>;
-
-const JaagaAiAssistantOutputSchema = z.string();
-export type JaagaAiAssistantOutput = z.infer<typeof JaagaAiAssistantOutputSchema>;
+export type JaagaAiAssistantInput = string;
+export type JaagaAiAssistantOutput = string;
 
 const systemPrompt = `<role>
 You are Jaaga’s AI Assistant, a friendly and helpful chatbot on the Jaaga website.
@@ -131,6 +128,7 @@ export async function jaagaAiAssistant(
   prompt: JaagaAiAssistantInput
 ): Promise<JaagaAiAssistantOutput> {
   const llmResponse = await ai.generate({
+    model: 'gemini-1.5-flash',
     prompt: prompt,
     system: systemPrompt,
   });
