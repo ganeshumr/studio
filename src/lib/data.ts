@@ -264,7 +264,7 @@ export let posts: Post[] = [
     `,
     category: "legal-verification",
     tags: ["buying property telangana", "rera telangana", "tg rera", "property audit"],
-    featuredImage: "https://picsum.photos/seed/telangana-property/800/450",
+    featuredImage: "https://res.cloudinary.com/dnmegjfax/image/upload/v1766472642/Download_Certified_Copy_Andhra_Pradesh_ela35a.png",
     metaTitle: "Key Points to Check Before Buying Property in Telangana | RERA & TG RERA Guide",
     metaDescription: "A comprehensive guide on the key points to check before buying a flat, villa, or land in Telangana. Learn about RERA, TG RERA, and how a professional property audit report by Jaaga can help you choose the right property with confidence.",
     keywords: "buy property in telangana, rera telangana, tg rera guide, property buying checklist, jaaga property audit, flat buying guide, land buying guide, villa buying guide, real estate telangana",
@@ -2533,5 +2533,7 @@ With the <a href="https://www.jaaga.ai" class="text-primary hover:underline" tar
 
 
 
+
+    
 
     
