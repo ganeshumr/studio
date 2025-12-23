@@ -7,6 +7,7 @@ import {Footer} from '@/components/common/footer';
 import {Toaster} from '@/components/ui/toaster';
 import {AuthProvider}from '@/context/auth-context';
 import { Analytics } from '@vercel/analytics/react';
+import { ChatbotPopup } from '@/components/chatbot/chatbot-popup';
 
 const pageTitle = 'Instant Property Documents and Services across 5+ States – JaaGa';
 const pageDescription = 'Get instant access to certified property documents and land records across 5+ states with JaaGa. Download sale deed, Patta/chitta, 7/12, EC, Property Card, Mutation, and more in minutes.';
@@ -136,6 +137,7 @@ export default function RootLayout({
             <Header />
             <main className="flex-1">{children}</main>
             <Footer />
+            <ChatbotPopup />
           </div>
           <Toaster />
         </AuthProvider>
