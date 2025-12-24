@@ -5,7 +5,7 @@
  * knowledge base about property services, and pricing.
  */
 
-import {ai} from '@/ai/genkit';
+import {ai, model} from '@/ai/genkit';
 import {z} from 'genkit';
 
 const JaagaAiAssistantInputSchema = z.string();
@@ -128,7 +128,7 @@ export async function jaagaAiAssistant(
   prompt: z.infer<typeof JaagaAiAssistantInputSchema>
 ): Promise<z.infer<typeof JaagaAiAssistantOutputSchema>> {
   const llmResponse = await ai.generate({
-    model: 'gemini-1.5-flash',
+    model: model,
     prompt: prompt,
     system: systemPrompt,
   });
