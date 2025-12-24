@@ -3,7 +3,8 @@ import Image from 'next/image';
 import Link from 'next/link';
 import {Button} from '@/components/ui/button';
 import {Card, CardContent, CardHeader, CardTitle} from '@/components/ui/card';
-import {categories, posts} from '@/lib/data';
+import {categories} from '@/lib/data';
+import { getPosts } from '@/lib/server/data';
 import {ArrowRight, FileCheck} from 'lucide-react';
 import {CategoryIcon} from '@/components/icons/category-icon';
 import {BlogPostCard} from '@/components/blog/blog-post-card';
@@ -82,6 +83,7 @@ function Hero() {
 }
 
 export default function Home() {
+  const posts = getPosts();
   const featuredPosts = [...posts].sort((a, b) => b.id - a.id).slice(0, 3);
 
   return (

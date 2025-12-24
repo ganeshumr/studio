@@ -1,5 +1,6 @@
+
 import BlogListClient from "@/components/blog/blog-list-client";
-import { posts } from "@/lib/data";
+import { getPosts } from "@/lib/server/data";
 import type { Metadata } from 'next';
 
 const pageTitle = 'JaaGa Blog – Property Documents, Legal Guides & Real Estate Knowledge';
@@ -91,13 +92,7 @@ const pageKeywords = [
     'sro telangana',
     'encumbrance certificate online telangana',
     'ccla telangana',
-    'telangana market value',
-    'ts ec search telangana',
-    'prohibited lands in telangana',
-    'stamps and registration department telangana',
-    'certified copy telangana',
-    'cc copy telangana',
-    'market value certificate telangana'
+    'telangana market value'
 ];
 
 export const metadata: Metadata = {
@@ -111,6 +106,7 @@ export const metadata: Metadata = {
 };
 
 export default function BlogListPage() {
+  const posts = getPosts();
   return (
     <div className="container mx-auto px-4 py-12 md:py-12">
       <div className="text-center mb-12">
