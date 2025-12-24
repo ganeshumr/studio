@@ -6,9 +6,8 @@
  * knowledge base about property services, and pricing.
  */
 
-import {ai} from '@/ai/genkit';
-import {z} from 'genkit';
-import {googleAI} from '@genkit-ai/google-genai';
+import { ai } from '@/ai/genkit';
+import { z } from 'genkit';
 
 const JaagaAiAssistantInputSchema = z.string();
 const JaagaAiAssistantOutputSchema = z.string();
@@ -29,7 +28,8 @@ const jaagaAiAssistantFlow = ai.defineFlow(
   async prompt => {
     const llmResponse = await ai.generate({
       prompt: prompt,
-      model: googleAI.model('gemini-1.5-flash'),
+      // 2. Use the imported model object directly
+      model: 'googleai/gemini-2.5-flash',
       system: `<role>
 You are JaaGa’s AI Assistant, a friendly and helpful chatbot on the JaaGa website.
 </role>
