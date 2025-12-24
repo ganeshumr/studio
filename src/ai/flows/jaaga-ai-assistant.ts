@@ -8,6 +8,7 @@
 
 import {ai} from '@/ai/genkit';
 import {z} from 'genkit';
+import {googleAI} from '@genkit-ai/google-genai';
 
 const JaagaAiAssistantInputSchema = z.string();
 const JaagaAiAssistantOutputSchema = z.string();
@@ -28,7 +29,7 @@ const jaagaAiAssistantFlow = ai.defineFlow(
   async prompt => {
     const llmResponse = await ai.generate({
       prompt: prompt,
-      model: 'gemini-1.5-flash',
+      model: googleAI.model('gemini-1.5-flash'),
       system: `<role>
 You are JaaGa’s AI Assistant, a friendly and helpful chatbot on the JaaGa website.
 </role>
