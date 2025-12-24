@@ -4,7 +4,8 @@ import React from 'react';
 import {notFound} from 'next/navigation';
 import Image from 'next/image';
 import type {Metadata} from 'next';
-import {posts, categories, services} from '@/lib/data';
+import {categories, services} from '@/lib/data';
+import {getPosts} from '@/lib/server/data';
 import {Badge} from '@/components/ui/badge';
 import Link from 'next/link';
 import {PostSidebar} from '@/components/blog/post-sidebar';
@@ -22,12 +23,14 @@ type Props = {
 };
 
 export async function generateStaticParams() {
+  const posts = getPosts();
   return posts.map(post => ({
     slug: post.slug,
   }));
 }
 
 export async function generateMetadata({params}: Props): Promise<Metadata> {
+  const posts = getPosts();
   const awaitedParams = await params;
   const post = posts.find(p => p.slug === awaitedParams.slug);
 
@@ -63,6 +66,7 @@ export async function generateMetadata({params}: Props): Promise<Metadata> {
 }
 
 export default async function BlogPostPage({params}: Props) {
+  const posts = getPosts();
   const awaitedParams = await params;
   const post = posts.find(p => p.slug === awaitedParams.slug);
 
