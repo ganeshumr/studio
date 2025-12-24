@@ -1,3 +1,4 @@
+
 'use server';
 /**
  * @fileOverview A friendly AI assistant for the Jaaga website.
@@ -5,7 +6,7 @@
  * knowledge base about property services, and pricing.
  */
 
-import {ai, model} from '@/ai/genkit';
+import {ai, googleAI} from '@/ai/genkit';
 import {z} from 'genkit';
 
 const JaagaAiAssistantInputSchema = z.string();
@@ -128,7 +129,7 @@ export async function jaagaAiAssistant(
   prompt: z.infer<typeof JaagaAiAssistantInputSchema>
 ): Promise<z.infer<typeof JaagaAiAssistantOutputSchema>> {
   const llmResponse = await ai.generate({
-    model: model,
+    model: googleAI.model('gemini-1.5-flash'),
     prompt: prompt,
     system: systemPrompt,
   });
