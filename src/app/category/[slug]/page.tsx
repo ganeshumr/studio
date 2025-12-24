@@ -1,8 +1,9 @@
 import {notFound} from 'next/navigation';
 import type {Metadata} from 'next';
-import {posts, categories} from '@/lib/data';
+import { categories} from '@/lib/data';
 import {BlogPostCard} from '@/components/blog/blog-post-card';
 import {Breadcrumb} from '@/components/common/breadcrumb';
+import { getPosts } from '@/lib/server/data';
 
 type Props = {
   params: {slug: string};
@@ -35,6 +36,7 @@ export default function CategoryPage({params}: Props) {
   if (!category) {
     notFound();
   }
+  const posts = getPosts();
 
   const categoryPosts = posts.filter(p => p.category === category.slug);
 

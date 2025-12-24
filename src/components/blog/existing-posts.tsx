@@ -1,7 +1,7 @@
 'use client';
 
 import {useState, useEffect} from 'react';
-import {posts as initialPosts} from '@/lib/data';
+import { getPosts } from '@/lib/server/data';
 import type {Post} from '@/lib/types';
 import {Button} from '@/components/ui/button';
 import {Trash2, Pencil} from 'lucide-react';
@@ -20,6 +20,8 @@ import {
 import {EditPostDialog} from './edit-post-dialog';
 
 export function ExistingPosts() {
+  const initialPosts = getPosts();
+
   const [posts, setPosts] = useState<Post[]>(initialPosts);
   const [postToDelete, setPostToDelete] = useState<Post | null>(null);
   const [postToEdit, setPostToEdit] = useState<Post | null>(null);

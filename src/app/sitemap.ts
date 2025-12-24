@@ -1,9 +1,12 @@
 
+import { getPosts } from '@/lib/server/data';
 import type { MetadataRoute } from 'next'
-import { posts } from '@/lib/data'
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const blogUrl = 'https://blog.jaaga.ai';
+  const posts = getPosts();
+  
+
 
   const postUrls = posts.map(post => ({
     url: `${blogUrl}/blogs/${post.slug}`,
