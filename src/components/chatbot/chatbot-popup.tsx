@@ -10,7 +10,7 @@ import {
   PromptInputActions,
   PromptInputTextarea,
 } from '@/components/ui/prompt-input'
-import { ArrowUp, Bot, Square, X, User, Mic, Volume2, Loader2 } from 'lucide-react'
+import { ArrowUp, Bot, Square, X, User, Mic, Volume2, Loader2, Pause, Play, Languages } from 'lucide-react'
 import {
   Tooltip,
   TooltipContent,
@@ -21,6 +21,13 @@ import { cn } from '@/lib/utils'
 import { jaagaAiAssistant } from '@/ai/flows/jaaga-ai-assistant'
 import { textToSpeech } from '@/ai/flows/text-to-speech'
 import { ScrollArea } from '@/components/ui/scroll-area'
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu"
+
 
 type Message = {
   role: 'user' | 'bot'
@@ -28,6 +35,12 @@ type Message = {
   audioData?: string;
   isAudioLoading?: boolean;
 }
+
+type AudioState = {
+  index: number | null;
+  audio: HTMLAudioElement | null;
+  isPlaying: boolean;
+};
 
 export function ChatbotPopup() {
   const [isOpen, setIsOpen] = useState(false)
@@ -40,12 +53,11 @@ export function ChatbotPopup() {
       text: 'Hello! I am JaaGa’s AI Assistant. How can I help you with your property questions today?',
     },
   ])
-  const [playingAudio, setPlayingAudio] = useState<HTMLAudioElement | null>(null);
+  const [activeAudio, setActiveAudio] = useState<AudioState>({ index: null, audio: null, isPlaying: false });
+  const [speechLanguage, setSpeechLanguage] = useState<'en' | 'te'>('en');
 
   const scrollRef = useRef<HTMLDivElement>(null)
   const recognitionRef = useRef<any>(null)
-  const audioRef = useRef<HTMLAudioElement | null>(null);
-
 
   useEffect(() => {
     if (typeof window !== 'undefined') {
@@ -86,6 +98,12 @@ export function ChatbotPopup() {
     }
   }, [messages])
 
+  useEffect(() => {
+    return () => {
+        activeAudio.audio?.pause();
+    };
+  }, [activeAudio.audio]);
+
   const handleVoiceInput = () => {
     if (recognitionRef.current) {
       if (isListening) {
@@ -101,17 +119,21 @@ export function ChatbotPopup() {
 
   const generateAndSetAudio = async (text: string, messageIndex: number) => {
     try {
-      const response = await textToSpeech(text);
+      const response = await textToSpeech({ text, language: speechLanguage });
       setMessages(prev => {
         const newMessages = [...prev];
-        newMessages[messageIndex] = { ...newMessages[messageIndex], audioData: response.audio, isAudioLoading: false };
+        if(newMessages[messageIndex]) {
+          newMessages[messageIndex] = { ...newMessages[messageIndex], audioData: response.audio, isAudioLoading: false };
+        }
         return newMessages;
       });
     } catch (error) {
       console.error('Failed to generate audio:', error);
       setMessages(prev => {
         const newMessages = [...prev];
-        newMessages[messageIndex] = { ...newMessages[messageIndex], isAudioLoading: false };
+        if(newMessages[messageIndex]) {
+          newMessages[messageIndex] = { ...newMessages[messageIndex], isAudioLoading: false };
+        }
         return newMessages;
       });
     }
@@ -133,7 +155,9 @@ export function ChatbotPopup() {
       const response = await jaagaAiAssistant(input)
       setMessages(prev => {
         const newMessages = [...prev];
-        newMessages[botMessageIndex] = { ...newMessages[botMessageIndex], text: response };
+        if (newMessages[botMessageIndex]) {
+            newMessages[botMessageIndex] = { ...newMessages[botMessageIndex], text: response };
+        }
         return newMessages;
       });
       generateAndSetAudio(response, botMessageIndex);
@@ -141,7 +165,9 @@ export function ChatbotPopup() {
       const errorMessage = 'Sorry, something went wrong. Please try again later.';
       setMessages(prev => {
         const newMessages = [...prev];
-        newMessages[botMessageIndex] = { role: 'bot', text: errorMessage, isAudioLoading: false };
+        if (newMessages[botMessageIndex]) {
+            newMessages[botMessageIndex] = { role: 'bot', text: errorMessage, isAudioLoading: false };
+        }
         return newMessages;
       });
     } finally {
@@ -149,15 +175,34 @@ export function ChatbotPopup() {
     }
   }
 
-  const handlePlayAudio = (audioData: string) => {
-    if (playingAudio) {
-      playingAudio.pause();
-      playingAudio.currentTime = 0;
+ const handlePlayAudio = (audioData: string, index: number) => {
+    // If clicking the currently playing audio, toggle pause/play
+    if (activeAudio.index === index && activeAudio.audio) {
+      if (activeAudio.isPlaying) {
+        activeAudio.audio.pause();
+        setActiveAudio(prev => ({ ...prev!, isPlaying: false }));
+      } else {
+        activeAudio.audio.play();
+        setActiveAudio(prev => ({ ...prev!, isPlaying: true }));
+      }
+      return;
     }
+
+    // Stop any currently playing audio
+    if (activeAudio.audio) {
+      activeAudio.audio.pause();
+      activeAudio.audio.currentTime = 0;
+    }
+
+    // Create and play new audio
     const newAudio = new Audio(audioData);
     newAudio.play();
-    setPlayingAudio(newAudio);
+    newAudio.onended = () => {
+      setActiveAudio({ index: null, audio: null, isPlaying: false });
+    };
+    setActiveAudio({ index, audio: newAudio, isPlaying: true });
   };
+
 
   return (
     <>
@@ -185,7 +230,8 @@ export function ChatbotPopup() {
       <div
         className={cn(
           'fixed z-50 transition-all duration-300',
-          'bottom-4 right-4 sm:bottom-24 sm:right-4 w-[calc(100vw-2rem)] h-[calc(100vh-5rem)] sm:w-[380px] sm:h-[500px]',
+          'bottom-4 right-4 sm:bottom-24 sm:right-4',
+          'w-[calc(100vw-2rem)] h-[calc(100vh-5rem)] sm:w-[380px] sm:h-[500px]',
           isOpen
             ? 'opacity-100 translate-y-0 scale-100'
             : 'opacity-0 translate-y-4 scale-95 pointer-events-none'
@@ -194,13 +240,26 @@ export function ChatbotPopup() {
         <Card className="w-full h-full flex flex-col shadow-xl">
           {/* HEADER (FIXED) */}
           <CardHeader className="shrink-0 flex flex-row items-center justify-between border-b">
-            <CardTitle className="flex items-center gap-2 text-lg">
+             <div className='flex items-center gap-2'>
               <Bot className="h-6 w-6 text-primary" />
-              JaaGa Bot
-            </CardTitle>
-            <Button variant="ghost" size="icon" onClick={() => setIsOpen(false)}>
-              <X className="h-5 w-5" />
-            </Button>
+              <CardTitle className="text-lg">JaaGa Bot</CardTitle>
+            </div>
+            <div className="flex items-center gap-1">
+                 <DropdownMenu>
+                    <DropdownMenuTrigger asChild>
+                        <Button variant="ghost" size="icon">
+                            <Languages className="h-5 w-5" />
+                        </Button>
+                    </DropdownMenuTrigger>
+                    <DropdownMenuContent>
+                        <DropdownMenuItem onSelect={() => setSpeechLanguage('en')} className={cn(speechLanguage === 'en' && 'bg-accent')}>English</DropdownMenuItem>
+                        <DropdownMenuItem onSelect={() => setSpeechLanguage('te')} className={cn(speechLanguage === 'te' && 'bg-accent')}>Telugu</DropdownMenuItem>
+                    </DropdownMenuContent>
+                </DropdownMenu>
+                <Button variant="ghost" size="icon" onClick={() => setIsOpen(false)}>
+                  <X className="h-5 w-5" />
+                </Button>
+            </div>
           </CardHeader>
 
           {/* MESSAGES (ONLY THIS SCROLLS) */}
@@ -239,9 +298,9 @@ export function ChatbotPopup() {
                               variant="ghost"
                               size="icon"
                               className="h-7 w-7"
-                              onClick={() => handlePlayAudio(msg.audioData!)}
+                              onClick={() => handlePlayAudio(msg.audioData!, index)}
                             >
-                              <Volume2 className="h-4 w-4" />
+                              {activeAudio.index === index && activeAudio.isPlaying ? <Pause className="h-4 w-4" /> : <Play className="h-4 w-4" />}
                             </Button>
                           ) : null}
                         </div>

@@ -11,7 +11,10 @@ import { googleAI } from '@genkit-ai/google-genai';
 import { z } from 'genkit';
 import wav from 'wav';
 
-const TextToSpeechInputSchema = z.string();
+const TextToSpeechInputSchema = z.object({
+  text: z.string(),
+  language: z.enum(['en', 'te']).default('en'),
+});
 const TextToSpeechOutputSchema = z.object({
   audio: z.string().describe('The base64 encoded WAV audio data URI.'),
 });
@@ -55,14 +58,14 @@ const textToSpeechFlow = ai.defineFlow(
     inputSchema: TextToSpeechInputSchema,
     outputSchema: TextToSpeechOutputSchema,
   },
-  async (text) => {
+  async ({ text, language }) => {
     const { media } = await ai.generate({
       model: googleAI.model('gemini-2.5-flash-preview-tts'),
       config: {
         responseModalities: ['AUDIO'],
         speechConfig: {
           voiceConfig: {
-            prebuiltVoiceConfig: { voiceName: 'Algenib' },
+            prebuiltVoiceConfig: { voiceName: language === 'te' ? 'Triton' : 'Algenib' },
           },
         },
       },
