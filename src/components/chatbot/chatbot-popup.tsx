@@ -10,7 +10,7 @@ import {
   PromptInputActions,
   PromptInputTextarea,
 } from '@/components/ui/prompt-input'
-import { ArrowUp, Bot, Square, X, User } from 'lucide-react'
+import { ArrowUp, Bot, Square, X, User, Mic } from 'lucide-react'
 import {
   Tooltip,
   TooltipContent,
@@ -30,6 +30,7 @@ export function ChatbotPopup() {
   const [isOpen, setIsOpen] = useState(false)
   const [input, setInput] = useState('')
   const [isLoading, setIsLoading] = useState(false)
+  const [isListening, setIsListening] = useState(false)
   const [messages, setMessages] = useState<Message[]>([
     {
       role: 'bot',
@@ -38,6 +39,36 @@ export function ChatbotPopup() {
   ])
 
   const scrollRef = useRef<HTMLDivElement>(null)
+  const recognitionRef = useRef<any>(null)
+
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      const SpeechRecognition =
+        window.SpeechRecognition || window.webkitSpeechRecognition
+      if (SpeechRecognition) {
+        recognitionRef.current = new SpeechRecognition()
+        recognitionRef.current.continuous = false
+        recognitionRef.current.lang = 'en-US'
+        recognitionRef.current.interimResults = false
+
+        recognitionRef.current.onresult = (event: any) => {
+          const transcript = event.results[0][0].transcript
+          setInput(transcript)
+          setIsListening(false)
+        }
+
+        recognitionRef.current.onerror = (event: any) => {
+          console.error('Speech recognition error:', event.error)
+          setIsListening(false)
+        }
+
+        recognitionRef.current.onend = () => {
+          setIsListening(false)
+        }
+      }
+    }
+  }, [])
+
 
   // Auto-scroll to bottom on new message
   useEffect(() => {
@@ -48,6 +79,19 @@ export function ChatbotPopup() {
       viewport.scrollTop = viewport.scrollHeight
     }
   }, [messages])
+
+  const handleVoiceInput = () => {
+    if (recognitionRef.current) {
+      if (isListening) {
+        recognitionRef.current.stop()
+      } else {
+        recognitionRef.current.start()
+      }
+      setIsListening(!isListening)
+    } else {
+      alert('Speech recognition is not supported in your browser.')
+    }
+  }
 
   const handleSubmit = async () => {
     if (!input.trim()) return
@@ -98,13 +142,13 @@ export function ChatbotPopup() {
       <div
         className={cn(
           'fixed z-50 transition-all duration-300',
-          'bottom-4 right-4 sm:bottom-24 sm:right-4',
+          'bottom-4 right-4 sm:bottom-24 sm:right-4 w-[calc(100vw-2rem)] h-[calc(100vh-5rem)] sm:w-[380px] sm:h-[500px]',
           isOpen
             ? 'opacity-100 translate-y-0 scale-100'
             : 'opacity-0 translate-y-4 scale-95 pointer-events-none'
         )}
       >
-        <Card className="w-[calc(100vw-2rem)] h-[calc(100vh-5rem)] sm:w-[380px] sm:h-[500px] flex flex-col shadow-xl">
+        <Card className="w-full h-full flex flex-col shadow-xl">
           {/* HEADER (FIXED) */}
           <CardHeader className="shrink-0 flex flex-row items-center justify-between border-b">
             <CardTitle className="flex items-center gap-2 text-lg">
@@ -181,6 +225,17 @@ export function ChatbotPopup() {
             >
               <PromptInputTextarea placeholder="Ask me anything…" />
               <PromptInputActions className="justify-end pt-2">
+                 <PromptInputAction tooltip="Voice Input">
+                  <Button
+                    size="icon"
+                    variant="ghost"
+                    className="h-8 w-8 rounded-full"
+                    onClick={handleVoiceInput}
+                    disabled={isLoading}
+                  >
+                    <Mic className={`h-4 w-4 ${isListening ? 'text-red-500' : ''}`} />
+                  </Button>
+                </PromptInputAction>
                 <PromptInputAction tooltip="Send">
                   <Button
                     size="icon"
