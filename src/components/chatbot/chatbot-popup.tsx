@@ -1,3 +1,4 @@
+
 'use client'
 
 import { useState, useRef, useEffect } from 'react'
@@ -94,13 +95,14 @@ export function ChatbotPopup() {
       {/* CHAT CARD */}
       <div
         className={cn(
-          'fixed bottom-24 right-4 z-50 transition-all duration-300',
+          'fixed z-50 transition-all duration-300',
+          'bottom-4 right-4 sm:bottom-24 sm:right-4',
           isOpen
             ? 'opacity-100 translate-y-0 scale-100'
             : 'opacity-0 translate-y-4 scale-95 pointer-events-none'
         )}
       >
-        <Card className="w-[380px] h-[500px] flex flex-col shadow-xl">
+        <Card className="w-[calc(100vw-2rem)] h-[calc(100vh-5rem)] sm:w-[380px] sm:h-[500px] flex flex-col shadow-xl">
           {/* HEADER (FIXED) */}
           <CardHeader className="shrink-0 flex flex-row items-center justify-between border-b">
             <CardTitle className="flex items-center gap-2 text-lg">
@@ -125,7 +127,7 @@ export function ChatbotPopup() {
                     )}
                   >
                     {msg.role === 'bot' && (
-                      <div className="bg-primary text-primary-foreground p-2 rounded-full">
+                      <div className="bg-primary text-primary-foreground p-2 rounded-full shrink-0">
                         <Bot className="h-5 w-5" />
                       </div>
                     )}
@@ -142,7 +144,7 @@ export function ChatbotPopup() {
                     </div>
 
                     {msg.role === 'user' && (
-                      <div className="bg-muted p-2 rounded-full">
+                      <div className="bg-muted p-2 rounded-full shrink-0">
                         <User className="h-5 w-5" />
                       </div>
                     )}
