@@ -10,7 +10,7 @@ import {
   PromptInputActions,
   PromptInputTextarea,
 } from '@/components/ui/prompt-input'
-import { ArrowUp, Bot, Square, X, User, Mic } from 'lucide-react'
+import { ArrowUp, Bot, Square, X, User, Mic, Volume2, Loader2 } from 'lucide-react'
 import {
   Tooltip,
   TooltipContent,
@@ -19,11 +19,14 @@ import {
 } from '@/components/ui/tooltip'
 import { cn } from '@/lib/utils'
 import { jaagaAiAssistant } from '@/ai/flows/jaaga-ai-assistant'
+import { textToSpeech } from '@/ai/flows/text-to-speech'
 import { ScrollArea } from '@/components/ui/scroll-area'
 
 type Message = {
   role: 'user' | 'bot'
   text: string
+  audioData?: string;
+  isAudioLoading?: boolean;
 }
 
 export function ChatbotPopup() {
@@ -37,9 +40,12 @@ export function ChatbotPopup() {
       text: 'Hello! I am JaaGa’s AI Assistant. How can I help you with your property questions today?',
     },
   ])
+  const [playingAudio, setPlayingAudio] = useState<HTMLAudioElement | null>(null);
 
   const scrollRef = useRef<HTMLDivElement>(null)
   const recognitionRef = useRef<any>(null)
+  const audioRef = useRef<HTMLAudioElement | null>(null);
+
 
   useEffect(() => {
     if (typeof window !== 'undefined') {
@@ -93,28 +99,65 @@ export function ChatbotPopup() {
     }
   }
 
+  const generateAndSetAudio = async (text: string, messageIndex: number) => {
+    try {
+      const response = await textToSpeech(text);
+      setMessages(prev => {
+        const newMessages = [...prev];
+        newMessages[messageIndex] = { ...newMessages[messageIndex], audioData: response.audio, isAudioLoading: false };
+        return newMessages;
+      });
+    } catch (error) {
+      console.error('Failed to generate audio:', error);
+      setMessages(prev => {
+        const newMessages = [...prev];
+        newMessages[messageIndex] = { ...newMessages[messageIndex], isAudioLoading: false };
+        return newMessages;
+      });
+    }
+  };
+
   const handleSubmit = async () => {
     if (!input.trim()) return
 
-    setMessages(prev => [...prev, { role: 'user', text: input }])
+    const userMessage: Message = { role: 'user', text: input };
+    const botMessagePlaceholder: Message = { role: 'bot', text: '', isAudioLoading: true };
+
+    setMessages(prev => [...prev, userMessage, botMessagePlaceholder]);
+    const botMessageIndex = messages.length + 1;
+    
     setInput('')
     setIsLoading(true)
 
     try {
       const response = await jaagaAiAssistant(input)
-      setMessages(prev => [...prev, { role: 'bot', text: response }])
+      setMessages(prev => {
+        const newMessages = [...prev];
+        newMessages[botMessageIndex] = { ...newMessages[botMessageIndex], text: response };
+        return newMessages;
+      });
+      generateAndSetAudio(response, botMessageIndex);
     } catch {
-      setMessages(prev => [
-        ...prev,
-        {
-          role: 'bot',
-          text: 'Sorry, something went wrong. Please try again later.',
-        },
-      ])
+      const errorMessage = 'Sorry, something went wrong. Please try again later.';
+      setMessages(prev => {
+        const newMessages = [...prev];
+        newMessages[botMessageIndex] = { role: 'bot', text: errorMessage, isAudioLoading: false };
+        return newMessages;
+      });
     } finally {
       setIsLoading(false)
     }
   }
+
+  const handlePlayAudio = (audioData: string) => {
+    if (playingAudio) {
+      playingAudio.pause();
+      playingAudio.currentTime = 0;
+    }
+    const newAudio = new Audio(audioData);
+    newAudio.play();
+    setPlayingAudio(newAudio);
+  };
 
   return (
     <>
@@ -186,7 +229,23 @@ export function ChatbotPopup() {
                           : 'bg-primary text-primary-foreground'
                       )}
                     >
-                      {msg.text}
+                      {msg.text ? msg.text : <Loader2 className="w-5 h-5 animate-spin"/>}
+                       {msg.role === 'bot' && msg.text && (
+                        <div className="mt-2">
+                           {msg.isAudioLoading ? (
+                             <Loader2 className="w-4 h-4 animate-spin text-muted-foreground" />
+                           ) : msg.audioData ? (
+                            <Button
+                              variant="ghost"
+                              size="icon"
+                              className="h-7 w-7"
+                              onClick={() => handlePlayAudio(msg.audioData!)}
+                            >
+                              <Volume2 className="h-4 w-4" />
+                            </Button>
+                          ) : null}
+                        </div>
+                      )}
                     </div>
 
                     {msg.role === 'user' && (
@@ -197,7 +256,7 @@ export function ChatbotPopup() {
                   </div>
                 ))}
 
-                {isLoading && (
+                {isLoading && !messages.some(m => m.role === 'bot' && !m.text) && (
                   <div className="flex gap-3">
                     <div className="bg-primary p-2 rounded-full">
                       <Bot className="h-5 w-5 text-white" />
@@ -208,6 +267,7 @@ export function ChatbotPopup() {
                         <span className="w-2 h-2 bg-primary rounded-full animate-bounce delay-100" />
                         <span className="w-2 h-2 bg-primary rounded-full animate-bounce delay-200" />
                       </div>
+    
                     </div>
                   </div>
                 )}
