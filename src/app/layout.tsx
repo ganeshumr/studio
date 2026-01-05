@@ -98,7 +98,7 @@ export const metadata: Metadata = {
     siteName: 'Jaaga Insights',
     images: [
       {
-        url: 'https://picsum.photos/1200/630',
+        url: 'https://ik.imagekit.io/jaaga/ChatGPT%20Image%20Jan%205,%202026,%2011_05_39%20AM.png',
         width: 1200,
         height: 630,
         alt: 'Jaaga.ai - Digital Property Solutions',
@@ -111,7 +111,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: pageTitle,
     description: pageDescription,
-    images: ['https://picsum.photos/1200/630'],
+    images: ['https://ik.imagekit.io/jaaga/ChatGPT%20Image%20Jan%205,%202026,%2011_05_39%20AM.png'],
   },
 };
 

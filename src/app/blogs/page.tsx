@@ -102,6 +102,14 @@ export const metadata: Metadata = {
   openGraph: {
     title: pageTitle,
     description: pageDescription,
+    images: [
+      {
+        url: 'https://ik.imagekit.io/jaaga/ChatGPT%20Image%20Jan%205,%202026,%2011_05_39%20AM.png',
+        width: 1200,
+        height: 630,
+        alt: 'JaaGa Insights - Blog on Indian Real Estate',
+      },
+    ],
   },
 };
 
