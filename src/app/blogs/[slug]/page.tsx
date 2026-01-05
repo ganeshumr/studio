@@ -83,8 +83,43 @@ export default async function BlogPostPage({params}: Props) {
     {label: post.title, href: `/blogs/${post.slug}`},
   ];
 
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Where can I securely download a verified Telangana sale deed online?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Verified Telangana sale deed copies can be accessed through official government portals or through trusted document facilitation platforms that retrieve records from government databases and provide verification support."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I get a registered sale deed copy without visiting the sub-registrar office?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. If the sale deed is digitally available in Telangana registration records, it can be retrieved online using the document number, SRO, and registration year."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is an online sale deed copy legally valid?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Online sale deed copies reflect official registration data. Legal validity depends on the purpose, and certified copies may be required for certain legal or financial uses."
+        }
+      }
+    ]
+  };
+
   return (
     <div className="container mx-auto px-4 py-8 md:py-16">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
       <div className="grid lg:grid-cols-3 gap-8 lg:gap-12">
         <article className="lg:col-span-2 bg-background p-4 sm:p-8 rounded-xl shadow-md">
           <header className="space-y-4 mb-8">
