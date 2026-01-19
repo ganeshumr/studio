@@ -3,6 +3,8 @@ import BlogListClient from "@/components/blog/blog-list-client";
 import { getPosts } from "@/lib/server/data";
 import type { Metadata } from 'next';
 
+export const dynamic = 'force-dynamic';
+
 const pageTitle = 'JaaGa Blog – Property Documents, Legal Guides & Real Estate Knowledge';
 const pageDescription = 'Your source for expert analysis and practical advice on Indian real estate, property law, and digital ownership. Find articles on patta, chitta, EC, land records, and more.';
 const pageKeywords = [
@@ -115,6 +117,7 @@ export const metadata: Metadata = {
 
 export default function BlogListPage() {
   const posts = getPosts();
+  const sortedPosts = [...posts].sort((a, b) => b.id - a.id);
   return (
     <div className="container mx-auto px-4 py-12 md:py-12">
       <div className="text-center mb-12">
@@ -126,7 +129,7 @@ export default function BlogListPage() {
           and digital ownership.
         </p>
       </div>
-      <BlogListClient posts={posts} />
+      <BlogListClient posts={sortedPosts} />
     </div>
   );
 }
