@@ -34,11 +34,17 @@ const nextConfig = {
         pathname: '/**',
       },
       {
-        protocol: 'https' ,
+        protocol: 'https',
         hostname: 'ik.imagekit.io',
         port: '',
         pathname: '/**',
-      }
+      },
+      {
+        protocol: 'https',
+        hostname: 'jaaga.com',
+        port: '',
+        pathname: '/**',
+      },
     ],
   },
 };
