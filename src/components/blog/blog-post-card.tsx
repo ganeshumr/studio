@@ -26,7 +26,6 @@ export function BlogPostCard({post}: BlogPostCardProps) {
               alt={post.title}
               fill
               className="object-cover"
-              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               data-ai-hint="document real estate"
             />
           </div>
