@@ -33,11 +33,15 @@ export function BlogPostCard({post}: BlogPostCardProps) {
       )}
       <CardHeader>
         <div className="flex justify-between items-center mb-2">
-          {category && (
+          {post.slug === 'bhu-bharati-portal-scam-telangana' ? (
+            <Badge variant="outline" className="w-fit">
+              Bhu Bharati Scam News
+            </Badge>
+          ) : category ? (
             <Badge variant="outline" className="w-fit">
               <Link href={`/category/${category.slug}`}>{category.name}</Link>
             </Badge>
-          )}
+          ) : null}
         </div>
         <h3 className="font-headline text-xl font-bold leading-snug">
           <Link href={`/blogs/${post.slug}`} className="hover:text-primary transition-colors">
