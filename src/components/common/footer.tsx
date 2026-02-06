@@ -22,7 +22,7 @@ export function Footer() {
 
   const servicesLinks = [
       { href: "https://www.jaaga.ai/properties/my-properties", name: "My Locker"},
-      { href: "https://www.jaaga.ai/telangana", name: "Property Documents"},
+      { href: "https://www.jaaga.ai/states", name: "Property Documents"},
       { href: "https://www.jaaga.ai/services", name: "Property Services"},
   ]
 
