@@ -5,8 +5,13 @@ import Link from 'next/link';
 import {Button} from '@/components/ui/button';
 import {Input} from '@/components/ui/input';
 import {Logo} from './logo';
-import {categories} from '@/lib/data';
 import React, {useState} from 'react';
+
+const servicesLinks = [
+    { href: "https://www.jaaga.ai/properties/my-properties", name: "My Locker"},
+    { href: "https://www.jaaga.ai/states", name: "Property Documents"},
+    { href: "https://www.jaaga.ai/services", name: "Property Services"},
+]
 
 export function Footer() {
   const [phoneNumber, setPhoneNumber] = useState('');
@@ -19,12 +24,6 @@ export function Footer() {
       window.open(whatsappUrl, '_blank');
     }
   };
-
-  const servicesLinks = [
-      { href: "https://www.jaaga.ai/properties/my-properties", name: "My Locker"},
-      { href: "https://www.jaaga.ai/states", name: "Property Documents"},
-      { href: "https://www.jaaga.ai/services", name: "Property Services"},
-  ]
 
   return (
     <footer className="bg-background border-t">
