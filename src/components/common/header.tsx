@@ -74,7 +74,7 @@ export function Header() {
         </nav>
         <div className="flex items-center gap-2">
            <Button asChild className="hidden md:flex items-center gap-2">
-             <Link href="https://www.jaaga.ai/telangana" target="_blank" rel="noopener noreferrer" className="group">
+             <Link href="https://www.jaaga.ai/states" target="_blank" rel="noopener noreferrer" className="group">
               Get Property Documents
               <ArrowUpRight className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1 group-hover:-translate-y-1" />
             </Link>
@@ -103,7 +103,7 @@ export function Header() {
                   ))} */}
                    <hr className="my-4" />
                    <Button asChild className='flex items-center gap-2'>
-                      <Link href="https://www.jaaga.ai/telangana" target="_blank" rel="noopener noreferrer" className="group">
+                      <Link href="https://www.jaaga.ai/states" target="_blank" rel="noopener noreferrer" className="group">
                         Get Property Documents
                         <ArrowUpRight className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1 group-hover:-translate-y-1" />
                       </Link>
