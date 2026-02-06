@@ -104,7 +104,7 @@ export default function Home() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {categories.map(category => {
               const externalLinks: Record<string, string> = {
-                'property-audit': 'https://www.jaaga.ai/telangana/property-binder',
+                'property-audit': 'https://www.jaaga.ai/states',
                 'property-documents': 'https://www.jaaga.ai/telangana',
                 'legal-verification': 'https://www.jaaga.ai/services/property-services/title-verification-report',
                 'loan-services': 'https://www.jaaga.ai/documents',
