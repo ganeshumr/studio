@@ -90,6 +90,7 @@ export const services: Service[] = [
     description: "Accurate and efficient land surveys using modern technology.",
     image: "https://picsum.photos/seed/service3/400/300",
     link: "https://www.jaaga.ai/documents",
+    // link : "https://www.jaaga.ai/loan-lap"
   },
   {
     categorySlug: "electricity-bill-updates",
