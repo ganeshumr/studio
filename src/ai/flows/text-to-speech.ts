@@ -65,7 +65,7 @@ const textToSpeechFlow = ai.defineFlow(
         responseModalities: ['AUDIO'],
         speechConfig: {
           voiceConfig: {
-            prebuiltVoiceConfig: { voiceName: language === 'te' ? 'Triton' : 'Algenib' },
+            prebuiltVoiceConfig: { voiceName: language === 'te' ? 'Achernar' : 'Algenib' },
           },
         },
       },
