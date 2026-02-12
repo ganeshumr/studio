@@ -66,7 +66,7 @@ export function ChatbotPopup() {
       if (SpeechRecognition) {
         recognitionRef.current = new SpeechRecognition()
         recognitionRef.current.continuous = false
-        recognitionRef.current.lang = 'en-US'
+        recognitionRef.current.lang = speechLanguage === 'te' ? 'te-IN' : 'en-US'
         recognitionRef.current.interimResults = false
 
         recognitionRef.current.onresult = (event: any) => {
@@ -85,7 +85,7 @@ export function ChatbotPopup() {
         }
       }
     }
-  }, [])
+  }, [speechLanguage])
 
 
   // Auto-scroll to bottom on new message
@@ -377,5 +377,3 @@ export function ChatbotPopup() {
     </>
   )
 }
-
-    
