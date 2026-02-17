@@ -45,42 +45,77 @@ function generateSlug(title: string) {
         .replace(/[^a-z0-9-]/g, '');
 }
 
+
+// This function will transform the third-party payload to our Post format
+function transformThirdPartyPayload(body: any): Post | null {
+    if (typeof body === 'object' && body !== null && body.content && typeof body.content.body === 'string' && typeof body.title === 'string') {
+        const content = body.content.markdown || body.content.body;
+        // Generate a plain text excerpt
+        const excerpt = content.substring(0, 180).replace(/<[^>]*>?/gm, '').replace(/#+/g, '').trim() + '...';
+        const slug = body.slug || generateSlug(body.title);
+
+        return {
+            id: Date.now(),
+            title: body.title,
+            slug: slug,
+            content: content,
+            excerpt: excerpt,
+            category: 'legal-verification', // Default category
+            tags: ['webhook'], // Default tags
+            featuredImage: `https://picsum.photos/seed/${slug}/800/600`, // Default image
+            metaTitle: body.title,
+            metaDescription: excerpt,
+            keywords: 'webhook, automated post' // Default keywords
+        };
+    }
+    return null;
+}
+
+
 export async function POST(request: Request) {
     try {
       const body = await request.json();
-      const validation = postSchema.safeParse(body);
+      
+      let newPost: Post | null = null;
+      let validationError;
+
+      // Try to parse as our standard post format
+      const standardValidation = postSchema.safeParse(body);
+      if (standardValidation.success) {
+        const { data } = standardValidation;
+        const slug = data.slug || generateSlug(data.title);
+        const tagsArray = typeof data.tags === 'string' 
+          ? data.tags.split(",").map((tag) => tag.trim())
+          : data.tags;
+        
+        newPost = {
+          id: Date.now(),
+          title: data.title,
+          slug,
+          excerpt: data.excerpt,
+          content: data.content,
+          category: data.category,
+          tags: tagsArray,
+          featuredImage: data.featuredImage,
+          metaTitle: data.metaTitle,
+          metaDescription: data.metaDescription,
+          keywords: data.keywords,
+        };
+      } else {
+        // If standard validation fails, try transforming the third-party payload
+        validationError = standardValidation.error;
+        newPost = transformThirdPartyPayload(body);
+      }
   
-      if (!validation.success) {
-        return new Response(JSON.stringify({ error: "Invalid input", details: validation.error.flatten() }), {
+      if (!newPost) {
+        return new Response(JSON.stringify({ error: "Invalid input payload", details: validationError?.flatten() }), {
           status: 400,
           headers: { "Content-Type": "application/json" },
         });
       }
-  
-      const { data } = validation;
       
-      const slug = data.slug || generateSlug(data.title);
-      
-      const tagsArray = typeof data.tags === 'string' 
-        ? data.tags.split(",").map((tag) => tag.trim())
-        : data.tags;
-  
-      const newPost: Post = {
-        id: Date.now(),
-        title: data.title,
-        slug: slug,
-        excerpt: data.excerpt,
-        content: data.content,
-        category: data.category,
-        tags: tagsArray,
-        featuredImage: data.featuredImage,
-        metaTitle: data.metaTitle,
-        metaDescription: data.metaDescription,
-        keywords: data.keywords,
-      };
-  
       const posts = getPosts();
-      posts.push(newPost);
+      posts.unshift(newPost); // Add to the start of the array
       savePosts(posts);
   
       return new Response(JSON.stringify(newPost), {
