@@ -238,50 +238,66 @@ export default async function BlogPostPage({params}: Props) {
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "What is the full form of FMB?",
+          "name": "What is an FMB Sketch in Tamil Nadu?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "FMB stands for Field Measurement Book. It's a land survey record used to show the exact measurements and layout of each plot."
+            "text": "An FMB (Field Measurement Book) Sketch is an official land record map in Tamil Nadu that shows the exact boundaries, measurements, and subdivisions of a land parcel based on government survey records."
           }
         },
         {
           "@type": "Question",
-          "name": "Can I download the FMB map for free?",
+          "name": "Why is the FMB Sketch important?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. You can download your FMB Sketch online for free via the Tamil Nadu eServices website or via simplified platforms like JaaGa."
+            "text": "The FMB Sketch is important for verifying land boundaries, preventing encroachments, resolving land disputes, and during property registration or legal verification."
           }
         },
         {
           "@type": "Question",
-          "name": "Is the FMB map legally valid for property registration?",
+          "name": "Is the FMB Sketch legally valid?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes, it’s recognized by the Tamil Nadu Revenue Department and is often required during land registration and mutation processes."
+            "text": "Yes, the FMB Sketch is an official government land record. For legal or court-related use, obtaining a certified copy from the revenue department is recommended."
           }
         },
         {
           "@type": "Question",
-          "name": "How can I verify my survey number in Tamil Nadu?",
+          "name": "How can I view or download an FMB Sketch online in Tamil Nadu?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Visit the official portal, select your District, Taluk, and Village, and enter your Survey Number to view the results."
+            "text": "You can view and download the FMB Sketch online by selecting the district, taluk, village, survey number, and subdivision number on the Tamil Nadu land records portal."
           }
         },
         {
           "@type": "Question",
-          "name": "What should I do if my FMB sketch is incorrect?",
+          "name": "What details are included in an FMB Sketch?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Contact your Taluk Office or Village Administrative Officer (VAO) to file a correction request with supporting documents."
+            "text": "An FMB Sketch includes survey and subdivision numbers, land boundaries, measurements, neighboring land details, and the field layout."
           }
         },
         {
           "@type": "Question",
-          "name": "How often is the FMB map updated?",
+          "name": "Can I get FMB Sketches for older land records?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Updates are made periodically after resurveys, usually every few years or upon official government notification of ownership changes."
+            "text": "Yes, FMB Sketches are available for older land records. If they are not fully digitized, applying for a certified copy is recommended."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is the online FMB Sketch sufficient for property purchase?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Online FMB Sketches are suitable for verification purposes. For property purchase or registration, a certified FMB Sketch is advisable."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between FMB Sketch and Patta?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Patta shows land ownership details, while the FMB Sketch shows land measurements and boundaries. Both documents are used together for land verification."
           }
         }
       ]
