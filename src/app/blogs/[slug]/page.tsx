@@ -148,10 +148,50 @@ export default async function BlogPostPage({params}: Props) {
         },
         {
           "@type": "Question",
+          "name": "How is this Sale Deed generated?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The Sale Deed information is retrieved from official government registration records based on the property details provided."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What details are included in a Sale Deed?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A Sale Deed includes buyer and seller names, property description, sale value, registration number, date of registration, and Sub-Registrar Office details."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How can I get a certified copy of a Sale Deed?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "After viewing the Sale Deed details online, you can apply for a certified copy through authorized services, which handle documentation and delivery."
+          }
+        },
+        {
+          "@type": "Question",
           "name": "Is a Sale Deed mandatory for property ownership?",
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Yes, a registered Sale Deed is mandatory to legally establish property ownership. Ownership transfer is not legally complete without registration."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between a Sale Agreement and a Sale Deed?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A Sale Agreement outlines the intention to sell a property, while a Sale Deed confirms the actual transfer of ownership after registration."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is this Sale Deed reliable for older property records?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For older property records, it is recommended to obtain a certified Sale Deed, as earlier registrations may not be fully digitized."
           }
         }
       ]
@@ -176,6 +216,54 @@ export default async function BlogPostPage({params}: Props) {
             "@type": "Answer",
             "text": "Record of Rights (ROR) is an official document that records land ownership details such as owner name, survey number, land type, and extent of land."
           }
+        },
+        {
+          "@type": "Question",
+          "name": "What is 1B land record?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The 1B land record is a computerized ownership document that provides updated information about landowners, survey numbers, land extent, and ownership status."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are Adangal, ROR, and 1B legally valid documents?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "These are official government land records and are valid for reference and verification. For legal transactions, certified copies issued by the revenue department are recommended."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How are Adangal, ROR, and 1B records generated?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "These records are generated and maintained by government revenue departments based on land surveys, registrations, and periodic updates."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What details are included in Adangal, ROR, and 1B?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "These records include landowner name, survey numbers, land extent, land classification, type of land, and crop details in the case of Adangal."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why are Adangal, ROR, and 1B important?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "They are essential for establishing land ownership, applying for loans, resolving disputes, land conversion, and property registration."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can these records be used for older land ownership verification?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, these records help verify historical ownership. For very old records, certified copies are recommended as some data may not be fully digitized."
+          }
         }
       ]
     };
@@ -199,6 +287,54 @@ export default async function BlogPostPage({params}: Props) {
             "@type": "Answer",
             "text": "The FMB Sketch is important for verifying land boundaries, preventing encroachments, resolving land disputes, and during property registration or legal verification."
           }
+        },
+        {
+          "@type": "Question",
+          "name": "Is the FMB Sketch legally valid?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, the FMB Sketch is an official government land record. For legal or court-related use, obtaining a certified copy from the revenue department is recommended."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How can I view or download an FMB Sketch online in Tamil Nadu?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You can view and download the FMB Sketch online by selecting the district, taluk, village, survey number, and subdivision number on the Tamil Nadu land records portal."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What details are included in an FMB Sketch?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "An FMB Sketch includes survey and subdivision numbers, land boundaries, measurements, neighboring land details, and the field layout."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I get FMB Sketches for older land records?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, FMB Sketches are available for older land records. If they are not fully digitized, applying for a certified copy is recommended."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is the online FMB Sketch sufficient for property purchase?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Online FMB Sketches are suitable for verification purposes. For property purchase or registration, a certified FMB Sketch is advisable."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between FMB Sketch and Patta?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Patta shows land ownership details, while the FMB Sketch shows land measurements and boundaries. Both documents are used together for land verification."
+          }
         }
       ]
     };
@@ -213,6 +349,62 @@ export default async function BlogPostPage({params}: Props) {
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Bhu-Aadhaar, also known as ULPIN (Unique Land Parcel Identification Number), is a 14-digit unique identification number assigned to each land parcel in India, functioning as a digital Aadhaar for land."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why was Bhu-Aadhaar (ULPIN) introduced?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "ULPIN was introduced to standardize land records, reduce disputes, prevent fraud, and enable digital property transactions across India."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does Bhu-Aadhaar (ULPIN) work?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "ULPIN is generated using geo-referenced land survey data and satellite mapping, linking each land parcel to a unique digital ID."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Bhu-Aadhaar mandatory in 2026?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Bhu-Aadhaar is being implemented in phases across states. While not mandatory everywhere yet, it is increasingly required for land registration and government services."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What details are linked to a ULPIN?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "ULPIN links owner details, survey numbers, land boundaries, geo-coordinates, land area, classification, and registration records."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is Bhu-Aadhaar different from Patta or EC?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Patta and EC are document-based records, whereas Bhu-Aadhaar is a unique digital identifier that connects all land records to a single land parcel."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can ULPIN reduce land disputes?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, ULPIN helps reduce land disputes by clearly defining land boundaries using geo-mapped data and improving record transparency."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Bhu-Aadhaar legally valid?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Bhu-Aadhaar is an officially recognized land identification system. For legal use, certified land records linked to ULPIN are recommended."
           }
         }
       ]
@@ -235,7 +427,55 @@ export default async function BlogPostPage({params}: Props) {
           "name": "Is this Encumbrance Certificate legally valid?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The EC shown here is for informational purposes only. For legal or official use, you should obtain a certified Encumbrance Certificate through JaaGa."
+            "text": "The EC shown here is for informational purposes only. For legal or official use, you should obtain a certified Encumbrance Certificate through Landeed."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is this EC generated?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "This EC is generated by retrieving information from official government sources based on the property details entered by the user."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What details are included in the Encumbrance Certificate?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The EC includes owner name(s), sale or mortgage transaction details, registration numbers, property description, and Sub-Registrar Office (SRO) information."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How can I get a certified Encumbrance Certificate?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "After viewing your EC online, you can order a certified copy through Landeed. The documentation process and delivery are handled end-to-end."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between this EC and Dharani EC?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Dharani EC mainly applies to agricultural land records from 2018 onwards. Prior to 2018, this traditional EC was used for both agricultural and non-agricultural properties."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between this EC and Bhu Bharati EC?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Bhu Bharati EC, introduced in 2025, focuses on agricultural land records. This EC generally applies to non-agricultural properties, especially in urban areas, while older records may still include agricultural transactions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is this EC reliable for older property records?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For properties with records dating before 1980, it is recommended to apply for a certified EC, as older entries may not be fully digitized."
           }
         }
       ]
