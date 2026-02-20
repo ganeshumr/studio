@@ -10,7 +10,12 @@ import {PostSidebar} from '@/components/blog/post-sidebar';
 import {Breadcrumb} from '@/components/common/breadcrumb';
 import {Separator} from '@/components/ui/separator';
 import { Button } from '@/components/ui/button';
-import { Card, CardContent } from '@/components/ui/card';
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion";
 
 export const dynamic = 'force-dynamic';
 
@@ -226,6 +231,61 @@ export default async function BlogPostPage({params}: Props) {
         }
       ]
     };
+  } else if (post.slug === 'fmb-sketch-in-tamil-nadu-how-to-view-download-check-fmb-map-online-complete-guide-2026') {
+    faqSchema = {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the full form of FMB?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "FMB stands for Field Measurement Book. It's a land survey record used to show the exact measurements and layout of each plot."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I download the FMB map for free?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. You can download your FMB Sketch online for free via the Tamil Nadu eServices website or via simplified platforms like JaaGa."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is the FMB map legally valid for property registration?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, it’s recognized by the Tamil Nadu Revenue Department and is often required during land registration and mutation processes."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How can I verify my survey number in Tamil Nadu?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Visit the official portal, select your District, Taluk, and Village, and enter your Survey Number to view the results."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should I do if my FMB sketch is incorrect?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Contact your Taluk Office or Village Administrative Officer (VAO) to file a correction request with supporting documents."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How often is the FMB map updated?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Updates are made periodically after resurveys, usually every few years or upon official government notification of ownership changes."
+          }
+        }
+      ]
+    };
   } else {
     // Default FAQ schema for other posts
     faqSchema = {
@@ -260,6 +320,8 @@ export default async function BlogPostPage({params}: Props) {
     };
   }
 
+  const faqEntities = faqSchema?.mainEntity || [];
+
   return (
     <div className="container mx-auto px-4 py-8 md:py-16">
       {faqSchema && (
@@ -291,6 +353,28 @@ export default async function BlogPostPage({params}: Props) {
               dangerouslySetInnerHTML={{ __html: post.content }}
             />
           
+          {faqEntities.length > 0 && (
+            <section className="mt-12 space-y-6">
+              <h2 className="font-headline text-2xl font-bold">FAQs</h2>
+              <Accordion type="single" collapsible className="w-full space-y-4">
+                {faqEntities.map((faq: any, index: number) => (
+                  <AccordionItem 
+                    key={index} 
+                    value={`item-${index}`}
+                    className="border rounded-lg px-4 bg-card shadow-sm border-b-0 transition-all hover:border-primary/20"
+                  >
+                    <AccordionTrigger className="hover:no-underline text-left font-semibold py-4">
+                      {faq.name}
+                    </AccordionTrigger>
+                    <AccordionContent className="text-muted-foreground leading-relaxed pb-4">
+                      {faq.acceptedAnswer.text}
+                    </AccordionContent>
+                  </AccordionItem>
+                ))}
+              </Accordion>
+            </section>
+          )}
+
           <div className="mt-8">
              <Button asChild>
                 <Link href="https://www.jaaga.ai/" target="_blank" rel="noopener noreferrer">
