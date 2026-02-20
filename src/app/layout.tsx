@@ -88,6 +88,9 @@ export const metadata: Metadata = {
   icons: {
     icon: 'https://ik.imagekit.io/jaaga/Untitled%20design%20(2).jpg',
   },
+  alternates: {
+    canonical: '/',
+  },
   openGraph: {
     title: {
       default: pageTitle,
