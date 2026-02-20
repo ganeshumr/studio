@@ -155,6 +155,77 @@ export default async function BlogPostPage({params}: Props) {
         }
       ]
     };
+  } else if (post.slug === 'adangal-ror-1b-land-records-guide') {
+    faqSchema = {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is Adangal?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Adangal is a village-level land record that contains details about land usage, crop information, land classification, and the name of the landholder, primarily for agricultural land."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is ROR (Record of Rights)?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Record of Rights (ROR) is an official document that records land ownership details such as owner name, survey number, land type, and extent of land."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is 1B land record?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The 1B land record is a computerized ownership document that provides updated information about landowners, survey numbers, land extent, and ownership status."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are Adangal, ROR, and 1B legally valid documents?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "These are official government land records and are valid for reference and verification. For legal transactions, certified copies issued by the revenue department are recommended."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How are Adangal, ROR, and 1B records generated?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "These records are generated and maintained by government revenue departments based on land surveys, registrations, and periodic updates."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What details are included in Adangal, ROR, and 1B?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "These records include landowner name, survey numbers, land extent, land classification, type of land, and crop details in the case of Adangal."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why are Adangal, ROR, and 1B important?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "They are essential for establishing land ownership, applying for loans, resolving disputes, land conversion, and property registration."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can these records be used for older land ownership verification?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, these records help verify historical ownership. For very old records, certified copies are recommended as some data may not be fully digitized."
+          }
+        }
+      ]
+    };
   } else {
     // Default FAQ schema for other posts
     faqSchema = {
