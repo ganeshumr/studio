@@ -32,8 +32,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   ];
 
-  // The provided XML has some blog URLs that are not in the `posts` data.
-  // I will add them manually to ensure the sitemap is complete.
+  // Additional URLs that might not be in the dynamic posts yet
   const additionalBlogUrls = [
     {
       url: 'https://blog.jaaga.ai/blogs/tamil-nadu-patta-chitta-documents-a-complete-guide',
