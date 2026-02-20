@@ -1,5 +1,3 @@
-
-
 import React from 'react';
 import {notFound} from 'next/navigation';
 import Image from 'next/image';
@@ -13,8 +11,6 @@ import {Breadcrumb} from '@/components/common/breadcrumb';
 import {Separator} from '@/components/ui/separator';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
-
-
 
 export const dynamic = 'force-dynamic';
 
@@ -55,11 +51,14 @@ export async function generateMetadata({params}: Props): Promise<Metadata> {
     title: post.metaTitle,
     description: post.metaDescription,
     keywords: post.keywords,
+    alternates: {
+      canonical: `/blogs/${post.slug}`,
+    },
     openGraph: {
       title: post.metaTitle,
       description: post.metaDescription,
       type: 'article',
-      url: `https://www.jaaga.ai/blogs/${post.slug}`,
+      url: `https://blog.jaaga.ai/blogs/${post.slug}`,
       images: images,
     },
   };

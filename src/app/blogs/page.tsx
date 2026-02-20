@@ -1,4 +1,3 @@
-
 import BlogListClient from "@/components/blog/blog-list-client";
 import { getPosts } from "@/lib/server/data";
 import type { Metadata } from 'next';
@@ -101,6 +100,9 @@ export const metadata: Metadata = {
   title: pageTitle,
   description: pageDescription,
   keywords: pageKeywords,
+  alternates: {
+    canonical: '/blogs',
+  },
   openGraph: {
     title: pageTitle,
     description: pageDescription,

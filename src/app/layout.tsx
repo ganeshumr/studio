@@ -1,4 +1,3 @@
-
 import type {Metadata} from 'next';
 import './globals.css';
 import 'react-quill/dist/quill.snow.css';
@@ -79,6 +78,7 @@ const pageKeywords = [
 ];
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://blog.jaaga.ai'),
   title: {
     default: pageTitle,
     template: '%s - Jaaga Insights',
@@ -94,7 +94,7 @@ export const metadata: Metadata = {
       template: '%s - Jaaga Insights',
     },
     description: pageDescription,
-    url: 'https://www.jaaga.ai',
+    url: 'https://blog.jaaga.ai',
     siteName: 'Jaaga Insights',
     images: [
       {

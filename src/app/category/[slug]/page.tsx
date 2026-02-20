@@ -27,6 +27,9 @@ export async function generateMetadata({params}: Props): Promise<Metadata> {
   return {
     title: `${category.name} Articles`,
     description: `Browse all articles in the ${category.name} category on Jaaga Insights. ${category.description}`,
+    alternates: {
+      canonical: `/category/${params.slug}`,
+    },
   };
 }
 
