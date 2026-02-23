@@ -9,7 +9,7 @@ import { Analytics } from '@vercel/analytics/react';
 import { ChatbotPopup } from '@/components/chatbot/chatbot-popup';
 
 const pageTitle = 'Instant Property Documents and Services across 5+ States – JaaGa';
-const pageDescription = 'Get instant access to certified property documents and land records across 5+ states with JaaGa. Download sale deed, Patta/chitta, 7/12, EC, Property Card, Mutation, and more in minutes.';
+const pageDescription = 'Access property documents online with JaaGa. Download EC, Adangal, ROR-1B, 7/12, and other land records quickly, securely, and without hassle.';
 const pageKeywords = [
     'Property Documents Online',
     'Telangana Property Documents',
