@@ -9,6 +9,12 @@ import { CategoryIcon } from "@/components/icons/category-icon";
 import { BlogPostCard } from "@/components/blog/blog-post-card";
 import { Badge } from "@/components/ui/badge";
 import type { Post } from "@/lib/types";
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion";
 
 function Hero() {
   return (
@@ -85,8 +91,100 @@ export default function Home() {
   const posts = getPosts();
   const featuredPosts = [...posts].sort((a, b) => b.id - a.id).slice(0, 3);
 
+  const homeFaqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What are property documents?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Property documents are official records that prove ownership, land details, boundaries, and transaction history of a property."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Which documents are required to verify property ownership?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Key documents include the Sale Deed, Encumbrance Certificate (EC), Khata or Patta, and relevant land records depending on the state."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is an Encumbrance Certificate (EC)?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "An Encumbrance Certificate shows all registered transactions related to a property and helps verify whether it has any legal or financial liabilities."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is a Sale Deed?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A Sale Deed is a legally registered document that confirms the transfer of property ownership from seller to buyer."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is Khata or Patta?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Khata and Patta are property records maintained by local authorities that contain ownership and property tax details."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What are Adangal, ROR, and 1B documents?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "These are government land records that show ownership, survey numbers, land extent, land type, and usage, mainly for agricultural land."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is an FMB Sketch?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "An FMB Sketch is a government land map showing exact property boundaries and measurements based on survey records."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is Bhu-Aadhaar (ULPIN)?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Bhu-Aadhaar or ULPIN is a unique digital identification number assigned to each land parcel, linking land records digitally."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Are online property documents legally valid?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Online documents are valid for verification purposes, but certified copies are recommended for legal or official use."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Why is property document verification important?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Verification helps prevent fraud, ownership disputes, encroachments, and legal issues during property transactions."
+        }
+      }
+    ]
+  };
+
   return (
     <div className="flex flex-col">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(homeFaqSchema) }}
+      />
+      
       <section className="bg-background">
         <Hero />
       </section>
@@ -185,6 +283,37 @@ export default function Home() {
             {featuredPosts.map((post) => (
               <BlogPostCard key={post.id} post={post as Post} />
             ))}
+          </div>
+        </div>
+      </section>
+
+      <section id="faqs" className="py-16 md:py-24 bg-muted/30">
+        <div className="container mx-auto px-4">
+          <div className="text-center space-y-4 mb-12">
+            <h2 className="font-headline text-3xl md:text-4xl font-bold">
+              Frequently Asked Questions
+            </h2>
+            <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
+              Everything you need to know about property documents and verification.
+            </p>
+          </div>
+          <div className="max-w-3xl mx-auto">
+            <Accordion type="single" collapsible className="w-full space-y-4">
+              {homeFaqSchema.mainEntity.map((faq, index) => (
+                <AccordionItem 
+                  key={index} 
+                  value={`item-${index}`}
+                  className="border rounded-lg px-4 bg-background shadow-sm border-b-0 transition-all hover:border-primary/20"
+                >
+                  <AccordionTrigger className="hover:no-underline text-left font-semibold py-4">
+                    {faq.name}
+                  </AccordionTrigger>
+                  <AccordionContent className="text-muted-foreground leading-relaxed pb-4">
+                    {faq.acceptedAnswer.text}
+                  </AccordionContent>
+                </AccordionItem>
+              ))}
+            </Accordion>
           </div>
         </div>
       </section>
