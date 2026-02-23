@@ -1,3 +1,4 @@
+
 import Image from "next/image";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
@@ -9,12 +10,7 @@ import { CategoryIcon } from "@/components/icons/category-icon";
 import { BlogPostCard } from "@/components/blog/blog-post-card";
 import { Badge } from "@/components/ui/badge";
 import type { Post } from "@/lib/types";
-import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "@/components/ui/accordion";
+import { FAQSection } from "@/components/ui/faqsection";
 
 function Hero() {
   return (
@@ -96,93 +92,67 @@ export default function Home() {
     "@type": "FAQPage",
     "mainEntity": [
       {
-        "@type": "Question",
-        "name": "What are property documents?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Property documents are official records that prove ownership, land details, boundaries, and transaction history of a property."
-        }
+        "question": "What are property documents?",
+        "answer": "Property documents are official records that prove ownership, land details, boundaries, and transaction history of a property."
       },
       {
-        "@type": "Question",
-        "name": "Which documents are required to verify property ownership?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Key documents include the Sale Deed, Encumbrance Certificate (EC), Khata or Patta, and relevant land records depending on the state."
-        }
+        "question": "Which documents are required to verify property ownership?",
+        "answer": "Key documents include the Sale Deed, Encumbrance Certificate (EC), Khata or Patta, and relevant land records depending on the state."
       },
       {
-        "@type": "Question",
-        "name": "What is an Encumbrance Certificate (EC)?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "An Encumbrance Certificate shows all registered transactions related to a property and helps verify whether it has any legal or financial liabilities."
-        }
+        "question": "What is an Encumbrance Certificate (EC)?",
+        "answer": "An Encumbrance Certificate shows all registered transactions related to a property and helps verify whether it has any legal or financial liabilities."
       },
       {
-        "@type": "Question",
-        "name": "What is a Sale Deed?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "A Sale Deed is a legally registered document that confirms the transfer of property ownership from seller to buyer."
-        }
+        "question": "What is a Sale Deed?",
+        "answer": "A Sale Deed is a legally registered document that confirms the transfer of property ownership from seller to buyer."
       },
       {
-        "@type": "Question",
-        "name": "What is Khata or Patta?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Khata and Patta are property records maintained by local authorities that contain ownership and property tax details."
-        }
+        "question": "What is Khata or Patta?",
+        "answer": "Khata and Patta are property records maintained by local authorities that contain ownership and property tax details."
       },
       {
-        "@type": "Question",
-        "name": "What are Adangal, ROR, and 1B documents?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "These are government land records that show ownership, survey numbers, land extent, land type, and usage, mainly for agricultural land."
-        }
+        "question": "What are Adangal, ROR, and 1B documents?",
+        "answer": "These are government land records that show ownership, survey numbers, land extent, land type, and usage, mainly for agricultural land."
       },
       {
-        "@type": "Question",
-        "name": "What is an FMB Sketch?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "An FMB Sketch is a government land map showing exact property boundaries and measurements based on survey records."
-        }
+        "question": "What is an FMB Sketch?",
+        "answer": "An FMB Sketch is a government land map showing exact property boundaries and measurements based on survey records."
       },
       {
-        "@type": "Question",
-        "name": "What is Bhu-Aadhaar (ULPIN)?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Bhu-Aadhaar or ULPIN is a unique digital identification number assigned to each land parcel, linking land records digitally."
-        }
+        "question": "What is Bhu-Aadhaar (ULPIN)?",
+        "answer": "Bhu-Aadhaar or ULPIN is a unique digital identification number assigned to each land parcel, linking land records digitally."
       },
       {
-        "@type": "Question",
-        "name": "Are online property documents legally valid?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Online documents are valid for verification purposes, but certified copies are recommended for legal or official use."
-        }
+        "question": "Are online property documents legally valid?",
+        "answer": "Online documents are valid for verification purposes, but certified copies are recommended for legal or official use."
       },
       {
-        "@type": "Question",
-        "name": "Why is property document verification important?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Verification helps prevent fraud, ownership disputes, encroachments, and legal issues during property transactions."
-        }
+        "question": "Why is property document verification important?",
+        "answer": "Verification helps prevent fraud, ownership disputes, encroachments, and legal issues during property transactions."
       }
     ]
   };
+
+  const faqsLeft = homeFaqSchema.mainEntity.slice(0, 5);
+  const faqsRight = homeFaqSchema.mainEntity.slice(5);
 
   return (
     <div className="flex flex-col">
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(homeFaqSchema) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": homeFaqSchema.mainEntity.map(f => ({
+            "@type": "Question",
+            "name": f.question,
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": f.answer
+            }
+          }))
+        }) }}
       />
       
       <section className="bg-background">
@@ -287,35 +257,14 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="faqs" className="py-16 md:py-24 bg-background">
-        <div className="container mx-auto px-4">
-          <div className="text-center space-y-4 mb-12">
-            <h2 className="font-headline text-3xl md:text-4xl font-bold">
-              Frequently Asked Questions
-            </h2>
-            <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-              Everything you need to know about property documents and verification.
-            </p>
-          </div>
-          <div className="max-w-6xl mx-auto">
-            <Accordion type="single" collapsible className="w-full grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-0">
-              {homeFaqSchema.mainEntity.map((faq, index) => (
-                <AccordionItem 
-                  key={index} 
-                  value={`item-${index}`}
-                  className="border-b border-border py-2 px-0"
-                >
-                  <AccordionTrigger className="hover:no-underline text-left font-semibold py-4 text-base md:text-lg">
-                    {faq.name}
-                  </AccordionTrigger>
-                  <AccordionContent className="text-muted-foreground leading-relaxed pb-4">
-                    {faq.acceptedAnswer.text}
-                  </AccordionContent>
-                </AccordionItem>
-              ))}
-            </Accordion>
-          </div>
-        </div>
+      <section id="faqs" className="bg-background">
+        <FAQSection 
+          title="Frequently Asked Questions"
+          subtitle="Property & Document Help"
+          description="Everything you need to know about property documents, verification, and digital ownership in India."
+          faqsLeft={faqsLeft}
+          faqsRight={faqsRight}
+        />
       </section>
 
       <section id="cta" className="py-16 md:py-24 bg-muted/30">
