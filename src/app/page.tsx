@@ -287,7 +287,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="faqs" className="py-16 md:py-24 bg-muted/30">
+      <section id="faqs" className="py-16 md:py-24 bg-background">
         <div className="container mx-auto px-4">
           <div className="text-center space-y-4 mb-12">
             <h2 className="font-headline text-3xl md:text-4xl font-bold">
@@ -297,15 +297,15 @@ export default function Home() {
               Everything you need to know about property documents and verification.
             </p>
           </div>
-          <div className="max-w-3xl mx-auto">
-            <Accordion type="single" collapsible className="w-full space-y-4">
+          <div className="max-w-6xl mx-auto">
+            <Accordion type="single" collapsible className="w-full grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-0">
               {homeFaqSchema.mainEntity.map((faq, index) => (
                 <AccordionItem 
                   key={index} 
                   value={`item-${index}`}
-                  className="border rounded-lg px-4 bg-background shadow-sm border-b-0 transition-all hover:border-primary/20"
+                  className="border-b border-border py-2 px-0"
                 >
-                  <AccordionTrigger className="hover:no-underline text-left font-semibold py-4">
+                  <AccordionTrigger className="hover:no-underline text-left font-semibold py-4 text-base md:text-lg">
                     {faq.name}
                   </AccordionTrigger>
                   <AccordionContent className="text-muted-foreground leading-relaxed pb-4">
@@ -318,7 +318,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="cta" className="py-16 md:py-24">
+      <section id="cta" className="py-16 md:py-24 bg-muted/30">
         <div className="container mx-auto px-4">
           <div className="bg-primary text-primary-foreground rounded-xl p-8 md:p-12 text-center">
             <h2 className="font-headline text-3xl md:text-4xl font-bold mb-4">
