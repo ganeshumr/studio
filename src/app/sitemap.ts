@@ -1,4 +1,3 @@
-
 import { getPosts } from '@/lib/server/data';
 import type { MetadataRoute } from 'next'
 
@@ -6,8 +5,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const blogUrl = 'https://blog.jaaga.ai';
   const posts = getPosts();
   
-
-
   const postUrls = posts.map(post => ({
     url: `${blogUrl}/blogs/${post.slug}`,
     lastModified: new Date(),
@@ -32,14 +29,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   ];
 
-  // Additional URLs that might not be in the dynamic posts yet
+  // Additional valid URLs that are verified to exist
   const additionalBlogUrls = [
     {
       url: 'https://blog.jaaga.ai/blogs/tamil-nadu-patta-chitta-documents-a-complete-guide',
-      priority: 0.95,
-    },
-     {
-      url: 'https://blog.jaaga.ai/blogs/why-update-owner-name-on-property-tax-and-electricity-bills',
       priority: 0.95,
     },
   ].map(item => ({
