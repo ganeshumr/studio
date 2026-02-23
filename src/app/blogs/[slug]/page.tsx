@@ -409,7 +409,7 @@ export default async function BlogPostPage({params}: Props) {
         }
       ]
     };
-  } else if (post.slug === 'how-to-download-certified-encumbrance-certificate-ec-in-telangana-step-by-step-guide') {
+  } else if (post.slug === 'how-to-download-encumbrance-certificate-ec-in-telangana') {
     faqSchema = {
       "@context": "https://schema.org",
       "@type": "FAQPage",
