@@ -148,6 +148,11 @@ const nextConfig = {
         source: '/blogs/how-to-download-sale-deed-certified-copy-telangana-online-jaaga',
         destination: '/blogs/how-to-download-andhra-pradesh-certified-copy-online-using-jaaga',
         permanent: true,
+      },
+      {
+        source: '/blogs/https=',
+        destination: '/blogs',
+        permanent: true,
       }
     ];
   },

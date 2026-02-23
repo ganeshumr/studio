@@ -29,26 +29,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   ];
 
-  // Additional valid URLs that are verified to exist
-  const additionalBlogUrls = [
-    {
-      url: 'https://blog.jaaga.ai/blogs/tamil-nadu-patta-chitta-documents-a-complete-guide',
-      priority: 0.95,
-    },
-  ].map(item => ({
-    ...item,
-    lastModified: new Date()
-  }));
+  const allUrls = [...staticUrls, ...postUrls];
 
-  const allPostUrls = [...postUrls, ...additionalBlogUrls];
-
-  // Remove duplicates that might exist between dynamic and manual URLs
-  const uniquePostUrls = allPostUrls.filter((post, index, self) => 
-    index === self.findIndex((p) => p.url === post.url)
+  // Ensure unique URLs
+  const uniqueUrls = allUrls.filter((item, index, self) => 
+    index === self.findIndex((t) => t.url === item.url)
   );
 
-  return [
-    ...staticUrls,
-    ...uniquePostUrls
-  ];
+  return uniqueUrls;
 }
