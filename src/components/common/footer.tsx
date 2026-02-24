@@ -6,6 +6,7 @@ import {Button} from '@/components/ui/button';
 import {Input} from '@/components/ui/input';
 import {Logo} from './logo';
 import React, {useState} from 'react';
+import {categories} from '@/lib/data';
 
 const servicesLinks = [
     { href: "https://www.jaaga.ai/properties/my-properties", name: "My Locker"},
@@ -35,6 +36,20 @@ export function Footer() {
               Your trusted partner in navigating India's property landscape with clarity and
               confidence.
             </p>
+            <div className="pt-4">
+              <h4 className="font-headline font-semibold text-sm mb-3">Browse by Category</h4>
+              <div className="flex flex-wrap gap-2">
+                {categories.slice(0, 5).map(cat => (
+                  <Link 
+                    key={cat.slug} 
+                    href={`/category/${cat.slug}`}
+                    className="text-xs px-2 py-1 bg-muted hover:bg-primary/10 hover:text-primary rounded-full transition-colors"
+                  >
+                    {cat.name}
+                  </Link>
+                ))}
+              </div>
+            </div>
           </div>
           <div>
             <h3 className="font-headline font-semibold mb-4">Quick Links</h3>

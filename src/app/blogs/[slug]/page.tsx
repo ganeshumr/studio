@@ -11,6 +11,7 @@ import {PostSidebar} from '@/components/blog/post-sidebar';
 import {Breadcrumb} from '@/components/common/breadcrumb';
 import {Separator} from '@/components/ui/separator';
 import { Button } from '@/components/ui/button';
+import { BlogPostCard } from '@/components/blog/blog-post-card';
 import {
   Accordion,
   AccordionContent,
@@ -85,6 +86,10 @@ export default async function BlogPostPage({params}: Props) {
     {label: 'Blogs', href: '/blogs'},
     {label: post.title, href: `/blogs/${post.slug}`},
   ];
+
+  const relatedPosts = posts
+    .filter(p => p.category === post.category && p.slug !== post.slug)
+    .slice(0, 3);
 
   // Article Schema
   const articleSchema = {
@@ -553,6 +558,19 @@ export default async function BlogPostPage({params}: Props) {
                 </Link>
               </Button>
           </div>
+
+          <Separator className="my-12" />
+
+          {relatedPosts.length > 0 && (
+            <section className="space-y-8">
+              <h2 className="font-headline text-2xl font-bold">Related Articles</h2>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                {relatedPosts.map(rp => (
+                  <BlogPostCard key={rp.id} post={rp} />
+                ))}
+              </div>
+            </section>
+          )}
 
           <Separator className="my-8" />
 
