@@ -8,27 +8,26 @@ import {AuthProvider} from '@/context/auth-context';
 import { Analytics } from '@vercel/analytics/react';
 import { ChatbotPopup } from '@/components/chatbot/chatbot-popup';
 
-const pageTitle = 'Instant Property Documents and Services across 5+ States – JaaGa';
-const pageDescription = 'Access property documents online with JaaGa. Download EC, Adangal, ROR-1B, 7/12, and other land records quickly, securely, and without hassle.';
+const pageTitle = 'JaaGa: Download Encumbrance Certificate (EC), Adangal ROR, FMB Sketch Online';
+const pageDescription = 'Access property documents online with JaaGa. Learn how to download EC, Adangal ROR, FMB Sketch, 7/12 Utara, and other land records quickly and securely.';
 const pageKeywords = [
     'Property Documents Online',
+    'Encumbrance Certificate EC',
+    'Adangal ROR',
+    'FMB Sketch',
+    'Tamil Nadu Land Records',
     'Telangana Property Documents',
     'Andhra Pradesh Property Records',
-    'Tamil Nadu Chitta Adangal',
     'Karnataka RTC',
     'Maharashtra 7/12 Utara',
-    'Encumbrance Certificate',
     'Sale Deed Copy',
     'Khata Certificate',
-    'Patta & Chitta',
     'Mutation Record',
     'Property Audit Report',
     'Legal Opinion',
     'Property Title Verification',
-    'Property Ownership Check',
     'Land Record Search',
     'EC Download',
-    'Property Services',
     'Property Verification Online',
     'Digital Land Records',
     'Kaveri EC',

@@ -4,8 +4,8 @@ import type { Metadata } from 'next';
 
 export const dynamic = 'force-dynamic';
 
-const pageTitle = 'JaaGa Blog – Property Documents, Legal Guides & Real Estate Knowledge';
-const pageDescription = 'Your source for expert analysis and practical advice on Indian real estate, property law, and digital ownership. Find articles on patta, chitta, EC, land records, and more.';
+const pageTitle = 'Property Documents Guide: Download Encumbrance Certificate (EC), Adangal ROR, FMB Sketch | JaaGa';
+const pageDescription = 'Learn how to download Encumbrance Certificate (EC), Adangal ROR, FMB Sketch, and more. Your guide to property records in Tamil Nadu, Telangana, and across India.';
 const pageKeywords = [
     'real estate blog India',
     'property law India',
@@ -124,11 +124,10 @@ export default function BlogListPage() {
     <div className="container mx-auto px-4 py-12 md:py-12">
       <div className="text-center mb-12">
         <h1 className="font-headline text-4xl md:text-5xl font-bold tracking-tighter">
-          JaaGa Insights
+          JaaGa Insights: Property Documents & Guides
         </h1>
         <p className="mt-4 max-w-3xl mx-auto text-lg text-muted-foreground">
-          Your source for expert analysis and practical advice on Indian real estate, property law,
-          and digital ownership.
+          Your source for expert analysis on how to download Encumbrance Certificate (EC), Adangal ROR, FMB Sketch, and other essential land records in India.
         </p>
       </div>
       <BlogListClient posts={sortedPosts} />
