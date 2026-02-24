@@ -4,7 +4,7 @@ import 'react-quill/dist/quill.snow.css';
 import {Header} from '@/components/common/header';
 import {Footer} from '@/components/common/footer';
 import {Toaster} from '@/components/ui/toaster';
-import {AuthProvider}from '@/context/auth-context';
+import {AuthProvider} from '@/context/auth-context';
 import { Analytics } from '@vercel/analytics/react';
 import { ChatbotPopup } from '@/components/chatbot/chatbot-popup';
 
@@ -123,6 +123,28 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const organizationSchema = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "JaaGa",
+    "url": "https://www.jaaga.ai",
+    "logo": "https://ik.imagekit.io/jaaga/Untitled%20design%20(2).jpg",
+    "sameAs": [
+      "https://www.linkedin.com/company/jaagaai/",
+      "https://www.facebook.com/people/JaaGa-AI/61552907515347/",
+      "https://x.com/Jaaga_ai",
+      "https://www.instagram.com/jaaga.ai/",
+      "https://www.youtube.com/@jaagaapp"
+    ],
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+91-8885133990",
+      "contactType": "customer service",
+      "areaServed": "IN",
+      "availableLanguage": ["en", "te", "hi"]
+    }
+  };
+
   return (
     <html lang="en">
       <head>
@@ -132,6 +154,10 @@ export default function RootLayout({
         <link
           href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;700&display=swap"
           rel="stylesheet"
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
         />
       </head>
       <body className="font-body antialiased">
