@@ -486,6 +486,93 @@ export default async function BlogPostPage({params}: Props) {
         }
       ]
     };
+  } else if (post.slug === 'telangana-government-core-urban-act-cure-ghmc-replacement') {
+    faqSchema = {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the Core Urban Act (CURE)?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The Core Urban Act (CURE) is a proposed new law being drafted by the Telangana government to replace the existing Greater Hyderabad Municipal Corporation (GHMC) Act. This broader legislation will govern the three municipal corporations within the Core Urban Region Economy — GHMC, Cyberabad Municipal Corporation, and Malkajgiri Municipal Corporation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why is the GHMC Act being replaced?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The GHMC Act currently applies only to the Greater Hyderabad Municipal Corporation. After GHMC’s recent reorganisation and the creation of two additional corporations, the state wants a unified legal framework that covers all municipal functions and development activities within the core urban area."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which areas will the Core Urban Act apply to?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The Core Urban Act will apply to the Core Urban Region inside Hyderabad’s Outer Ring Road (ORR) — including the jurisdictions of GHMC, Cyberabad Municipal Corporation, and Malkajgiri Municipal Corporation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What changes can residents expect under the Core Urban Act?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The new Act is expected to standardise development permissions, fee structures, civic services, sanitation rules, and infrastructure maintenance across the entire core urban region rather than managing them differently under separate laws."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Will the Core Urban Act affect sanitation and waste management?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes — one of the key priorities highlighted by the Chief Minister includes defining sanitation guidelines, identifying designated waste disposal sites, and taking action against indiscriminate dumping."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How will the new law impact infrastructure projects?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Under the Core Urban Act, approvals for infrastructure and development works will follow a unified legal framework. This aims to improve decision-making, maintenance accountability for roads, traffic systems, and public projects under the government’s 99-day development programme."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Will the Act change how municipal corporations collect fees or issue permissions?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. The Chief Minister has directed that all government permissions, fee structures, and development work should align with the new Core Urban Act once it is implemented."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does the Core Urban Act include food safety and public health measures?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Part of the civic priorities under the proposed law includes strengthening food safety inspections, installing CCTV cameras in hotel kitchens connected to command centres, and rating food safety compliance as part of public health initiatives."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does this affect road management and infrastructure agencies?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The CM has directed that all roads under various departments within the core urban area be brought under a single jurisdiction — the Municipal Administration and Urban Development department — to eliminate overlap and speed up maintenance work."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When will the Core Urban Act come into effect?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The Act is currently being drafted at the direction of the Chief Minister and will take effect once it is finalised and passed by the state government. An official timeline has not yet been publicly released."
+          }
+        }
+      ]
+    };
   }
 
   const faqEntities = faqSchema?.mainEntity || [];
