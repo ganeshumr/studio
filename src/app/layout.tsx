@@ -80,7 +80,7 @@ export const metadata: Metadata = {
   metadataBase: new URL('https://blog.jaaga.ai'),
   title: {
     default: pageTitle,
-    template: '%s - Jaaga Insights',
+    template: '%s - JaaGa Insights',
   },
   description: pageDescription,
   keywords: pageKeywords,
@@ -93,17 +93,17 @@ export const metadata: Metadata = {
   openGraph: {
     title: {
       default: pageTitle,
-      template: '%s - Jaaga Insights',
+      template: '%s - JaaGa Insights',
     },
     description: pageDescription,
     url: 'https://blog.jaaga.ai',
-    siteName: 'Jaaga Insights',
+    siteName: 'JaaGa',
     images: [
       {
         url: 'https://ik.imagekit.io/jaaga/ChatGPT%20Image%20Jan%205,%202026,%2011_05_39%20AM.png',
         width: 1200,
         height: 630,
-        alt: 'Jaaga.ai - Digital Property Solutions',
+        alt: 'JaaGa - Digital Property Solutions',
       },
     ],
     locale: 'en_US',
@@ -144,6 +144,14 @@ export default function RootLayout({
     }
   };
 
+  const websiteSchema = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "JaaGa",
+    "alternateName": ["Jaaga AI", "Jaaga Insights"],
+    "url": "https://blog.jaaga.ai"
+  };
+
   return (
     <html lang="en">
       <head>
@@ -157,6 +165,10 @@ export default function RootLayout({
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
         />
       </head>
       <body className="font-body antialiased">
