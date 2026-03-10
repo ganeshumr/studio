@@ -573,6 +573,61 @@ export default async function BlogPostPage({params}: Props) {
         }
       ]
     };
+  } else if (post.slug === 'download-telangana-ec-ror-pahani-jaaga-app') {
+    faqSchema = {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is EC in Telangana land records?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "EC stands for Encumbrance Certificate, which shows whether a property has any legal or financial liabilities."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is EC mandatory for property registration?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. EC is required to verify that the property has no legal disputes or loans before registration."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is ROR 1B in Telangana?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "ROR 1B is the Record of Rights document that contains ownership details of land in Telangana."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between RoR and Pahani?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "RoR shows ownership details, while Pahani shows agricultural land usage and crop details."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I download Telangana land records online?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Telangana land records such as EC, RoR, and Pahani can be downloaded online through official portals or apps like Jaaga."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Pahani required for agricultural loans?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Banks often require Pahani to verify land ownership and cultivation details when providing agricultural loans."
+          }
+        }
+      ]
+    };
   }
 
   const faqEntities = faqSchema?.mainEntity || [];
