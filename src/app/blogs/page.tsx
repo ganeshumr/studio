@@ -1,3 +1,4 @@
+
 import BlogListClient from "@/components/blog/blog-list-client";
 import { getPosts } from "@/lib/server/data";
 import type { Metadata } from 'next';
@@ -108,7 +109,7 @@ export const metadata: Metadata = {
     description: pageDescription,
     images: [
       {
-        url: 'https://ik.imagekit.io/jaaga/ChatGPT%20Image%20Jan%205,%202026,%2011_05_39%20AM.png',
+        url: 'https://ik.imagekit.io/sravanth/blog%20thumbnails%20(5).png',
         width: 1200,
         height: 630,
         alt: 'JaaGa Insights - Blog on Indian Real Estate',
