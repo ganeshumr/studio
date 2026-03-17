@@ -399,7 +399,7 @@ export default async function BlogPostPage({params}: Props) {
         },
         {
           "@type": "Question",
-          "name": "Can ULPIN reduce land disputes?",
+          "name": "Can ULPIN reduce Land disputes?",
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Yes, ULPIN helps reduce land disputes by clearly defining land boundaries using geo-mapped data and improving record transparency."
