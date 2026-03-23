@@ -130,8 +130,71 @@ export default async function BlogPostPage({params}: Props) {
 
   // FAQ Schema Logic
   let faqSchema: any = null;
+  let extraSchemas: any[] = [];
 
-  if (post.slug === 'what-is-sale-deed-and-what-is-sale-agreement') {
+  if (post.slug === 'rera-has-become-a-shield-for-defaulting-builders-not-homebuyers-supreme-court-flags-institutional-failure') {
+    faqSchema = {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the primary concern raised by the Supreme Court regarding RERA?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The Supreme Court has expressed concern that the Real Estate (Regulation and Development) Act, 2016 (RERA), instead of protecting homebuyers, is inadvertently providing a shield for defaulting builders. This suggests that builders are finding ways to use the RERA framework and associated legal processes to delay accountability and avoid fulfilling their obligations to buyers."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why was RERA introduced in India?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "RERA was introduced to regulate the real estate sector, which was largely unregulated and prone to malpractices like project delays, diversion of funds, and lack of transparency. Its main objectives were to enhance transparency, protect the interests of homebuyers, ensure timely delivery of projects, and establish a speedy dispute resolution mechanism."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are some ways builders might be exploiting RERA, according to the Supreme Court's observation?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Builders might be exploiting RERA by engaging in prolonged litigation, filing multiple appeals, seeking unnecessary adjournments, and using legal technicalities to stall proceedings. This delays justice for homebuyers and allows builders more time to manage their financial situation, potentially at the buyers' expense."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the significance of the \"70% rule\" under RERA?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The \"70% rule\" mandates that developers must deposit at least 70% of the amounts collected from homebuyers into a separate bank account. This money can only be withdrawn for the purpose of construction and land acquisition for that specific project. This rule was implemented to prevent the diversion of funds to other projects or purposes, ensuring that buyer's money is used for its intended purpose."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What steps can homebuyers take if their builder defaults despite RERA being in place?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Homebuyers can file a complaint with their respective state's RERA authority. If they are not satisfied with the authority's decision, they can appeal to the Real Estate Appellate Tribunal. Seeking legal advice from a real estate lawyer is also highly recommended to navigate the complex legal processes."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How can the implementation of RERA be improved to better protect homebuyers?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Improvements could include strengthening the enforcement powers and capacity of RERA authorities, ensuring faster adjudication of cases, implementing stricter financial oversight of builders, reducing procedural delays in legal processes, and enhancing transparency regarding project status and fund utilization. Continuous judicial review and intervention, as demonstrated by the Supreme Court, are also crucial."
+          }
+        }
+      ]
+    };
+    extraSchemas.push({
+      "@context": "https://schema.org",
+      "@type": "HowTo",
+      "name": "Urgent: RERA's Double-Edged Sword - 3 SC Flags Builder Failure",
+      "description": "RERA's double-edged sword: The Supreme Court flags 3 critical institutional failures, empowering defaulting builders over homebuyers. Learn how RERA fails!",
+      "step": []
+    });
+  } else if (post.slug === 'what-is-sale-deed-and-what-is-sale-agreement') {
     faqSchema = {
       "@context": "https://schema.org",
       "@type": "FAQPage",
@@ -648,6 +711,13 @@ export default async function BlogPostPage({params}: Props) {
           dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
         />
       )}
+      {extraSchemas.map((schema, index) => (
+        <script
+          key={index}
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+        />
+      ))}
       
       <div className="grid lg:grid-cols-3 gap-8 lg:gap-12">
         <article className="lg:col-span-2 bg-background p-4 sm:p-8 rounded-xl shadow-md">
